@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="pl-PL">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="pl-PL">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="pl-PL">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="pl-PL">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Git | Continous Integration | Strona 5</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../../wp-content/themes/twentyeleven/style.css" />
+<link rel="pingback" href="../../../../xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://blog.siwinski.info/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z wpisami" href="../../../../feed" />
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z komentarzami" href="../../../../comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z wpisami zaszufladkowanymi do kategorii Git" href="../feed" />
+<link rel='stylesheet' id='dark-css'  href='../../../../wp-content/themes/twentyeleven/colors/dark.css' type='text/css' media='all' />
+<link rel='stylesheet' id='codecolorer-css'  href='../../../../wp-content/plugins/codecolorer/codecolorer.css@ver=0.9.9' type='text/css' media='screen' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../xmlrpc.php@rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.siwinski.info/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.7.1" />
+<link rel="stylesheet" type="text/css" href="../../../../wp-content/plugins/wp-code-highlight/css/sunburst.css" media="screen" />
+	<style>
+		/* Link color */
+		a,
+		#site-title a:focus,
+		#site-title a:hover,
+		#site-title a:active,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-title a:active,
+		.widget_twentyeleven_ephemera .comments-link a:hover,
+		section.recent-posts .other-recent-posts a[rel="bookmark"]:hover,
+		section.recent-posts .other-recent-posts .comments-link a:hover,
+		.format-image footer.entry-meta a:hover,
+		#site-generator a:hover {
+			color: #e4741f;
+		}
+		section.recent-posts .other-recent-posts .comments-link a:hover {
+			border-color: #e4741f;
+		}
+		article.feature-image.small .entry-summary p a:hover,
+		.entry-header .comments-link a:hover,
+		.entry-header .comments-link a:focus,
+		.entry-header .comments-link a:active,
+		.feature-slider a.active {
+			background-color: #e4741f;
+		}
+	</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #e2e2e2; }
+</style>
+</head>
+
+<body class="archive paged category category-git category-215 custom-background paged-5 category-paged-5 two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="../../../../index.html" title="Continous Integration" rel="home">Continous Integration</a></span></h1>
+				<h2 id="site-description">playing with code &amp; music</h2>
+			</hgroup>
+
+			
+								<form method="get" id="searchform" action="../../../../index.html">
+		<label for="s" class="assistive-text">Szukaj</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Szukaj" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Szukaj" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Menu główne</h3>
+								<div class="skip-link"><a class="assistive-text" href="5#content" title="Przeskocz do tekstu">Przeskocz do tekstu</a></div>
+				<div class="skip-link"><a class="assistive-text" href="5#secondary" title="Przeskocz do widgetów">Przeskocz do widgetów</a></div>
+								<div class="menu-start-container"><ul id="menu-start" class="menu"><li id="menu-item-1409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1409"><a href="../../../../food/cook-book.1">Cook Book</a></li>
+<li id="menu-item-1339" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1339"><a title="Git How To" href="../../../../dev/git-how-to">Git How To</a></li>
+<li id="menu-item-1423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1423"><a href="../../../../dj/events-dj/events">Events</a></li>
+<li id="menu-item-1617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1617"><a href="5#">Guitar</a>
+<ul class="sub-menu">
+	<li id="menu-item-1620" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1620"><a href="../../../../guitar-cat/guitar-chords">Chords</a></li>
+	<li id="menu-item-1618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1618"><a href="../../../../guitar-cat/theory/notes-on-guitar-fretboard">Notes on guitar fretboard</a></li>
+	<li id="menu-item-1428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1428"><a href="../../../../guitar-cat/piosenki">Song Book</a></li>
+</ul>
+</li>
+<li id="menu-item-1363" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1363"><a href="5#">Sets</a>
+<ul class="sub-menu">
+	<li id="menu-item-1431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1431"><a href="../../../../sets/fresh-dance-music">Fresh Dance Music</a></li>
+	<li id="menu-item-1435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1435"><a href="../../../../sets/progressive-awake">Progressive Awake</a></li>
+	<li id="menu-item-1439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1439"><a href="../../../../sets/quantum-energy.1">Quantum Energy</a></li>
+	<li id="menu-item-1443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1443"><a href="../../../../sets/unreleased-emotions.1">Unreleased Emotions</a></li>
+</ul>
+</li>
+</ul></div>			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<section id="primary">
+			<div id="content" role="main">
+
+			
+				<header class="page-header">
+					<h1 class="page-title">Archiwa kategorii: <span>Git</span></h1>
+
+									</header>
+
+						<nav id="nav-above">
+			<h3 class="assistive-text">Nawigacja po wpisach</h3>
+			<div class="nav-previous"></div>
+			<div class="nav-next"><a href="4" >Nowsze wpisy <span class="meta-nav">&rarr;</span></a></div>
+		</nav><!-- #nav-above -->
+	
+								
+					
+	<article id="post-679" class="post-679 post type-post status-publish format-standard hentry category-dev category-git tag-git-2 tag-how-to">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../../../../dev/git-workflow-for-working-with-usb-pendrive.1" rel="bookmark">Git workflow for working with USB pendrive</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../../../../dev/git-workflow-for-working-with-usb-pendrive.1" title="23:40" rel="bookmark"><time class="entry-date" datetime="2012-09-17T23:40:08+00:00">2012-09-17 23:23</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../../../../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Below workflow work fine for me whilst I&#8217;m the **only** one that commit to repository and I work among many different computers.</p>
+<p><strong>Tools</strong></p>
+<ul>
+<li>PC</li>
+</ul>
+<ul>
+<li>Windows 7</li>
+<li><a href="http://code.google.com/p/msysgit/downloads/list">mysysgit</a></li>
+</ul>
+<li>LAPTOP
+<ul>
+<li>Mac OS Mountain Lion (10.8)</li>
+<li> Git v. 1.7.9</li>
+</ul>
+</li>
+<p><strong>Set up</strong></p>
+<p>Prepare workspace on your PC</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;width:100%;"><div class="bash codecolorer">$ <span class="kw2">mkdir</span> ~<span class="sy0">/</span>workspace<span class="sy0">/</span>project-pc<br />
+$ <span class="kw3">cd</span> ~<span class="sy0">/</span>workspace<span class="sy0">/</span>project-pc<br />
+$ <span class="kw2">git init</span><br />
+$ <span class="kw3">echo</span> <span class="st0">&quot;# akuku&quot;</span> <span class="sy0">&gt;&gt;</span> .gitignore<br />
+$ <span class="kw2">git add</span> .gitignore<br />
+$ <span class="kw2">git commit</span> <span class="re5">-m</span> <span class="st0">&quot;initial commit on this project&quot;</span><br />
+$ <span class="kw3">echo</span> <span class="st0">&quot;some changes done here&quot;</span> <span class="sy0">&gt;&gt;</span> a.txt<br />
+$ <span class="kw2">git add</span> a.txt<br />
+$ <span class="kw2">git commit</span> <span class="re5">-m</span> <span class="st0">&quot;this is test commit done on 1st computer&quot;</span></div></div>
+<p>Prepare bare git repo on USB pendrive</p>
+<p>Plug in pendrive to PC and do the following.</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;width:100%;"><div class="bash codecolorer">$ <span class="kw2">mkdir</span> <span class="sy0">/</span>c<span class="sy0">/</span>workspace<span class="sy0">/</span>project-usb<br />
+$ <span class="kw2">git</span> <span class="re5">--bare</span> init <span class="sy0">/</span>c<span class="sy0">/</span>workspace<span class="sy0">/</span>project-usb<span class="sy0">/</span>.git<br />
+$ <span class="kw3">cd</span> <span class="sy0">/</span>c<span class="sy0">/</span>workspace<span class="sy0">/</span>project-pc<br />
+$ <span class="kw2">git remote</span> add usb <span class="sy0">/</span>c<span class="sy0">/</span>workspace<span class="sy0">/</span>project-usb<span class="sy0">/</span><br />
+$ <span class="kw2">git push</span> usb master</div></div>
+<p>Prepare workspace on LAPTOP (or other machine)</p>
+<p>Plug in pendrive to LAPTOP and do the following.</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;width:100%;"><div class="bash codecolorer">$ <span class="kw2">mkdir</span> ~<span class="sy0">/</span>workspace<span class="sy0">/</span>project-laptop<br />
+<span class="kw3">cd</span> ~<span class="sy0">/</span>project-laptop<br />
+<span class="kw2">git init</span><br />
+<span class="kw2">git remote</span> add flash <span class="sy0">/</span>c<span class="sy0">/</span>workspace<span class="sy0">/</span>project-usb<span class="sy0">/</span><br />
+<span class="kw2">git pull</span> usb master<br />
+<span class="kw2">git pull</span> usb mybranch <span class="co0">#if you like</span></div></div>
+<p><a href="../../../../dev/git-workflow-for-working-with-usb-pendrive.1#more-679" class="more-link">Czytaj dalej <span class="meta-nav">&rarr;</span></a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../../../dev.2" title="Zobacz wszystkie wpisy z kategorii &#8222;Dev&#8221;" rel="category tag">Dev</a>, <a href="../../git.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Git&#8221;" rel="category tag">Git</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="../../../../tag/git-2.1" rel="tag">git</a>, <a href="../../../../tag/how-to.1" rel="tag">how-to</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-679 -->
+
+				
+					
+	<article id="post-676" class="post-676 post type-post status-publish format-standard hentry category-dev category-git tag-git-2 tag-how-to">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../../../../dev/how-to-dropdelete-last-commit.1" rel="bookmark">How to drop/delete last commit in Git</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../../../../dev/how-to-dropdelete-last-commit.1" title="23:37" rel="bookmark"><time class="entry-date" datetime="2012-09-17T23:37:41+00:00">2012-09-17 23:23</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../../../../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>A</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;width:100%;"><div class="bash codecolorer">$ <span class="co0"># HEAD~1 is a shorthand for the commit before head.</span><br />
+$ <span class="kw2">git reset</span> <span class="re5">--soft</span> HEAD~<span class="nu0">1</span></div></div>
+<p>B</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;width:100%;"><div class="bash codecolorer"><span class="co4">$ </span><span class="kw2">git reset</span> <span class="re5">--hard</span> HEAD~<span class="nu0">1</span></div></div>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../../../dev.2" title="Zobacz wszystkie wpisy z kategorii &#8222;Dev&#8221;" rel="category tag">Dev</a>, <a href="../../git.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Git&#8221;" rel="category tag">Git</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="../../../../tag/git-2.1" rel="tag">git</a>, <a href="../../../../tag/how-to.1" rel="tag">how-to</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-676 -->
+
+				
+					
+	<article id="post-673" class="post-673 post type-post status-publish format-standard hentry category-dev category-git tag-git-2 tag-how-to">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../../../../dev/how-to-create-tag-for-specific-commit.1" rel="bookmark">How to create tag for specific commit</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../../../../dev/how-to-create-tag-for-specific-commit.1" title="23:35" rel="bookmark"><time class="entry-date" datetime="2012-09-10T23:35:27+00:00">2012-09-10 23:23</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../../../../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;width:100%;"><div class="bash codecolorer"><span class="kw2">git tag</span> <span class="re5">-a</span> your-tag-name commit-hash<br />
+<br />
+<span class="co0"># example</span><br />
+<span class="kw2">git tag</span> <span class="re5">-a</span> branch-abc-start c231cs<span class="sy0">&lt;/</span>pre<span class="sy0">&gt;</span></div></div>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../../../dev.2" title="Zobacz wszystkie wpisy z kategorii &#8222;Dev&#8221;" rel="category tag">Dev</a>, <a href="../../git.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Git&#8221;" rel="category tag">Git</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="../../../../tag/git-2.1" rel="tag">git</a>, <a href="../../../../tag/how-to.1" rel="tag">how-to</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-673 -->
+
+				
+					
+	<article id="post-656" class="post-656 post type-post status-publish format-standard hentry category-dev category-git tag-cheatsheet tag-git-2 tag-reference-2">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../../../../dev/git-cheatsheetreference.1" rel="bookmark">Git Cheatsheet/Reference</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../../../../dev/git-cheatsheetreference.1" title="23:19" rel="bookmark"><time class="entry-date" datetime="2012-09-10T23:19:06+00:00">2012-09-10 23:23</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../../../../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<pre class="wp-code-highlight prettyprint">
+Git Quick Reference Wiki
+==========================
+
+--------------------------------------------------------------------------------
+
+add
+======
+
+# add all files to stage/stash
+git add .
+
+# no &lt;filepattern&gt; is given, so default behaviour is to &quot;.&quot;; 
+# in other words, update all tracked files in the current directory 
+# and its subdirectories. 
+git add -u
+
+# for each edit you made, Git will show you the hunk of code that was 
+# changed, and ask if it should be part of the next commit. Answer with 
+# &quot;y&quot; or &quot;n&quot;. You have other options, such as postponing the decision;
+# type &quot;?&quot; to learn more.
+git add -p # Once you’re satisfied, type &quot;git commit&quot;
+
+am
+======
+
+# apply the incoming (email) patch and create a commit, that include
+# other informations such as the author/email
+# (just save an email to a file)
+git am &lt; email.txt
+
+apply
+=====
+
+# apply the (git) patch
+git apply &lt; my.patch
+
+archive
+=======
+
+# create tarbal of the current (HEAD) source code
+git archive --format=tar --prefix=proj-1.2.3/ HEAD
+
+bisect
+======
+
+# Git checks out a state halfway in between. 
+git bisect start
+git bisect bad HEAD
+git bisect good 1b6d
+
+# Test the feature, and if it’s still broken:
+git bisect bad
+
+# If not, replace &quot;bad&quot; with &quot;good&quot;
+
+# Once you’ve finished your investigation, return 
+# to your original state by typing:
+git bisect reset
+	
+blame
+=====
+
+# annotates every line in the given file showing who last changed it, 
+# and when. Unlike many other version control systems, this operation 
+# works offline, reading only from local disk.
+git blame Dog.c
+
+branch
+======
+
+# List all branches
+git branch
+
+# list all remote branches
+git branch -r
+
+# creates new branch called feature-a
+git branch feature-a
+
+# rename branch
+git branch -m old_branch new_branch
+
+# atttempting to overrite a branch via a move fails if data loss 
+# would ensue. To force a branch move, type:
+git branch -M source target
+
+# remove branch. normally deleting branches fails if this causes 
+# changes to be lost
+git branch -d branch_name
+
+# remove branch with force option
+git branch -D branch_name
+
+# create and checkout new branch (1st way)
+git branch newbranch
+git checkout newbranch
+
+# create and checkout new branch (2nd way)
+git checkout -b newbranch
+
+# checkout (reset) the file form head overriting your change
+git checkout filename
+
+bundle
+======
+
+# create a bundle (something like a patch?) 
+# (somefile contains entire git repo)
+git bundle create somefile HEAD
+
+# pull changes from bundle
+git pull somefile
+
+# create bundle that contains changes/commits only from 
+# &quot;1b6d...&quot; revision till &#039;now&#039;
+git bundle create somefile HEAD ^1b6d
+
+# help page (of bundle command) suggests using tags to remember 
+# which commit was done lat. Namely, after you send a bundle, type:
+git tag -f lastbundle HEAD
+# and create new refresher bundles with:
+git bundle create new bundle HEAD ^lastbundle
+
+cat-file
+========
+
+# print content of the &lt;sha1sum&gt; git object (print content of file, which 
+# checksum is as given arg
+git cat-file -p &lt;SHA1SUM&gt;
+
+checkout
+========
+
+# this will take you back to the present
+git checkout master
+
+# this take you back in time, while preserving newer commits
+# (back to the specified revision/commit)
+git checkout jk53342
+
+# checkout/restore file at the specified commit state
+git chekcout &lt;sha1-part&gt; ./path/to/your/file.txt
+
+# create and switch to a branch feature-b to work in
+git checkout -b feature-b
+
+# Take care, as this form of checkout can silently overwrite files.
+$ git checkout 82f5 some.file another.file
+
+# jump to the commit that starts with a given message
+git checkout :/&quot;My first b&quot;
+
+# ask for the 5th-last saved state
+git checkout master~5
+
+# start a new branch &quot;ancient&quot; representing the state 10 commits 
+# back from the second parent of the first parent of the commit 
+# starting with 1b6d
+git checkout 1b6d^^2~10 -b ancient
+
+# checkout 10 min ago version
+git checkout &quot;@{10 minutes ago}&quot;
+
+# checkout the 5th-last visited comit via:
+git checkout &quot;@{5}
+
+# normally git prevent from checkout if there are uncommited changes,
+# but if you want to destroy your changes and checkout a given commit 
+# anyway, use the force flag
+git checkout -f HEAD^
+	
+cherry-pick
+===========
+
+# applies the grandparent of the head commit of the &quot;medley” branch 
+# to the &quot;sanitized&quot; branch. With appropriate cherry-picks you can 
+# construct a branch that contains only permanent code, and has related
+# commits grouped together.
+git checkout sanitized
+git cherry-pick medley^^
+
+git cherry-pick 21bj45 # where 21bj45 is commit id
+
+clean 
+======
+
+# if you certain that all untracked files and directories are 
+# expendable, then delete them mercilessly with:
+git clean -f -d 
+
+clone
+=====
+
+# get a copy of a project managed with Git by typing:
+git clone git://server/path/to/files
+
+# to check out the source, a developer types:
+git clone central.server/path/to/proj.git
+
+# anyone can see the source by typing
+git clone git://central.server/path/to/proj.git
+
+# get/clone git repo via http (read-only)
+git clone http://web.server/proj.git
+
+commit
+======
+
+# save your local changes (add file to stage &amp; commit them)
+git commit -a
+
+# add &amp; commit 
+git commit -a -m &quot;commit message&quot;
+
+# change the last message of last commit
+git commit --amend
+
+# include a few more edits in that last commit? (just make edits and run)
+git commit --amend -a
+
+# commit current changes
+git commit -m &quot;commit message&quot;
+
+# automatically commits after you’re done.
+git commit --interactive 
+
+config
+======
+
+# show configuration options
+git config --list 
+
+# --- possible configuration options -----------------------------------
+#
+# remote.origin.url  	control the source URL (origin is a nickname 
+#						given to the source repository)
+#
+# branch.master.merge	specifies the default remote branch 
+#						in a git pull
+# ----------------------------------------------------------------------
+
+
+# settle your author name and email globally
+git config --global user.name &quot;John Doe&quot;
+git config --global user.email johndoe@example.com	
+
+# update origin URL
+git config remote.origin.url git://new.url/proj.git
+
+# configure a longer grace perios for doomed commits
+git config gc.pruneexpire &quot;30 days&quot;
+
+# disable automatic invocations of git gc
+git config gc.auto 0
+
+# create shortcut for frequently used commands, e.g. (git checkout):
+git config --global alias.co checkout
+
+# display current aliases
+git config --global --get-regexp alias
+
+# now it&#039;s the same as &quot;git checkout foo&quot;
+git co foo
+	
+diff
+====
+
+# ----- various ways to check working tree ----- 
+
+# find out what changes you’ve made since the last commit 
+# (changes in the working tree not yet staged for the next commit)
+git diff
+
+# show diff between HEAD index &amp;&amp; stage index
+# (changes between the index and your last commit; other words: 
+# what you wold be commiting if you run &quot;git commit&quot; 
+# without &quot;-a&quot; option)
+git diff --cached
+
+# changes in the working tree since your last commit; what would be 
+# committing if you run &quot;git commit -a&quot;
+git diff --HEAD
+
+# ----- comparing with arbitrary commits ----- 
+
+# instead of using the tip of the current branch, 
+# compare with the tip of &quot;test&quot; branch
+git diff test
+
+# instead of comparing with the tip of the &quot;test&quot; branch, compare 
+# with the tip of the current branc, but limit the comparison to 
+# the file &quot;test&quot;
+git diff HEAD -- ./test
+
+# compare the version before the last commit and the last commit
+git diff HEAD^ HEAD
+
+# ------ Comparing branches ------
+
+# changes between the tips of the topic and the master branches
+git diff topic master
+
+# same as above
+git diff topic..master
+
+# changes that occured on the master branch since when the topic 
+# brach was started off it.
+git diff topic...master
+
+# ----- limiting diff output -------
+
+# show only modification, rename and copy, but not addition nor deletion
+git diff --diff-filter=MRC
+
+# show only names and the nature of change, but not actual diff output
+git diff --name-status
+
+# limit diff output to named subtrees
+git diff arch/i386 include/asm-i386
+
+# ------ munging the diff output ------
+
+# spend extra cycles to find renames, copies and complete rewrites 
+# (very expensive)
+git diff --find-copies-harder -B -C
+
+# output diff in reverse
+git diff -R
+
+# ------ other diff usages ------
+
+# your changes since yesterday:
+git diff &quot;@{yesterday}&quot;
+
+# show differences between commit &quot;caa879...&quot; and now (HEAD???)
+git diff caa879
+
+# show differences between revision 1aen35 and HEAD
+git diff 1aen35 HEAD
+
+# show short status message on difference
+git diff 1aen35 HEAD --short 
+
+# output a patch which can be pasted into an email for discussion
+git diff 1b6d &gt; my.patch
+
+# ------ compare with remote branches ------
+
+# compare current working tree with HEAD of origin (remote) repo
+git diff origin/HEAD
+
+# compare differences between two remote branches
+git diff origin/experimental^ other/some_branch~5
+
+fetch
+=====
+
+# Fetch from origin, the default.
+git fetch 
+
+# Fetch from the second programmer.
+git fetch other 
+	
+filter-branch
+=============
+
+# remove the file from all commits
+# (Afterwards, the .git/refs/original directory describes the state 
+# of affairs before the operation. Check the filter-branch command 
+# did what you wanted, then delete this directory if you wish to run more
+# filter-branch commands.)
+git filter-branch --tree-filter ’rm top/secret/file’ HEAD
+
+--------------------------------------------------------------------------------
+
+## Patches ##
+
+# if author names and perhaps signatures should be recorded, 
+# generate the corresponding patches past a certain point by typing
+git format-patch 1b6d
+
+# create patch that has a specific range of commits
+git format-patch 1b6d..HEAD^^
+
+# create patch from last 5 commits on current branch
+git format-patch -5 --stdout &gt; this-is-patch.diff
+
+gc
+======
+
+# Git Garbage Collector?????
+	
+init
+======
+
+# init empty git repository
+git init
+	
+# this will initialize simple git repository
+git init
+touch README.md
+git add .
+git commit -m &quot;Initial commit&quot;
+
+# this will init bare repository (without checkout)
+mkdir proj.git
+cd proj.git
+git --bare init
+touch proj.git/git-daemon-export-ok
+
+# for a closed-source project, omit the touch command and ensure you 
+# never create a file named git-daemon-export-ok
+
+log
+======
+
+# shows list of recent commits and their SHA1 hashes
+git log
+
+# shows what the &quot;experimental&quot; branch has been up to
+git log origin/experimental
+
+# show all of today&#039;s commits
+git log --since=&quot;today&quot;
+
+# show each commit in one line
+git log --pretty=oneline -3
+
+mv
+======
+
+# renaming files
+git mv bug.c feature.c
+	
+prune
+======
+
+# ???
+	
+
+pull
+======
+
+# updated/upgrade to the latest version of origin/default-branch
+git pull
+
+# pull changes from repository/branch other than default
+git pull git://example.com/other.git master
+
+# add/follow new remote repository &amp;&amp; pull changes from its some_branch
+# to current working tree/branch
+git remote add other git://example.com/some_repo.git
+git pull other some_branch
+
+# this will pull in the state of the files on the other computer 
+# into the one you’re working on
+git commit -a
+git pull other.computer:/path/to/files HEAD
+
+push
+====
+
+# this will push your project/changes to the central server
+# --
+# If the main server has new changes due to activity by other developers, 
+# the push fails, and the developer should pull the latest version, 
+# resolve any merge conflicts, then try again.
+git push central.server/path/to/proj.git HEAD
+
+# push changes to master branch on your web.server 
+$ git push web.server:/path/to/proj.git master
+
+rebase
+======
+
+# open last 10 commits will appear in your favourite $EDITOR
+# Then:
+# - 	Remove commits by deleting lines. Like the revert command, but off 
+#	the record: it will be as if the commit never existed
+# -	Reorder commits by reordering lines.
+# -	Replace pick with:
+# 	* _edit_ to mark a commit for amending.
+#	* _reword_ to change the log message.
+#	* _squash_ to merge a commit with the previous one.
+#	* _fixup_ to merge a commit with the previous one and discard 
+#	  the log message.
+git rebase -i HEAD~10
+
+# continue rebasing
+git rebase --continue
+
+# abandon rebasing
+git rebase --abort
+
+reflog
+======
+
+# show commits log file (with hashes &amp; commit messages)
+git reflog
+
+remote
+======
+
+# show a list of all existing remote repositories
+git remote
+
+# be more verbose and show remote url after name
+git remote -v
+
+# add/follow new remote repository to 
+git remote add other git://example.com/some_repo.git
+
+reset
+=====
+
+# reset to head revision (fails in the presence of uncommited changes)
+git reset 
+
+# reset to head revision (--hard means force - override uncommited changes)
+# // load an old save and delete all saved games newer 
+# // than the one just loaded.
+git reset --hard
+
+# restore the state to a given commit and erase 
+# all newer commits from the record permanently
+git reset --hard a3423j 
+	
+# move the HEAD three commits back - git will act as if you hadn&#039;t 
+# made those three last commits
+git reset HEAD~3
+
+# return to the specific SHA1 commit (it can be in the &quot;future&quot;)
+git reset 1b6d
+
+# for commands like one above, Git saves the original HEAD (quietly) 
+# as a tag callesd ORIG_HEAD, you can return to it safely with:
+git reset ORIG_HEAD
+
+rev-parse
+=========
+
+# specifying revisions
+
+revert
+======
+
+# undo just the commit with the given hash
+git revert 1b6d
+
+# this will revert last commit // revert - powrót/odwracac
+git revert HEAD
+
+# this won&#039;t popup your $editor to change last commit message
+git revert --no-edit HEAD
+
+# this won&#039;t automatically commit changes, 
+# but only restore changes from last commit
+git revert -n HEAD
+git revert --no-commit HEAD
+
+rm
+==
+
+# remove/forget files from git history
+# // it removes real files from hdd too!!!)
+git rm file1 file2 fileN
+
+# recursively remove/forget files from git history 
+# (drop all files inside specified dir)
+git rm -r dir1/dir2/
+
+# remove ignored file/files from git index but keep 
+# files in local filesystem 
+# (allow the file to be removed from just the index)
+git rm --cached mylogfile.log
+
+send-email
+==========
+
+# send patch via email
+git send-email patch-name.patch
+
+stash
+=====
+
+# This saves the current state in a temporary location (a stash) 
+# and restores the previous state. Your working directory appears exactly 
+# as it was before you started editing, and you can fix bugs, pull in
+# upstream changes, and so on.
+git stash
+
+# When you want to go back to the stashed state, type
+# (You may need to resolve some conflicts):
+git stash apply 
+	
+symbolic-ref
+============
+
+# shows the current branch name
+git symbolic-ref HEAD
+
+# shows curr. branch but without &quot;refs/heads/&quot; and ignore errors
+git symbolic-ref HEAD 2&gt; /dev/null | cut -b 12-
+
+
+Tags
+====
+
+# show all tags
+git tag
+
+# creating tags
+git tag -a tag-name -m &#039;tag info message&#039;
+
+# another way of creating tag
+git tag -f tag-name HEAD
+
+# remove/delete tag
+git tag -d tagname
+
+# rename tag
+git tag new old
+git tag -d old	
+
+# update existing tag
+# -f flag tells us that git should replace an existing tag with the given name (instead of failing) 
+git tag -f existing-tag-name
+
+# create tag on specific/older commit
+git tag -a your-tag-name 6dsf78 # where last arg is commit id
+	
+update-ref
+==========
+
+# update refs ???????
+git update-ref -d 
+
+--------------------------------------------------------------------------------
+
+</pre>
+<pre class="wp-code-highlight prettyprint">
+
+### configuration
+
+# config needed for commits
+git config --global user.name &quot;YourNameSurnameNick&quot;
+git config --global user.email &quot;your.email@here.com&quot;
+
+# nice colors in git
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+
+
+### commands
+
+git clean # remove untracked files from the working tree
+
+git reset # reset current HEAD to the specified state (after git add !!!)
+
+git rm somefile.orig # remove the incorrectly added file
+
+git commit --amend # commit the amended merge
+</pre>
+<pre class="wp-code-highlight prettyprint">
+git reflog
+  Use this to recover from *major* mess ups! It&#039;s basically a log of the
+  last few actions and you might have luck and find old commits that
+  have been lost by doing a complex merge.
+
+git diff
+  show a diff of the changes made since your last commit
+  to diff one file: &quot;git diff -- &lt;filename&gt;&quot;
+  to show a diff between staging area and HEAD: `git diff --cached`
+
+git status
+  show files added to the staging area, files with changes, and untracked files
+
+git log
+  show recent commits, most recent on top. Useful options:
+  --color       with color
+  --graph       with an ASCII-art commit graph on the left
+  --decorate    with branch and tag names on appropriate commits
+  --stat        with stats (files changed, insertions, and deletions)
+  -p            with full diffs
+  --author=foo  only by a certain author
+  --after=&quot;MMM DD YYYY&quot; ex. (&quot;Jun 20 2008&quot;) only commits after a certain date
+  --before=&quot;MMM DD YYYY&quot; only commits that occur before a certain date
+  --merge       only the commits involved in the current merge conflicts
+
+git log &lt;ref&gt;..&lt;ref&gt;
+  show commits between the specified range. Useful for seeing changes from
+  remotes:
+  git log HEAD..origin/master # after git remote update
+
+git show &lt;rev&gt;
+  show the changeset (diff) of a commit specified by &lt;rev&gt;, which can be any
+  SHA1 commit ID, branch name, or tag (shows the last commit (HEAD) by default)
+
+  also to show the contents of a file at a specific revision, use 
+     git show &lt;rev&gt;:&lt;filename&gt;
+  this is similar to cat-file but much simpler syntax.
+
+git show --name-only &lt;rev&gt;
+  show only the names of the files that changed, no diff information.
+
+git blame &lt;file&gt;
+  show who authored each line in &lt;file&gt;
+
+git blame &lt;file&gt; &lt;rev&gt;
+  show who authored each line in &lt;file&gt; as of &lt;rev&gt; (allows blame to go back in
+  time)
+
+git gui blame
+  really nice GUI interface to git blame
+
+git whatchanged &lt;file&gt;
+  show only the commits which affected &lt;file&gt; listing the most recent first
+  E.g. view all changes made to a file on a branch:
+    git whatchanged &lt;branch&gt; &lt;file&gt;  | grep commit | \
+         colrm 1 7 | xargs -I % git show % &lt;file&gt;
+  this could be combined with git remote show &lt;remote&gt; to find all changes on
+  all branches to a particular file.
+
+git diff &lt;commit&gt; head path/to/fubar
+  show the diff between a file on the current branch and potentially another
+  branch
+
+git diff --cached [&lt;file&gt;]
+  shows diff for staged (git-add&#039;ed) files (which includes uncommitted git
+  cherry-pick&#039;ed files)
+
+git ls-files
+  list all files in the index and under version control.
+
+git ls-remote &lt;remote&gt; [HEAD]
+  show the current version on the remote repo. This can be used to check whether
+  a local is required by comparing the local head revision.
+
+Adding / Deleting
+-----------------
+
+git add &lt;file1&gt; &lt;file2&gt; ...
+  add &lt;file1&gt;, &lt;file2&gt;, etc... to the project
+
+git add &lt;dir&gt;
+  add all files under directory &lt;dir&gt; to the project, including subdirectories
+
+git add .
+  add all files under the current directory to the project
+  *WARNING*: including untracked files.
+
+git rm &lt;file1&gt; &lt;file2&gt; ...
+  remove &lt;file1&gt;, &lt;file2&gt;, etc... from the project
+
+git rm $(git ls-files --deleted)
+  remove all deleted files from the project
+
+git rm --cached &lt;file1&gt; &lt;file2&gt; ...
+  commits absence of &lt;file1&gt;, &lt;file2&gt;, etc... from the project
+
+Ignoring
+---------
+
+Option 1:
+
+Edit $GIT_DIR/info/exclude. See Environment Variables below for explanation on
+$GIT_DIR.
+
+Option 2:
+
+Add a file .gitignore to the root of your project. This file will be checked in.
+
+Either way you need to add patterns to exclude to these files.
+
+Staging
+-------
+
+git add &lt;file1&gt; &lt;file2&gt; ...
+git stage &lt;file1&gt; &lt;file2&gt; ...
+  add changes in &lt;file1&gt;, &lt;file2&gt; ... to the staging area (to be included in
+  the next commit
+
+git add -p
+git stage --patch
+  interactively walk through the current changes (hunks) in the working
+  tree, and decide which changes to add to the staging area.
+
+git add -i
+git stage --interactive
+  interactively add files/changes to the staging area. For a simpler
+  mode (no menu), try `git add --patch` (above)
+
+Unstaging
+---------
+
+git reset HEAD &lt;file1&gt; &lt;file2&gt; ...
+  remove the specified files from the next commit
+
+
+Committing
+----------
+
+git commit &lt;file1&gt; &lt;file2&gt; ... [-m &lt;msg&gt;]
+  commit &lt;file1&gt;, &lt;file2&gt;, etc..., optionally using commit message &lt;msg&gt;,
+  otherwise opening your editor to let you type a commit message
+
+git commit -a
+  commit all files changed since your last commit
+  (does not include new (untracked) files)
+
+git commit -v
+  commit verbosely, i.e. includes the diff of the contents being committed in
+  the commit message screen
+
+git commit --amend
+  edit the commit message of the most recent commit
+
+git commit --amend &lt;file1&gt; &lt;file2&gt; ...
+  redo previous commit, including changes made to &lt;file1&gt;, &lt;file2&gt;, etc...
+
+
+Branching
+---------
+
+git branch
+  list all local branches
+
+git branch -r
+  list all remote branches
+
+git branch -a
+  list all local and remote branches
+
+git branch &lt;branch&gt;
+  create a new branch named &lt;branch&gt;, referencing the same point in history as
+  the current branch
+
+git branch &lt;branch&gt; &lt;start-point&gt;
+  create a new branch named &lt;branch&gt;, referencing &lt;start-point&gt;, which may be
+  specified any way you like, including using a branch name or a tag name
+
+git push &lt;repo&gt; &lt;start-point&gt;:refs/heads/&lt;branch&gt;
+  create a new remote branch named &lt;branch&gt;, referencing &lt;start-point&gt; on the
+  remote. Repo is the name of the remote.
+  Example: git push origin origin:refs/heads/branch-1
+  Example: git push origin origin/branch-1:refs/heads/branch-2
+  Example: git push origin branch-1 ## shortcut
+
+git branch --track &lt;branch&gt; &lt;remote-branch&gt;
+  create a tracking branch. Will push/pull changes to/from another repository.
+  Example: git branch --track experimental origin/experimental
+
+git branch --set-upstream &lt;branch&gt; &lt;remote-branch&gt; (As of Git 1.7.0)
+  Make an existing branch track a remote branch
+  Example: git branch --set-upstream foo origin/foo
+
+git branch -d &lt;branch&gt;
+  delete the branch &lt;branch&gt;; if the branch you are deleting points to a
+  commit which is not reachable from the current branch, this command
+  will fail with a warning.
+
+git branch -r -d &lt;remote-branch&gt;
+  delete a remote-tracking branch.
+  Example: git branch -r -d wycats/master
+
+git branch -D &lt;branch&gt;
+  even if the branch points to a commit not reachable from the current branch,
+  you may know that that commit is still reachable from some other branch or
+  tag. In that case it is safe to use this command to force git to delete the
+  branch.
+
+git checkout &lt;branch&gt;
+  make the current branch &lt;branch&gt;, updating the working directory to reflect
+  the version referenced by &lt;branch&gt;
+
+git checkout -b &lt;new&gt; &lt;start-point&gt;
+  create a new branch &lt;new&gt; referencing &lt;start-point&gt;, and check it out.
+
+git push &lt;repository&gt; :&lt;branch&gt;
+  removes a branch from a remote repository.
+  Example: git push origin <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_surprised.gif' alt=':o' class='wp-smiley' /> ld_branch_to_be_deleted
+
+git co &lt;branch&gt; &lt;path to new file&gt;
+  Checkout a file from another branch and add it to this branch. File
+  will still need to be added to the git branch, but it&#039;s present.
+  Eg. git co remote_at_origin__tick702_antifraud_blocking
+  ..../...nt_elements_for_iframe_blocked_page.rb
+
+git show &lt;branch&gt; -- &lt;path to file that does not exist&gt;
+  Eg. git show remote_tick702 -- path/to/fubar.txt
+  show the contents of a file that was created on another branch and that
+  does not exist on the current branch.
+
+git show &lt;rev&gt;:&lt;repo path to file&gt;
+  Show the contents of a file at the specific revision. Note: path has to be
+  absolute within the repo.
+
+Merging
+-------
+
+git merge &lt;branch&gt;
+  merge branch &lt;branch&gt; into the current branch; this command is idempotent
+  and can be run as many times as needed to keep the current branch
+  up-to-date with changes in &lt;branch&gt;
+
+git merge &lt;branch&gt; --no-commit
+  merge branch &lt;branch&gt; into the current branch, but do not autocommit the
+  result; allows you to make further tweaks
+
+git merge &lt;branch&gt; -s ours
+  merge branch &lt;branch&gt; into the current branch, but drops any changes in
+  &lt;branch&gt;, using the current tree as the new tree
+
+
+Cherry-Picking
+--------------
+
+git cherry-pick [--edit] [-n] [-m parent-number] [-s] [-x] &lt;commit&gt;
+  selectively merge a single commit from another local branch
+  Example: git cherry-pick 7300a6130d9447e18a931e898b64eefedea19544
+
+
+Squashing
+---------
+WARNING: &quot;git rebase&quot; changes history. Be careful. Google it.
+
+git rebase --interactive HEAD~10
+  (then change all but the first &quot;pick&quot; to &quot;squash&quot;)
+  squash the last 10 commits into one big commit
+
+
+Conflicts
+---------
+
+git mergetool
+  work through conflicted files by opening them in your mergetool (opendiff,
+  kdiff3, etc.) and choosing left/right chunks. The merged result is staged for
+  commit.
+
+For binary files or if mergetool won&#039;t do, resolve the conflict(s) manually
+and then do:
+
+  git add &lt;file1&gt; [&lt;file2&gt; ...]
+
+Once all conflicts are resolved and staged, commit the pending merge with:
+
+  git commit
+
+
+Sharing
+-------
+
+git fetch &lt;remote&gt;
+  update the remote-tracking branches for &lt;remote&gt; (defaults to &quot;origin&quot;).
+  Does not initiate a merge into the current branch (see &quot;git pull&quot; below).
+
+git pull
+  fetch changes from the server, and merge them into the current branch.
+  Note: .git/config must have a [branch &quot;some_name&quot;] section for the current
+  branch, to know which remote-tracking branch to merge into the current
+  branch.  Git 1.5.3 and above adds this automatically.
+
+git push
+  update the server with your commits across all branches that are *COMMON*
+  between your local copy and the server.  Local branches that were never
+  pushed to the server in the first place are not shared.
+
+git push origin &lt;branch&gt;
+  update the server with your commits made to &lt;branch&gt; since your last push.
+  This is always *required* for new branches that you wish to share. After
+  the first explicit push, &quot;git push&quot; by itself is sufficient.
+
+git push origin &lt;branch&gt;:refs/heads/&lt;branch&gt;
+  E.g. git push origin twitter-experiment:refs/heads/twitter-experiment
+  Which, in fact, is the same as git push origin &lt;branch&gt; but a little
+  more obvious what is happening.
+
+Reverting
+---------
+
+git revert &lt;rev&gt;
+  reverse commit specified by &lt;rev&gt; and commit the result.  This does *not* do
+  the same thing as similarly named commands in other VCS&#039;s such as &quot;svn
+  revert&quot; or &quot;bzr revert&quot;, see below
+
+git checkout &lt;file&gt;
+  re-checkout &lt;file&gt;, overwriting any local changes
+
+git checkout .
+  re-checkout all files, overwriting any local changes.  This is most similar
+  to &quot;svn revert&quot; if you&#039;re used to Subversion commands
+
+
+Fix mistakes / Undo
+-------------------
+
+git reset --hard
+  abandon everything since your last commit; this command can be DANGEROUS.
+  If merging has resulted in conflicts and you&#039;d like to just forget about
+  the merge, this command will do that.
+
+git reset --hard ORIG_HEAD or git reset --hard origin/master 
+  undo your most recent *successful* merge *and* any changes that occurred
+  after.  Useful for forgetting about the merge you just did.  If there are
+  conflicts (the merge was not successful), use &quot;git reset --hard&quot; (above)
+  instead.
+
+git reset --soft HEAD^
+  forgot something in your last commit? That&#039;s easy to fix. Undo your last
+  commit, but keep the changes in the staging area for editing.
+
+git commit --amend
+  redo previous commit, including changes you&#039;ve staged in the meantime.
+  Also used to edit commit message of previous commit.
+
+
+Plumbing
+--------
+
+test &lt;sha1-A&gt; = $(git merge-base &lt;sha1-A&gt; &lt;sha1-B&gt;)
+  determine if merging sha1-B into sha1-A is achievable as a fast forward;
+  non-zero exit status is false.
+
+
+Stashing
+--------
+
+git stash
+git stash save &lt;optional-name&gt;
+  save your local modifications to a new stash (so you can for example
+  &quot;git svn rebase&quot; or &quot;git pull&quot;)
+
+git stash apply
+  restore the changes recorded in the stash on top of the current working tree
+  state
+
+git stash pop
+  restore the changes from the most recent stash, and remove it from the stack
+  of stashed changes
+
+git stash list
+  list all current stashes
+
+git stash show &lt;stash-name&gt; -p
+  show the contents of a stash - accepts all diff args
+
+git stash drop [&lt;stash-name&gt;]
+  delete the stash
+
+git stash clear
+  delete all current stashes
+
+
+Remotes
+-------
+
+git remote add &lt;remote&gt; &lt;remote_URL&gt;
+  adds a remote repository to your git config.  Can be then fetched locally.
+  Example:
+    git remote add coreteam git://github.com/wycats/merb-plugins.git
+    git fetch coreteam
+
+git push &lt;remote&gt; :refs/heads/&lt;branch&gt;
+  delete a branch in a remote repository
+
+git push &lt;remote&gt; &lt;remote&gt;:refs/heads/&lt;remote_branch&gt;
+  create a branch on a remote repository
+  Example: git push origin origin:refs/heads/new_feature_name
+
+git push &lt;repository&gt; +&lt;remote&gt;:&lt;new_remote&gt;
+  replace a &lt;remote&gt; branch with &lt;new_remote&gt;
+  think twice before do this
+  Example: git push origin +master:my_branch
+
+git remote prune &lt;remote&gt;
+  prune deleted remote-tracking branches from &quot;git branch -r&quot; listing
+
+git remote add -t master -m master origin git://example.com/git.git/
+  add a remote and track its master
+
+git remote show &lt;remote&gt;
+  show information about the remote server.
+
+git checkout -b &lt;local branch&gt; &lt;remote&gt;/&lt;remote branch&gt;
+  Eg git checkout -b myfeature origin/myfeature
+  Track a remote branch as a local branch.
+
+git pull &lt;remote&gt; &lt;branch&gt;
+git push
+  For branches that are remotely tracked (via git push) but
+  that complain about non-fast forward commits when doing a
+  git push. The pull synchronizes local and remote, and if
+  all goes well, the result is pushable.
+
+git fetch &lt;remote&gt;
+  Retrieves all branches from the remote repository. After
+  this &#039;git branch --track ...&#039; can be used to track a branch
+  from the new remote.
+
+Submodules
+----------
+
+git submodule add &lt;remote_repository&gt; &lt;path/to/submodule&gt;
+  add the given repository at the given path. The addition will be part of the
+  next commit.
+
+git submodule update [--init]
+  Update the registered submodules (clone missing submodules, and checkout
+  the commit specified by the super-repo). --init is needed the first time.
+
+git submodule foreach &lt;command&gt;
+  Executes the given command within each checked out submodule.
+
+Removing submodules
+
+   1. Delete the relevant line from the .gitmodules file.
+   2. Delete the relevant section from .git/config.
+   3. Run git rm --cached path_to_submodule (no trailing slash).
+   4. Commit and delete the now untracked submodule files.
+
+Updating submodules
+  To update a submodule to a new commit:
+    1. update submodule:
+        cd &lt;path to submodule&gt;
+        git pull
+    2. commit the new version of submodule:
+        cd &lt;path to toplevel&gt;
+        git commit -m &quot;update submodule version&quot;
+    3. check that the submodule has the correct version
+        git submodule status
+  If the update in the submodule is not committed in the
+  main repository, it is lost and doing git submodule
+  update will revert to the previous version.
+
+Patches
+-------
+
+git format-patch HEAD^
+  Generate the last commit as a patch that can be applied on another
+  clone (or branch) using &#039;git am&#039;. Format patch can also generate a
+  patch for all commits using &#039;git format-patch HEAD^ HEAD&#039;
+  All page files will be enumerated with a prefix, e.g. 0001 is the
+  first patch.
+
+git format-patch &lt;Revision&gt;^..&lt;Revision&gt;
+  Generate a patch for a single commit. E.g.
+    git format-patch d8efce43099^..d8efce43099
+  Revision does not need to be fully specified.
+
+git am &lt;patch file&gt;
+  Applies the patch file generated by format-patch.
+
+git diff --no-prefix &gt; patchfile
+  Generates a patch file that can be applied using patch:
+    patch -p0 &lt; patchfile
+  Useful for sharing changes without generating a git commit.
+
+Tags
+----
+
+git tag -l
+  Will list all tags defined in the repository.
+
+git co &lt;tag_name&gt;
+  Will checkout the code for a particular tag. After this you&#039;ll
+  probably want to do: &#039;git co -b &lt;some branch name&gt;&#039; to define
+  a branch. Any changes you now make can be committed to that
+  branch and later merged.
+
+Archive
+-------
+
+git archive master | tar -x -C /somewhere/else
+  Will export expanded tree as tar archive at given path
+
+git archive master | bzip2 &gt; source-tree.tar.bz2
+  Will export archive as bz2
+
+git archive --format zip --output /full/path master
+  Will export as zip
+
+Git Instaweb
+------------
+
+git instaweb --httpd=webrick [--start | --stop | --restart]
+
+
+Environment Variables
+---------------------
+
+GIT_AUTHOR_NAME, GIT_COMMITTER_NAME
+  Your full name to be recorded in any newly created commits.  Overrides
+  user.name in .git/config
+
+GIT_AUTHOR_EMAIL, GIT_COMMITTER_EMAIL
+  Your email address to be recorded in any newly created commits.  Overrides
+  user.email in .git/config
+
+GIT_DIR
+  Location of the repository to use (for out of working directory repositories)
+
+GIT_WORKING_TREE
+  Location of the Working Directory - use with GIT_DIR to specifiy the working
+  directory root
+  or to work without being in the working directory at all.
+</pre>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../../../dev.2" title="Zobacz wszystkie wpisy z kategorii &#8222;Dev&#8221;" rel="category tag">Dev</a>, <a href="../../git.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Git&#8221;" rel="category tag">Git</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="../../../../tag/cheatsheet" rel="tag">cheatsheet</a>, <a href="../../../../tag/git-2.1" rel="tag">git</a>, <a href="../../../../tag/reference-2" rel="tag">reference</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-656 -->
+
+				
+						<nav id="nav-below">
+			<h3 class="assistive-text">Nawigacja po wpisach</h3>
+			<div class="nav-previous"></div>
+			<div class="nav-next"><a href="4" >Nowsze wpisy <span class="meta-nav">&rarr;</span></a></div>
+		</nav><!-- #nav-above -->
+	
+			
+			</div><!-- #content -->
+		</section><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<aside id="categories-3" class="widget widget_categories"><h3 class="widget-title">Kategorie</h3>		<ul>
+	<li class="cat-item cat-item-3 current-cat-parent"><a href="../../../dev.2" title="Zobacz wszystkie wpisy z kategorii &#8222;Dev&#8221;">Dev</a> (113)
+<ul class='children'>
+	<li class="cat-item cat-item-276"><a href="../../android-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Android&#8221;">Android</a> (7)
+</li>
+	<li class="cat-item cat-item-259"><a href="../../bash-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Bash&#8221;">Bash</a> (8)
+</li>
+	<li class="cat-item cat-item-290"><a href="../../batch-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Batch&#8221;">Batch</a> (3)
+</li>
+	<li class="cat-item cat-item-280"><a href="../../events-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Events&#8221;">Events</a> (1)
+</li>
+	<li class="cat-item cat-item-215 current-cat"><a href="../../git.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Git&#8221;">Git</a> (44)
+</li>
+	<li class="cat-item cat-item-299"><a href="../../gradle" title="Zobacz wszystkie wpisy z kategorii &#8222;Gradle&#8221;">Gradle</a> (1)
+</li>
+	<li class="cat-item cat-item-258"><a href="../../hardware-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Hardware&#8221;">Hardware</a> (1)
+</li>
+	<li class="cat-item cat-item-252"><a href="../../java-dev.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Java&#8221;">Java</a> (12)
+</li>
+	<li class="cat-item cat-item-264"><a href="../../mac-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Mac&#8221;">Mac</a> (3)
+</li>
+	<li class="cat-item cat-item-275"><a href="../../python-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Python&#8221;">Python</a> (3)
+</li>
+	<li class="cat-item cat-item-266"><a href="../../sublime-text" title="Zobacz wszystkie wpisy z kategorii &#8222;Sublime Text&#8221;">Sublime Text</a> (3)
+</li>
+	<li class="cat-item cat-item-257"><a href="../../windows-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Win&#8221;">Win</a> (3)
+</li>
+	<li class="cat-item cat-item-300"><a href="../../workshops-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Workshops&#8221;">Workshops</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-241"><a href="../../../dj" title="Zobacz wszystkie wpisy z kategorii &#8222;DJ&#8221;">DJ</a> (10)
+<ul class='children'>
+	<li class="cat-item cat-item-279"><a href="../../../dj/events-dj" title="Zobacz wszystkie wpisy z kategorii &#8222;Events&#8221;">Events</a> (8)
+</li>
+	<li class="cat-item cat-item-278"><a href="../../../dj/serato-dj" title="Zobacz wszystkie wpisy z kategorii &#8222;Serato&#8221;">Serato</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-62"><a href="../../../food" title="Zobacz wszystkie wpisy z kategorii &#8222;Food&#8221;">Food</a> (9)
+<ul class='children'>
+	<li class="cat-item cat-item-234"><a href="../../../food/cook-book" title="Zobacz wszystkie wpisy z kategorii &#8222;Cook Book&#8221;">Cook Book</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-237"><a href="../../../guitar-cat.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Guitar&#8221;">Guitar</a> (41)
+<ul class='children'>
+	<li class="cat-item cat-item-247"><a href="../../../guitar-cat/chords" title="Zobacz wszystkie wpisy z kategorii &#8222;Chords&#8221;">Chords</a> (9)
+</li>
+	<li class="cat-item cat-item-239"><a href="../../../guitar-cat/jam-sessions" title="Zobacz wszystkie wpisy z kategorii &#8222;Jam Sessions&#8221;">Jam Sessions</a> (1)
+</li>
+	<li class="cat-item cat-item-217"><a href="../../../guitar-cat/song-book.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Song Book&#8221;">Song Book</a> (27)
+</li>
+	<li class="cat-item cat-item-246"><a href="../../../guitar-cat/theory" title="Zobacz wszystkie wpisy z kategorii &#8222;Theory&#8221;">Theory</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-240"><a href="../../../other" title="Zobacz wszystkie wpisy z kategorii &#8222;Other&#8221;">Other</a> (3)
+<ul class='children'>
+	<li class="cat-item cat-item-242"><a href="../../../other/auto-other" title="Zobacz wszystkie wpisy z kategorii &#8222;Auto&#8221;">Auto</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../sets.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Sets&#8221;">Sets</a> (34)
+<ul class='children'>
+	<li class="cat-item cat-item-7"><a href="../../../sets/fresh-dance-music" title="Zobacz wszystkie wpisy z kategorii &#8222;Fresh Dance Music&#8221;">Fresh Dance Music</a> (3)
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;">Progressive Awake</a> (23)
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../sets/quantum-energy" title="Zobacz wszystkie wpisy z kategorii &#8222;Quantum Energy&#8221;">Quantum Energy</a> (4)
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../sets/unreleased-emotions" title="Zobacz wszystkie wpisy z kategorii &#8222;Unreleased Emotions&#8221;">Unreleased Emotions</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../uncategorized" title="Zobacz wszystkie wpisy z kategorii &#8222;Uncategorized&#8221;">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-297"><a href="../../../user" title="Zobacz wszystkie wpisy z kategorii &#8222;User&#8221;">User</a> (2)
+<ul class='children'>
+	<li class="cat-item cat-item-301"><a href="../../../user/android-user" title="Zobacz wszystkie wpisy z kategorii &#8222;Android&#8221;">Android</a> (1)
+</li>
+	<li class="cat-item cat-item-298"><a href="../../../user/windows-phone-8" title="Zobacz wszystkie wpisy z kategorii &#8222;Windows Phone 8&#8221;">Windows Phone 8</a> (1)
+</li>
+</ul>
+</li>
+		</ul>
+</aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h3 class="widget-title">Tagi</h3><div class="tagcloud"><a href='../../../../tag/10-5-8' class='tag-link-29' title='2 tematy' style='font-size: 8pt;'>10.5.8</a>
+<a href='../../../../tag/android-2' class='tag-link-158' title='9 tematów' style='font-size: 14.275862068966pt;'>android</a>
+<a href='../../../../tag/apps' class='tag-link-65' title='6 tematów' style='font-size: 12.465517241379pt;'>apps</a>
+<a href='../../../../tag/automation' class='tag-link-56' title='3 tematy' style='font-size: 9.448275862069pt;'>automation</a>
+<a href='../../../../tag/bash-2' class='tag-link-153' title='7 tematów' style='font-size: 13.068965517241pt;'>bash</a>
+<a href='../../../../tag/basics' class='tag-link-212' title='9 tematów' style='font-size: 14.275862068966pt;'>basics</a>
+<a href='../../../../tag/basis' class='tag-link-283' title='3 tematy' style='font-size: 9.448275862069pt;'>basis</a>
+<a href='../../../../tag/batch-2' class='tag-link-164' title='4 tematy' style='font-size: 10.655172413793pt;'>batch</a>
+<a href='../../../../tag/cheatsheet' class='tag-link-133' title='7 tematów' style='font-size: 13.068965517241pt;'>cheatsheet</a>
+<a href='../../../../tag/compilation-problem' class='tag-link-97' title='5 tematów' style='font-size: 11.620689655172pt;'>compilation problem</a>
+<a href='../../../../tag/config' class='tag-link-171' title='7 tematów' style='font-size: 13.068965517241pt;'>config</a>
+<a href='../../../../tag/dance' class='tag-link-44' title='5 tematów' style='font-size: 11.620689655172pt;'>dance</a>
+<a href='../../../../tag/dj-2' class='tag-link-189' title='9 tematów' style='font-size: 14.275862068966pt;'>dj</a>
+<a href='../../../../tag/dnb' class='tag-link-11' title='4 tematy' style='font-size: 10.655172413793pt;'>dnb</a>
+<a href='../../../../tag/eclipse' class='tag-link-92' title='6 tematów' style='font-size: 12.465517241379pt;'>eclipse</a>
+<a href='../../../../tag/editor' class='tag-link-267' title='3 tematy' style='font-size: 9.448275862069pt;'>editor</a>
+<a href='../../../../tag/electro-house' class='tag-link-46' title='2 tematy' style='font-size: 8pt;'>electro house</a>
+<a href='../../../../tag/git-2.1' class='tag-link-169' title='43 tematy' style='font-size: 22pt;'>git</a>
+<a href='../../../../tag/guitar.1' class='tag-link-193' title='22 tematy' style='font-size: 18.620689655172pt;'>guitar</a>
+<a href='../../../../tag/how-to.1' class='tag-link-123' title='41 tematów' style='font-size: 21.758620689655pt;'>how-to</a>
+<a href='../../../../tag/ibm' class='tag-link-110' title='2 tematy' style='font-size: 8pt;'>ibm</a>
+<a href='../../../../tag/ide' class='tag-link-88' title='4 tematy' style='font-size: 10.655172413793pt;'>ide</a>
+<a href='../../../../tag/itunes' class='tag-link-37' title='2 tematy' style='font-size: 8pt;'>itunes</a>
+<a href='../../../../tag/java-2.1' class='tag-link-58' title='13 tematów' style='font-size: 16.086206896552pt;'>java</a>
+<a href='../../../../tag/keyboard-shortcuts' class='tag-link-160' title='6 tematów' style='font-size: 12.465517241379pt;'>keyboard shortcuts</a>
+<a href='../../../../tag/lyrics.1' class='tag-link-194' title='19 tematów' style='font-size: 17.896551724138pt;'>lyrics</a>
+<a href='../../../../tag/mac' class='tag-link-180' title='8 tematów' style='font-size: 13.672413793103pt;'>mac</a>
+<a href='../../../../tag/mp3' class='tag-link-38' title='2 tematy' style='font-size: 8pt;'>mp3</a>
+<a href='../../../../tag/party' class='tag-link-218' title='7 tematów' style='font-size: 13.068965517241pt;'>party</a>
+<a href='../../../../tag/pop' class='tag-link-33' title='2 tematy' style='font-size: 8pt;'>pop</a>
+<a href='../../../../tag/problem' class='tag-link-109' title='6 tematów' style='font-size: 12.465517241379pt;'>problem</a>
+<a href='../../../../tag/progressive-house.1' class='tag-link-45' title='22 tematy' style='font-size: 18.620689655172pt;'>progressive house</a>
+<a href='../../../../tag/python-2' class='tag-link-185' title='3 tematy' style='font-size: 9.448275862069pt;'>python</a>
+<a href='../../../../tag/reference-2' class='tag-link-132' title='9 tematów' style='font-size: 14.275862068966pt;'>reference</a>
+<a href='../../../../tag/script' class='tag-link-39' title='5 tematów' style='font-size: 11.620689655172pt;'>script</a>
+<a href='../../../../tag/shortcuts' class='tag-link-223' title='2 tematy' style='font-size: 8pt;'>shortcuts</a>
+<a href='../../../../tag/song.1' class='tag-link-195' title='16 tematów' style='font-size: 17.051724137931pt;'>song</a>
+<a href='../../../../tag/sql' class='tag-link-106' title='3 tematy' style='font-size: 9.448275862069pt;'>sql</a>
+<a href='../../../../tag/tech-house.1' class='tag-link-47' title='14 tematów' style='font-size: 16.448275862069pt;'>tech house</a>
+<a href='../../../../tag/techno' class='tag-link-53' title='5 tematów' style='font-size: 11.620689655172pt;'>techno</a>
+<a href='../../../../tag/tips' class='tag-link-199' title='3 tematy' style='font-size: 9.448275862069pt;'>tips</a>
+<a href='../../../../tag/tools-2' class='tag-link-159' title='10 tematów' style='font-size: 14.758620689655pt;'>tools</a>
+<a href='../../../../tag/vim' class='tag-link-94' title='3 tematy' style='font-size: 9.448275862069pt;'>vim</a>
+<a href='../../../../tag/wiki.1' class='tag-link-213' title='27 tematów' style='font-size: 19.706896551724pt;'>wiki</a>
+<a href='../../../../tag/windows' class='tag-link-117' title='9 tematów' style='font-size: 14.275862068966pt;'>windows</a></div>
+</aside><aside id="archives-4" class="widget widget_archive"><h3 class="widget-title">Archiwum</h3>		<ul>
+			<li><a href='../../../../2013/11'>Listopad 2013</a>&nbsp;(2)</li>
+	<li><a href='../../../../2013/10'>Październik 2013</a>&nbsp;(1)</li>
+	<li><a href='../../../../2013/09'>Wrzesień 2013</a>&nbsp;(1)</li>
+	<li><a href='../../../../2013/08'>Sierpień 2013</a>&nbsp;(1)</li>
+	<li><a href='../../../../2013/07'>Lipiec 2013</a>&nbsp;(6)</li>
+	<li><a href='../../../../2013/06'>Czerwiec 2013</a>&nbsp;(1)</li>
+	<li><a href='../../../../2013/05'>Maj 2013</a>&nbsp;(4)</li>
+	<li><a href='../../../../2013/04'>Kwiecień 2013</a>&nbsp;(18)</li>
+	<li><a href='../../../../2013/03'>Marzec 2013</a>&nbsp;(11)</li>
+	<li><a href='../../../../2013/02'>Luty 2013</a>&nbsp;(27)</li>
+	<li><a href='../../../../2013/01'>Styczeń 2013</a>&nbsp;(2)</li>
+	<li><a href='../../../../2012/12'>Grudzień 2012</a>&nbsp;(12)</li>
+	<li><a href='../../../../2012/11'>Listopad 2012</a>&nbsp;(6)</li>
+	<li><a href='../../../../2012/10'>Październik 2012</a>&nbsp;(4)</li>
+	<li><a href='../../../../2012/09'>Wrzesień 2012</a>&nbsp;(15)</li>
+	<li><a href='../../../../2012/08'>Sierpień 2012</a>&nbsp;(12)</li>
+	<li><a href='../../../../2012/07'>Lipiec 2012</a>&nbsp;(8)</li>
+	<li><a href='../../../../2012/06'>Czerwiec 2012</a>&nbsp;(8)</li>
+	<li><a href='../../../../2012/04'>Kwiecień 2012</a>&nbsp;(1)</li>
+	<li><a href='../../../../2012/03'>Marzec 2012</a>&nbsp;(1)</li>
+	<li><a href='../../../../2011/12'>Grudzień 2011</a>&nbsp;(1)</li>
+	<li><a href='../../../../2011/11'>Listopad 2011</a>&nbsp;(3)</li>
+	<li><a href='../../../../2011/10'>Październik 2011</a>&nbsp;(1)</li>
+	<li><a href='../../../../2011/08'>Sierpień 2011</a>&nbsp;(1)</li>
+	<li><a href='../../../../2011/06'>Czerwiec 2011</a>&nbsp;(1)</li>
+	<li><a href='../../../../2011/04'>Kwiecień 2011</a>&nbsp;(2)</li>
+	<li><a href='../../../../2011/03'>Marzec 2011</a>&nbsp;(3)</li>
+	<li><a href='../../../../2011/02'>Luty 2011</a>&nbsp;(3)</li>
+	<li><a href='../../../../2011/01'>Styczeń 2011</a>&nbsp;(1)</li>
+	<li><a href='../../../../2010/12'>Grudzień 2010</a>&nbsp;(2)</li>
+	<li><a href='../../../../2010/11'>Listopad 2010</a>&nbsp;(6)</li>
+	<li><a href='../../../../2010/10'>Październik 2010</a>&nbsp;(3)</li>
+	<li><a href='../../../../2010/03'>Marzec 2010</a>&nbsp;(1)</li>
+	<li><a href='../../../../2010/01'>Styczeń 2010</a>&nbsp;(2)</li>
+	<li><a href='../../../../2009/12'>Grudzień 2009</a>&nbsp;(1)</li>
+	<li><a href='../../../../2009/11'>Listopad 2009</a>&nbsp;(2)</li>
+	<li><a href='../../../../2009/10'>Październik 2009</a>&nbsp;(1)</li>
+	<li><a href='../../../../2009/09'>Wrzesień 2009</a>&nbsp;(2)</li>
+	<li><a href='../../../../2009/07'>Lipiec 2009</a>&nbsp;(1)</li>
+	<li><a href='../../../../2009/06'>Czerwiec 2009</a>&nbsp;(3)</li>
+	<li><a href='../../../../2009/05'>Maj 2009</a>&nbsp;(1)</li>
+	<li><a href='../../../../2009/04'>Kwiecień 2009</a>&nbsp;(3)</li>
+	<li><a href='../../../../2009/03'>Marzec 2009</a>&nbsp;(2)</li>
+	<li><a href='../../../../2009/01'>Styczeń 2009</a>&nbsp;(2)</li>
+	<li><a href='../../../../2008/12'>Grudzień 2008</a>&nbsp;(1)</li>
+	<li><a href='../../../../2008/11'>Listopad 2008</a>&nbsp;(3)</li>
+	<li><a href='../../../../2008/09'>Wrzesień 2008</a>&nbsp;(1)</li>
+	<li><a href='../../../../2008/08'>Sierpień 2008</a>&nbsp;(1)</li>
+	<li><a href='../../../../2008/07'>Lipiec 2008</a>&nbsp;(1)</li>
+	<li><a href='../../../../2008/06'>Czerwiec 2008</a>&nbsp;(3)</li>
+	<li><a href='../../../../2008/04'>Kwiecień 2008</a>&nbsp;(2)</li>
+	<li><a href='../../../../2007/09'>Wrzesień 2007</a>&nbsp;(2)</li>
+	<li><a href='../../../../2007/08'>Sierpień 2007</a>&nbsp;(1)</li>
+	<li><a href='../../../../2007/05'>Maj 2007</a>&nbsp;(1)</li>
+	<li><a href='../../../../2007/04'>Kwiecień 2007</a>&nbsp;(2)</li>
+	<li><a href='../../../../2007/03'>Marzec 2007</a>&nbsp;(1)</li>
+	<li><a href='../../../../2007/02'>Luty 2007</a>&nbsp;(2)</li>
+	<li><a href='../../../../2006/03'>Marzec 2006</a>&nbsp;(1)</li>
+	<li><a href='../../../../2006/01'>Styczeń 2006</a>&nbsp;(1)</li>
+		</ul>
+</aside><aside id="linkcat-8" class="widget widget_links"><h3 class="widget-title">Polecane</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://einarmixes.blogspot.com/" title="einar / deep &#8230; progressive house mixes &#8230;" target="_blank">Einar Mixes</a></li>
+<li><a href="http://geecon.org">GeeCON</a></li>
+<li><a href="http://www.jakubryc.info/blog/" rel="friend met" title="my friend homepage">Jakub Ryć</a></li>
+<li><a href="http://www.lifeformusic.pl/">Life For Music</a></li>
+<li><a href="http://mobile-warsaw.pl">Mobile Warsaw</a></li>
+<li><a href="http://rdj.pl" title="DJ na wesele, DJ na imprezy, DJ na eventy, DJ na studniówki&#8230;  RDJ.pl" target="_blank">RDJ.PL</a></li>
+<li><a href="http://blog.vigeogam.es/">Vigeo Games</a></li>
+<li><a href="http://warsjawa.pl" target="_blank">warsjawa</a></li>
+<li><a href="http://www.warszawa.jug.pl/" title="Warszawa-JUG" target="_blank">WJUG</a></li>
+
+	</ul>
+</aside>
+		</div><!-- #secondary .widget-area -->
+	<!--WP Code Highlight_start-->
+	<script type="text/javascript">
+		window.onload = function(){prettyPrint();};
+	</script>
+	<script type="text/javascript" src="../../../../wp-content/plugins/wp-code-highlight/js/wp-code-highlight.js"></script>
+	<!--WP Code Highlight_end-->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantyczna, osobista platforma publikacyjna">Dumnie wspierane przez WordPressa</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><script type="text/javascript"><!--
+document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://home.hit.stat24.com/_'+(new Date()).getTime()+'/script.js?id=d2OQbUb0WzOaSmvsssUXrKR..GLG7JfNlmLdsW2gIFP.E7"></'+'scr'+'ipt>');
+//--></script>

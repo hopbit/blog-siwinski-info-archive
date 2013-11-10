@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; installation</title>
+	<atom:link href="http://blog.siwinski.info/tag/installation/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to install Git on Windows?</title>
+		<link>http://blog.siwinski.info/dev/how-to-install-git-on-windows</link>
+		<comments>http://blog.siwinski.info/dev/how-to-install-git-on-windows#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 21:49:06 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[Win]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[installation]]></category>
+		<category><![CDATA[wiki]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=913</guid>
+		<description><![CDATA[Download Git for Windows. I recomend downloading most recent version of file:Git-[version]-preview[YYYYMMDD].exe Install downloaded file Start git with shortcut created on your desktop.]]></description>
+				<content:encoded><![CDATA[<ol>
+<li><span style="line-height: 22px;"><a href="http://code.google.com/p/msysgit/downloads/list?can=3&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">Download</a> Git for Windows.</span>
+<ul>
+<li>I recomend downloading most recent version of file:<em>Git-[version]-preview[YYYYMMDD].exe</em></li>
+</ul>
+</li>
+<li>Install downloaded file</li>
+<li>Start git with shortcut created on your desktop.</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-install-git-on-windows/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

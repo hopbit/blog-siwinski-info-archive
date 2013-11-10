@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; mobile</title>
+	<atom:link href="http://blog.siwinski.info/tag/mobile/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to turn off data transmission via GSM/3G in Windows Phone 8?</title>
+		<link>http://blog.siwinski.info/user/how-to-turn-off-data-transmission-via-gsm3g-in-windows-phone-8</link>
+		<comments>http://blog.siwinski.info/user/how-to-turn-off-data-transmission-via-gsm3g-in-windows-phone-8#comments</comments>
+		<pubDate>Wed, 18 Sep 2013 18:40:16 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[User]]></category>
+		<category><![CDATA[Windows Phone 8]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[wp8]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2051</guid>
+		<description><![CDATA[1. Turn off data transmission: Settings &#62; Mobile Network &#62; Data Transmission &#62; Off 2. E-mail &#038; other accounts Settings &#62; E-mail &#38; Accounts &#62; Account (Google/Facebook/Twitter/etc) &#62; &#62; Download new content &#62; Manually 3. Navigation Here Drive+ &#62; Online &#8230; <a href="http://blog.siwinski.info/user/how-to-turn-off-data-transmission-via-gsm3g-in-windows-phone-8">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>1. Turn off data transmission:</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Settings &gt; Mobile Network &gt; Data Transmission &gt; Off</div></div>
+<p>2. E-mail &#038; other accounts</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Settings &gt; E-mail &amp; Accounts &gt; Account (Google/Facebook/Twitter/etc) &gt; <br />
+&gt; Download new content &gt; Manually</div></div>
+<p>3. Navigation</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Here Drive+ &gt; Online connection &gt; Offline</div></div>
+<p>4. Facebook</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Settings &gt; Messages &gt; Use Facebook chat &gt; Off</div></div>
+<p>5. Lock screen</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Settings &gt; Locking screen &gt; Notifications &gt; Detailed &gt; None<br />
+Settings &gt; Locking screen &gt; Notifications &gt; Short &gt; None</div></div>
+<p>6. Background tasks</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Settings &gt; Background Tasks &gt; [App] &gt; Blocked</div></div>
+<p>7. Photos &#038; Camera</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Settings &gt; Applications &gt; Photos &amp; Camera &gt; <br />
+&gt; Add localizations to photos &gt; Off</div></div>
+<p>Additionally You can turn off Wi-Fi</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Settings &gt; Wi-Fi &gt; Wi-Fi Networks &gt; Off</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/user/how-to-turn-off-data-transmission-via-gsm3g-in-windows-phone-8/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

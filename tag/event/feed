@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; event</title>
+	<atom:link href="http://blog.siwinski.info/tag/event/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Oracle Java Developers Day &#8211; Notatki</title>
+		<link>http://blog.siwinski.info/dev/java-dev/oracle-java-developers-day-notatki</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/oracle-java-developers-day-notatki#comments</comments>
+		<pubDate>Thu, 29 Nov 2012 22:08:06 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[event]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[jee]]></category>
+		<category><![CDATA[jse]]></category>
+		<category><![CDATA[oracle]]></category>
+		<category><![CDATA[workshops]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=386</guid>
+		<description><![CDATA[Luźnie notatki z warsztatów, które miały miejsce 28 listopada 2012 w Warszawie. Prezentacje: Java EE 7 in details Java EE &#8211; the road ahead Introduction to Java FX Moving Java Forward Materiały z warsztatów:   Developing JAX-RS Web Applications using JAX-RS &#8230; <a href="http://blog.siwinski.info/dev/java-dev/oracle-java-developers-day-notatki">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Luźnie notatki z <a href="http://www.oracle.com/webapps/events/ns/EventsDetail.jsp?p_eventId=152439&amp;src=7555284&amp;src=7555284&amp;Act=31">warsztatów</a>, które miały miejsce 28 listopada 2012 w Warszawie.</p>
+<p><strong>Prezentacje:</strong></p>
+<ul>
+<li><a href="http://www.slideshare.net/lukaszromanowski1981/poland-31-nov12-java-ee-7-in-details">Java EE 7 in details</a></li>
+<li><a href="http://www.slideshare.net/lukaszromanowski1981/poland-31-nov12-java-ee-keynote">Java EE &#8211; the road ahead</a></li>
+<li><a href="http://www.slideshare.net/lukaszromanowski1981/03-java-fxintroductionsritter">Introduction to Java FX</a></li>
+<li><a href="http://www.slideshare.net/lukaszromanowski1981/keyne-simon-ritter">Moving Java Forward</a></li>
+</ul>
+<p><strong>Materiały z warsztatów: </strong></p>
+<ul>
+<li> <a href="http://delabassee.com/lab">Developing JAX-RS Web Applications using JAX-RS 2.0 (JSR 339), Server Side Event and WebSockets (JSR 356)</a></li>
+</ul>
+<p><strong>Tematy:</strong></p>
+<p>JSE8</p>
+<ul>
+<li>&lt;&gt; diamond operator</li>
+<li>try with resources</li>
+<li>more informative back/stacktraces</li>
+<li>multi-catch &#8211; catch (ExceptionA e | ExceptionB e2 &#8230;) {&#8230;.}</li>
+<li>JSR 203 (nio2)</li>
+<li><a href="http://docs.oracle.com/javase/7/docs/api/java/nio/file/Path.html">java.nio.Path</a> instead of <a href="http://docs.oracle.com/javase/7/docs/api/java/io/File.html">java.io(nio?).File</a></li>
+<li>java.nio.file.attribute package &amp; file metadata</li>
+<li>JSR 166y: conc. API</li>
+<li>jsr 166 &gt; jsr 166x &gt; jsr 166y</li>
+<li>fork / join</li>
+<li>Invoke Dynamic bytecode ????? (better 4 groovy/jython?)</li>
+<li>jsr 344 &gt; jsf 2.2</li>
+<li>java card</li>
+<li>java me sim card</li>
+<li><a href="http://www.oracle.com/technetwork/java/javamagazine/index.html">java magazine</a></li>
+<li>raspberry</li>
+<li><a href="http://jdk8.java.net">jdk8.java.net</a></li>
+<li><a href="http://openjdk.java.net/projects/jigsaw/">project jigsaw</a></li>
+</ul>
+<p>JEE 7</p>
+<ul>
+<li>jee7 support for html5</li>
+<li>jsr 88, jax rpc, cmp, bmp  &gt; drop @ jee7</li>
+<li>html5, json (jsr 353), web socket (jsr 356), jsr 353 &gt; added @ jee7</li>
+<li>jsr 352 &#8211; handle batch processing vs cobol/etl jobs or quartz?</li>
+<li>// mix/replace above^ with cobol/etl batch processing possible?</li>
+<li>interceptor</li>
+<li>jsr 107 -&gt; java temporary caching &gt; ibm webshpere has it alredy?</li>
+<li>jsr 236 &#8211; concurrency utils 4 jee /* why use concurrency (own threads) in jee, find some nice examples (bettter support in jee7) &#8211; creating own threads is discouraged */</li>
+<li>web sockets &#8211; nice one, wstęp/przyczółek do aplikacji dla chmur?</li>
+<li>jms &#8211; changes?</li>
+<li>net beans &#8211; wtyczka do chrome do podglądania &#8222;w różnych&#8221; platformach (not only desktop but mobile too)</li>
+<li>jsr 348- new jcp</li>
+<li>jsr 336 &#8211; all jse7 contents</li>
+<li>coin</li>
+<li>binary type</li>
+<li>swiching strings</li>
+<li>simplyfing generics</li>
+</ul>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/oracle-java-developers-day-notatki/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

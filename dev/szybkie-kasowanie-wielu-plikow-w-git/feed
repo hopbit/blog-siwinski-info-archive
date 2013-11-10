@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Komentarze do: How to easily remove many files in Git?</title>
+	<atom:link href="http://blog.siwinski.info/dev/szybkie-kasowanie-wielu-plikow-w-git/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info/dev/szybkie-kasowanie-wielu-plikow-w-git</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Thu, 11 Jul 2013 08:06:33 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Autor: Git How To &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/dev/szybkie-kasowanie-wielu-plikow-w-git#comment-156</link>
+		<dc:creator><![CDATA[Git How To &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sat, 23 Mar 2013 02:27:06 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=540#comment-156</guid>
+		<description><![CDATA[[...] Basis - How to selectively add changes on stage (to index)? - How to easily remove many files in Git? [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Basis - How to selectively add changes on stage (to index)? &#8211; How to easily remove many files in Git? [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

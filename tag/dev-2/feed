@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; dev</title>
+	<atom:link href="http://blog.siwinski.info/tag/dev-2/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Dev Quotes</title>
+		<link>http://blog.siwinski.info/dev/dev-quotes</link>
+		<comments>http://blog.siwinski.info/dev/dev-quotes#comments</comments>
+		<pubDate>Wed, 11 Jun 2008 09:02:42 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[dev]]></category>
+		<category><![CDATA[quotes]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1501</guid>
+		<description><![CDATA[If you don&#8217;t have time to read, you don&#8217;t have the time (or the tools) to write. Simple as that. &#8211; Stephen King]]></description>
+				<content:encoded><![CDATA[<blockquote><p>
+If you don&#8217;t have time to read, you don&#8217;t have the time (or the tools) to write. Simple as that.<br />
+&#8211; Stephen King
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/dev-quotes/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

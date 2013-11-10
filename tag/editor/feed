@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; editor</title>
+	<atom:link href="http://blog.siwinski.info/tag/editor/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Changing multiple items with multiple selection.</title>
+		<link>http://blog.siwinski.info/dev/sublime-text/changing-multiple-items-with-multiple-selection</link>
+		<comments>http://blog.siwinski.info/dev/sublime-text/changing-multiple-items-with-multiple-selection#comments</comments>
+		<pubDate>Sun, 21 Jul 2013 20:51:54 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Sublime Text]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[ide]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[sublime text]]></category>
+		<category><![CDATA[tips]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1942</guid>
+		<description><![CDATA[- select word/string you want to change with [shift + arrows] (or with mouse) - hit [alt + f3] - change your string/word - hit [esc]]]></description>
+				<content:encoded><![CDATA[<p>- select word/string you want to change with [shift + arrows] (or with mouse)<br />
+- hit [alt + f3]<br />
+- change your string/word<br />
+- hit [esc]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/sublime-text/changing-multiple-items-with-multiple-selection/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to add end line after each given string in Sublime Text 2?</title>
+		<link>http://blog.siwinski.info/dev/how-to-add-end-line-after-each-given-string-in-sublime-text-2</link>
+		<comments>http://blog.siwinski.info/dev/how-to-add-end-line-after-each-given-string-in-sublime-text-2#comments</comments>
+		<pubDate>Sun, 14 Jul 2013 20:17:03 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Sublime Text]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1819</guid>
+		<description><![CDATA[@ Win: - find your string with [ctrl + f] - hit [alt + f3] to select all occurences - hit esc - hit right arrow - type &#34;enter&#34;]]></description>
+				<content:encoded><![CDATA[<p>@ Win:</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">- find your string with [ctrl + f]<br />
+- hit [alt + f3] to select all occurences <br />
+- hit esc<br />
+- hit right arrow <br />
+- type &quot;enter&quot;</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-add-end-line-after-each-given-string-in-sublime-text-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sorting Lines in Sublime Text 2</title>
+		<link>http://blog.siwinski.info/dev/sublime-text/sorting-lines-in-sublime-text-2</link>
+		<comments>http://blog.siwinski.info/dev/sublime-text/sorting-lines-in-sublime-text-2#comments</comments>
+		<pubDate>Thu, 11 Jul 2013 20:34:54 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Sublime Text]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1818</guid>
+		<description><![CDATA[@ Windows: - select lines to sort with [ctrl + a] or [shift + arrows] - hit [F9]]]></description>
+				<content:encoded><![CDATA[<p>@ Windows:</p>
+<p>- select lines to sort with [ctrl + a] or [shift + arrows]<br />
+- hit [F9]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/sublime-text/sorting-lines-in-sublime-text-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

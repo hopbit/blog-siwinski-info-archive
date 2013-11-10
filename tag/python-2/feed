@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; python</title>
+	<atom:link href="http://blog.siwinski.info/tag/python-2/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Exit codes in python</title>
+		<link>http://blog.siwinski.info/dev/python-dev/exit-codes-in-python</link>
+		<comments>http://blog.siwinski.info/dev/python-dev/exit-codes-in-python#comments</comments>
+		<pubDate>Tue, 30 Jul 2013 20:16:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[scripting]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2002</guid>
+		<description><![CDATA[0 - success 1 - error occured 2 - syntax error Simple example: if&#40;len&#40;people&#41; &#62; 5&#41;: &#160; print &#34;Too many people. Script execution is interrupted.&#34; &#160; exit&#40;1&#41; Reference: http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">0 - success<br />
+1 - error occured<br />
+2 - syntax error</div></div>
+<p>Simple example:</p>
+<div class="codecolorer-container python vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="python codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #ff7700;font-weight:bold;">if</span><span style="color: black;">&#40;</span><span style="color: #008000;">len</span><span style="color: black;">&#40;</span>people<span style="color: black;">&#41;</span> <span style="color: #66cc66;">&gt;</span> <span style="color: #ff4500;">5</span><span style="color: black;">&#41;</span>:<br />
+&nbsp; <span style="color: #ff7700;font-weight:bold;">print</span> <span style="color: #483d8b;">&quot;Too many people. Script execution is interrupted.&quot;</span><br />
+&nbsp; exit<span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span></div></div>
+<p>Reference: <a href="http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit">http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit</a></p>
+<hr/>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/python-dev/exit-codes-in-python/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Usprawnień w importowaniu muzyki c.d.</title>
+		<link>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d</link>
+		<comments>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d#comments</comments>
+		<pubDate>Thu, 29 Dec 2011 23:26:09 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[itunes]]></category>
+		<category><![CDATA[mp3]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[script]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=125</guid>
+		<description><![CDATA[Poza zamianą nazw plików tak aby składały się tylko z samych małych liter była jeszcze jedna kwestia, którą niepotrzebnie robiłem ‚z palca&#8217;. iTunes ma to do siebie, że importuje albumy CD wg następującej konwencji: &#124;- artysta 1 &#124; &#124;- nazwa &#8230; <a href="http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Poza zamianą nazw plików tak aby składały się tylko z samych małych liter była jeszcze jedna kwestia, którą niepotrzebnie robiłem ‚z palca&#8217;. iTunes ma to do siebie, że importuje albumy CD wg następującej konwencji:</p>
+<blockquote><p>|- artysta 1<br />
+| |- nazwa albumu<br />
+| |- 1-01 nazwa utworu.mp3<br />
+| |- 1-02 nazwa utworu.mp3<br />
+| |- 2-01 nazwa utworu.mp3<br />
+|- artysta 2<br />
+| |- nazwa albumu<br />
+| |- 1-03 nazwa utworu.mp3<br />
+| |- 1-04 nazwa utworu.mp3<br />
+| |- 2-02 nazwa utworu.mp3<br />
+|- artysta 3<br />
+| |- nazwa albumu<br />
+| |- 1-05 nazwa utworu.mp3<br />
+| |- 2-03 nazwa utworu.mp3<br />
+| |- 2-04 nazwa utworu.mp3</p></blockquote>
+<p>Natomiast moja konwencja jest następująca:</p>
+<blockquote><p>|- nazwa albumu<br />
+| |- artysta1 &#8211; utwór1.mp3<br />
+| |- artysta1 &#8211; utwór2.mp3<br />
+| |- artysta2 &#8211; utwór3.mp3</p></blockquote>
+<p>Oto skrypt który konwertuje pliki zaimportowane z iTunes do ‚mojego formatu’ katalogowania i nazewnictwa plików:</p>
+<p><a title="_convert_mp3_filenames_imported_with_itunes.py" href="http://siwinski.info/script/python/_convert_mp3_filenames_imported_with_itunes_v3.txt" target="_blank">_convert_mp3_filenames_imported_with_itunes.py</a></p>
+<p>Fakt, że pierwsza wersja skryptu (druga również) nie za każdym razem działała tak jak tego oczekiwałem. Okazało się, że iTunes ma więcej niż jedną metodę nadawania nazw plikom. Musiałem poświęcić parę wieczorów na poprawki w celu dopracowania skryptu, ale zysk jest widoczny dla mnie gołym okiem. Wykorzystując powyższy skrypt mogę obecnie w tym samym czasie zaimportować 2-3 razy więcej albumów niż wcześniej. Jak to zwykle bywa, każde nowe rozwiązanie rodzi nowe problemy&#8230; Ciekawe jak szybko zostanę zmuszony do wymiany dysku na większy&#8230;</p>
+<p>Jednocześnie stwierdzam, że Python coraz bardziej mi się podoba. Po pierwsze zarówno sam język jak i kolejne funkcjonalności/biblioteki, których potrzebowałem są bardzo łatwe i intuicyjne w wykorzystaniu. Po drugie, wolę nie myśleć ile kodu i czasu zajęłoby mi zrobienie tego samego przy użyciu Javy&#8230; Odnoszę wrażenie, że nauka tworzenia takich prostych narzędzi w tym języku jest okupione bardzo małym kosztem.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Zamiana znaków nazwy pliku na małe litery</title>
+		<link>http://blog.siwinski.info/dev/zamiana-znakow-nazwy-pliku-na-male-litery</link>
+		<comments>http://blog.siwinski.info/dev/zamiana-znakow-nazwy-pliku-na-male-litery#comments</comments>
+		<pubDate>Mon, 28 Nov 2011 20:11:33 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[script]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=133</guid>
+		<description><![CDATA[Porządkując swoją kolekcję muzyki często zdarza mi się, że muszę hurtowo zmieniać nazwy wielu plików audio. Mam taką konwencję nazewnictwa plików: artysta lub zespol &#8211; nazwa utworu (jakis remix).rozszerzenie Oto prosty skrypt w języku Python, który umożliwia zamianę dużych liter &#8230; <a href="http://blog.siwinski.info/dev/zamiana-znakow-nazwy-pliku-na-male-litery">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Porządkując swoją kolekcję muzyki często zdarza mi się, że muszę hurtowo zmieniać nazwy wielu plików audio. Mam taką konwencję nazewnictwa plików:</p>
+<p>artysta lub zespol &#8211; nazwa utworu (jakis remix).rozszerzenie</p>
+<p>Oto prosty skrypt w języku Python, który umożliwia zamianę dużych liter na małe w nazwach plików znajdujących się w bieżącym katalogu:</p>
+<p><a title="filenames_to_lowercase_txt" href="http://siwinski.info/script/python/_filenames_to_lowercase.txt" target="_blank">_filenames_to_lowercase.txt</a></p>
+<p>W napisaniu skryptu pomógł <a href="http://mail.python.org/pipermail/tutor/2007-February/052607.html" target="_blank">wujek google</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/zamiana-znakow-nazwy-pliku-na-male-litery/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

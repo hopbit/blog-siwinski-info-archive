@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; git</title>
+	<atom:link href="http://blog.siwinski.info/tag/git-2/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Splitting one commit into many in Git</title>
+		<link>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git</link>
+		<comments>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git#comments</comments>
+		<pubDate>Wed, 10 Jul 2013 21:03:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1831</guid>
+		<description><![CDATA[git rebase -i HEAD~5 # mark commit you wan't to split wit e (edit), save &#38; quit git reset HEAD~ # now you &#160;can add some modifications echo &#34;// this is missing comment in java file&#34; &#62;&#62; SuperPrinter.java # &#38; &#8230; <a href="http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git rebase</span> <span style="color: #660033;">-i</span> HEAD~<span style="color: #000000;">5</span><br />
+<span style="color: #666666; font-style: italic;"># mark commit you wan't to split wit e (edit), save &amp; quit</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git reset</span> HEAD~<br />
+<span style="color: #666666; font-style: italic;"># now you &nbsp;can add some modifications</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;// this is missing comment in java file&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> SuperPrinter.java<br />
+<span style="color: #666666; font-style: italic;"># &amp; after above you can selectively add changes on stage </span><br />
+<span style="color: #666666; font-style: italic;"># and commit them as separate chunks</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git add</span> . <span style="color: #660033;">-p</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;commit a&quot;</span><br />
+agit add <span style="color: #660033;">-p</span> <br />
+<span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;commit b&quot;</span><br />
+<span style="color: #666666; font-style: italic;"># etc...</span><br />
+<span style="color: #666666; font-style: italic;"># after spliting is done You can continue rebase with</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git rebase</span> <span style="color: #660033;">--continue</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to clear stash?</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-clear-stash</link>
+		<comments>http://blog.siwinski.info/dev/git/how-to-clear-stash#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 10:39:12 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[reference]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1554</guid>
+		<description><![CDATA[remove all stashes git stash clear remove specific stash git stash drop stash@&#123;0&#125;]]></description>
+				<content:encoded><![CDATA[<p>remove all stashes</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> <span style="color: #c20cb9; font-weight: bold;">clear</span></div></div>
+<p>remove specific stash</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> drop stash<span style="color: #000000; font-weight: bold;">@</span><span style="color: #7a0874; font-weight: bold;">&#123;</span><span style="color: #000000;">0</span><span style="color: #7a0874; font-weight: bold;">&#125;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/how-to-clear-stash/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to view changes stored in stash?</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash</link>
+		<comments>http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 09:09:31 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1540</guid>
+		<description><![CDATA[In order to list whole stash: git stash list In order to view diff on specific position in stash. git stash show -p stash@&#123;0&#125;]]></description>
+				<content:encoded><![CDATA[<p>In order to list whole stash:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> list</div></div>
+<p>In order to view diff on specific position in stash.</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> show <span style="color: #660033;">-p</span> stash<span style="color: #000000; font-weight: bold;">@</span><span style="color: #7a0874; font-weight: bold;">&#123;</span><span style="color: #000000;">0</span><span style="color: #7a0874; font-weight: bold;">&#125;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to fetch changes from remote repository?</title>
+		<link>http://blog.siwinski.info/dev/how-to-fetch-changes-from-remote-repository</link>
+		<comments>http://blog.siwinski.info/dev/how-to-fetch-changes-from-remote-repository#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 22:49:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1292</guid>
+		<description><![CDATA[git fetch &#91;remote-name-or-alias&#93; # example git fetch hopbit git fetch git@github.com:hopbit/java-sandbox.git]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git fetch</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span>remote-name-or-alias<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># example</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git fetch</span> hopbit<br />
+<span style="color: #c20cb9; font-weight: bold;">git fetch</span> <span style="color: #c20cb9; font-weight: bold;">git</span><span style="color: #000000; font-weight: bold;">@</span>github.com:hopbit<span style="color: #000000; font-weight: bold;">/</span>java-sandbox.git</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-fetch-changes-from-remote-repository/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to (explicitly) add remote repositories?</title>
+		<link>http://blog.siwinski.info/dev/how-to-explicitly-add-remote-repositories</link>
+		<comments>http://blog.siwinski.info/dev/how-to-explicitly-add-remote-repositories#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 22:38:16 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1287</guid>
+		<description><![CDATA[git remote add &#91;shortname&#93; &#91;url&#93; # example git remote add hopbit git@github.com:hopbit/java-sandbox.git]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git remote</span> add <span style="color: #7a0874; font-weight: bold;">&#91;</span>shortname<span style="color: #7a0874; font-weight: bold;">&#93;</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span>url<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+<span style="color: #666666; font-style: italic;"># example</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git remote</span> add hopbit <span style="color: #c20cb9; font-weight: bold;">git</span><span style="color: #000000; font-weight: bold;">@</span>github.com:hopbit<span style="color: #000000; font-weight: bold;">/</span>java-sandbox.git</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-explicitly-add-remote-repositories/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to show remotes (with short names)?</title>
+		<link>http://blog.siwinski.info/dev/how-to-show-remotes-with-short-names</link>
+		<comments>http://blog.siwinski.info/dev/how-to-show-remotes-with-short-names#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 22:24:17 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1280</guid>
+		<description><![CDATA[git remote]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git remote</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-show-remotes-with-short-names/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to clone svn repository with git?</title>
+		<link>http://blog.siwinski.info/dev/how-to-clone-svn-repository-with-git</link>
+		<comments>http://blog.siwinski.info/dev/how-to-clone-svn-repository-with-git#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 22:14:27 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[svn]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1275</guid>
+		<description><![CDATA[git svn clone http://progit-example.googlecode.com/svn/ -T trunk -b branches -t tags # or: git svn clone http://progit-example.googlecode.com/svn/ -s If You don&#8217;t want to fetch ALL revisions then do: git svn clone -r &#91;REVISION&#93; -s &#91;SVN-REPO-URL&#93; &#91;DIR-NAME&#93; # example git svn clone &#8230; <a href="http://blog.siwinski.info/dev/how-to-clone-svn-repository-with-git">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> clone http:<span style="color: #000000; font-weight: bold;">//</span>progit-example.googlecode.com<span style="color: #000000; font-weight: bold;">/</span>svn<span style="color: #000000; font-weight: bold;">/</span> <span style="color: #660033;">-T</span> trunk <span style="color: #660033;">-b</span> branches <span style="color: #660033;">-t</span> tags<br />
+<span style="color: #666666; font-style: italic;"># or:</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> clone http:<span style="color: #000000; font-weight: bold;">//</span>progit-example.googlecode.com<span style="color: #000000; font-weight: bold;">/</span>svn<span style="color: #000000; font-weight: bold;">/</span> <span style="color: #660033;">-s</span></div></div>
+<p>If You don&#8217;t want to fetch ALL revisions then do:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> clone <span style="color: #660033;">-r</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span>REVISION<span style="color: #7a0874; font-weight: bold;">&#93;</span> <span style="color: #660033;">-s</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span>SVN-REPO-URL<span style="color: #7a0874; font-weight: bold;">&#93;</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span>DIR-NAME<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+<span style="color: #666666; font-style: italic;"># example</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> clone <span style="color: #660033;">-r</span> <span style="color: #000000;">34045</span> <span style="color: #660033;">-s</span> https:<span style="color: #000000; font-weight: bold;">//</span>siwinski.info<span style="color: #000000; font-weight: bold;">/</span>svn<span style="color: #000000; font-weight: bold;">/</span>Project Project</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-clone-svn-repository-with-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to get help under git?</title>
+		<link>http://blog.siwinski.info/dev/how-to-get-help-under-git</link>
+		<comments>http://blog.siwinski.info/dev/how-to-get-help-under-git#comments</comments>
+		<pubDate>Wed, 03 Apr 2013 22:38:04 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1216</guid>
+		<description><![CDATA[There are 3 ways of doing it: $ git help &#91;command&#93; $ git &#91;command&#93; --help $ man git-&#91;command&#93; Beside of above you can ask at IRC (I didn&#8217;t try this out) irc: channels #git &#38; #github server: irc.freenode.net]]></description>
+				<content:encoded><![CDATA[<p>There are 3 ways of doing it:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">git <span style="color: #7a0874; font-weight: bold;">help</span></span> <span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #7a0874; font-weight: bold;">command</span><span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #7a0874; font-weight: bold;">command</span><span style="color: #7a0874; font-weight: bold;">&#93;</span> <span style="color: #660033;">--help</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">man</span> git-<span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #7a0874; font-weight: bold;">command</span><span style="color: #7a0874; font-weight: bold;">&#93;</span></div></div>
+<p>Beside of above you can ask at IRC (I didn&#8217;t try this out)</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">irc: channels <span style="color: #666666; font-style: italic;">#git &amp; #github</span><br />
+server: irc.freenode.net</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-get-help-under-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to check/list git settings?</title>
+		<link>http://blog.siwinski.info/dev/how-to-checklist-git-settings</link>
+		<comments>http://blog.siwinski.info/dev/how-to-checklist-git-settings#comments</comments>
+		<pubDate>Sat, 23 Mar 2013 02:34:49 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1188</guid>
+		<description><![CDATA[$ git config --list # check value for specific git config key $ git config &#123;key&#125; # np. $ git config user.email]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--list</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># check value for specific git config key</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #7a0874; font-weight: bold;">&#123;</span>key<span style="color: #7a0874; font-weight: bold;">&#125;</span> <span style="color: #666666; font-style: italic;"># np.</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> user.email</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-checklist-git-settings/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to settle you favourite editor for git</title>
+		<link>http://blog.siwinski.info/dev/how-to-settle-you-favourite-editor-for-git</link>
+		<comments>http://blog.siwinski.info/dev/how-to-settle-you-favourite-editor-for-git#comments</comments>
+		<pubDate>Sat, 23 Mar 2013 02:30:43 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1185</guid>
+		<description><![CDATA[$ git config --global core.editor vim # or $ git config --global core.editor emacs $ git config --global core.editor notepad # at windows $ git config --global core.editor notepad+]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> core.editor <span style="color: #c20cb9; font-weight: bold;">vim</span> <span style="color: #666666; font-style: italic;"># or</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> core.editor emacs<br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> core.editor notepad <span style="color: #666666; font-style: italic;"># at windows</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> core.editor notepad+</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-settle-you-favourite-editor-for-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

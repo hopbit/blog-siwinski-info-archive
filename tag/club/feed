@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; club</title>
+	<atom:link href="http://blog.siwinski.info/tag/club/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>2007-09-01: Earthquake @ Music Club</title>
+		<link>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club#comments</comments>
+		<pubDate>Tue, 31 Jul 2007 22:46:30 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[club]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=175</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2007-08-31_earthquake_at_music_club.jpg"><img class="alignnone size-medium wp-image-185" title="2007-08-31 Earthquake @ Music Club" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2007-08-31_earthquake_at_music_club-211x300.jpg" alt="" width="211" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

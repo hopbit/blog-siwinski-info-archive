@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; snippet</title>
+	<atom:link href="http://blog.siwinski.info/tag/snippet/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Print unique words with their counts.</title>
+		<link>http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts</link>
+		<comments>http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts#comments</comments>
+		<pubDate>Sat, 20 Jul 2013 20:17:18 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Bash]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[gist]]></category>
+		<category><![CDATA[scripts]]></category>
+		<category><![CDATA[snippet]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1953</guid>
+		<description><![CDATA[cat file.txt &#124; awk -F'[,]' '{ print $2 }' &#124; sort &#124; uniq -c &#124; sort -nr &#62; result.txt Explained # print file.txt cat file.txt # show only 2nd column using ',' as delimiter awk -F'[,]' '{ print $2 }' &#8230; <a href="http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">cat</span> file.txt <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">awk</span> <span style="color: #660033;">-F</span><span style="color: #ff0000;">'[,]'</span> <span style="color: #ff0000;">'{ print $2 }'</span> <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">sort</span> <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">uniq</span> <span style="color: #660033;">-c</span> <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">sort</span> <span style="color: #660033;">-nr</span> <span style="color: #000000; font-weight: bold;">&gt;</span> result.txt</div></div>
+<p>Explained</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># print file.txt</span><br />
+<span style="color: #c20cb9; font-weight: bold;">cat</span> file.txt<br />
+<span style="color: #666666; font-style: italic;"># show only 2nd column using ',' as delimiter</span><br />
+<span style="color: #c20cb9; font-weight: bold;">awk</span> <span style="color: #660033;">-F</span><span style="color: #ff0000;">'[,]'</span> <span style="color: #ff0000;">'{ print $2 }'</span> <br />
+<span style="color: #666666; font-style: italic;"># sort result</span><br />
+<span style="color: #c20cb9; font-weight: bold;">sort</span> <br />
+<span style="color: #666666; font-style: italic;"># &nbsp;number of times each line occurred along with the line</span><br />
+<span style="color: #c20cb9; font-weight: bold;">uniq</span> <span style="color: #660033;">-c</span> <br />
+<span style="color: #666666; font-style: italic;"># sort numerically (by number) and show in reverse (max showed on top)</span><br />
+<span style="color: #c20cb9; font-weight: bold;">sort</span> <span style="color: #660033;">-nr</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

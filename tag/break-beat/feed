@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; break beat</title>
+	<atom:link href="http://blog.siwinski.info/tag/break-beat/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Snowdrop (March 2011)</title>
+		<link>http://blog.siwinski.info/sets/progressive-awake/snowdrop-march-2011</link>
+		<comments>http://blog.siwinski.info/sets/progressive-awake/snowdrop-march-2011#comments</comments>
+		<pubDate>Sat, 05 Mar 2011 21:50:20 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Progressive Awake]]></category>
+		<category><![CDATA[break beat]]></category>
+		<category><![CDATA[progressive house]]></category>
+		<category><![CDATA[tech house]]></category>
+		<category><![CDATA[trance]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=460</guid>
+		<description><![CDATA[DOWNLOAD (97MB, 1h 7min) Tracklist: * cinnamon chasers &#8211; two hours time (remix) * flight facilities ft. giselle &#8211; crave you (version 2) * cinnamon chasers &#8211; tattoo (original mix) * fusion f, come t &#8211; begin now (original mix) &#8230; <a href="http://blog.siwinski.info/sets/progressive-awake/snowdrop-march-2011">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_snowdrop__march_2011.mp3"><img class="alignnone size-medium wp-image-461" alt="Progressive Awake - Snowdrop (March 2011)" src="http://blog.siwinski.info/wp-content/uploads/2012/12/progressive_awake_-_snowdrop__march_2011-300x300.jpg" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Snowdrop (March 2011)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_snowdrop__march_2011.mp3"><strong>DOWNLOAD (97MB, 1h 7min)</strong></a></p>
+<p>Tracklist:<br />
+* cinnamon chasers &#8211; two hours time (remix)<br />
+* flight facilities ft. giselle &#8211; crave you (version 2)<br />
+* cinnamon chasers &#8211; tattoo (original mix)<br />
+* fusion f, come t &#8211; begin now (original mix)<br />
+* adam k ft. naan &#8211; wake up (club mix)<br />
+* matt cerf, jaren, eric meza &#8211; with me (passive progressive remix)<br />
+* fatblock &#8211; take a picture (original vocal mix)<br />
+* edx &#8211; embrace (original club mix)<br />
+* dinka, george f. zimmer &#8211; soma is language (original mix)<br />
+* dinka &#8211; never cheat on strangers (original mix)<br />
+* matteo marini &#8211; connected (original mix)<br />
+* proff &#8211; we show it (chris reece prog remix)<br />
+* edx &#8211; hoover (adam k remix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/sets/progressive-awake/snowdrop-march-2011/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://siwinski.info/download/progressive-awake/progressive_awake_-_snowdrop__march_2011.mp3" length="101226263" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>

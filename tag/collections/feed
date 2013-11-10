@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; collections</title>
+	<atom:link href="http://blog.siwinski.info/tag/collections/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Java Collections Reference</title>
+		<link>http://blog.siwinski.info/dev/java-dev/java-collections-reference</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/java-collections-reference#comments</comments>
+		<pubDate>Sun, 01 Apr 2007 20:16:22 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[basis]]></category>
+		<category><![CDATA[collections]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[jse]]></category>
+		<category><![CDATA[reference]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1963</guid>
+		<description><![CDATA[ArrayList - fast adding items at the end of collection LinkedList - designed to give better performance when you insert or delete elements from the middle of the collection (in practice, an ArrayList is still usually what you want.) HashSet - prevent duplicates &#8230; <a href="http://blog.siwinski.info/dev/java-dev/java-collections-reference">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong><a title="java.util.ArrayList API" href="http://docs.oracle.com/javase/1.5.0/docs/api/java/util/ArrayList.html">ArrayList</a> </strong>- fast adding items at the end of collection</p>
+<p><a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/util/LinkedList.html"><strong>LinkedList</strong> </a>- designed to give better performance when you insert or delete elements from the middle of the collection (in practice, an ArrayList is still usually what you want.)</p>
+<p><a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/util/HashSet.html"><strong>HashSet</strong> </a>- prevent duplicates in the collection, and given an element, can find that element in the collection quickly</p>
+<p><a title="java.util.TreeSet API" href="http://docs.oracle.com/javase/1.5.0/docs/api/java/util/TreeSet.html" target="_blank"><strong>TreeSet</strong></a> - keep the elements sorted and prevents duplicates.</p>
+<p><a title="java.util.HashMap API" href="http://docs.oracle.com/javase/1.5.0/docs/api/java/util/HashMap.html"><strong>HashMap</strong> </a>- let&#8217;s you store and access elements as key(name)/value pairs</p>
+<p><a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/util/LinkedHashMap.html"><strong>LinkedHashMap</strong> </a>- like a regular HashMap, except it can remember the order in which elements (name/value pairs) were inserted, or it can be configured to remember the order in which elements were last accessed</p>
+<p><a href="http://docs.oracle.com/javase/1.5.0/docs/guide/collections/index.html">Java Collections Framework &#8211; Oracle Reference<br />
+</a><a href="http://docs.oracle.com/javase/tutorial/collections/index.html">Tutorial on Java Collections</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/java-collections-reference/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

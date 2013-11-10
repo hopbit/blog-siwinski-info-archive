@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; websphere</title>
+	<atom:link href="http://blog.siwinski.info/tag/websphere/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Problems with project compilation under RAD 7.0 boundled with WAS 6.1</title>
+		<link>http://blog.siwinski.info/dev/java-dev/problems-with-project-compilation-under-rad-7-0-boundled-with-was-6-1</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/problems-with-project-compilation-under-rad-7-0-boundled-with-was-6-1#comments</comments>
+		<pubDate>Thu, 25 Nov 2010 22:25:40 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[compilation problem]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[ide]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[problem]]></category>
+		<category><![CDATA[rad]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[websphere]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=562</guid>
+		<description><![CDATA[If You have error log with below codes: SRVE0203E  SRVE0206E  SRVE0187E  SRVE0210I  SRVE0234I Then just read carefully given error log (each path, line by line) and find the path which You&#8217;ve set incorrectly. &#8211; Links: * IBM developerWorks]]></description>
+				<content:encoded><![CDATA[<p><strong>If</strong> You have error log with below codes:</p>
+<blockquote><p>SRVE0203E  SRVE0206E  SRVE0187E  SRVE0210I  SRVE0234I</p></blockquote>
+<p><strong>Then</strong> just read carefully given error log (each path, line by line) and find the path which You&#8217;ve set incorrectly.</p>
+<p>&#8211;<br />
+Links:<br />
+* <a title="IBM developerWorks" href="http://www.ibm.com/developerworks/forums/thread.jspa?threadID=140825">IBM developerWorks</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/problems-with-project-compilation-under-rad-7-0-boundled-with-was-6-1/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

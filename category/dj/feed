@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; DJ</title>
+	<atom:link href="http://blog.siwinski.info/category/dj/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to connect Serato SL to DJ Console on Mac OS</title>
+		<link>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os</link>
+		<comments>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os#comments</comments>
+		<pubDate>Tue, 14 Aug 2012 21:31:35 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Serato]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[scratch live]]></category>
+		<category><![CDATA[serato]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[sl4]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=3</guid>
+		<description><![CDATA[Part1 &#8211; connections // Make sure that: players and mixer are both off, SL in switched off on laptop. Connect your CDs/Turntables with input in SL box. Ground turntables (if they&#8217;re not). You can ground them to serato box. Settle phono/cd &#8230; <a href="http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><span style="line-height: 18px;">Part1 &#8211; connections</span></p>
+<p>// Make sure that: players and mixer are both off, SL in switched off on laptop.</p>
+<ol>
+<li>Connect your CDs/Turntables with input in SL box.</li>
+<li>Ground turntables (if they&#8217;re not). You can ground them to serato box.</li>
+<li>Settle phono/cd dip switches properly on SL box.</li>
+<li>Connect AUX input for recording purposes with record output on mixer.</li>
+<li>Connect Output on SL box with cd/turntable input in mixer.</li>
+<li>You can connect optionally AUX output to separate channel as the sample player to another input in your mixer</li>
+<li>Settle Sample Rate to proper value (48kHz by default).</li>
+<li>Connect USB port on SL Box with USB port on your computer (remember to don&#8217;t use usb hub).</li>
+<li>Connect (optionally) power supply SL Box.</li>
+<li>Launch SL application on your computer (virtual decks should appear on your screen).</li>
+<li>Settle input sources on SL app.</li>
+</ol>
+<p>Part 2 &#8211; calibrating decks</p>
+<ol>
+<li>Set your signal threshold &#8211; settle needle on timecode vinyl/cd start (don&#8217;t start playing) and click estimate. Moving slider to left will make Serato more sensitive.</li>
+<li>If slider will go far right then you have problem with your connections (check them &amp; fix).</li>
+<li>When You settle treshold properly start your turntables. You&#8217;ll see green rings on your screens.</li>
+<li>For best perfomance and sound quality, rings should be nearest to the circles. Correct them with L/R balance and P/A balance.</li>
+<li>Percentage factor on right-down corner should be as close to 100% as possible.</li>
+</ol>
+<p>Now You&#8217;re ready to play, practice &amp; njoy!</p>
+<p>&nbsp;</p>
+<p>* Optional<br />
+** Turntables</p>
+<p><iframe src="http://www.youtube.com/embed/b26Ciw1Qmk8" height="169" width="300" allowfullscreen="" frameborder="0"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Usprawnień w importowaniu muzyki c.d.</title>
+		<link>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d</link>
+		<comments>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d#comments</comments>
+		<pubDate>Thu, 29 Dec 2011 23:26:09 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[itunes]]></category>
+		<category><![CDATA[mp3]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[script]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=125</guid>
+		<description><![CDATA[Poza zamianą nazw plików tak aby składały się tylko z samych małych liter była jeszcze jedna kwestia, którą niepotrzebnie robiłem ‚z palca&#8217;. iTunes ma to do siebie, że importuje albumy CD wg następującej konwencji: &#124;- artysta 1 &#124; &#124;- nazwa &#8230; <a href="http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Poza zamianą nazw plików tak aby składały się tylko z samych małych liter była jeszcze jedna kwestia, którą niepotrzebnie robiłem ‚z palca&#8217;. iTunes ma to do siebie, że importuje albumy CD wg następującej konwencji:</p>
+<blockquote><p>|- artysta 1<br />
+| |- nazwa albumu<br />
+| |- 1-01 nazwa utworu.mp3<br />
+| |- 1-02 nazwa utworu.mp3<br />
+| |- 2-01 nazwa utworu.mp3<br />
+|- artysta 2<br />
+| |- nazwa albumu<br />
+| |- 1-03 nazwa utworu.mp3<br />
+| |- 1-04 nazwa utworu.mp3<br />
+| |- 2-02 nazwa utworu.mp3<br />
+|- artysta 3<br />
+| |- nazwa albumu<br />
+| |- 1-05 nazwa utworu.mp3<br />
+| |- 2-03 nazwa utworu.mp3<br />
+| |- 2-04 nazwa utworu.mp3</p></blockquote>
+<p>Natomiast moja konwencja jest następująca:</p>
+<blockquote><p>|- nazwa albumu<br />
+| |- artysta1 &#8211; utwór1.mp3<br />
+| |- artysta1 &#8211; utwór2.mp3<br />
+| |- artysta2 &#8211; utwór3.mp3</p></blockquote>
+<p>Oto skrypt który konwertuje pliki zaimportowane z iTunes do ‚mojego formatu’ katalogowania i nazewnictwa plików:</p>
+<p><a title="_convert_mp3_filenames_imported_with_itunes.py" href="http://siwinski.info/script/python/_convert_mp3_filenames_imported_with_itunes_v3.txt" target="_blank">_convert_mp3_filenames_imported_with_itunes.py</a></p>
+<p>Fakt, że pierwsza wersja skryptu (druga również) nie za każdym razem działała tak jak tego oczekiwałem. Okazało się, że iTunes ma więcej niż jedną metodę nadawania nazw plikom. Musiałem poświęcić parę wieczorów na poprawki w celu dopracowania skryptu, ale zysk jest widoczny dla mnie gołym okiem. Wykorzystując powyższy skrypt mogę obecnie w tym samym czasie zaimportować 2-3 razy więcej albumów niż wcześniej. Jak to zwykle bywa, każde nowe rozwiązanie rodzi nowe problemy&#8230; Ciekawe jak szybko zostanę zmuszony do wymiany dysku na większy&#8230;</p>
+<p>Jednocześnie stwierdzam, że Python coraz bardziej mi się podoba. Po pierwsze zarówno sam język jak i kolejne funkcjonalności/biblioteki, których potrzebowałem są bardzo łatwe i intuicyjne w wykorzystaniu. Po drugie, wolę nie myśleć ile kodu i czasu zajęłoby mi zrobienie tego samego przy użyciu Javy&#8230; Odnoszę wrażenie, że nauka tworzenia takich prostych narzędzi w tym języku jest okupione bardzo małym kosztem.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2009-12-11: Livestream (No Mercy)</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-12-11-livestream-no-mercy</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-12-11-livestream-no-mercy#comments</comments>
+		<pubDate>Sun, 15 Nov 2009 00:03:33 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=184</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-12-11_livestream_at_nomercy.jpeg"><img class="alignnone size-medium wp-image-219" title="2009-12-11: Livestream @ No Mercy" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-12-11_livestream_at_nomercy-233x300.jpeg" alt="" width="233" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-12-11-livestream-no-mercy/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2009-07-31: Progressive Awake @ Opium</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-07-31-progressive-awake-opium</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-07-31-progressive-awake-opium#comments</comments>
+		<pubDate>Sun, 28 Jun 2009 22:59:32 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+		<category><![CDATA[progressive house]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=213</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2009/06/2009-07-31_progressive_awake_at_opium_2080x2874_flyer.jpg"><img class="alignnone size-medium wp-image-215" title="2009-07-31: Progressive Awake @ Opium" src="http://blog.siwinski.info/wp-content/uploads/2009/06/2009-07-31_progressive_awake_at_opium_2080x2874_flyer-217x300.jpg" alt="" width="217" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-07-31-progressive-awake-opium/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2009-05-09: Lobotomia @ Apartament</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-05-09-lobotomia-apartament</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-05-09-lobotomia-apartament#comments</comments>
+		<pubDate>Tue, 14 Apr 2009 22:58:08 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=208</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2009/04/2009-05-09_lobotomia.jpeg"><img class="alignnone size-medium wp-image-211" title="2009-05-09: Lobotomia @ Apartament" src="http://blog.siwinski.info/wp-content/uploads/2009/04/2009-05-09_lobotomia-199x300.jpeg" alt="" width="199" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-05-09-lobotomia-apartament/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2009-01-24: Poniecky B-day Bash</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-01-24-poniecky-b-day-bash</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-01-24-poniecky-b-day-bash#comments</comments>
+		<pubDate>Tue, 13 Jan 2009 23:55:31 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=204</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-01-24_poniecki_bday_bash.jpeg"><img class="alignnone size-medium wp-image-206" title="2009-01-24: Poniecki B-day Bash @" alt="" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-01-24_poniecki_bday_bash-300x234.jpeg" width="300" height="234" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-01-24-poniecky-b-day-bash/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2008-12-14: No Mercy 4 Commercy @ Jeans Club</title>
+		<link>http://blog.siwinski.info/dj/2008-12-14-no-mercy-4-commercy-jeans-club</link>
+		<comments>http://blog.siwinski.info/dj/2008-12-14-no-mercy-4-commercy-jeans-club#comments</comments>
+		<pubDate>Thu, 13 Nov 2008 23:53:12 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=200</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-12-14-no-mercy-4-commercy.jpeg"><img class="alignnone size-medium wp-image-202" title="2008-12-14: No Mercy 4 Commercy @ Jeans Club" alt="" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-12-14-no-mercy-4-commercy-213x300.jpeg" width="213" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/2008-12-14-no-mercy-4-commercy-jeans-club/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2008-09-11: Chase The Vinyl @ Saturator</title>
+		<link>http://blog.siwinski.info/dj/9-xi-chase-the-vinyl</link>
+		<comments>http://blog.siwinski.info/dj/9-xi-chase-the-vinyl#comments</comments>
+		<pubDate>Mon, 08 Sep 2008 22:48:58 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=193</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-11-09-chase-the-vinyl.jpeg"><img class="alignnone size-medium wp-image-195" title="2008-11-09 Chase The Vinyl" alt="" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-11-09-chase-the-vinyl-300x230.jpeg" width="300" height="230" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/9-xi-chase-the-vinyl/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Events</title>
+		<link>http://blog.siwinski.info/dj/events-dj/events</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/events#comments</comments>
+		<pubDate>Sat, 01 Sep 2007 18:33:43 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1410</guid>
+		<description><![CDATA[2009-12-11: Livestream (No Mercy, Warsaw) 2009-07-31: Progressive Awake (Opium, Warsaw) 2009-05-09: Lobotomia (Apartament, Warsaw) 2009-01-24: Poniecky B-day Bash (Warsaw) 2008-12-14: No Mercy 4 Commercy (Jeans Club, Warsaw) 2008-09-11: Chase The Vinyl (Saturator, Warsaw) 2007-09-01: Earthquake (Music Club, Warsaw)]]></description>
+				<content:encoded><![CDATA[<ul>
+<li><a href="http://blog.siwinski.info/music/2009-12-11-livestream-no-mercy">2009-12-11: Livestream (No Mercy, Warsaw)</a></li>
+<li><a href="http://blog.siwinski.info/music/2009-07-31-progressive-awake-opium">2009-07-31: Progressive Awake (Opium, Warsaw)</a></li>
+<li><a href="http://blog.siwinski.info/music/2009-05-09-lobotomia-apartament">2009-05-09: Lobotomia (Apartament, Warsaw)</a></li>
+<li><a href="http://blog.siwinski.info/music/2009-01-24-poniecky-b-day-bash">2009-01-24: Poniecky B-day Bash (Warsaw)</a></li>
+<li><a href="http://blog.siwinski.info/music/2008-12-14-no-mercy-4-commercy-jeans-club">2008-12-14: No Mercy 4 Commercy (Jeans Club, Warsaw)</a></li>
+<li><a href="http://blog.siwinski.info/music/9-xi-chase-the-vinyl">2008-09-11: Chase The Vinyl (Saturator, Warsaw)</a></li>
+<li><a href="http://blog.siwinski.info/music/31-viii-earthquake-music-club">2007-09-01: Earthquake (Music Club, Warsaw)</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/events/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2007-09-01: Earthquake @ Music Club</title>
+		<link>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club#comments</comments>
+		<pubDate>Tue, 31 Jul 2007 22:46:30 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[club]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=175</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2007-08-31_earthquake_at_music_club.jpg"><img class="alignnone size-medium wp-image-185" title="2007-08-31 Earthquake @ Music Club" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2007-08-31_earthquake_at_music_club-211x300.jpg" alt="" width="211" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

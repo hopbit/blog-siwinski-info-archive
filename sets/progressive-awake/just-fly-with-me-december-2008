@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="pl-PL">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="pl-PL">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="pl-PL">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="pl-PL">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Just fly with me (December 2008) | Continous Integration</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="../../wp-content/themes/twentyeleven/style.css" />
+<link rel="pingback" href="../../xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://blog.siwinski.info/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z wpisami" href="../../feed" />
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z komentarzami" href="../../comments/feed" />
+<link rel='stylesheet' id='dark-css'  href='../../wp-content/themes/twentyeleven/colors/dark.css' type='text/css' media='all' />
+<link rel='stylesheet' id='codecolorer-css'  href='../../wp-content/plugins/codecolorer/codecolorer.css@ver=0.9.9' type='text/css' media='screen' />
+<script type='text/javascript' src='http://blog.siwinski.info/wp-includes/js/comment-reply.min.js?ver=3.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc.php@rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.siwinski.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='2008-12-14: No Mercy 4 Commercy @ Jeans Club' href='../../dj/2008-12-14-no-mercy-4-commercy-jeans-club' />
+<link rel='next' title='2009-01-24: Poniecky B-day Bash' href='../../dj/events-dj/2009-01-24-poniecky-b-day-bash.1' />
+<meta name="generator" content="WordPress 3.7.1" />
+<link rel='canonical' href='../just-fly-with-me-december-2008' />
+<link rel='shortlink' href='../just-fly-with-me-december-2008' />
+<link rel="stylesheet" type="text/css" href="../../wp-content/plugins/wp-code-highlight/css/sunburst.css" media="screen" />
+	<style>
+		/* Link color */
+		a,
+		#site-title a:focus,
+		#site-title a:hover,
+		#site-title a:active,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-title a:active,
+		.widget_twentyeleven_ephemera .comments-link a:hover,
+		section.recent-posts .other-recent-posts a[rel="bookmark"]:hover,
+		section.recent-posts .other-recent-posts .comments-link a:hover,
+		.format-image footer.entry-meta a:hover,
+		#site-generator a:hover {
+			color: #e4741f;
+		}
+		section.recent-posts .other-recent-posts .comments-link a:hover {
+			border-color: #e4741f;
+		}
+		article.feature-image.small .entry-summary p a:hover,
+		.entry-header .comments-link a:hover,
+		.entry-header .comments-link a:focus,
+		.entry-header .comments-link a:active,
+		.feature-slider a.active {
+			background-color: #e4741f;
+		}
+	</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #e2e2e2; }
+</style>
+</head>
+
+<body class="single single-post postid-256 single-format-standard custom-background singular two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="../../index.html" title="Continous Integration" rel="home">Continous Integration</a></span></h1>
+				<h2 id="site-description">playing with code &amp; music</h2>
+			</hgroup>
+
+			
+								<form method="get" id="searchform" action="../../index.html">
+		<label for="s" class="assistive-text">Szukaj</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Szukaj" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Szukaj" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Menu główne</h3>
+								<div class="skip-link"><a class="assistive-text" href="just-fly-with-me-december-2008#content" title="Przeskocz do tekstu">Przeskocz do tekstu</a></div>
+				<div class="skip-link"><a class="assistive-text" href="just-fly-with-me-december-2008#secondary" title="Przeskocz do widgetów">Przeskocz do widgetów</a></div>
+								<div class="menu-start-container"><ul id="menu-start" class="menu"><li id="menu-item-1409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1409"><a href="../../food/cook-book.1">Cook Book</a></li>
+<li id="menu-item-1339" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1339"><a title="Git How To" href="../../dev/git-how-to">Git How To</a></li>
+<li id="menu-item-1423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1423"><a href="../../dj/events-dj/events">Events</a></li>
+<li id="menu-item-1617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1617"><a href="just-fly-with-me-december-2008#">Guitar</a>
+<ul class="sub-menu">
+	<li id="menu-item-1620" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1620"><a href="../../guitar-cat/guitar-chords">Chords</a></li>
+	<li id="menu-item-1618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1618"><a href="../../guitar-cat/theory/notes-on-guitar-fretboard">Notes on guitar fretboard</a></li>
+	<li id="menu-item-1428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1428"><a href="../../guitar-cat/piosenki">Song Book</a></li>
+</ul>
+</li>
+<li id="menu-item-1363" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1363"><a href="just-fly-with-me-december-2008#">Sets</a>
+<ul class="sub-menu">
+	<li id="menu-item-1431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1431"><a href="../fresh-dance-music">Fresh Dance Music</a></li>
+	<li id="menu-item-1435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1435"><a href="../progressive-awake">Progressive Awake</a></li>
+	<li id="menu-item-1439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1439"><a href="../quantum-energy.1">Quantum Energy</a></li>
+	<li id="menu-item-1443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1443"><a href="../unreleased-emotions.1">Unreleased Emotions</a></li>
+</ul>
+</li>
+</ul></div>			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Nawigacja po wpisach</h3>
+						<span class="nav-previous"><a href="../../dj/2008-12-14-no-mercy-4-commercy-jeans-club" rel="prev"><span class="meta-nav">&larr;</span> Wstecz</a></span>
+						<span class="nav-next"><a href="../../dj/events-dj/2009-01-24-poniecky-b-day-bash.1" rel="next">Dalej <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-256" class="post-256 post type-post status-publish format-standard hentry category-progressive-awake category-sets tag-progressive-house">
+	<header class="entry-header">
+		<h1 class="entry-title">Just fly with me (December 2008)</h1>
+
+				<div class="entry-meta">
+			<span class="sep">Opublikowany </span><a href="../just-fly-with-me-december-2008" title="22:15" rel="bookmark"><time class="entry-date" datetime="2008-12-19T22:15:56+00:00">2008-12-19 22:22</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_just_fly_with_me__december_2008.mp3"><img class="alignnone size-medium wp-image-259" title="Progressive Awake - Just fly with me (December 2008)" alt="" src="../../wp-content/uploads/2008/12/progressive_awake_-_just_fly_with_me__december_12th_2008-300x300.jpg" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Just fly with me (December 2008)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_just_fly_with_me__december_2008.mp3"><strong>DOWNLOAD (92MB, 1h 6min)</strong></a></p>
+<p>Tracklist:<br />
+1) sebastien leger &#8211; majuro (original mix)<br />
+2) alex kenji &#8211; ytaca (manuel de la mare stealth mix)<br />
+3) human8 &#8211; neverending story (max demand remix)<br />
+4) ryan davis &#8211; clouds passing by (eelke kleijn rmx)<br />
+5) 16 bit lolitas &#8211; murder weapon (original mix)<br />
+6) rob mooney &#8211; feelin’ electro (valentino kanzyani rmx)<br />
+7) ogi gee cash, dimiz &#8211; 4 things (original mix)<br />
+8) starchaser &#8211; a new society (thomas schwartz mix)<br />
+9) thomas schwartz &#8211; jupiter calling (original mix)<br />
+10) fuzzy hair &#8211; be free (thomas schwartz mix)<br />
+11) uwe worlitzer &#8211; fly with me (vids rmx)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		Kategorie: <a href="../../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>, <a href="../../category/sets.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Sets&#8221;" rel="category tag">Sets</a>. Tagi: <a href="../../tag/progressive-house.1" rel="tag">progressive house</a>. Autor: <a href="../../author/hopbit.1">Łukasz Siwiński</a>. Dodaj zakładkę do <a href="../just-fly-with-me-december-2008" title="Bezpośredni odnośnik do &#8222;Just fly with me (December 2008)&#8221;" rel="bookmark">bezpośredniego odnośnika</a>.		
+			</footer><!-- .entry-meta -->
+</article><!-- #post-256 -->
+
+						<div id="comments">
+	
+	
+	
+			
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+	<!--WP Code Highlight_start-->
+	<script type="text/javascript">
+		window.onload = function(){prettyPrint();};
+	</script>
+	<script type="text/javascript" src="../../wp-content/plugins/wp-code-highlight/js/wp-code-highlight.js"></script>
+	<!--WP Code Highlight_end-->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantyczna, osobista platforma publikacyjna">Dumnie wspierane przez WordPressa</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><script type="text/javascript"><!--
+document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://home.hit.stat24.com/_'+(new Date()).getTime()+'/script.js?id=d2OQbUb0WzOaSmvsssUXrKR..GLG7JfNlmLdsW2gIFP.E7"></'+'scr'+'ipt>');
+//--></script>

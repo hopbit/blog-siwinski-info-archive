@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; dj</title>
+	<atom:link href="http://blog.siwinski.info/tag/dj-2/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to stop iTunes messing around in your mp3 library?</title>
+		<link>http://blog.siwinski.info/dev/how-to-stop-itunes-messing-around-in-your-mp3-library</link>
+		<comments>http://blog.siwinski.info/dev/how-to-stop-itunes-messing-around-in-your-mp3-library#comments</comments>
+		<pubDate>Sun, 10 Feb 2013 22:38:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[itunes]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[mp3]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=752</guid>
+		<description><![CDATA[iTunes, by default, move and manage every music file into it&#8217;s &#8222;own&#8221; directory structure and hierarchy. As a DJ, this is the most unwanted feature for me. I have my own specific way of ordering music files on my HDD, &#8230; <a href="http://blog.siwinski.info/dev/how-to-stop-itunes-messing-around-in-your-mp3-library">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>iTunes, by default, move and manage every music file into it&#8217;s &#8222;own&#8221; directory structure and hierarchy. As a DJ, this is the most <strong>unwanted</strong> feature for me. I have my own specific way of ordering music files on my HDD, that I&#8217;ve developed since 2004 &#8211; it&#8217;s mirroring my CD Audio collection.</p>
+<p>Because of it, at the beginning of my journey with Mac I was desperately looking for other player &#8211; some that&#8217;s behaviour was similar Winamp&#8230; but there wasn&#8217;t any good alternative. Today I know, that there&#8217;s no better alternative for Winamp on Mac. I can say even more&#8230; now I think, that iTunes is the best player for me, I use it on Win platform too&#8230; But it took some time to get use to it. Below I&#8217;ve placed a couple of iTunes configuration settings, that I settle by default before I put any music file into it.</p>
+<p>In order to get into iTunes preferences just use [CMD + ,] shortcut &#8211; which is (should be?) default shortcut in any application on Mac to do it.</p>
+<p><strong>General</strong></p>
+<p>Check for new software updates automatically &#8211; checked</p>
+<p><strong>General &gt; Import settings</strong></p>
+<p>Use error correction when reading Audio CDs &#8211; checked</p>
+<p><strong>General &gt; Import Settings &gt; Custom&#8230;</strong></p>
+<p>Bit rate &#8211; 320 kbps<br />
+Use Variable Bit Rate Encoding (VBR) &#8211; Unchecked<br />
+Sample Rate &#8211; 44.100 kHZ<br />
+Channels &#8211; Stereo<br />
+Stereo Mode &#8211; Normal<br />
+Smart Encoding Adjustments &#8211; Checked<br />
+Filter Frequencies Below 10HZ &#8211; Unchecked</p>
+<p><strong>Sharing</strong></p>
+<p><strong></strong>Share my library on my local network &#8211; Unchecked</p>
+<p><strong>Devices</strong></p>
+<p><strong></strong>Prevent iPods, iPhones, and iPads from syncing automatically &#8211; Checked</p>
+<p><strong>Advanced</strong></p>
+<p>iTunes Media folder locations &#8211; I&#8217;ve changed it to folder of my destination (e.g. <em>~/User/music/ripped</em>)<strong><br />
+</strong><span style="text-decoration: underline;">Keep iTunes Media folder organised &#8211; Unchecked<br />
+Copy files to iTunes Media folder when adding to library &#8211; Unchecked</span></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-stop-itunes-messing-around-in-your-mp3-library/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to connect Serato SL to DJ Console on Mac OS</title>
+		<link>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os</link>
+		<comments>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os#comments</comments>
+		<pubDate>Tue, 14 Aug 2012 21:31:35 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Serato]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[scratch live]]></category>
+		<category><![CDATA[serato]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[sl4]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=3</guid>
+		<description><![CDATA[Part1 &#8211; connections // Make sure that: players and mixer are both off, SL in switched off on laptop. Connect your CDs/Turntables with input in SL box. Ground turntables (if they&#8217;re not). You can ground them to serato box. Settle phono/cd &#8230; <a href="http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><span style="line-height: 18px;">Part1 &#8211; connections</span></p>
+<p>// Make sure that: players and mixer are both off, SL in switched off on laptop.</p>
+<ol>
+<li>Connect your CDs/Turntables with input in SL box.</li>
+<li>Ground turntables (if they&#8217;re not). You can ground them to serato box.</li>
+<li>Settle phono/cd dip switches properly on SL box.</li>
+<li>Connect AUX input for recording purposes with record output on mixer.</li>
+<li>Connect Output on SL box with cd/turntable input in mixer.</li>
+<li>You can connect optionally AUX output to separate channel as the sample player to another input in your mixer</li>
+<li>Settle Sample Rate to proper value (48kHz by default).</li>
+<li>Connect USB port on SL Box with USB port on your computer (remember to don&#8217;t use usb hub).</li>
+<li>Connect (optionally) power supply SL Box.</li>
+<li>Launch SL application on your computer (virtual decks should appear on your screen).</li>
+<li>Settle input sources on SL app.</li>
+</ol>
+<p>Part 2 &#8211; calibrating decks</p>
+<ol>
+<li>Set your signal threshold &#8211; settle needle on timecode vinyl/cd start (don&#8217;t start playing) and click estimate. Moving slider to left will make Serato more sensitive.</li>
+<li>If slider will go far right then you have problem with your connections (check them &amp; fix).</li>
+<li>When You settle treshold properly start your turntables. You&#8217;ll see green rings on your screens.</li>
+<li>For best perfomance and sound quality, rings should be nearest to the circles. Correct them with L/R balance and P/A balance.</li>
+<li>Percentage factor on right-down corner should be as close to 100% as possible.</li>
+</ol>
+<p>Now You&#8217;re ready to play, practice &amp; njoy!</p>
+<p>&nbsp;</p>
+<p>* Optional<br />
+** Turntables</p>
+<p><iframe src="http://www.youtube.com/embed/b26Ciw1Qmk8" height="169" width="300" allowfullscreen="" frameborder="0"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2009-12-11: Livestream (No Mercy)</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-12-11-livestream-no-mercy</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-12-11-livestream-no-mercy#comments</comments>
+		<pubDate>Sun, 15 Nov 2009 00:03:33 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=184</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-12-11_livestream_at_nomercy.jpeg"><img class="alignnone size-medium wp-image-219" title="2009-12-11: Livestream @ No Mercy" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-12-11_livestream_at_nomercy-233x300.jpeg" alt="" width="233" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-12-11-livestream-no-mercy/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2009-07-31: Progressive Awake @ Opium</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-07-31-progressive-awake-opium</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-07-31-progressive-awake-opium#comments</comments>
+		<pubDate>Sun, 28 Jun 2009 22:59:32 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+		<category><![CDATA[progressive house]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=213</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2009/06/2009-07-31_progressive_awake_at_opium_2080x2874_flyer.jpg"><img class="alignnone size-medium wp-image-215" title="2009-07-31: Progressive Awake @ Opium" src="http://blog.siwinski.info/wp-content/uploads/2009/06/2009-07-31_progressive_awake_at_opium_2080x2874_flyer-217x300.jpg" alt="" width="217" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-07-31-progressive-awake-opium/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2009-05-09: Lobotomia @ Apartament</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-05-09-lobotomia-apartament</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-05-09-lobotomia-apartament#comments</comments>
+		<pubDate>Tue, 14 Apr 2009 22:58:08 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=208</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2009/04/2009-05-09_lobotomia.jpeg"><img class="alignnone size-medium wp-image-211" title="2009-05-09: Lobotomia @ Apartament" src="http://blog.siwinski.info/wp-content/uploads/2009/04/2009-05-09_lobotomia-199x300.jpeg" alt="" width="199" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-05-09-lobotomia-apartament/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2009-01-24: Poniecky B-day Bash</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-01-24-poniecky-b-day-bash</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-01-24-poniecky-b-day-bash#comments</comments>
+		<pubDate>Tue, 13 Jan 2009 23:55:31 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=204</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-01-24_poniecki_bday_bash.jpeg"><img class="alignnone size-medium wp-image-206" title="2009-01-24: Poniecki B-day Bash @" alt="" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-01-24_poniecki_bday_bash-300x234.jpeg" width="300" height="234" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-01-24-poniecky-b-day-bash/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2008-12-14: No Mercy 4 Commercy @ Jeans Club</title>
+		<link>http://blog.siwinski.info/dj/2008-12-14-no-mercy-4-commercy-jeans-club</link>
+		<comments>http://blog.siwinski.info/dj/2008-12-14-no-mercy-4-commercy-jeans-club#comments</comments>
+		<pubDate>Thu, 13 Nov 2008 23:53:12 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=200</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-12-14-no-mercy-4-commercy.jpeg"><img class="alignnone size-medium wp-image-202" title="2008-12-14: No Mercy 4 Commercy @ Jeans Club" alt="" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-12-14-no-mercy-4-commercy-213x300.jpeg" width="213" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/2008-12-14-no-mercy-4-commercy-jeans-club/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2008-09-11: Chase The Vinyl @ Saturator</title>
+		<link>http://blog.siwinski.info/dj/9-xi-chase-the-vinyl</link>
+		<comments>http://blog.siwinski.info/dj/9-xi-chase-the-vinyl#comments</comments>
+		<pubDate>Mon, 08 Sep 2008 22:48:58 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=193</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-11-09-chase-the-vinyl.jpeg"><img class="alignnone size-medium wp-image-195" title="2008-11-09 Chase The Vinyl" alt="" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-11-09-chase-the-vinyl-300x230.jpeg" width="300" height="230" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/9-xi-chase-the-vinyl/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2007-09-01: Earthquake @ Music Club</title>
+		<link>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club#comments</comments>
+		<pubDate>Tue, 31 Jul 2007 22:46:30 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[club]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=175</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2007-08-31_earthquake_at_music_club.jpg"><img class="alignnone size-medium wp-image-185" title="2007-08-31 Earthquake @ Music Club" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2007-08-31_earthquake_at_music_club-211x300.jpg" alt="" width="211" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

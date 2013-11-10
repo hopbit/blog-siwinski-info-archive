@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; vim</title>
+	<atom:link href="http://blog.siwinski.info/tag/vim/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Show (hide) line numbers in Vim</title>
+		<link>http://blog.siwinski.info/dev/vim-pokaz-ukryj-numery-linii</link>
+		<comments>http://blog.siwinski.info/dev/vim-pokaz-ukryj-numery-linii#comments</comments>
+		<pubDate>Fri, 28 Dec 2012 23:48:38 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[vim]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=605</guid>
+		<description><![CDATA[:set number :set nonumber # ewentualnie, jeśli chcesz miec to na stałe to: echo &#34;:set number&#34; &#62;&#62; ~/.vimrc]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">:set number<br />
+:set nonumber<br />
+<br />
+<span style="color: #666666; font-style: italic;"># ewentualnie, jeśli chcesz miec to na stałe to:</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;:set number&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> ~<span style="color: #000000; font-weight: bold;">/</span>.vimrc</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/vim-pokaz-ukryj-numery-linii/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Vim Cheatsheet</title>
+		<link>http://blog.siwinski.info/dev/vim-cheatsheet</link>
+		<comments>http://blog.siwinski.info/dev/vim-cheatsheet#comments</comments>
+		<pubDate>Wed, 12 Sep 2012 21:19:27 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[cheatsheet]]></category>
+		<category><![CDATA[reference]]></category>
+		<category><![CDATA[vim]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=627</guid>
+		<description><![CDATA[--- Copy &#38; Paste Press [v]. (To enter visual mode so you can highlight stuff) Use the [arrow keys] or [h],[j],[k],[l],[w],[b],[$] --- Copy &#38; Paste (with Registers) --- Deleting Delete character [x] Delete word [d][w] Delete word and insert text &#8230; <a href="http://blog.siwinski.info/dev/vim-cheatsheet">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">
+
+--- Copy &amp; Paste
+
+Press [v]. (To enter visual mode so you can highlight stuff)
+
+Use the [arrow keys] or [h],[j],[k],[l],[w],[b],[$]
+
+--- Copy &amp; Paste (with Registers)
+
+--- Deleting 
+
+Delete character [x]
+Delete word [d][w]
+Delete word and insert text [c][w]
+
+
+--- Search &amp; Replace 
+A
+	go to the end of the line and start edition at this point
+
+53gg
+	go to 53rd line of current file
+43G
+	go to the beginning of the 43rd line 
+		
+	
+
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/vim-cheatsheet/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>VIM Keyboard Shortcuts</title>
+		<link>http://blog.siwinski.info/dev/vim-keyboard-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/vim-keyboard-shortcuts#comments</comments>
+		<pubDate>Sat, 16 Oct 2010 21:53:48 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[vim]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=544</guid>
+		<description><![CDATA[General i start insert mode Esc back to to command mode :w [filename] save current file as specified [filename] :q quit vim Moving around the text j up k down h left l right e move to the end of &#8230; <a href="http://blog.siwinski.info/dev/vim-keyboard-shortcuts">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>General</p>
+<table>
+<tbody>
+<tr>
+<td>i</td>
+<td>start insert mode</td>
+</tr>
+<tr>
+<td>Esc</td>
+<td>back to to command mode</td>
+</tr>
+<tr>
+<td>:w [filename]</td>
+<td>save current file as specified [filename]</td>
+</tr>
+<tr>
+<td>:q</td>
+<td>quit vim</td>
+</tr>
+</tbody>
+</table>
+<p>Moving around the text</p>
+<table>
+<tbody>
+<tr>
+<td>j</td>
+<td>up</td>
+</tr>
+<tr>
+<td>k</td>
+<td>down</td>
+</tr>
+<tr>
+<td>h</td>
+<td>left</td>
+</tr>
+<tr>
+<td>l</td>
+<td>right</td>
+</tr>
+<tr>
+<td>e</td>
+<td>move to the end of current or next word</td>
+</tr>
+<tr>
+<td>b</td>
+<td>move to the beginning of current or next word</td>
+</tr>
+</tbody>
+</table>
+<p>sources:<br />
+1) <a title="keyxl.com" href="http://www.keyxl.com/aaa8263/290/VIM-keyboard-shortcuts.htm" target="_blank">keyxl.com</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/vim-keyboard-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Komentarze do: How to check/list git settings?</title>
+	<atom:link href="http://blog.siwinski.info/dev/how-to-checklist-git-settings/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info/dev/how-to-checklist-git-settings</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Thu, 11 Jul 2013 08:06:33 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Autor: Git How To &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/dev/how-to-checklist-git-settings#comment-161</link>
+		<dc:creator><![CDATA[Git How To &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sat, 23 Mar 2013 02:35:55 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1188#comment-161</guid>
+		<description><![CDATA[[...] - How to settle your favourite editor for git to use it? - Configuration levels  - How to show current configuration? - How to set up basic configuration - How to make/force git to ignore file mode changes (chmod)? [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] &#8211; How to settle your favourite editor for git to use it? &#8211; Configuration levels  &#8211; How to show current configuration? - How to set up basic configuration - How to make/force git to ignore file mode changes (chmod)? [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

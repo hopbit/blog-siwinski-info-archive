@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; config</title>
+	<atom:link href="http://blog.siwinski.info/tag/config/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to check/list git settings?</title>
+		<link>http://blog.siwinski.info/dev/how-to-checklist-git-settings</link>
+		<comments>http://blog.siwinski.info/dev/how-to-checklist-git-settings#comments</comments>
+		<pubDate>Sat, 23 Mar 2013 02:34:49 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1188</guid>
+		<description><![CDATA[$ git config --list # check value for specific git config key $ git config &#123;key&#125; # np. $ git config user.email]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--list</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># check value for specific git config key</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #7a0874; font-weight: bold;">&#123;</span>key<span style="color: #7a0874; font-weight: bold;">&#125;</span> <span style="color: #666666; font-style: italic;"># np.</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> user.email</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-checklist-git-settings/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to settle you favourite editor for git</title>
+		<link>http://blog.siwinski.info/dev/how-to-settle-you-favourite-editor-for-git</link>
+		<comments>http://blog.siwinski.info/dev/how-to-settle-you-favourite-editor-for-git#comments</comments>
+		<pubDate>Sat, 23 Mar 2013 02:30:43 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1185</guid>
+		<description><![CDATA[$ git config --global core.editor vim # or $ git config --global core.editor emacs $ git config --global core.editor notepad # at windows $ git config --global core.editor notepad+]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> core.editor <span style="color: #c20cb9; font-weight: bold;">vim</span> <span style="color: #666666; font-style: italic;"># or</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> core.editor emacs<br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> core.editor notepad <span style="color: #666666; font-style: italic;"># at windows</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> core.editor notepad+</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-settle-you-favourite-editor-for-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>git config levels</title>
+		<link>http://blog.siwinski.info/dev/git-config-levels</link>
+		<comments>http://blog.siwinski.info/dev/git-config-levels#comments</comments>
+		<pubDate>Sat, 23 Mar 2013 02:24:48 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1162</guid>
+		<description><![CDATA[file /etc/gitconfig : this is where configs are written/storred when using git config command with &#8211;system option file ~/.gitconfig : contains settings specify for your user. you can read/write to this file with &#8211;global option passed to ‚git config’ command &#8230; <a href="http://blog.siwinski.info/dev/git-config-levels">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<ul>
+<li>file <em>/etc/gitconfig</em> : this is where configs are written/storred when using git config command with <em>&#8211;system</em> option</li>
+<li>file <em>~/.gitconfig</em> : contains settings specify for your user. you can read/write to this file with &#8211;global option passed to ‚git config’ command</li>
+<li>config file in your project git directory (yourproject/.git/config) is specific to that single directory/repository</li>
+</ul>
+<p><strong>Caution!</strong><br />
+each level overrides values in previous level</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git-config-levels/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to set up basic git config?</title>
+		<link>http://blog.siwinski.info/dev/how-to-set-up-basic-git-config</link>
+		<comments>http://blog.siwinski.info/dev/how-to-set-up-basic-git-config#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 21:26:51 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=927</guid>
+		<description><![CDATA[## obligatory ## ------------------------------------------------ # set user/commiter name git config --global user.name &#34;Kapitan Bomba&#34; # set user/commiter email git config --global user.email &#34;kapitan.bomba@youtu.be&#34; ## hint: type git config without &#34;--global&#34; option if you want ## to have settings specific only &#8230; <a href="http://blog.siwinski.info/dev/how-to-set-up-basic-git-config">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;">## obligatory ## ------------------------------------------------</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># set user/commiter name</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> user.name <span style="color: #ff0000;">&quot;Kapitan Bomba&quot;</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># set user/commiter email</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> user.email <span style="color: #ff0000;">&quot;kapitan.bomba@youtu.be&quot;</span><br />
+<br />
+<span style="color: #666666; font-style: italic;">## hint: type git config without &quot;--global&quot; option if you want</span><br />
+<span style="color: #666666; font-style: italic;">## to have settings specific only for current repository</span><br />
+<span style="color: #666666; font-style: italic;">## (it'll write to project/.git/config file).</span><br />
+<br />
+<span style="color: #666666; font-style: italic;">## optional ## --------------------------------------------------</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># setting up nice colors</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> color.diff auto<br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> color.status auto<br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> color.branch auto<br />
+<br />
+<span style="color: #666666; font-style: italic;"># setting up default merge tool</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> merge.tool vimdiff<br />
+<br />
+<span style="color: #666666; font-style: italic;"># or: kdiff3, tkdiff, meld, xxdiff, emerge, vimdiff,</span><br />
+<span style="color: #666666; font-style: italic;"># gvimdiff, ecmerge, opendiff</span><br />
+<span style="color: #666666; font-style: italic;"># you can also setup a custom tool (fixme - how to do this???)</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-set-up-basic-git-config/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>git config</title>
+		<link>http://blog.siwinski.info/dev/git-config</link>
+		<comments>http://blog.siwinski.info/dev/git-config#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:26:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[dotfile]]></category>
+		<category><![CDATA[git]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=664</guid>
+		<description><![CDATA[Setup ----- git clone &#60;repo&#62; clone the repository specified by &#60;repo&#62;; this is similar to &#34;checkout&#34; in some other version control systems such as Subversion and CVS Add colors to your ~/.gitconfig file: [color] ui = auto [color &#34;branch&#34;] current &#8230; <a href="http://blog.siwinski.info/dev/git-config">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">
+Setup
+-----
+
+git clone &lt;repo&gt;
+  clone the repository specified by &lt;repo&gt;; this is similar to &quot;checkout&quot; in
+  some other version control systems such as Subversion and CVS
+
+Add colors to your ~/.gitconfig file:
+
+  [color]
+    ui = auto
+  [color &quot;branch&quot;]
+    current = yellow reverse
+    local = yellow
+    remote = green
+  [color &quot;diff&quot;]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+  [color &quot;status&quot;]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+Highlight whitespace in diffs
+
+  [color]
+    ui = true
+  [color &quot;diff&quot;]
+    whitespace = red reverse
+  [core]
+    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+Add aliases to your ~/.gitconfig file:
+
+  [alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    dc = diff --cached
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    ls = ls-files
+
+    # Show files ignored by git:
+    ign = ls-files -o -i --exclude-standard
+
+
+Configuration
+-------------
+
+git config -e [--global]
+  edit the .git/config [or ~/.gitconfig] file in your $EDITOR
+
+git config --global user.name &#039;John Doe&#039;
+git config --global user.email johndoe@example.com
+  sets your name and email for commit messages
+
+git config branch.autosetupmerge true
+  tells git-branch and git-checkout to setup new branches so that git-pull(1)
+  will appropriately merge from that remote branch.  Recommended.  Without this,
+  you will have to add --track to your branch command or manually merge remote
+  tracking branches with &quot;fetch&quot; and then &quot;merge&quot;.
+
+git config core.autocrlf true
+  This setting tells git to convert the newlines to the system&#039;s standard
+  when checking out files, and to LF newlines when committing in
+
+git config --list
+  To view all options
+
+git config apply.whitespace nowarn
+  To ignore whitespace
+
+You can add &quot;--global&quot; after &quot;git config&quot; to any of these commands to make it
+apply to all git repos (writes to ~/.gitconfig).
+
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git-config/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to connect Serato SL to DJ Console on Mac OS</title>
+		<link>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os</link>
+		<comments>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os#comments</comments>
+		<pubDate>Tue, 14 Aug 2012 21:31:35 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Serato]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[scratch live]]></category>
+		<category><![CDATA[serato]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[sl4]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=3</guid>
+		<description><![CDATA[Part1 &#8211; connections // Make sure that: players and mixer are both off, SL in switched off on laptop. Connect your CDs/Turntables with input in SL box. Ground turntables (if they&#8217;re not). You can ground them to serato box. Settle phono/cd &#8230; <a href="http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><span style="line-height: 18px;">Part1 &#8211; connections</span></p>
+<p>// Make sure that: players and mixer are both off, SL in switched off on laptop.</p>
+<ol>
+<li>Connect your CDs/Turntables with input in SL box.</li>
+<li>Ground turntables (if they&#8217;re not). You can ground them to serato box.</li>
+<li>Settle phono/cd dip switches properly on SL box.</li>
+<li>Connect AUX input for recording purposes with record output on mixer.</li>
+<li>Connect Output on SL box with cd/turntable input in mixer.</li>
+<li>You can connect optionally AUX output to separate channel as the sample player to another input in your mixer</li>
+<li>Settle Sample Rate to proper value (48kHz by default).</li>
+<li>Connect USB port on SL Box with USB port on your computer (remember to don&#8217;t use usb hub).</li>
+<li>Connect (optionally) power supply SL Box.</li>
+<li>Launch SL application on your computer (virtual decks should appear on your screen).</li>
+<li>Settle input sources on SL app.</li>
+</ol>
+<p>Part 2 &#8211; calibrating decks</p>
+<ol>
+<li>Set your signal threshold &#8211; settle needle on timecode vinyl/cd start (don&#8217;t start playing) and click estimate. Moving slider to left will make Serato more sensitive.</li>
+<li>If slider will go far right then you have problem with your connections (check them &amp; fix).</li>
+<li>When You settle treshold properly start your turntables. You&#8217;ll see green rings on your screens.</li>
+<li>For best perfomance and sound quality, rings should be nearest to the circles. Correct them with L/R balance and P/A balance.</li>
+<li>Percentage factor on right-down corner should be as close to 100% as possible.</li>
+</ol>
+<p>Now You&#8217;re ready to play, practice &amp; njoy!</p>
+<p>&nbsp;</p>
+<p>* Optional<br />
+** Turntables</p>
+<p><iframe src="http://www.youtube.com/embed/b26Ciw1Qmk8" height="169" width="300" allowfullscreen="" frameborder="0"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to add nice favicon in your web application?</title>
+		<link>http://blog.siwinski.info/dev/how-to-add-nice-favicon-in-your-web-application</link>
+		<comments>http://blog.siwinski.info/dev/how-to-add-nice-favicon-in-your-web-application#comments</comments>
+		<pubDate>Thu, 19 Jul 2012 21:55:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apache]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[favicon]]></category>
+		<category><![CDATA[http]]></category>
+		<category><![CDATA[httpd]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[tips]]></category>
+		<category><![CDATA[webapps]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=694</guid>
+		<description><![CDATA[1. create your favicon.ico file 2. put your favicon.ico into serwer root directory 3. in httpd.conf add line AddType image/x-icon .ico 4. put favicon.ico in root dir of your application?]]></description>
+				<content:encoded><![CDATA[<p>1. create your favicon.ico file<br />
+2. put your favicon.ico into serwer root directory<br />
+3. in httpd.conf add line</p>
+<pre class="wp-code-highlight prettyprint">	AddType image/x-icon .ico</pre>
+<p>4. put favicon.ico in root dir of your application?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-add-nice-favicon-in-your-web-application/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

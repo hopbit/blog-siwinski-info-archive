@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; popstep</title>
+	<atom:link href="http://blog.siwinski.info/tag/popstep/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Chillstep (June 2011)</title>
+		<link>http://blog.siwinski.info/sets/unreleased-emotions/chillstep-june-2011</link>
+		<comments>http://blog.siwinski.info/sets/unreleased-emotions/chillstep-june-2011#comments</comments>
+		<pubDate>Thu, 09 Jun 2011 21:04:30 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Unreleased Emotions]]></category>
+		<category><![CDATA[dubstep]]></category>
+		<category><![CDATA[popstep]]></category>
+		<category><![CDATA[progressive house]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=734</guid>
+		<description><![CDATA[DOWNLOAD (93MB, 1h 7min) Tracklist: * excision, downling &#8211; existence vip (original mix) * deadmau5 &#8211; raise your weapon (original mix) * spor &#8211; pacifica (kito &#38; reija lee vocal remix) * deadmau5 &#8211; one trick pony (original mix) * &#8230; <a href="http://blog.siwinski.info/sets/unreleased-emotions/chillstep-june-2011">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://siwinski.info/download/unreleased-emotions/unreleased_emotions_-_chillstep__june_2011.mp3"><img class="size-medium wp-image-735 alignnone" title="Unreleased Emotions - Chillstep (June 2011)" alt="Unreleased Emotions - Chillstep (June 2011)" src="http://blog.siwinski.info/wp-content/uploads/2013/01/unreleased_emotions_-_chillstep__june_2011-300x300.jpg" width="300" height="300" /></a></p>
+<p><strong><a title="Unreleased Emotions - Chillstep (June 2011)" href="http://siwinski.info/download/unreleased-emotions/unreleased_emotions_-_chillstep__june_2011.mp3">DOWNLOAD (93MB, 1h 7min)</a></strong></p>
+<p>Tracklist:</p>
+<p>* excision, downling &#8211; existence vip (original mix)<br />
+* deadmau5 &#8211; raise your weapon (original mix)<br />
+* spor &#8211; pacifica (kito &amp; reija lee vocal remix)<br />
+* deadmau5 &#8211; one trick pony (original mix)<br />
+* kito, reija lee &#8211; sweet talk (original mix)<br />
+* dj fresh, sigma, koko &#8211; lassitude (jakwob remix)<br />
+* karetus, ricco vitali &#8211; future is now (schoolboy remix)<br />
+* xilent &#8211; choose me 2 (original mix)<br />
+* rusko &#8211; everyday (original mix)<br />
+* tron, hoax, persist &#8211; i dare you (original mix)<br />
+* paradigm &#8211; dreamer (original mix)<br />
+* fatboy slim &#8211; right here right now (jfb remix)<br />
+* calvertron &#8211; future proof (original mix)<br />
+* document one &#8211; clap (original mix)<br />
+* hirshee, tonye aganaba &#8211; so good (original mix)<br />
+* noisia &#8211; alpha centauri excision (datsik remix)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/sets/unreleased-emotions/chillstep-june-2011/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+<enclosure url="http://siwinski.info/download/unreleased-emotions/unreleased_emotions_-_chillstep__june_2011.mp3" length="96962830" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>

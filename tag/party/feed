@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; party</title>
+	<atom:link href="http://blog.siwinski.info/tag/party/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>2009-12-11: Livestream (No Mercy)</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-12-11-livestream-no-mercy</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-12-11-livestream-no-mercy#comments</comments>
+		<pubDate>Sun, 15 Nov 2009 00:03:33 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=184</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-12-11_livestream_at_nomercy.jpeg"><img class="alignnone size-medium wp-image-219" title="2009-12-11: Livestream @ No Mercy" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-12-11_livestream_at_nomercy-233x300.jpeg" alt="" width="233" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-12-11-livestream-no-mercy/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2009-07-31: Progressive Awake @ Opium</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-07-31-progressive-awake-opium</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-07-31-progressive-awake-opium#comments</comments>
+		<pubDate>Sun, 28 Jun 2009 22:59:32 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+		<category><![CDATA[progressive house]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=213</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2009/06/2009-07-31_progressive_awake_at_opium_2080x2874_flyer.jpg"><img class="alignnone size-medium wp-image-215" title="2009-07-31: Progressive Awake @ Opium" src="http://blog.siwinski.info/wp-content/uploads/2009/06/2009-07-31_progressive_awake_at_opium_2080x2874_flyer-217x300.jpg" alt="" width="217" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-07-31-progressive-awake-opium/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2009-05-09: Lobotomia @ Apartament</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-05-09-lobotomia-apartament</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-05-09-lobotomia-apartament#comments</comments>
+		<pubDate>Tue, 14 Apr 2009 22:58:08 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=208</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2009/04/2009-05-09_lobotomia.jpeg"><img class="alignnone size-medium wp-image-211" title="2009-05-09: Lobotomia @ Apartament" src="http://blog.siwinski.info/wp-content/uploads/2009/04/2009-05-09_lobotomia-199x300.jpeg" alt="" width="199" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-05-09-lobotomia-apartament/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2009-01-24: Poniecky B-day Bash</title>
+		<link>http://blog.siwinski.info/dj/events-dj/2009-01-24-poniecky-b-day-bash</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/2009-01-24-poniecky-b-day-bash#comments</comments>
+		<pubDate>Tue, 13 Jan 2009 23:55:31 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=204</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-01-24_poniecki_bday_bash.jpeg"><img class="alignnone size-medium wp-image-206" title="2009-01-24: Poniecki B-day Bash @" alt="" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2009-01-24_poniecki_bday_bash-300x234.jpeg" width="300" height="234" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/2009-01-24-poniecky-b-day-bash/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2008-12-14: No Mercy 4 Commercy @ Jeans Club</title>
+		<link>http://blog.siwinski.info/dj/2008-12-14-no-mercy-4-commercy-jeans-club</link>
+		<comments>http://blog.siwinski.info/dj/2008-12-14-no-mercy-4-commercy-jeans-club#comments</comments>
+		<pubDate>Thu, 13 Nov 2008 23:53:12 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=200</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-12-14-no-mercy-4-commercy.jpeg"><img class="alignnone size-medium wp-image-202" title="2008-12-14: No Mercy 4 Commercy @ Jeans Club" alt="" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-12-14-no-mercy-4-commercy-213x300.jpeg" width="213" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/2008-12-14-no-mercy-4-commercy-jeans-club/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2008-09-11: Chase The Vinyl @ Saturator</title>
+		<link>http://blog.siwinski.info/dj/9-xi-chase-the-vinyl</link>
+		<comments>http://blog.siwinski.info/dj/9-xi-chase-the-vinyl#comments</comments>
+		<pubDate>Mon, 08 Sep 2008 22:48:58 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=193</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-11-09-chase-the-vinyl.jpeg"><img class="alignnone size-medium wp-image-195" title="2008-11-09 Chase The Vinyl" alt="" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2008-11-09-chase-the-vinyl-300x230.jpeg" width="300" height="230" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/9-xi-chase-the-vinyl/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2007-09-01: Earthquake @ Music Club</title>
+		<link>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club</link>
+		<comments>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club#comments</comments>
+		<pubDate>Tue, 31 Jul 2007 22:46:30 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[club]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[party]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=175</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/wp-content/uploads/2012/11/2007-08-31_earthquake_at_music_club.jpg"><img class="alignnone size-medium wp-image-185" title="2007-08-31 Earthquake @ Music Club" src="http://blog.siwinski.info/wp-content/uploads/2012/11/2007-08-31_earthquake_at_music_club-211x300.jpg" alt="" width="211" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/events-dj/31-viii-earthquake-music-club/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

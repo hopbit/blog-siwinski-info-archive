@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; Theory</title>
+	<atom:link href="http://blog.siwinski.info/category/guitar-cat/theory/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Notes on guitar fingerboard</title>
+		<link>http://blog.siwinski.info/guitar-cat/theory/notes-on-guitar-fretboard</link>
+		<comments>http://blog.siwinski.info/guitar-cat/theory/notes-on-guitar-fretboard#comments</comments>
+		<pubDate>Sun, 11 Nov 2012 00:14:12 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Theory]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1602</guid>
+		<description><![CDATA[Polish notation &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#124;--&#62; 440 kHZ &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#8230; <a href="http://blog.siwinski.info/guitar-cat/theory/notes-on-guitar-fretboard">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Polish notation</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |--&gt; 440 kHZ<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />
+E |---F---|--Fis--|---G---|--Gis--|---A---|<br />
+H |---C---|--Cis--|---D---|--Dis--|---E---|<br />
+G |--Gis--|---A---|--Ais--|---H---|---C---|<br />
+D |--Dis--|---E---|---F---|--Fis--|---G---|<br />
+A |--Ais--|---H---|---C---|--Cis--|---D---|<br />
+E |---F---|--Fis--|---G---|--Gis--|---A---|</div></div>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |--&gt; 440 kHZ<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />
+E |---F---|--Fis--|--Ges--|--As---|---A---|<br />
+H |---C---|--Des--|---D---|--Es---|---E---|<br />
+G |--As---|---A---|---B---|---H---|---C---|<br />
+D |--Es---|---E---|---F---|--Ges--|---G---|<br />
+A |---B---|---H---|---C---|--Des--|---D---|<br />
+E |---F---|--Ges--|---G---|--As---|---A---|</div></div>
+<p><br/></p>
+<hr/>
+<p>Worldwide(?) notation</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |--&gt; 440 kHZ<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />
+E |---F---|--Fsh--|---G---|--Gsh--|---A---|<br />
+B |---C---|--Csh--|---D---|--Dsh--|---E---|<br />
+G |--Gsh--|---A---|--Ash--|---B---|---C---|<br />
+D |--Dsh--|---E---|---F---|--Fsh--|---G---|<br />
+A |--Ash--|---B---|---C---|--Csh--|---D---|<br />
+E |---F---|--Fsh--|---G---|--Gsh--|---A---|<br />
+<br />
+sh - abbreviation from 'sharp'</div></div>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |--&gt; 440 kHZ<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />
+E |---F---|--Gfl--|---G---|--Afl--|---A---|<br />
+B |---C---|--Dfl--|---D---|--Efl--|---E---|<br />
+G |--Afl--|---A---|--Bfl--|---B---|---C---|<br />
+D |--Efl--|---E---|---F---|--Gfl--|---G---|<br />
+A |--Bfl--|---B---|---C---|--Dfl--|---D---|<br />
+E |---F---|--Gfl--|---G---|--Afl--|---A---|<br />
+<br />
+fl - abbreviation form 'flat'</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/guitar-cat/theory/notes-on-guitar-fretboard/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Akordy Barre&#8217;owe</title>
+		<link>http://blog.siwinski.info/guitar-cat/theory/akordy-barreowe</link>
+		<comments>http://blog.siwinski.info/guitar-cat/theory/akordy-barreowe#comments</comments>
+		<pubDate>Tue, 10 Jul 2012 00:36:33 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Theory]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1672</guid>
+		<description><![CDATA[Aby znaleźć dowolny akord barowy należy: Znaleźć podstawę akordu na jednej z dwóch pierwszych strun (E lub A). Na podstawie akordu należy postawić poprzeczkę. Jeśli podstawa akordu jest na strunie E, to do poprzeczki dokładamy akord E, taki jak trzeba (mol, dur, &#8230; <a href="http://blog.siwinski.info/guitar-cat/theory/akordy-barreowe">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Aby znaleźć dowolny akord barowy należy:</p>
+<ol>
+<li>Znaleźć podstawę akordu na jednej z dwóch pierwszych strun (E lub A).</li>
+<li>Na podstawie akordu należy postawić poprzeczkę.
+<ul>
+<li>Jeśli podstawa akordu jest na strunie <strong>E</strong>, to do poprzeczki dokładamy akord <strong>E</strong>, taki jak trzeba (mol, dur, 7, itd.) (np. e-moll, E-dur, E7)</li>
+<li>Jeśli podstawa akordu jest na strunie <strong>A</strong>, to do poprzeczki dokładamy akord <strong>A</strong>, taki jak trzeba (mol, dur, 7, itd.) (np. a-moll, A-dur, A7)</li>
+</ul>
+</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/guitar-cat/theory/akordy-barreowe/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; sushi</title>
+	<atom:link href="http://blog.siwinski.info/tag/sushi/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Domowe Sushi</title>
+		<link>http://blog.siwinski.info/food/sushi</link>
+		<comments>http://blog.siwinski.info/food/sushi#comments</comments>
+		<pubDate>Sat, 06 Apr 2013 21:20:34 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Food]]></category>
+		<category><![CDATA[sushi]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1225</guid>
+		<description><![CDATA[Zestaw startowy/narzędzia: - nóż szefa kuchni, duży i ostry nóż kuchenny (filetowanie ryby i krojenie maki) - mata (zwijanie maki) - pałeczki bambusowe do jedzenia (ale można się obyć bez ) Składniki (dla 4 osób): Składniki podstawowe: - ryż krótko &#8230; <a href="http://blog.siwinski.info/food/sushi">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong>Zestaw startowy/narzędzia:</strong></p>
+<p>- nóż szefa kuchni, duży i ostry nóż kuchenny (filetowanie ryby i krojenie maki)<br />
+- mata (zwijanie maki)<br />
+- pałeczki bambusowe do jedzenia (ale można się obyć bez <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> )</p>
+<p><strong>Składniki (dla 4 osób):</strong></p>
+<p>Składniki podstawowe:<br />
+- ryż krótko ziarnisty (0.25kg)<br />
+- ocet ryżowy (3.5 łyżki)<br />
+- cukier (1.5 łyżki), sól (bardzo mała szczypta)<br />
+- ryba np. łosoś, tuńczyk, maślana (ok. 0.25kg)<br />
+- nori/algi do zawijania w nie maki (2-4 listków)<br />
+- wasabi (chrzan japoński)<br />
+- sos sojowy (ok. 70ml)</p>
+<p>Pozostałe składniki:<br />
+- imbir (przegryzamy nim w międzyczasie aby oczyścić kubki smakowe)<br />
+- tykwa (ok. 70-80g)<br />
+- ogórek zielony (pół)<br />
+- rzodkiew marynowana (może ją zastąpić zwykła rzodkiew)<br />
+- awokado<br />
+- serek Filadelfia</p>
+<p><strong>Przygotowanie ryżu</strong></p>
+<p>Ryż najlepiej przygotować wcześniej (może być nawet poprzedni dzień).</p>
+<p>- przepłukać ryż ok. 5 razy, aż woda będzie czysta<br />
+- zalać ryż wodą i odstawić na 30 min, po czym jeszcze raz przepłukać<br />
+- gotować ryż na małym ogniu aż woda odparuje, od czasu do czasu mieszając (ok. 10-15 min), w międzyczasie można przygotować sos do ryżu (patrz niżej)<br />
+- polać ryż sosem, wymieszać i odstawić do wystygnięcia (nie przykrywać)</p>
+<p>Przygotowanie sosu do ryżu:<br />
+- do małego rondelka wlewamy/wsypujemy cukier, sól i ocet ryżowy<br />
+- mieszamy na małym ogniu aż cukier i sól rozpuszczą się</p>
+<p>Przygotowanie warzyw:<br />
+- warzywa myjemy i kroimy w paski/słupki o długości ok. 10-12 cm</p>
+<p>Przygotowanie ryby:<br />
+- <a href="https://www.youtube.com/watch?v=3JLty105KIU" target="_blank">filetowanie łososia</a><br />
+- <a href="http://www.youtube.com/watch?v=UgBHpCd3IQ8" target="_blank">jak pokroić łososia na sushi</a></p>
+<p>Można przystąpić do robienia sushi. Smacznego.</p>
+<p><a href="http://blog.siwinski.info/wp-content/uploads/2013/04/maki.jpg"><img class="alignnone size-medium wp-image-1267" alt="Homemade Maki Sushi" src="http://blog.siwinski.info/wp-content/uploads/2013/04/maki-300x300.jpg" width="300" height="300" /></a></p>
+<p><strong><a href="http://blog.siwinski.info/wp-content/uploads/2013/04/sushi1.jpg"><img class="alignnone size-medium wp-image-1245" alt="Homemade Nigiri Sushi " src="http://blog.siwinski.info/wp-content/uploads/2013/04/sushi1-300x300.jpg" width="300" height="300" /></a></strong></p>
+<hr />
+<p>Artykuł sporządzony na podstawie wiedzy wyniesionej ze <a href="http://szkoleniasushi.pl/">szkolenia</a> oraz informacji dostępnych na <a href="http://www.przepisnasushi.pl/">tej stronie</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/food/sushi/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

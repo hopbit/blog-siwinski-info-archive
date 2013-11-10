@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; Events</title>
+	<atom:link href="http://blog.siwinski.info/category/dev/events-dev/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Git Kata</title>
+		<link>http://blog.siwinski.info/dev/events-dev/2013-03-23-git-kata-gamma-factory-warsaw</link>
+		<comments>http://blog.siwinski.info/dev/events-dev/2013-03-23-git-kata-gamma-factory-warsaw#comments</comments>
+		<pubDate>Thu, 21 Mar 2013 19:12:30 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1392</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://gitkata.pl"><img class="alignnone  wp-image-1399" title="2013-03-23: Git Kata" alt="Git Kata - Poster" src="http://blog.siwinski.info/wp-content/uploads/2013/04/gitkata-poster.png" width="578" height="819" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/events-dev/2013-03-23-git-kata-gamma-factory-warsaw/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; Dev</title>
+	<atom:link href="http://blog.siwinski.info/category/dev/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>git revert :P</title>
+		<link>http://blog.siwinski.info/dev/git/git-revert-p</link>
+		<comments>http://blog.siwinski.info/dev/git/git-revert-p#comments</comments>
+		<pubDate>Mon, 04 Nov 2013 20:06:37 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2083</guid>
+		<description><![CDATA[# find your 'wrong commit' with git log # or gitk --all # revert, which will create 'undo' commit git revert &#60;hash&#62; # push @ remote stream git push origin master]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># find your 'wrong commit' with</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git log</span> <span style="color: #666666; font-style: italic;"># or</span><br />
+gitk <span style="color: #660033;">--all</span><br />
+<span style="color: #666666; font-style: italic;"># revert, which will create 'undo' commit</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git revert</span> <span style="color: #000000; font-weight: bold;">&lt;</span><span style="color: #7a0874; font-weight: bold;">hash</span><span style="color: #000000; font-weight: bold;">&gt;</span><br />
+<span style="color: #666666; font-style: italic;"># push @ remote stream</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git push</span> origin master</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/git-revert-p/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Jutro kolejna Warsjawa</title>
+		<link>http://blog.siwinski.info/dev/gradle/jutro-kolejna-warsjawa</link>
+		<comments>http://blog.siwinski.info/dev/gradle/jutro-kolejna-warsjawa#comments</comments>
+		<pubDate>Fri, 11 Oct 2013 20:26:38 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Gradle]]></category>
+		<category><![CDATA[Workshops]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2060</guid>
+		<description><![CDATA[Już jutro będzie miała miejsce kolejna edycja Warsjawy. Niestety w momencie startu rejestracji byłem jeszcze w trakcie urlopu&#8230;. Piszę niestety ponieważ wiem, że wolne miejsca znikają szybciej niż ostatnia wersja ajfona ze sklepów. Nie myliłem się, po powrocie do kraju &#8230; <a href="http://blog.siwinski.info/dev/gradle/jutro-kolejna-warsjawa">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://warsjawa.pl"><img class=" wp-image-2070 alignleft" alt="warsjawa2013-logo" src="http://blog.siwinski.info/wp-content/uploads/2013/10/warsjawa2013-logo.png" width="108" height="161" /></a>Już jutro będzie miała miejsce kolejna edycja <a title="Warsjawa" href="http://warsjawa.pl/">Warsjawy</a>. Niestety w momencie startu rejestracji byłem jeszcze w trakcie urlopu&#8230;. Piszę niestety ponieważ wiem, że wolne miejsca znikają szybciej niż ostatnia wersja ajfona ze sklepów. Nie myliłem się, po powrocie do kraju zostało bardzo mało warsztatów do wyboru. W tym roku cały dzień został podzielony na 3 sloty czasowe. Zdecydowałem się na warsztaty Gradle zajmujące 2 pierwsze sloty, które będą prowadzone przez Michała Opałę i Arkadiusza Koniora. Ostatni slot, zostawiłem na networking.</p>
+<p>Włączyłem komputer, założyłem słuchawki, odpaliłem na <a href="http://youtu.be/Z4VfdZZJKuk">dwa</a> <a href="http://www.youtube.com/watch?v=s6kg25zgw0o" target="_blank">sety</a> i zabrałem się do przygotowania środowiska. Zgodnie z wiadomością wysłaną przez Michała potrzebne będą <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java JDK v.1.7</a>, <a href="http://www.gradle.org/downloads">Gradle 1.8</a>, <a href="http://groovy.codehaus.org/Download">Groovy</a>, <a href="http://www.gradle.org/docs/current/userguide/userguide.html">podręcznik Gradle</a>, <a href="https://github.com/Opalo/gradle-workshops">zawartość repozytorium</a> z Githuba (a co za tym idzie i <a href="https://code.google.com/p/msysgit/downloads/list?can=3&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">Git</a>) oraz wygodny edytor. Sprawdziłem czy mam wszystkie niezbędne narzędzia. Okazało się, że aktualizacji wymagały gradle i groovy. Pobieżne przejrzenie plików .gitignore pozwoliło mi wywnioskować, że najlepiej jeśli tym &#8222;wygodnym edytorem&#8221; będzie <a href="http://www.jetbrains.com/idea/download/">IntelliJ IDEA</a>. Od jakiegoś czasu bardzo przypadł mi do gustu <a href="http://www.sublimetext.com/">Sublime Text</a>. Uznałem jednak, że warsztaty to dobry pretekst, żeby wreszcie spróbować pobawić się IDE, które zachwala tak wielu znajomych deweloperów. Całość przygotowania, wraz z instalacją intellij i dociągnięciem zależności zdefiniowanych w dependencies.gradle zajęła mi ok. 30 min i poszła bezproblemowo. Całkiem szybko, byłem przekonany, że zejdzie się dłużej&#8230;</p>
+<p>Do zobaczenia jutro rano.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/gradle/jutro-kolejna-warsjawa/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to create tag?</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-create-tag</link>
+		<comments>http://blog.siwinski.info/dev/git/how-to-create-tag#comments</comments>
+		<pubDate>Tue, 06 Aug 2013 20:26:15 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2041</guid>
+		<description><![CDATA[git tag -a my-tag-name # or git tag -a my.tag.name -m &#34;tag message - info about my tag&#34; http://git-scm.com/book/en/Git-Basics-Tagging#Creating-Tags]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git tag</span> <span style="color: #660033;">-a</span> my-tag-name<br />
+<span style="color: #666666; font-style: italic;"># or</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git tag</span> <span style="color: #660033;">-a</span> my.tag.name <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;tag message - info about my tag&quot;</span></div></div>
+<p><a href="http://git-scm.com/book/en/Git-Basics-Tagging#Creating-Tags">http://git-scm.com/book/en/Git-Basics-Tagging#Creating-Tags</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/how-to-create-tag/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Exit codes in python</title>
+		<link>http://blog.siwinski.info/dev/python-dev/exit-codes-in-python</link>
+		<comments>http://blog.siwinski.info/dev/python-dev/exit-codes-in-python#comments</comments>
+		<pubDate>Tue, 30 Jul 2013 20:16:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[scripting]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2002</guid>
+		<description><![CDATA[0 - success 1 - error occured 2 - syntax error Simple example: if&#40;len&#40;people&#41; &#62; 5&#41;: &#160; print &#34;Too many people. Script execution is interrupted.&#34; &#160; exit&#40;1&#41; Reference: http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">0 - success<br />
+1 - error occured<br />
+2 - syntax error</div></div>
+<p>Simple example:</p>
+<div class="codecolorer-container python vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="python codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #ff7700;font-weight:bold;">if</span><span style="color: black;">&#40;</span><span style="color: #008000;">len</span><span style="color: black;">&#40;</span>people<span style="color: black;">&#41;</span> <span style="color: #66cc66;">&gt;</span> <span style="color: #ff4500;">5</span><span style="color: black;">&#41;</span>:<br />
+&nbsp; <span style="color: #ff7700;font-weight:bold;">print</span> <span style="color: #483d8b;">&quot;Too many people. Script execution is interrupted.&quot;</span><br />
+&nbsp; exit<span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span></div></div>
+<p>Reference: <a href="http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit">http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit</a></p>
+<hr/>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/python-dev/exit-codes-in-python/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Changing multiple items with multiple selection.</title>
+		<link>http://blog.siwinski.info/dev/sublime-text/changing-multiple-items-with-multiple-selection</link>
+		<comments>http://blog.siwinski.info/dev/sublime-text/changing-multiple-items-with-multiple-selection#comments</comments>
+		<pubDate>Sun, 21 Jul 2013 20:51:54 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Sublime Text]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[ide]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[sublime text]]></category>
+		<category><![CDATA[tips]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1942</guid>
+		<description><![CDATA[- select word/string you want to change with [shift + arrows] (or with mouse) - hit [alt + f3] - change your string/word - hit [esc]]]></description>
+				<content:encoded><![CDATA[<p>- select word/string you want to change with [shift + arrows] (or with mouse)<br />
+- hit [alt + f3]<br />
+- change your string/word<br />
+- hit [esc]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/sublime-text/changing-multiple-items-with-multiple-selection/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Print unique words with their counts.</title>
+		<link>http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts</link>
+		<comments>http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts#comments</comments>
+		<pubDate>Sat, 20 Jul 2013 20:17:18 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Bash]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[gist]]></category>
+		<category><![CDATA[scripts]]></category>
+		<category><![CDATA[snippet]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1953</guid>
+		<description><![CDATA[cat file.txt &#124; awk -F'[,]' '{ print $2 }' &#124; sort &#124; uniq -c &#124; sort -nr &#62; result.txt Explained # print file.txt cat file.txt # show only 2nd column using ',' as delimiter awk -F'[,]' '{ print $2 }' &#8230; <a href="http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">cat</span> file.txt <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">awk</span> <span style="color: #660033;">-F</span><span style="color: #ff0000;">'[,]'</span> <span style="color: #ff0000;">'{ print $2 }'</span> <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">sort</span> <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">uniq</span> <span style="color: #660033;">-c</span> <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">sort</span> <span style="color: #660033;">-nr</span> <span style="color: #000000; font-weight: bold;">&gt;</span> result.txt</div></div>
+<p>Explained</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># print file.txt</span><br />
+<span style="color: #c20cb9; font-weight: bold;">cat</span> file.txt<br />
+<span style="color: #666666; font-style: italic;"># show only 2nd column using ',' as delimiter</span><br />
+<span style="color: #c20cb9; font-weight: bold;">awk</span> <span style="color: #660033;">-F</span><span style="color: #ff0000;">'[,]'</span> <span style="color: #ff0000;">'{ print $2 }'</span> <br />
+<span style="color: #666666; font-style: italic;"># sort result</span><br />
+<span style="color: #c20cb9; font-weight: bold;">sort</span> <br />
+<span style="color: #666666; font-style: italic;"># &nbsp;number of times each line occurred along with the line</span><br />
+<span style="color: #c20cb9; font-weight: bold;">uniq</span> <span style="color: #660033;">-c</span> <br />
+<span style="color: #666666; font-style: italic;"># sort numerically (by number) and show in reverse (max showed on top)</span><br />
+<span style="color: #c20cb9; font-weight: bold;">sort</span> <span style="color: #660033;">-nr</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to add end line after each given string in Sublime Text 2?</title>
+		<link>http://blog.siwinski.info/dev/how-to-add-end-line-after-each-given-string-in-sublime-text-2</link>
+		<comments>http://blog.siwinski.info/dev/how-to-add-end-line-after-each-given-string-in-sublime-text-2#comments</comments>
+		<pubDate>Sun, 14 Jul 2013 20:17:03 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Sublime Text]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1819</guid>
+		<description><![CDATA[@ Win: - find your string with [ctrl + f] - hit [alt + f3] to select all occurences - hit esc - hit right arrow - type &#34;enter&#34;]]></description>
+				<content:encoded><![CDATA[<p>@ Win:</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">- find your string with [ctrl + f]<br />
+- hit [alt + f3] to select all occurences <br />
+- hit esc<br />
+- hit right arrow <br />
+- type &quot;enter&quot;</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-add-end-line-after-each-given-string-in-sublime-text-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sorting Lines in Sublime Text 2</title>
+		<link>http://blog.siwinski.info/dev/sublime-text/sorting-lines-in-sublime-text-2</link>
+		<comments>http://blog.siwinski.info/dev/sublime-text/sorting-lines-in-sublime-text-2#comments</comments>
+		<pubDate>Thu, 11 Jul 2013 20:34:54 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Sublime Text]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1818</guid>
+		<description><![CDATA[@ Windows: - select lines to sort with [ctrl + a] or [shift + arrows] - hit [F9]]]></description>
+				<content:encoded><![CDATA[<p>@ Windows:</p>
+<p>- select lines to sort with [ctrl + a] or [shift + arrows]<br />
+- hit [F9]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/sublime-text/sorting-lines-in-sublime-text-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Splitting one commit into many in Git</title>
+		<link>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git</link>
+		<comments>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git#comments</comments>
+		<pubDate>Wed, 10 Jul 2013 21:03:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1831</guid>
+		<description><![CDATA[git rebase -i HEAD~5 # mark commit you wan't to split wit e (edit), save &#38; quit git reset HEAD~ # now you &#160;can add some modifications echo &#34;// this is missing comment in java file&#34; &#62;&#62; SuperPrinter.java # &#38; &#8230; <a href="http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git rebase</span> <span style="color: #660033;">-i</span> HEAD~<span style="color: #000000;">5</span><br />
+<span style="color: #666666; font-style: italic;"># mark commit you wan't to split wit e (edit), save &amp; quit</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git reset</span> HEAD~<br />
+<span style="color: #666666; font-style: italic;"># now you &nbsp;can add some modifications</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;// this is missing comment in java file&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> SuperPrinter.java<br />
+<span style="color: #666666; font-style: italic;"># &amp; after above you can selectively add changes on stage </span><br />
+<span style="color: #666666; font-style: italic;"># and commit them as separate chunks</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git add</span> . <span style="color: #660033;">-p</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;commit a&quot;</span><br />
+agit add <span style="color: #660033;">-p</span> <br />
+<span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;commit b&quot;</span><br />
+<span style="color: #666666; font-style: italic;"># etc...</span><br />
+<span style="color: #666666; font-style: italic;"># after spliting is done You can continue rebase with</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git rebase</span> <span style="color: #660033;">--continue</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to find files containing some word/string in bash?</title>
+		<link>http://blog.siwinski.info/dev/bash-dev/how-to-find-files-containing-some-wordstring-in-bash</link>
+		<comments>http://blog.siwinski.info/dev/bash-dev/how-to-find-files-containing-some-wordstring-in-bash#comments</comments>
+		<pubDate>Sun, 30 Jun 2013 20:43:28 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Bash]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1834</guid>
+		<description><![CDATA[Search for &#8222;mahna mahna&#8221; in all files within given directory &#038; all its subdirectories: grep -r &#34;mahna mahna&#34; . grep -r &#34;mahna mahna&#34; /home/username/project1/ Search for &#8222;mahna mahna&#8221; in all *.java files grep &#34;mahna mahna&#34; ./*.java Reference: http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/]]></description>
+				<content:encoded><![CDATA[<p>Search for &#8222;mahna mahna&#8221; in all files within given directory &#038; all its subdirectories:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">grep</span> <span style="color: #660033;">-r</span> <span style="color: #ff0000;">&quot;mahna mahna&quot;</span> .<br />
+<span style="color: #c20cb9; font-weight: bold;">grep</span> <span style="color: #660033;">-r</span> <span style="color: #ff0000;">&quot;mahna mahna&quot;</span> <span style="color: #000000; font-weight: bold;">/</span>home<span style="color: #000000; font-weight: bold;">/</span>username<span style="color: #000000; font-weight: bold;">/</span>project1<span style="color: #000000; font-weight: bold;">/</span></div></div>
+<p>Search for &#8222;mahna mahna&#8221; in all *.java files</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">grep</span> <span style="color: #ff0000;">&quot;mahna mahna&quot;</span> .<span style="color: #000000; font-weight: bold;">/*</span>.java</div></div>
+<hr/>
+<p>Reference:<br />
+<a href="http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/">http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/bash-dev/how-to-find-files-containing-some-wordstring-in-bash/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

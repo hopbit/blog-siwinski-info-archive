@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; batch</title>
+	<atom:link href="http://blog.siwinski.info/tag/batch-2/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Skrypt uruchamiający przy starcie wybrane aplikacje tuż po zalogowaniu do systemu</title>
+		<link>http://blog.siwinski.info/dev/skrypt-uruchamiajacy-przy-starcie-wybrane-aplikacje</link>
+		<comments>http://blog.siwinski.info/dev/skrypt-uruchamiajacy-przy-starcie-wybrane-aplikacje#comments</comments>
+		<pubDate>Wed, 12 Sep 2012 21:39:20 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[script]]></category>
+		<category><![CDATA[win]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=638</guid>
+		<description><![CDATA[:REM ### start apps script ### @ECHO OFF echo --- PROGRAM NAME --- start /d &#34;c:\path\to\my\application\&#34; application.exe PAUSE]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">
+:REM ### start apps script ###
+
+@ECHO OFF
+
+echo --- PROGRAM NAME ---
+start /d &quot;c:\path\to\my\application\&quot; application.exe
+
+PAUSE
+
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/skrypt-uruchamiajacy-przy-starcie-wybrane-aplikacje/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Batch Commands Cheatsheet</title>
+		<link>http://blog.siwinski.info/dev/batch-dev/batch-commands-cheatsheet</link>
+		<comments>http://blog.siwinski.info/dev/batch-dev/batch-commands-cheatsheet#comments</comments>
+		<pubDate>Wed, 12 Sep 2012 21:31:55 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Batch]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[cheatsheet]]></category>
+		<category><![CDATA[reference]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=633</guid>
+		<description><![CDATA[# zmiana nazw plików rename *.txt *.bak ren *.txt *.bak # zamknięcie/restart systemu shutdown [/a&#124;/s&#124;/r&#124;/t xx][/f][/c &#34;comment] &#160; /a abort shutdown &#160; /s shutdown &#160; /r shutdown and restart &#160; /f force close running apps &#160; /c &#34;comment&#34; shutdown comment]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container dos vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="dos codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"># zmiana nazw plików<br />
+<span style="color: #b1b100; font-weight: bold;">rename</span> *.txt *.bak<br />
+<span style="color: #b1b100; font-weight: bold;">ren</span> *.txt *.bak<br />
+<br />
+# zamknięcie/restart systemu<br />
+shutdown [/a<span style="color: #33cc33;">|</span>/s<span style="color: #33cc33;">|</span>/r<span style="color: #33cc33;">|</span>/t xx][/f][/c &quot;comment]<br />
+&nbsp; /a abort shutdown<br />
+&nbsp; /s shutdown<br />
+&nbsp; /r shutdown and restart<br />
+&nbsp; /f force close running apps<br />
+&nbsp; /c &quot;comment&quot; shutdown comment</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/batch-dev/batch-commands-cheatsheet/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Dealing with file paths in batch</title>
+		<link>http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch</link>
+		<comments>http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch#comments</comments>
+		<pubDate>Wed, 05 Nov 2008 21:56:08 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Batch]]></category>
+		<category><![CDATA[bat]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[scripting]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2025</guid>
+		<description><![CDATA[echo OFF REM # %0 - path to the bat-file itself set thisScriptNameWithExtension=%0 echo this script file name with extension: %thisScriptNameWithExtension% REM # You can extract parts of paths with: REM # ~d - drive set thisScriptDrive=%~d0 echo this script &#8230; <a href="http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container dos vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="dos codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #b1b100; font-weight: bold;">echo</span> OFF<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %0 - path to the bat-file itself</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptNameWithExtension=<span style="color: #33cc33;">%</span><span style="color: #448888;">0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script file name with extension: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptNameWithExtension</span><span style="color: #33cc33;">%</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # You can extract parts of paths with:</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # ~d - drive</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptDrive=<span style="color: #33cc33;">%</span><span style="color: #448888;">~d0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script drive: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptDrive</span><span style="color: #33cc33;">%</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # ~p - path without drive</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptPath=<span style="color: #33cc33;">%</span><span style="color: #448888;">~p0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script path: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptPath</span><span style="color: #33cc33;">%</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # ~n - file name</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptFileNameWithoutExtension=<span style="color: #33cc33;">%</span><span style="color: #448888;">~n0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script file name without extension: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptFileNameWithoutExtension</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptDirectory=<span style="color: #33cc33;">%</span><span style="color: #448888;">~dp0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script directory: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptDirectory</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptFileExtension=<span style="color: #33cc33;">%</span><span style="color: #448888;">~x0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script file extension: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptFileExtension</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> fileTimestamp=<span style="color: #33cc33;">%</span><span style="color: #448888;">~t0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> file timestamp: <span style="color: #33cc33;">%</span><span style="color: #448888;">fileTimeStamp</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> fileSize=<span style="color: #33cc33;">%</span><span style="color: #448888;">~z0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> file size: <span style="color: #33cc33;">%</span><span style="color: #448888;">fileSize</span><span style="color: #33cc33;">%</span> bytes<br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> fileAttributes=<span style="color: #33cc33;">%</span><span style="color: #448888;">~a0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> file attributes: <span style="color: #33cc33;">%</span><span style="color: #448888;">fileAttributes</span><span style="color: #33cc33;">%</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>passing args to batch script</title>
+		<link>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script</link>
+		<comments>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script#comments</comments>
+		<pubDate>Tue, 04 Nov 2008 21:32:42 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Batch]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[scriptint]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2016</guid>
+		<description><![CDATA[echo OFF REM # %0 - path to this script echo 0th arg (this script): [%0] REM # %1 - first argument passed to the script echo 1st arg passed to the script: [%1] REM # %2 - second argument &#8230; <a href="http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container dos vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="dos codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #b1b100; font-weight: bold;">echo</span> OFF<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %0 - path to this script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 0th arg <span style="color: #33cc33;">(</span>this script<span style="color: #33cc33;">)</span>: [<span style="color: #33cc33;">%</span><span style="color: #448888;">0</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %1 - first argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 1st arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">1</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %2 - second argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 2nd arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">2</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %3 - second argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 3rd arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">3</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %n - nth argument passed to the script</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

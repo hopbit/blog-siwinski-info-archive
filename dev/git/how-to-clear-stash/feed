@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Komentarze do: How to clear stash?</title>
+	<atom:link href="http://blog.siwinski.info/dev/git/how-to-clear-stash/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info/dev/git/how-to-clear-stash</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Thu, 11 Jul 2013 08:06:33 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Autor: Git How To &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-clear-stash#comment-264</link>
+		<dc:creator><![CDATA[Git How To &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sat, 20 Apr 2013 10:40:11 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1554#comment-264</guid>
+		<description><![CDATA[[...] Stash - How to stash changes only from one file? - How to view changes stored in stash? - How to clear stash? [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Stash &#8211; How to stash changes only from one file? &#8211; How to view changes stored in stash? &#8211; How to clear stash? [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

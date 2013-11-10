@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; dbvisualiser</title>
+	<atom:link href="http://blog.siwinski.info/tag/dbvisualiser/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>dbVisualiser keyboard shortcuts</title>
+		<link>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts#comments</comments>
+		<pubDate>Fri, 14 Jan 2011 22:29:24 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[dbvisualiser]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=564</guid>
+		<description><![CDATA[SQL Editor [CTRL]+[SHIFT]+R comment whole line [CTRL]+[SHIFT]+F format sql [CTRL]+T open new sql editor CTRL + SHIFT + B :: make (un)comment matched sql/text using /* */]]></description>
+				<content:encoded><![CDATA[<p><strong>SQL Editor</strong></p>
+<table>
+<tbody>
+<tr>
+<td>[CTRL]+[SHIFT]+R</td>
+<td>comment whole line</td>
+</tr>
+<tr>
+<td>[CTRL]+[SHIFT]+F</td>
+<td>format sql</td>
+</tr>
+<tr>
+<td>[CTRL]+T</td>
+<td>open new sql editor</td>
+</tr>
+</tbody>
+</table>
+<pre class="wp-code-highlight prettyprint">
+CTRL + SHIFT + B :: make (un)comment matched sql/text using /* */
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; Workshops</title>
+	<atom:link href="http://blog.siwinski.info/category/dev/workshops-dev/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Jutro kolejna Warsjawa</title>
+		<link>http://blog.siwinski.info/dev/gradle/jutro-kolejna-warsjawa</link>
+		<comments>http://blog.siwinski.info/dev/gradle/jutro-kolejna-warsjawa#comments</comments>
+		<pubDate>Fri, 11 Oct 2013 20:26:38 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Gradle]]></category>
+		<category><![CDATA[Workshops]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2060</guid>
+		<description><![CDATA[Już jutro będzie miała miejsce kolejna edycja Warsjawy. Niestety w momencie startu rejestracji byłem jeszcze w trakcie urlopu&#8230;. Piszę niestety ponieważ wiem, że wolne miejsca znikają szybciej niż ostatnia wersja ajfona ze sklepów. Nie myliłem się, po powrocie do kraju &#8230; <a href="http://blog.siwinski.info/dev/gradle/jutro-kolejna-warsjawa">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://warsjawa.pl"><img class=" wp-image-2070 alignleft" alt="warsjawa2013-logo" src="http://blog.siwinski.info/wp-content/uploads/2013/10/warsjawa2013-logo.png" width="108" height="161" /></a>Już jutro będzie miała miejsce kolejna edycja <a title="Warsjawa" href="http://warsjawa.pl/">Warsjawy</a>. Niestety w momencie startu rejestracji byłem jeszcze w trakcie urlopu&#8230;. Piszę niestety ponieważ wiem, że wolne miejsca znikają szybciej niż ostatnia wersja ajfona ze sklepów. Nie myliłem się, po powrocie do kraju zostało bardzo mało warsztatów do wyboru. W tym roku cały dzień został podzielony na 3 sloty czasowe. Zdecydowałem się na warsztaty Gradle zajmujące 2 pierwsze sloty, które będą prowadzone przez Michała Opałę i Arkadiusza Koniora. Ostatni slot, zostawiłem na networking.</p>
+<p>Włączyłem komputer, założyłem słuchawki, odpaliłem na <a href="http://youtu.be/Z4VfdZZJKuk">dwa</a> <a href="http://www.youtube.com/watch?v=s6kg25zgw0o" target="_blank">sety</a> i zabrałem się do przygotowania środowiska. Zgodnie z wiadomością wysłaną przez Michała potrzebne będą <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java JDK v.1.7</a>, <a href="http://www.gradle.org/downloads">Gradle 1.8</a>, <a href="http://groovy.codehaus.org/Download">Groovy</a>, <a href="http://www.gradle.org/docs/current/userguide/userguide.html">podręcznik Gradle</a>, <a href="https://github.com/Opalo/gradle-workshops">zawartość repozytorium</a> z Githuba (a co za tym idzie i <a href="https://code.google.com/p/msysgit/downloads/list?can=3&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">Git</a>) oraz wygodny edytor. Sprawdziłem czy mam wszystkie niezbędne narzędzia. Okazało się, że aktualizacji wymagały gradle i groovy. Pobieżne przejrzenie plików .gitignore pozwoliło mi wywnioskować, że najlepiej jeśli tym &#8222;wygodnym edytorem&#8221; będzie <a href="http://www.jetbrains.com/idea/download/">IntelliJ IDEA</a>. Od jakiegoś czasu bardzo przypadł mi do gustu <a href="http://www.sublimetext.com/">Sublime Text</a>. Uznałem jednak, że warsztaty to dobry pretekst, żeby wreszcie spróbować pobawić się IDE, które zachwala tak wielu znajomych deweloperów. Całość przygotowania, wraz z instalacją intellij i dociągnięciem zależności zdefiniowanych w dependencies.gradle zajęła mi ok. 30 min i poszła bezproblemowo. Całkiem szybko, byłem przekonany, że zejdzie się dłużej&#8230;</p>
+<p>Do zobaczenia jutro rano.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/gradle/jutro-kolejna-warsjawa/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

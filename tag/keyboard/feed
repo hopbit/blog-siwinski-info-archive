@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; keyboard</title>
+	<atom:link href="http://blog.siwinski.info/tag/keyboard/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Sublime Text 2 &#8211; Keyboard Shortcuts</title>
+		<link>http://blog.siwinski.info/dev/sublime-text-keyboard-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/sublime-text-keyboard-shortcuts#comments</comments>
+		<pubDate>Mon, 29 Apr 2013 20:01:55 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[keyboard]]></category>
+		<category><![CDATA[shortcuts]]></category>
+		<category><![CDATA[shortkeys]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1593</guid>
+		<description><![CDATA[File/Open/Close - ctrl + s &#62;&#62; save current file/tab - ctrl + o &#62;&#62; open file Editing - ctrl + x &#62;&#62; delete current line - ctrl + shift + up/down &#62;&#62; move current line up/down - ctrl + shift &#8230; <a href="http://blog.siwinski.info/dev/sublime-text-keyboard-shortcuts">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">File/Open/Close<br />
+- ctrl + s &gt;&gt; save current file/tab<br />
+- ctrl + o &gt;&gt; open file<br />
+<br />
+Editing<br />
+- ctrl + x &gt;&gt; delete current line<br />
+- ctrl + shift + up/down &gt;&gt; move current line up/down<br />
+- ctrl + shift + d &gt;&gt; duplicate current line<br />
+<br />
+Find/Replace<br />
+- ctrl + f &gt;&gt; find, search, look through file<br />
+- ctrl + g &gt;&gt; goto line<br />
+- ctrl + j &gt;&gt; join two lines</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/sublime-text-keyboard-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

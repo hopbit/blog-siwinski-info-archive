@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; fav</title>
+	<atom:link href="http://blog.siwinski.info/tag/fav/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Windows Apps</title>
+		<link>http://blog.siwinski.info/dev/windows-dev/windows-apps</link>
+		<comments>http://blog.siwinski.info/dev/windows-dev/windows-apps#comments</comments>
+		<pubDate>Fri, 08 Mar 2013 23:11:03 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Win]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[fav]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1127</guid>
+		<description><![CDATA[cli: wget, winscp, dev: msysgit, Notepad++, eclipse langs:  java, python, groovy, scala, clojure internet: chrome settings/preferences: NetSetMan photos / graphic: picasa, gimp]]></description>
+				<content:encoded><![CDATA[<p><strong>cli:</strong> <a href="http://users.ugent.be/~bpuype/wget/">wget</a>, <a href="http://winscp.net">winscp</a>,</p>
+<p><strong>dev:</strong> <a href="https://code.google.com/p/msysgit/downloads/list?can=3&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">msysgit</a>, <a title="Notepad++" href="http://notepad-plus-plus.org">Notepad++</a>, <a title="eclipse downloads page" href="http://www.eclipse.org/downloads/">eclipse</a></p>
+<p><strong>langs: </strong> <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">java</a>, <a href="http://www.python.org/getit/">python</a>, <a href="http://groovy.codehaus.org/Download">groovy</a>, <a href="http://http://www.scala-lang.org/downloads">scala</a>, <a href="http://clojure.org/downloads">clojure</a></p>
+<p><strong>internet:</strong> <a href="http://www.google.com/intl/pl/chrome/browser/">chrome</a></p>
+<p><strong>settings/preferences:</strong> <a href="http://www.netsetman.com/#nsm-download">NetSetMan</a></p>
+<p><strong>photos / graphic:</strong> <a href="http://picasa.google.com/">picasa</a>, <a href="http://www.gimp.org/downloads/">gimp</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/windows-dev/windows-apps/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

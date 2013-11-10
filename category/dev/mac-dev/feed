@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; Mac</title>
+	<atom:link href="http://blog.siwinski.info/category/dev/mac-dev/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Message &#8222;where is system events&#8221; message boot</title>
+		<link>http://blog.siwinski.info/dev/message-where-is-system-events-message-boot</link>
+		<comments>http://blog.siwinski.info/dev/message-where-is-system-events-message-boot#comments</comments>
+		<pubDate>Thu, 06 Dec 2012 21:43:05 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[10.5.6]]></category>
+		<category><![CDATA[10.5.8]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[snow leopard]]></category>
+		<category><![CDATA[update]]></category>
+		<category><![CDATA[upgrade]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=429</guid>
+		<description><![CDATA[After upgrading my Mac OS Leopart to Snow Leopard, the system asked for a file named “System Events.app”. You can find it under: System/Library/CoreService/System Events.app]]></description>
+				<content:encoded><![CDATA[<p>After upgrading my Mac OS Leopart to Snow Leopard, the system asked for a file named “System Events.app”.</p>
+<p>You can find it under:</p>
+<p>System/Library/CoreService/System Events.app</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/message-where-is-system-events-message-boot/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Java 6 na Mac OS 10.5.8</title>
+		<link>http://blog.siwinski.info/dev/java-6-na-mac-os-10-5-8</link>
+		<comments>http://blog.siwinski.info/dev/java-6-na-mac-os-10-5-8#comments</comments>
+		<pubDate>Thu, 25 Oct 2012 21:29:03 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[10.5.8]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[leopard]]></category>
+		<category><![CDATA[mac]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=90</guid>
+		<description><![CDATA[Nie jestem pewien czy u Ciebie to zadziała (u mnie na się udało*), ale możesz spróbować w ten sposób: wejdź na stronę: https://developer.apple.com/downloads/index.action (jeśli dobrze kojarzę trzeba się zarejestrować). w pole wyszukiwanie wpisz/wklej: Java for Mac OS X 10.5 Update &#8230; <a href="http://blog.siwinski.info/dev/java-6-na-mac-os-10-5-8">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Nie jestem pewien czy u Ciebie to zadziała (u mnie na się udało*), ale możesz spróbować w ten sposób:</p>
+<ol>
+<li>wejdź na stronę: <a href="https://developer.apple.com/downloads/index.action" target="_blank">https://developer.apple.com/<wbr />downloads/index.action</a> (jeśli dobrze kojarzę trzeba się zarejestrować).</li>
+<li>w pole wyszukiwanie wpisz/wklej: Java for Mac OS X 10.5 Update 8 Developer Package</li>
+<li>wyszukaj/Enter</li>
+<li>pobierz plik: Java for Mac OS X 10.5 Update 8 Developer Package &#8211; .dmg (222.11MB)</li>
+<li>zainstaluj pobrany plik.</li>
+<li>daj znać czy pomogło/nie pomogło</li>
+</ol>
+<p>Spędziłem nad tym tematem kiedyś (zbyt) dużo czasu w szperając w Google. Liczę, że ktoś inny oszczędzi swój czas dzięki powyższym informacjom.</p>
+<p>PS: źródło które naprowadziło mnie na rozwiązanie: <a href="http://nrudnik.blogspot.com/2010/11/java-6-on-mac-os-x-1058.html" target="_blank">http://nrudnik.blogspot.<wbr />com/2010/11/java-6-on-mac-os-<wbr />x-1058.html</a><br />
+PS2: Moim zdaniem ten hak to specjalne, nieoficjalne wydanie dla programistów/developerów Java, dzięki czemu mogą oni tworzyć, rozwijać i uruchamiać programy dostosowane do Javy w wersji 6 bez konieczności aktualizacji systemu.<br />
+PS3: najwyższa pora rozważyć aktualizację systemu do Snow Leopard (10.6) lub wyższej&#8230;</p>
+<p>* mac os 10.5.8, procesor Intel Core 2 Duo (2.2 GHz), 64-bit</p>
+<p><img class="alignnone" title="Java 6 na Mac OS Leopard (10.5.8)" alt="" src="https://lh6.googleusercontent.com/-AGPjBvasTSQ/UADDQcxbemI/AAAAAAAACsc/NkOK7N1Ph1M/s502/2012-07-14-a.png" width="402" height="395" /></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-6-na-mac-os-10-5-8/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Usprawnień w importowaniu muzyki c.d.</title>
+		<link>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d</link>
+		<comments>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d#comments</comments>
+		<pubDate>Thu, 29 Dec 2011 23:26:09 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[itunes]]></category>
+		<category><![CDATA[mp3]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[script]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=125</guid>
+		<description><![CDATA[Poza zamianą nazw plików tak aby składały się tylko z samych małych liter była jeszcze jedna kwestia, którą niepotrzebnie robiłem ‚z palca&#8217;. iTunes ma to do siebie, że importuje albumy CD wg następującej konwencji: &#124;- artysta 1 &#124; &#124;- nazwa &#8230; <a href="http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Poza zamianą nazw plików tak aby składały się tylko z samych małych liter była jeszcze jedna kwestia, którą niepotrzebnie robiłem ‚z palca&#8217;. iTunes ma to do siebie, że importuje albumy CD wg następującej konwencji:</p>
+<blockquote><p>|- artysta 1<br />
+| |- nazwa albumu<br />
+| |- 1-01 nazwa utworu.mp3<br />
+| |- 1-02 nazwa utworu.mp3<br />
+| |- 2-01 nazwa utworu.mp3<br />
+|- artysta 2<br />
+| |- nazwa albumu<br />
+| |- 1-03 nazwa utworu.mp3<br />
+| |- 1-04 nazwa utworu.mp3<br />
+| |- 2-02 nazwa utworu.mp3<br />
+|- artysta 3<br />
+| |- nazwa albumu<br />
+| |- 1-05 nazwa utworu.mp3<br />
+| |- 2-03 nazwa utworu.mp3<br />
+| |- 2-04 nazwa utworu.mp3</p></blockquote>
+<p>Natomiast moja konwencja jest następująca:</p>
+<blockquote><p>|- nazwa albumu<br />
+| |- artysta1 &#8211; utwór1.mp3<br />
+| |- artysta1 &#8211; utwór2.mp3<br />
+| |- artysta2 &#8211; utwór3.mp3</p></blockquote>
+<p>Oto skrypt który konwertuje pliki zaimportowane z iTunes do ‚mojego formatu’ katalogowania i nazewnictwa plików:</p>
+<p><a title="_convert_mp3_filenames_imported_with_itunes.py" href="http://siwinski.info/script/python/_convert_mp3_filenames_imported_with_itunes_v3.txt" target="_blank">_convert_mp3_filenames_imported_with_itunes.py</a></p>
+<p>Fakt, że pierwsza wersja skryptu (druga również) nie za każdym razem działała tak jak tego oczekiwałem. Okazało się, że iTunes ma więcej niż jedną metodę nadawania nazw plikom. Musiałem poświęcić parę wieczorów na poprawki w celu dopracowania skryptu, ale zysk jest widoczny dla mnie gołym okiem. Wykorzystując powyższy skrypt mogę obecnie w tym samym czasie zaimportować 2-3 razy więcej albumów niż wcześniej. Jak to zwykle bywa, każde nowe rozwiązanie rodzi nowe problemy&#8230; Ciekawe jak szybko zostanę zmuszony do wymiany dysku na większy&#8230;</p>
+<p>Jednocześnie stwierdzam, że Python coraz bardziej mi się podoba. Po pierwsze zarówno sam język jak i kolejne funkcjonalności/biblioteki, których potrzebowałem są bardzo łatwe i intuicyjne w wykorzystaniu. Po drugie, wolę nie myśleć ile kodu i czasu zajęłoby mi zrobienie tego samego przy użyciu Javy&#8230; Odnoszę wrażenie, że nauka tworzenia takich prostych narzędzi w tym języku jest okupione bardzo małym kosztem.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

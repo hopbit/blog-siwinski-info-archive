@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; mp3</title>
+	<atom:link href="http://blog.siwinski.info/tag/mp3/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to stop iTunes messing around in your mp3 library?</title>
+		<link>http://blog.siwinski.info/dev/how-to-stop-itunes-messing-around-in-your-mp3-library</link>
+		<comments>http://blog.siwinski.info/dev/how-to-stop-itunes-messing-around-in-your-mp3-library#comments</comments>
+		<pubDate>Sun, 10 Feb 2013 22:38:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[itunes]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[mp3]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=752</guid>
+		<description><![CDATA[iTunes, by default, move and manage every music file into it&#8217;s &#8222;own&#8221; directory structure and hierarchy. As a DJ, this is the most unwanted feature for me. I have my own specific way of ordering music files on my HDD, &#8230; <a href="http://blog.siwinski.info/dev/how-to-stop-itunes-messing-around-in-your-mp3-library">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>iTunes, by default, move and manage every music file into it&#8217;s &#8222;own&#8221; directory structure and hierarchy. As a DJ, this is the most <strong>unwanted</strong> feature for me. I have my own specific way of ordering music files on my HDD, that I&#8217;ve developed since 2004 &#8211; it&#8217;s mirroring my CD Audio collection.</p>
+<p>Because of it, at the beginning of my journey with Mac I was desperately looking for other player &#8211; some that&#8217;s behaviour was similar Winamp&#8230; but there wasn&#8217;t any good alternative. Today I know, that there&#8217;s no better alternative for Winamp on Mac. I can say even more&#8230; now I think, that iTunes is the best player for me, I use it on Win platform too&#8230; But it took some time to get use to it. Below I&#8217;ve placed a couple of iTunes configuration settings, that I settle by default before I put any music file into it.</p>
+<p>In order to get into iTunes preferences just use [CMD + ,] shortcut &#8211; which is (should be?) default shortcut in any application on Mac to do it.</p>
+<p><strong>General</strong></p>
+<p>Check for new software updates automatically &#8211; checked</p>
+<p><strong>General &gt; Import settings</strong></p>
+<p>Use error correction when reading Audio CDs &#8211; checked</p>
+<p><strong>General &gt; Import Settings &gt; Custom&#8230;</strong></p>
+<p>Bit rate &#8211; 320 kbps<br />
+Use Variable Bit Rate Encoding (VBR) &#8211; Unchecked<br />
+Sample Rate &#8211; 44.100 kHZ<br />
+Channels &#8211; Stereo<br />
+Stereo Mode &#8211; Normal<br />
+Smart Encoding Adjustments &#8211; Checked<br />
+Filter Frequencies Below 10HZ &#8211; Unchecked</p>
+<p><strong>Sharing</strong></p>
+<p><strong></strong>Share my library on my local network &#8211; Unchecked</p>
+<p><strong>Devices</strong></p>
+<p><strong></strong>Prevent iPods, iPhones, and iPads from syncing automatically &#8211; Checked</p>
+<p><strong>Advanced</strong></p>
+<p>iTunes Media folder locations &#8211; I&#8217;ve changed it to folder of my destination (e.g. <em>~/User/music/ripped</em>)<strong><br />
+</strong><span style="text-decoration: underline;">Keep iTunes Media folder organised &#8211; Unchecked<br />
+Copy files to iTunes Media folder when adding to library &#8211; Unchecked</span></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-stop-itunes-messing-around-in-your-mp3-library/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Usprawnień w importowaniu muzyki c.d.</title>
+		<link>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d</link>
+		<comments>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d#comments</comments>
+		<pubDate>Thu, 29 Dec 2011 23:26:09 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[DJ]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[itunes]]></category>
+		<category><![CDATA[mp3]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[script]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=125</guid>
+		<description><![CDATA[Poza zamianą nazw plików tak aby składały się tylko z samych małych liter była jeszcze jedna kwestia, którą niepotrzebnie robiłem ‚z palca&#8217;. iTunes ma to do siebie, że importuje albumy CD wg następującej konwencji: &#124;- artysta 1 &#124; &#124;- nazwa &#8230; <a href="http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Poza zamianą nazw plików tak aby składały się tylko z samych małych liter była jeszcze jedna kwestia, którą niepotrzebnie robiłem ‚z palca&#8217;. iTunes ma to do siebie, że importuje albumy CD wg następującej konwencji:</p>
+<blockquote><p>|- artysta 1<br />
+| |- nazwa albumu<br />
+| |- 1-01 nazwa utworu.mp3<br />
+| |- 1-02 nazwa utworu.mp3<br />
+| |- 2-01 nazwa utworu.mp3<br />
+|- artysta 2<br />
+| |- nazwa albumu<br />
+| |- 1-03 nazwa utworu.mp3<br />
+| |- 1-04 nazwa utworu.mp3<br />
+| |- 2-02 nazwa utworu.mp3<br />
+|- artysta 3<br />
+| |- nazwa albumu<br />
+| |- 1-05 nazwa utworu.mp3<br />
+| |- 2-03 nazwa utworu.mp3<br />
+| |- 2-04 nazwa utworu.mp3</p></blockquote>
+<p>Natomiast moja konwencja jest następująca:</p>
+<blockquote><p>|- nazwa albumu<br />
+| |- artysta1 &#8211; utwór1.mp3<br />
+| |- artysta1 &#8211; utwór2.mp3<br />
+| |- artysta2 &#8211; utwór3.mp3</p></blockquote>
+<p>Oto skrypt który konwertuje pliki zaimportowane z iTunes do ‚mojego formatu’ katalogowania i nazewnictwa plików:</p>
+<p><a title="_convert_mp3_filenames_imported_with_itunes.py" href="http://siwinski.info/script/python/_convert_mp3_filenames_imported_with_itunes_v3.txt" target="_blank">_convert_mp3_filenames_imported_with_itunes.py</a></p>
+<p>Fakt, że pierwsza wersja skryptu (druga również) nie za każdym razem działała tak jak tego oczekiwałem. Okazało się, że iTunes ma więcej niż jedną metodę nadawania nazw plikom. Musiałem poświęcić parę wieczorów na poprawki w celu dopracowania skryptu, ale zysk jest widoczny dla mnie gołym okiem. Wykorzystując powyższy skrypt mogę obecnie w tym samym czasie zaimportować 2-3 razy więcej albumów niż wcześniej. Jak to zwykle bywa, każde nowe rozwiązanie rodzi nowe problemy&#8230; Ciekawe jak szybko zostanę zmuszony do wymiany dysku na większy&#8230;</p>
+<p>Jednocześnie stwierdzam, że Python coraz bardziej mi się podoba. Po pierwsze zarówno sam język jak i kolejne funkcjonalności/biblioteki, których potrzebowałem są bardzo łatwe i intuicyjne w wykorzystaniu. Po drugie, wolę nie myśleć ile kodu i czasu zajęłoby mi zrobienie tego samego przy użyciu Javy&#8230; Odnoszę wrażenie, że nauka tworzenia takich prostych narzędzi w tym języku jest okupione bardzo małym kosztem.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/usprawnien-w-importowaniu-muzyki-c-d/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

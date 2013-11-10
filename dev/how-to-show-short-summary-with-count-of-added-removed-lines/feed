@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Komentarze do: How to show short summary with count of added &amp; removed lines?</title>
+	<atom:link href="http://blog.siwinski.info/dev/how-to-show-short-summary-with-count-of-added-removed-lines/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info/dev/how-to-show-short-summary-with-count-of-added-removed-lines</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Thu, 11 Jul 2013 08:06:33 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Autor: Git How To &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/dev/how-to-show-short-summary-with-count-of-added-removed-lines#comment-160</link>
+		<dc:creator><![CDATA[Git How To &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sat, 23 Mar 2013 02:32:33 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1005#comment-160</guid>
+		<description><![CDATA[[...] preety oneline format in git log (with date)? - How to create nice graph of git branches in CLI? - How to show short summary with count of added &amp; removed lines? - How to show all of today’s [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] preety oneline format in git log (with date)? &#8211; How to create nice graph of git branches in CLI? &#8211; How to show short summary with count of added &amp; removed lines? &#8211; How to show all of today’s [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

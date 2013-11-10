@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; generics</title>
+	<atom:link href="http://blog.siwinski.info/tag/generics/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Understanding Generics in Java</title>
+		<link>http://blog.siwinski.info/dev/java-dev/understanding-generics-in-java</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/understanding-generics-in-java#comments</comments>
+		<pubDate>Thu, 05 Apr 2007 20:40:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[generics]]></category>
+		<category><![CDATA[java]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2028</guid>
+		<description><![CDATA[What does &#8222;E&#8221; stand for? Let&#8217;s take ArrayList for an example. E is a stand-in for &#8222;the type of element you want this collection to hold and return&#8221; (E is abbreviation of the word element). &#8222;E&#8221; can be treated like &#8230; <a href="http://blog.siwinski.info/dev/java-dev/understanding-generics-in-java">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong>What does &#8222;E&#8221; stand for?</strong></p>
+<p>Let&#8217;s take <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/util/ArrayList.html" target="_blank">ArrayList</a> for an example.</p>
+<p>E is a stand-in for &#8222;the type of element you want this collection to hold and return&#8221; (E is abbreviation of the word element). &#8222;E&#8221; can be treated like a placeholder for the REAL type you use when you declare and create ArrayList. &#8222;E&#8221; determines what kind of objects you&#8217;re allowed to add to the ArrayList. So You can thing that E stand for &#8222;whatever type&#8221;? It&#8217;s something like wildcard/joker.</p>
+<p><strong>What does &#8222;T&#8221; stand for?</strong></p>
+<p>You can use anything that&#8217;s legal Java identifier as a wildcard/joker. Using single letters &#8222;T&#8221; and &#8222;E&#8221; is a convention/standard (but You can use in your code &#8222;Whatever&#8221; if You want <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  ). Usually You should use &#8222;T&#8221; which is abbreviation of word &#8222;type&#8221;. &#8222;E&#8221; should be used when your writing some sort of collection class, where &#8222;E&#8221; means &#8222;type of element that specific colletion holds&#8221;.</p>
+<p><strong>Hint on &#8222;extends&#8221; keyword</strong></p>
+<p>Remeber that keyword &#8222;extends&#8221; in generics works both for classes and interfaces &#038; it means &#8222;is-a&#8221; relation.</p>
+<p><strong>How to read JavaDocs?</strong></p>
+<p>Example 1</p>
+<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;">// T must be a whatever type that implements Comparable interface</span><br />
+<span style="color: #666666; font-style: italic;">// &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^-------------------</span><br />
+<span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #339933;">&lt;</span>T <span style="color: #000000; font-weight: bold;">extends</span> Comparable<span style="color: #339933;">&gt;</span> <span style="color: #000066; font-weight: bold;">void</span> sort<span style="color: #009900;">&#40;</span>List<span style="color: #339933;">&lt;</span>T<span style="color: #339933;">&gt;</span> list<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+<span style="color: #666666; font-style: italic;">// &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; v-----------</span><br />
+<span style="color: #666666; font-style: italic;">// you can pass in only a List(or subtype of List) that uses a parametrized </span><br />
+<span style="color: #666666; font-style: italic;">// type that implements (or extends) Comparable</span><br />
+<br />
+&nbsp; <span style="color: #666666; font-style: italic;">// some sorting code...</span><br />
+<span style="color: #009900;">&#125;</span></div></div>
+<p>Example 2</p>
+<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;">// Type of parameter for Comparable must be of type T or one of </span><br />
+<span style="color: #666666; font-style: italic;">// T's supertypes. Example - java.lang.Integer is subtype of java.lang.Number.</span><br />
+<span style="color: #666666; font-style: italic;">// &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;^--------</span><br />
+<span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #339933;">&lt;</span>T <span style="color: #000000; font-weight: bold;">extends</span> Comparable<span style="color: #339933;">&lt;?</span> <span style="color: #000000; font-weight: bold;">super</span> T<span style="color: #339933;">&gt;&gt;</span> <span style="color: #000066; font-weight: bold;">void</span> sort<span style="color: #009900;">&#40;</span>List<span style="color: #339933;">&lt;</span>T<span style="color: #339933;">&gt;</span> list<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; <span style="color: #666666; font-style: italic;">// some sorting code...</span><br />
+<span style="color: #009900;">&#125;</span></div></div>
+<hr/>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/understanding-generics-in-java/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

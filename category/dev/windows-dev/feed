@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; Win</title>
+	<atom:link href="http://blog.siwinski.info/category/dev/windows-dev/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>[PL] Podstawowe skróty klawiszowe w Windows 7</title>
+		<link>http://blog.siwinski.info/dev/windows-dev/podstawowe-skroty-klawiszowe-w-windows-7</link>
+		<comments>http://blog.siwinski.info/dev/windows-dev/podstawowe-skroty-klawiszowe-w-windows-7#comments</comments>
+		<pubDate>Thu, 23 May 2013 20:28:29 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Win]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1794</guid>
+		<description><![CDATA[Z dedykacją dla Taty. Praca z plikami (zdjęcia, filmy, muzyka, itd.): CTRL + A : zaznacz wszystko CTRL + C : kopiuj CTRL + X : wytnij CTRL + V : wklej Aplikacje ALT + F4 : zamknij aktualną aplikację &#8230; <a href="http://blog.siwinski.info/dev/windows-dev/podstawowe-skroty-klawiszowe-w-windows-7">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Z dedykacją dla Taty.</p>
+<p><strong>Praca z plikami (zdjęcia, filmy, muzyka, itd.):</strong><br />
+CTRL + A : zaznacz wszystko<br />
+CTRL + C : kopiuj<br />
+CTRL + X : wytnij<br />
+CTRL + V : wklej</p>
+<p><strong>Aplikacje</strong><br />
+ALT + F4 : zamknij aktualną aplikację<br />
+ALT + TAB : przełączanie między oknami</p>
+<p><strong>Firefox/Chrome</strong><br />
+CTRL + T : otwórz nową kartę (stronę internetową)<br />
+CTRL + W : zamknij aktualną kartę (stronę internetową)<br />
+CTRL + L : przejdź do paska adresu<br />
+CTRL + PG UP/PG DOWN : przełączanie między kartami<br />
+CTRL + P : drukuj</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/windows-dev/podstawowe-skroty-klawiszowe-w-windows-7/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Windows Apps</title>
+		<link>http://blog.siwinski.info/dev/windows-dev/windows-apps</link>
+		<comments>http://blog.siwinski.info/dev/windows-dev/windows-apps#comments</comments>
+		<pubDate>Fri, 08 Mar 2013 23:11:03 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Win]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[fav]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1127</guid>
+		<description><![CDATA[cli: wget, winscp, dev: msysgit, Notepad++, eclipse langs:  java, python, groovy, scala, clojure internet: chrome settings/preferences: NetSetMan photos / graphic: picasa, gimp]]></description>
+				<content:encoded><![CDATA[<p><strong>cli:</strong> <a href="http://users.ugent.be/~bpuype/wget/">wget</a>, <a href="http://winscp.net">winscp</a>,</p>
+<p><strong>dev:</strong> <a href="https://code.google.com/p/msysgit/downloads/list?can=3&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">msysgit</a>, <a title="Notepad++" href="http://notepad-plus-plus.org">Notepad++</a>, <a title="eclipse downloads page" href="http://www.eclipse.org/downloads/">eclipse</a></p>
+<p><strong>langs: </strong> <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">java</a>, <a href="http://www.python.org/getit/">python</a>, <a href="http://groovy.codehaus.org/Download">groovy</a>, <a href="http://http://www.scala-lang.org/downloads">scala</a>, <a href="http://clojure.org/downloads">clojure</a></p>
+<p><strong>internet:</strong> <a href="http://www.google.com/intl/pl/chrome/browser/">chrome</a></p>
+<p><strong>settings/preferences:</strong> <a href="http://www.netsetman.com/#nsm-download">NetSetMan</a></p>
+<p><strong>photos / graphic:</strong> <a href="http://picasa.google.com/">picasa</a>, <a href="http://www.gimp.org/downloads/">gimp</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/windows-dev/windows-apps/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to install Git on Windows?</title>
+		<link>http://blog.siwinski.info/dev/how-to-install-git-on-windows</link>
+		<comments>http://blog.siwinski.info/dev/how-to-install-git-on-windows#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 21:49:06 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[Win]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[installation]]></category>
+		<category><![CDATA[wiki]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=913</guid>
+		<description><![CDATA[Download Git for Windows. I recomend downloading most recent version of file:Git-[version]-preview[YYYYMMDD].exe Install downloaded file Start git with shortcut created on your desktop.]]></description>
+				<content:encoded><![CDATA[<ol>
+<li><span style="line-height: 22px;"><a href="http://code.google.com/p/msysgit/downloads/list?can=3&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">Download</a> Git for Windows.</span>
+<ul>
+<li>I recomend downloading most recent version of file:<em>Git-[version]-preview[YYYYMMDD].exe</em></li>
+</ul>
+</li>
+<li>Install downloaded file</li>
+<li>Start git with shortcut created on your desktop.</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-install-git-on-windows/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

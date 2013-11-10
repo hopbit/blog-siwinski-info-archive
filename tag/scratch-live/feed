@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; scratch live</title>
+	<atom:link href="http://blog.siwinski.info/tag/scratch-live/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to connect Serato SL to DJ Console on Mac OS</title>
+		<link>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os</link>
+		<comments>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os#comments</comments>
+		<pubDate>Tue, 14 Aug 2012 21:31:35 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Serato]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[scratch live]]></category>
+		<category><![CDATA[serato]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[sl4]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=3</guid>
+		<description><![CDATA[Part1 &#8211; connections // Make sure that: players and mixer are both off, SL in switched off on laptop. Connect your CDs/Turntables with input in SL box. Ground turntables (if they&#8217;re not). You can ground them to serato box. Settle phono/cd &#8230; <a href="http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><span style="line-height: 18px;">Part1 &#8211; connections</span></p>
+<p>// Make sure that: players and mixer are both off, SL in switched off on laptop.</p>
+<ol>
+<li>Connect your CDs/Turntables with input in SL box.</li>
+<li>Ground turntables (if they&#8217;re not). You can ground them to serato box.</li>
+<li>Settle phono/cd dip switches properly on SL box.</li>
+<li>Connect AUX input for recording purposes with record output on mixer.</li>
+<li>Connect Output on SL box with cd/turntable input in mixer.</li>
+<li>You can connect optionally AUX output to separate channel as the sample player to another input in your mixer</li>
+<li>Settle Sample Rate to proper value (48kHz by default).</li>
+<li>Connect USB port on SL Box with USB port on your computer (remember to don&#8217;t use usb hub).</li>
+<li>Connect (optionally) power supply SL Box.</li>
+<li>Launch SL application on your computer (virtual decks should appear on your screen).</li>
+<li>Settle input sources on SL app.</li>
+</ol>
+<p>Part 2 &#8211; calibrating decks</p>
+<ol>
+<li>Set your signal threshold &#8211; settle needle on timecode vinyl/cd start (don&#8217;t start playing) and click estimate. Moving slider to left will make Serato more sensitive.</li>
+<li>If slider will go far right then you have problem with your connections (check them &amp; fix).</li>
+<li>When You settle treshold properly start your turntables. You&#8217;ll see green rings on your screens.</li>
+<li>For best perfomance and sound quality, rings should be nearest to the circles. Correct them with L/R balance and P/A balance.</li>
+<li>Percentage factor on right-down corner should be as close to 100% as possible.</li>
+</ol>
+<p>Now You&#8217;re ready to play, practice &amp; njoy!</p>
+<p>&nbsp;</p>
+<p>* Optional<br />
+** Turntables</p>
+<p><iframe src="http://www.youtube.com/embed/b26Ciw1Qmk8" height="169" width="300" allowfullscreen="" frameborder="0"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dj/serato-dj/how-to-connect-serato-sl-to-dj-console-on-mac-os/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

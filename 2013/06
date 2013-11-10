@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="pl-PL">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="pl-PL">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="pl-PL">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="pl-PL">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Czerwiec | 2013 | Continous Integration</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="../wp-content/themes/twentyeleven/style.css" />
+<link rel="pingback" href="../xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://blog.siwinski.info/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z wpisami" href="../feed" />
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z komentarzami" href="../comments/feed" />
+<link rel='stylesheet' id='dark-css'  href='../wp-content/themes/twentyeleven/colors/dark.css' type='text/css' media='all' />
+<link rel='stylesheet' id='codecolorer-css'  href='../wp-content/plugins/codecolorer/codecolorer.css@ver=0.9.9' type='text/css' media='screen' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php@rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.siwinski.info/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.7.1" />
+<link rel="stylesheet" type="text/css" href="../wp-content/plugins/wp-code-highlight/css/sunburst.css" media="screen" />
+	<style>
+		/* Link color */
+		a,
+		#site-title a:focus,
+		#site-title a:hover,
+		#site-title a:active,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-title a:active,
+		.widget_twentyeleven_ephemera .comments-link a:hover,
+		section.recent-posts .other-recent-posts a[rel="bookmark"]:hover,
+		section.recent-posts .other-recent-posts .comments-link a:hover,
+		.format-image footer.entry-meta a:hover,
+		#site-generator a:hover {
+			color: #e4741f;
+		}
+		section.recent-posts .other-recent-posts .comments-link a:hover {
+			border-color: #e4741f;
+		}
+		article.feature-image.small .entry-summary p a:hover,
+		.entry-header .comments-link a:hover,
+		.entry-header .comments-link a:focus,
+		.entry-header .comments-link a:active,
+		.feature-slider a.active {
+			background-color: #e4741f;
+		}
+	</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #e2e2e2; }
+</style>
+</head>
+
+<body class="archive date custom-background two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="../index.html" title="Continous Integration" rel="home">Continous Integration</a></span></h1>
+				<h2 id="site-description">playing with code &amp; music</h2>
+			</hgroup>
+
+			
+								<form method="get" id="searchform" action="../index.html">
+		<label for="s" class="assistive-text">Szukaj</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Szukaj" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Szukaj" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Menu główne</h3>
+								<div class="skip-link"><a class="assistive-text" href="06#content" title="Przeskocz do tekstu">Przeskocz do tekstu</a></div>
+				<div class="skip-link"><a class="assistive-text" href="06#secondary" title="Przeskocz do widgetów">Przeskocz do widgetów</a></div>
+								<div class="menu-start-container"><ul id="menu-start" class="menu"><li id="menu-item-1409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1409"><a href="../food/cook-book.1">Cook Book</a></li>
+<li id="menu-item-1339" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1339"><a title="Git How To" href="../dev/git-how-to">Git How To</a></li>
+<li id="menu-item-1423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1423"><a href="../dj/events-dj/events">Events</a></li>
+<li id="menu-item-1617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1617"><a href="06#">Guitar</a>
+<ul class="sub-menu">
+	<li id="menu-item-1620" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1620"><a href="../guitar-cat/guitar-chords">Chords</a></li>
+	<li id="menu-item-1618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1618"><a href="../guitar-cat/theory/notes-on-guitar-fretboard">Notes on guitar fretboard</a></li>
+	<li id="menu-item-1428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1428"><a href="../guitar-cat/piosenki">Song Book</a></li>
+</ul>
+</li>
+<li id="menu-item-1363" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1363"><a href="06#">Sets</a>
+<ul class="sub-menu">
+	<li id="menu-item-1431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1431"><a href="../sets/fresh-dance-music">Fresh Dance Music</a></li>
+	<li id="menu-item-1435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1435"><a href="../sets/progressive-awake">Progressive Awake</a></li>
+	<li id="menu-item-1439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1439"><a href="../sets/quantum-energy.1">Quantum Energy</a></li>
+	<li id="menu-item-1443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1443"><a href="../sets/unreleased-emotions.1">Unreleased Emotions</a></li>
+</ul>
+</li>
+</ul></div>			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<section id="primary">
+			<div id="content" role="main">
+
+			
+				<header class="page-header">
+					<h1 class="page-title">
+													Miesięczne archiwum: <span>Czerwiec 2013</span>											</h1>
+				</header>
+
+				
+								
+					
+	<article id="post-1834" class="post-1834 post type-post status-publish format-standard hentry category-bash-dev">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../dev/bash-dev/how-to-find-files-containing-some-wordstring-in-bash" rel="bookmark">How to find files containing some word/string in bash?</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../dev/bash-dev/how-to-find-files-containing-some-wordstring-in-bash" title="22:43" rel="bookmark"><time class="entry-date" datetime="2013-06-30T22:43:28+00:00">2013-06-30 22:22</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Search for &#8222;mahna mahna&#8221; in all files within given directory &#038; all its subdirectories:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;width:100%;"><div class="bash codecolorer"><span class="kw2">grep</span> <span class="re5">-r</span> <span class="st0">&quot;mahna mahna&quot;</span> .<br />
+<span class="kw2">grep</span> <span class="re5">-r</span> <span class="st0">&quot;mahna mahna&quot;</span> <span class="sy0">/</span>home<span class="sy0">/</span>username<span class="sy0">/</span>project1<span class="sy0">/</span></div></div>
+<p>Search for &#8222;mahna mahna&#8221; in all *.java files</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;width:100%;"><div class="bash codecolorer"><span class="kw2">grep</span> <span class="st0">&quot;mahna mahna&quot;</span> .<span class="sy0">/*</span>.java</div></div>
+<hr/>
+<p>Reference:<br />
+<a href="http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/">http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/</a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/dev/bash-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Bash&#8221;" rel="category tag">Bash</a>			</span>
+															
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-1834 -->
+
+				
+				
+			
+			</div><!-- #content -->
+		</section><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<aside id="categories-3" class="widget widget_categories"><h3 class="widget-title">Kategorie</h3>		<ul>
+	<li class="cat-item cat-item-3"><a href="../category/dev.2" title="Zobacz wszystkie wpisy z kategorii &#8222;Dev&#8221;">Dev</a> (113)
+<ul class='children'>
+	<li class="cat-item cat-item-276"><a href="../category/dev/android-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Android&#8221;">Android</a> (7)
+</li>
+	<li class="cat-item cat-item-259"><a href="../category/dev/bash-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Bash&#8221;">Bash</a> (8)
+</li>
+	<li class="cat-item cat-item-290"><a href="../category/dev/batch-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Batch&#8221;">Batch</a> (3)
+</li>
+	<li class="cat-item cat-item-280"><a href="../category/dev/events-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Events&#8221;">Events</a> (1)
+</li>
+	<li class="cat-item cat-item-215"><a href="../category/dev/git.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Git&#8221;">Git</a> (44)
+</li>
+	<li class="cat-item cat-item-299"><a href="../category/dev/gradle" title="Zobacz wszystkie wpisy z kategorii &#8222;Gradle&#8221;">Gradle</a> (1)
+</li>
+	<li class="cat-item cat-item-258"><a href="../category/dev/hardware-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Hardware&#8221;">Hardware</a> (1)
+</li>
+	<li class="cat-item cat-item-252"><a href="../category/dev/java-dev.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Java&#8221;">Java</a> (12)
+</li>
+	<li class="cat-item cat-item-264"><a href="../category/dev/mac-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Mac&#8221;">Mac</a> (3)
+</li>
+	<li class="cat-item cat-item-275"><a href="../category/dev/python-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Python&#8221;">Python</a> (3)
+</li>
+	<li class="cat-item cat-item-266"><a href="../category/dev/sublime-text" title="Zobacz wszystkie wpisy z kategorii &#8222;Sublime Text&#8221;">Sublime Text</a> (3)
+</li>
+	<li class="cat-item cat-item-257"><a href="../category/dev/windows-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Win&#8221;">Win</a> (3)
+</li>
+	<li class="cat-item cat-item-300"><a href="../category/dev/workshops-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Workshops&#8221;">Workshops</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-241"><a href="../category/dj" title="Zobacz wszystkie wpisy z kategorii &#8222;DJ&#8221;">DJ</a> (10)
+<ul class='children'>
+	<li class="cat-item cat-item-279"><a href="../category/dj/events-dj" title="Zobacz wszystkie wpisy z kategorii &#8222;Events&#8221;">Events</a> (8)
+</li>
+	<li class="cat-item cat-item-278"><a href="../category/dj/serato-dj" title="Zobacz wszystkie wpisy z kategorii &#8222;Serato&#8221;">Serato</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-62"><a href="../category/food" title="Zobacz wszystkie wpisy z kategorii &#8222;Food&#8221;">Food</a> (9)
+<ul class='children'>
+	<li class="cat-item cat-item-234"><a href="../category/food/cook-book" title="Zobacz wszystkie wpisy z kategorii &#8222;Cook Book&#8221;">Cook Book</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-237"><a href="../category/guitar-cat.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Guitar&#8221;">Guitar</a> (41)
+<ul class='children'>
+	<li class="cat-item cat-item-247"><a href="../category/guitar-cat/chords" title="Zobacz wszystkie wpisy z kategorii &#8222;Chords&#8221;">Chords</a> (9)
+</li>
+	<li class="cat-item cat-item-239"><a href="../category/guitar-cat/jam-sessions" title="Zobacz wszystkie wpisy z kategorii &#8222;Jam Sessions&#8221;">Jam Sessions</a> (1)
+</li>
+	<li class="cat-item cat-item-217"><a href="../category/guitar-cat/song-book.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Song Book&#8221;">Song Book</a> (27)
+</li>
+	<li class="cat-item cat-item-246"><a href="../category/guitar-cat/theory" title="Zobacz wszystkie wpisy z kategorii &#8222;Theory&#8221;">Theory</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-240"><a href="../category/other" title="Zobacz wszystkie wpisy z kategorii &#8222;Other&#8221;">Other</a> (3)
+<ul class='children'>
+	<li class="cat-item cat-item-242"><a href="../category/other/auto-other" title="Zobacz wszystkie wpisy z kategorii &#8222;Auto&#8221;">Auto</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-4"><a href="../category/sets.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Sets&#8221;">Sets</a> (34)
+<ul class='children'>
+	<li class="cat-item cat-item-7"><a href="../category/sets/fresh-dance-music" title="Zobacz wszystkie wpisy z kategorii &#8222;Fresh Dance Music&#8221;">Fresh Dance Music</a> (3)
+</li>
+	<li class="cat-item cat-item-5"><a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;">Progressive Awake</a> (23)
+</li>
+	<li class="cat-item cat-item-6"><a href="../category/sets/quantum-energy" title="Zobacz wszystkie wpisy z kategorii &#8222;Quantum Energy&#8221;">Quantum Energy</a> (4)
+</li>
+	<li class="cat-item cat-item-66"><a href="../category/sets/unreleased-emotions" title="Zobacz wszystkie wpisy z kategorii &#8222;Unreleased Emotions&#8221;">Unreleased Emotions</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-1"><a href="../category/uncategorized" title="Zobacz wszystkie wpisy z kategorii &#8222;Uncategorized&#8221;">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-297"><a href="../category/user" title="Zobacz wszystkie wpisy z kategorii &#8222;User&#8221;">User</a> (2)
+<ul class='children'>
+	<li class="cat-item cat-item-301"><a href="../category/user/android-user" title="Zobacz wszystkie wpisy z kategorii &#8222;Android&#8221;">Android</a> (1)
+</li>
+	<li class="cat-item cat-item-298"><a href="../category/user/windows-phone-8" title="Zobacz wszystkie wpisy z kategorii &#8222;Windows Phone 8&#8221;">Windows Phone 8</a> (1)
+</li>
+</ul>
+</li>
+		</ul>
+</aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h3 class="widget-title">Tagi</h3><div class="tagcloud"><a href='../tag/10-5-8' class='tag-link-29' title='2 tematy' style='font-size: 8pt;'>10.5.8</a>
+<a href='../tag/android-2' class='tag-link-158' title='9 tematów' style='font-size: 14.275862068966pt;'>android</a>
+<a href='../tag/apps' class='tag-link-65' title='6 tematów' style='font-size: 12.465517241379pt;'>apps</a>
+<a href='../tag/automation' class='tag-link-56' title='3 tematy' style='font-size: 9.448275862069pt;'>automation</a>
+<a href='../tag/bash-2' class='tag-link-153' title='7 tematów' style='font-size: 13.068965517241pt;'>bash</a>
+<a href='../tag/basics' class='tag-link-212' title='9 tematów' style='font-size: 14.275862068966pt;'>basics</a>
+<a href='../tag/basis' class='tag-link-283' title='3 tematy' style='font-size: 9.448275862069pt;'>basis</a>
+<a href='../tag/batch-2' class='tag-link-164' title='4 tematy' style='font-size: 10.655172413793pt;'>batch</a>
+<a href='../tag/cheatsheet' class='tag-link-133' title='7 tematów' style='font-size: 13.068965517241pt;'>cheatsheet</a>
+<a href='../tag/compilation-problem' class='tag-link-97' title='5 tematów' style='font-size: 11.620689655172pt;'>compilation problem</a>
+<a href='../tag/config' class='tag-link-171' title='7 tematów' style='font-size: 13.068965517241pt;'>config</a>
+<a href='../tag/dance' class='tag-link-44' title='5 tematów' style='font-size: 11.620689655172pt;'>dance</a>
+<a href='../tag/dj-2' class='tag-link-189' title='9 tematów' style='font-size: 14.275862068966pt;'>dj</a>
+<a href='../tag/dnb' class='tag-link-11' title='4 tematy' style='font-size: 10.655172413793pt;'>dnb</a>
+<a href='../tag/eclipse' class='tag-link-92' title='6 tematów' style='font-size: 12.465517241379pt;'>eclipse</a>
+<a href='../tag/editor' class='tag-link-267' title='3 tematy' style='font-size: 9.448275862069pt;'>editor</a>
+<a href='../tag/electro-house' class='tag-link-46' title='2 tematy' style='font-size: 8pt;'>electro house</a>
+<a href='../tag/git-2.1' class='tag-link-169' title='43 tematy' style='font-size: 22pt;'>git</a>
+<a href='../tag/guitar.1' class='tag-link-193' title='22 tematy' style='font-size: 18.620689655172pt;'>guitar</a>
+<a href='../tag/how-to.1' class='tag-link-123' title='41 tematów' style='font-size: 21.758620689655pt;'>how-to</a>
+<a href='../tag/ibm' class='tag-link-110' title='2 tematy' style='font-size: 8pt;'>ibm</a>
+<a href='../tag/ide' class='tag-link-88' title='4 tematy' style='font-size: 10.655172413793pt;'>ide</a>
+<a href='../tag/itunes' class='tag-link-37' title='2 tematy' style='font-size: 8pt;'>itunes</a>
+<a href='../tag/java-2.1' class='tag-link-58' title='13 tematów' style='font-size: 16.086206896552pt;'>java</a>
+<a href='../tag/keyboard-shortcuts' class='tag-link-160' title='6 tematów' style='font-size: 12.465517241379pt;'>keyboard shortcuts</a>
+<a href='../tag/lyrics.1' class='tag-link-194' title='19 tematów' style='font-size: 17.896551724138pt;'>lyrics</a>
+<a href='../tag/mac' class='tag-link-180' title='8 tematów' style='font-size: 13.672413793103pt;'>mac</a>
+<a href='../tag/mp3' class='tag-link-38' title='2 tematy' style='font-size: 8pt;'>mp3</a>
+<a href='../tag/party' class='tag-link-218' title='7 tematów' style='font-size: 13.068965517241pt;'>party</a>
+<a href='../tag/pop' class='tag-link-33' title='2 tematy' style='font-size: 8pt;'>pop</a>
+<a href='../tag/problem' class='tag-link-109' title='6 tematów' style='font-size: 12.465517241379pt;'>problem</a>
+<a href='../tag/progressive-house.1' class='tag-link-45' title='22 tematy' style='font-size: 18.620689655172pt;'>progressive house</a>
+<a href='../tag/python-2' class='tag-link-185' title='3 tematy' style='font-size: 9.448275862069pt;'>python</a>
+<a href='../tag/reference-2' class='tag-link-132' title='9 tematów' style='font-size: 14.275862068966pt;'>reference</a>
+<a href='../tag/script' class='tag-link-39' title='5 tematów' style='font-size: 11.620689655172pt;'>script</a>
+<a href='../tag/shortcuts' class='tag-link-223' title='2 tematy' style='font-size: 8pt;'>shortcuts</a>
+<a href='../tag/song.1' class='tag-link-195' title='16 tematów' style='font-size: 17.051724137931pt;'>song</a>
+<a href='../tag/sql' class='tag-link-106' title='3 tematy' style='font-size: 9.448275862069pt;'>sql</a>
+<a href='../tag/tech-house.1' class='tag-link-47' title='14 tematów' style='font-size: 16.448275862069pt;'>tech house</a>
+<a href='../tag/techno' class='tag-link-53' title='5 tematów' style='font-size: 11.620689655172pt;'>techno</a>
+<a href='../tag/tips' class='tag-link-199' title='3 tematy' style='font-size: 9.448275862069pt;'>tips</a>
+<a href='../tag/tools-2' class='tag-link-159' title='10 tematów' style='font-size: 14.758620689655pt;'>tools</a>
+<a href='../tag/vim' class='tag-link-94' title='3 tematy' style='font-size: 9.448275862069pt;'>vim</a>
+<a href='../tag/wiki.1' class='tag-link-213' title='27 tematów' style='font-size: 19.706896551724pt;'>wiki</a>
+<a href='../tag/windows' class='tag-link-117' title='9 tematów' style='font-size: 14.275862068966pt;'>windows</a></div>
+</aside><aside id="archives-4" class="widget widget_archive"><h3 class="widget-title">Archiwum</h3>		<ul>
+			<li><a href='11'>Listopad 2013</a>&nbsp;(2)</li>
+	<li><a href='10'>Październik 2013</a>&nbsp;(1)</li>
+	<li><a href='09'>Wrzesień 2013</a>&nbsp;(1)</li>
+	<li><a href='08'>Sierpień 2013</a>&nbsp;(1)</li>
+	<li><a href='07'>Lipiec 2013</a>&nbsp;(6)</li>
+	<li><a href='06'>Czerwiec 2013</a>&nbsp;(1)</li>
+	<li><a href='05'>Maj 2013</a>&nbsp;(4)</li>
+	<li><a href='04'>Kwiecień 2013</a>&nbsp;(18)</li>
+	<li><a href='03'>Marzec 2013</a>&nbsp;(11)</li>
+	<li><a href='02'>Luty 2013</a>&nbsp;(27)</li>
+	<li><a href='01'>Styczeń 2013</a>&nbsp;(2)</li>
+	<li><a href='../2012/12'>Grudzień 2012</a>&nbsp;(12)</li>
+	<li><a href='../2012/11'>Listopad 2012</a>&nbsp;(6)</li>
+	<li><a href='../2012/10'>Październik 2012</a>&nbsp;(4)</li>
+	<li><a href='../2012/09'>Wrzesień 2012</a>&nbsp;(15)</li>
+	<li><a href='../2012/08'>Sierpień 2012</a>&nbsp;(12)</li>
+	<li><a href='../2012/07'>Lipiec 2012</a>&nbsp;(8)</li>
+	<li><a href='../2012/06'>Czerwiec 2012</a>&nbsp;(8)</li>
+	<li><a href='../2012/04'>Kwiecień 2012</a>&nbsp;(1)</li>
+	<li><a href='../2012/03'>Marzec 2012</a>&nbsp;(1)</li>
+	<li><a href='../2011/12'>Grudzień 2011</a>&nbsp;(1)</li>
+	<li><a href='../2011/11'>Listopad 2011</a>&nbsp;(3)</li>
+	<li><a href='../2011/10'>Październik 2011</a>&nbsp;(1)</li>
+	<li><a href='../2011/08'>Sierpień 2011</a>&nbsp;(1)</li>
+	<li><a href='../2011/06'>Czerwiec 2011</a>&nbsp;(1)</li>
+	<li><a href='../2011/04'>Kwiecień 2011</a>&nbsp;(2)</li>
+	<li><a href='../2011/03'>Marzec 2011</a>&nbsp;(3)</li>
+	<li><a href='../2011/02'>Luty 2011</a>&nbsp;(3)</li>
+	<li><a href='../2011/01'>Styczeń 2011</a>&nbsp;(1)</li>
+	<li><a href='../2010/12'>Grudzień 2010</a>&nbsp;(2)</li>
+	<li><a href='../2010/11'>Listopad 2010</a>&nbsp;(6)</li>
+	<li><a href='../2010/10'>Październik 2010</a>&nbsp;(3)</li>
+	<li><a href='../2010/03'>Marzec 2010</a>&nbsp;(1)</li>
+	<li><a href='../2010/01'>Styczeń 2010</a>&nbsp;(2)</li>
+	<li><a href='../2009/12'>Grudzień 2009</a>&nbsp;(1)</li>
+	<li><a href='../2009/11'>Listopad 2009</a>&nbsp;(2)</li>
+	<li><a href='../2009/10'>Październik 2009</a>&nbsp;(1)</li>
+	<li><a href='../2009/09'>Wrzesień 2009</a>&nbsp;(2)</li>
+	<li><a href='../2009/07'>Lipiec 2009</a>&nbsp;(1)</li>
+	<li><a href='../2009/06'>Czerwiec 2009</a>&nbsp;(3)</li>
+	<li><a href='../2009/05'>Maj 2009</a>&nbsp;(1)</li>
+	<li><a href='../2009/04'>Kwiecień 2009</a>&nbsp;(3)</li>
+	<li><a href='../2009/03'>Marzec 2009</a>&nbsp;(2)</li>
+	<li><a href='../2009/01'>Styczeń 2009</a>&nbsp;(2)</li>
+	<li><a href='../2008/12'>Grudzień 2008</a>&nbsp;(1)</li>
+	<li><a href='../2008/11'>Listopad 2008</a>&nbsp;(3)</li>
+	<li><a href='../2008/09'>Wrzesień 2008</a>&nbsp;(1)</li>
+	<li><a href='../2008/08'>Sierpień 2008</a>&nbsp;(1)</li>
+	<li><a href='../2008/07'>Lipiec 2008</a>&nbsp;(1)</li>
+	<li><a href='../2008/06'>Czerwiec 2008</a>&nbsp;(3)</li>
+	<li><a href='../2008/04'>Kwiecień 2008</a>&nbsp;(2)</li>
+	<li><a href='../2007/09'>Wrzesień 2007</a>&nbsp;(2)</li>
+	<li><a href='../2007/08'>Sierpień 2007</a>&nbsp;(1)</li>
+	<li><a href='../2007/05'>Maj 2007</a>&nbsp;(1)</li>
+	<li><a href='../2007/04'>Kwiecień 2007</a>&nbsp;(2)</li>
+	<li><a href='../2007/03'>Marzec 2007</a>&nbsp;(1)</li>
+	<li><a href='../2007/02'>Luty 2007</a>&nbsp;(2)</li>
+	<li><a href='../2006/03'>Marzec 2006</a>&nbsp;(1)</li>
+	<li><a href='../2006/01'>Styczeń 2006</a>&nbsp;(1)</li>
+		</ul>
+</aside><aside id="linkcat-8" class="widget widget_links"><h3 class="widget-title">Polecane</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://einarmixes.blogspot.com/" title="einar / deep &#8230; progressive house mixes &#8230;" target="_blank">Einar Mixes</a></li>
+<li><a href="http://geecon.org">GeeCON</a></li>
+<li><a href="http://www.jakubryc.info/blog/" rel="friend met" title="my friend homepage">Jakub Ryć</a></li>
+<li><a href="http://www.lifeformusic.pl/">Life For Music</a></li>
+<li><a href="http://mobile-warsaw.pl">Mobile Warsaw</a></li>
+<li><a href="http://rdj.pl" title="DJ na wesele, DJ na imprezy, DJ na eventy, DJ na studniówki&#8230;  RDJ.pl" target="_blank">RDJ.PL</a></li>
+<li><a href="http://blog.vigeogam.es/">Vigeo Games</a></li>
+<li><a href="http://warsjawa.pl" target="_blank">warsjawa</a></li>
+<li><a href="http://www.warszawa.jug.pl/" title="Warszawa-JUG" target="_blank">WJUG</a></li>
+
+	</ul>
+</aside>
+		</div><!-- #secondary .widget-area -->
+	<!--WP Code Highlight_start-->
+	<script type="text/javascript">
+		window.onload = function(){prettyPrint();};
+	</script>
+	<script type="text/javascript" src="../wp-content/plugins/wp-code-highlight/js/wp-code-highlight.js"></script>
+	<!--WP Code Highlight_end-->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantyczna, osobista platforma publikacyjna">Dumnie wspierane przez WordPressa</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><script type="text/javascript"><!--
+document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://home.hit.stat24.com/_'+(new Date()).getTime()+'/script.js?id=d2OQbUb0WzOaSmvsssUXrKR..GLG7JfNlmLdsW2gIFP.E7"></'+'scr'+'ipt>');
+//--></script>

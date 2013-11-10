@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; progressive trance</title>
+	<atom:link href="http://blog.siwinski.info/tag/progressive-trance/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>7 months of dream (Don&#8217;t want to wake up) (July 2009)</title>
+		<link>http://blog.siwinski.info/sets/progressive-awake/7-months-of-dream-dont-want-to-wake-up-july-2009</link>
+		<comments>http://blog.siwinski.info/sets/progressive-awake/7-months-of-dream-dont-want-to-wake-up-july-2009#comments</comments>
+		<pubDate>Wed, 15 Jul 2009 21:24:21 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Progressive Awake]]></category>
+		<category><![CDATA[progressive house]]></category>
+		<category><![CDATA[progressive trance]]></category>
+		<category><![CDATA[tech house]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=332</guid>
+		<description><![CDATA[DOWNLOAD (83MB, 1h) Tracklist: * intro: marcin nowakowski &#8211; smooth night * luciano di nardo &#8211; anymore (chris reece remix) * fuzzy hair &#8211; be free (thomas schwartz mix) * rick costa &#8211; broken box (original mix) * starchaser &#8211; &#8230; <a href="http://blog.siwinski.info/sets/progressive-awake/7-months-of-dream-dont-want-to-wake-up-july-2009">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_7_months_of_dream__july_2009.mp3"><img class="alignnone size-medium wp-image-360" title="Progressive Awake - 7 months of dream (Don't want to wake up) (July 2009)" src="http://blog.siwinski.info/wp-content/uploads/2012/12/progressive_awake_-_7_months_of_dream__july_2009-300x300.jpg" alt="" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - 7 month of dream (Don't want to wake up) (July 2009)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_7_months_of_dream__july_2009.mp3"><strong>DOWNLOAD (83MB, 1h)</strong></a></p>
+<p>Tracklist:<br />
+* <em>intro:</em> marcin nowakowski &#8211; smooth night<br />
+* luciano di nardo &#8211; anymore (chris reece remix)<br />
+* fuzzy hair &#8211; be free (thomas schwartz mix)<br />
+* rick costa &#8211; broken box (original mix)<br />
+* starchaser &#8211; a new society (thomas schwartz mix)<br />
+* dj tatana &#8211; somebody (leventina remix)<br />
+* max linen &#8211; neon lights (thomas schwartz rmx)<br />
+* radio k ft. randy roberts &#8211; coming (chris reece remix)<br />
+* dinka &#8211; chemistry (original mix)<br />
+* joanna &#8211; sometimes (matt cerf dub mix)<br />
+* mossy &#8211; it works (original mix)<br />
+* dj tatana &#8211; spring breeze (martin roth summer style remix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/sets/progressive-awake/7-months-of-dream-dont-want-to-wake-up-july-2009/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://siwinski.info/download/progressive-awake/progressive_awake_-_7_months_of_dream__july_2009.mp3" length="86212526" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>

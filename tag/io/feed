@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; io</title>
+	<atom:link href="http://blog.siwinski.info/tag/io/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to read file in Java (simple version)?</title>
+		<link>http://blog.siwinski.info/dev/java-dev/how-to-read-file-in-java-simple-version</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/how-to-read-file-in-java-simple-version#comments</comments>
+		<pubDate>Thu, 22 Feb 2007 21:04:40 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[basis]]></category>
+		<category><![CDATA[io]]></category>
+		<category><![CDATA[java]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1941</guid>
+		<description><![CDATA[Simple program that read &#038; print each line from given file. import java.io.File; import java.io.FileReader; import java.io.BufferedReader; class ReadAFile &#123; &#160; public static void main&#40;String&#91;&#93; args&#41; &#123; &#160; &#160; try &#123; &#160; &#160; &#160; File myFile = new File&#40;&#34;MyText.txt&#34;&#41;; &#160; &#8230; <a href="http://blog.siwinski.info/dev/java-dev/how-to-read-file-in-java-simple-version">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Simple program that read &#038; print each line from given file.</p>
+<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">java.io.File</span><span style="color: #339933;">;</span><br />
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">java.io.FileReader</span><span style="color: #339933;">;</span><br />
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">java.io.BufferedReader</span><span style="color: #339933;">;</span><br />
+<br />
+<span style="color: #000000; font-weight: bold;">class</span> ReadAFile <span style="color: #009900;">&#123;</span><br />
+<br />
+&nbsp; <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #000066; font-weight: bold;">void</span> main<span style="color: #009900;">&#40;</span><span style="color: #003399;">String</span><span style="color: #009900;">&#91;</span><span style="color: #009900;">&#93;</span> args<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; <span style="color: #000000; font-weight: bold;">try</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; &nbsp; <span style="color: #003399;">File</span> myFile <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> <span style="color: #003399;">File</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;MyText.txt&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; &nbsp; <span style="color: #003399;">FileReader</span> fileReader <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> <span style="color: #003399;">FileReader</span><span style="color: #009900;">&#40;</span>myFile<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; &nbsp; <span style="color: #003399;">BufferedReader</span> reader <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> <span style="color: #003399;">BufferedReader</span><span style="color: #009900;">&#40;</span>fileReader<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+<br />
+&nbsp; &nbsp; &nbsp; <span style="color: #003399;">String</span> line <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; &nbsp; <span style="color: #000000; font-weight: bold;">while</span> <span style="color: #009900;">&#40;</span><span style="color: #009900;">&#40;</span>line <span style="color: #339933;">=</span> reader.<span style="color: #006633;">readLine</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">!=</span><span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #003399;">System</span>.<span style="color: #006633;">out</span>.<span style="color: #006633;">println</span><span style="color: #009900;">&#40;</span>line<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; &nbsp; <span style="color: #009900;">&#125;</span><br />
+&nbsp; &nbsp; &nbsp; reader.<span style="color: #006633;">close</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; <span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">catch</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">Exception</span> e<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; &nbsp; e.<span style="color: #006633;">printStackTrace</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; <span style="color: #009900;">&#125;</span><br />
+&nbsp; <span style="color: #009900;">&#125;</span><br />
+<span style="color: #009900;">&#125;</span></div></div>
+<p>Simple MyText.txt file:</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Took a ride to the end of the line<br />
+Where no one ever goes<br />
+Ended up on a broken train with nobody I know<br />
+But the pain and the longing's the same<br />
+When you're dying<br />
+Now I’m lost and I’m screaming for help alone<br />
+<br />
+Relax, take it easy<br />
+For there is nothing that we can do<br />
+Relax, take it easy<br />
+Blame it on me or blame it on you<br />
+<br />
+It’s as if I’m scared<br />
+It’s as if I’m terrified<br />
+It’s as if I scared<br />
+It’s as if I’m playing with fire<br />
+Scared<br />
+It’s as if I’m terrified<br />
+Are you scared?<br />
+Are we playing with fire?<br />
+<br />
+Relax<br />
+There is an answer to the darkest times<br />
+It’s clear we don’t understand it but the last thing on my mind<br />
+Is to leave you<br />
+I believe that we’re in this together<br />
+Don’t scream, there are so many roads left<br />
+<br />
+Relax, take it easy<br />
+For there is nothing that we can do<br />
+Relax, take it easy<br />
+Blame it on me or blame it on you<br />
+<br />
+It’s as if I’m scared<br />
+It’s as if I’m terrified<br />
+It’s as if I scared<br />
+It’s as if I’m playing with fire<br />
+Scared<br />
+It’s as if I’m terrified<br />
+Are you scared?<br />
+Are we playing with fire?<br />
+<br />
+Relax<br />
+Relax</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/how-to-read-file-in-java-simple-version/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>object serialization/deserialization vs class changes during development</title>
+		<link>http://blog.siwinski.info/dev/java-dev/object-serializationdeserialization-vs-class-changes-during-development</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/object-serializationdeserialization-vs-class-changes-during-development#comments</comments>
+		<pubDate>Sat, 17 Feb 2007 21:29:32 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[io]]></category>
+		<category><![CDATA[java]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1753</guid>
+		<description><![CDATA[Changes that are NOT OK: - removing instance variables - changing types of instance variables - non-transient to transient instance variable change - moving class up or down in the inheritance tree - making Serializable class again non Serializable - &#8230; <a href="http://blog.siwinski.info/dev/java-dev/object-serializationdeserialization-vs-class-changes-during-development">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Changes that are NOT OK:<br />
+- removing instance variables<br />
+- changing types of instance variables<br />
+- non-transient to transient instance variable change<br />
+- moving class up or down in the inheritance tree<br />
+- making Serializable class again non Serializable<br />
+- change instane variable to static (class variable)</p>
+<p>Changes that should be OK*:<br />
+- add new fields (instance variables) in class<br />
+- adding or removing classes in the inheritance tree<br />
+- changing the access level of an instance variables<br />
+- changing transient instance variable to non-transient</p>
+<p>* Only if serialVersionUID did&#8217;t change!!!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/object-serializationdeserialization-vs-class-changes-during-development/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

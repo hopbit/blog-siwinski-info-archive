@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; update</title>
+	<atom:link href="http://blog.siwinski.info/tag/update/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Message &#8222;where is system events&#8221; message boot</title>
+		<link>http://blog.siwinski.info/dev/message-where-is-system-events-message-boot</link>
+		<comments>http://blog.siwinski.info/dev/message-where-is-system-events-message-boot#comments</comments>
+		<pubDate>Thu, 06 Dec 2012 21:43:05 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[10.5.6]]></category>
+		<category><![CDATA[10.5.8]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[snow leopard]]></category>
+		<category><![CDATA[update]]></category>
+		<category><![CDATA[upgrade]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=429</guid>
+		<description><![CDATA[After upgrading my Mac OS Leopart to Snow Leopard, the system asked for a file named “System Events.app”. You can find it under: System/Library/CoreService/System Events.app]]></description>
+				<content:encoded><![CDATA[<p>After upgrading my Mac OS Leopart to Snow Leopard, the system asked for a file named “System Events.app”.</p>
+<p>You can find it under:</p>
+<p>System/Library/CoreService/System Events.app</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/message-where-is-system-events-message-boot/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

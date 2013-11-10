@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Komentarze do: How to remove all commits from git history on specific file</title>
+	<atom:link href="http://blog.siwinski.info/dev/how-to-remove-all-commits-from-git-history-on-specific-file/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info/dev/how-to-remove-all-commits-from-git-history-on-specific-file</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Thu, 11 Jul 2013 08:06:33 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Autor: Git How To &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/dev/how-to-remove-all-commits-from-git-history-on-specific-file#comment-97</link>
+		<dc:creator><![CDATA[Git How To &#124; Continous Integration]]></dc:creator>
+		<pubDate>Fri, 01 Mar 2013 23:32:18 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=684#comment-97</guid>
+		<description><![CDATA[[...] remove file that was accidentally added to index? - How to revetrive a branch state from reflog? - How to remove all commits from git history on specific file? - How to drop/delete last commit in [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] remove file that was accidentally added to index? &#8211; How to revetrive a branch state from reflog? &#8211; How to remove all commits from git history on specific file? &#8211; How to drop/delete last commit in [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; example</title>
+	<atom:link href="http://blog.siwinski.info/tag/example/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Git Tutorial</title>
+		<link>http://blog.siwinski.info/dev/git-tutorial</link>
+		<comments>http://blog.siwinski.info/dev/git-tutorial#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:24:16 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[example]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[tutorial]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=662</guid>
+		<description><![CDATA[----------------------------------------------------------------------------- ### installation sudo apt-get install git-core ----------------------------------------------------------------------------- ### setup ----------------------------------------------------------------------------- ## User Configuration # Configure the user which will be used by git (of course you should use # your name git config --global user.name &#34;Name Surname&#34; # Same &#8230; <a href="http://blog.siwinski.info/dev/git-tutorial">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">
+-----------------------------------------------------------------------------
+### installation
+
+sudo apt-get install git-core
+
+-----------------------------------------------------------------------------
+### setup
+
+-----------------------------------------------------------------------------
+## User Configuration
+
+# Configure the user which will be used by git (of course you should use 
+# your name
+
+git config --global user.name &quot;Name Surname&quot;
+
+# Same for the email address
+
+git config --global user.email &quot;your.email@example.com&quot;
+
+# Set default so that all changes are always pushed to the repository
+
+# git config --global push.default &quot;matching&quot;
+
+# how to check my/global git settings 
+
+git config --list
+
+# or
+siwinski-info:~ Hopbit$ cd ~
+siwinski-info:~ Hopbit$ cat .gitconfig
+
+# Git store global settings in a .gitconfig file. 
+# This file is located in user home directory.
+
+-----------------------------------------------------------------------------
+## color highlighting 
+
+git config --global color.status auto
+git config --global color.branch auto
+
+-----------------------------------------------------------------------------
+## ignore certain files
+
+# add file .gitignore in the main directory
+# Git also offers the global setting core.excludesfile to specify 
+# global excludes. example
+
+echo &quot;bin/&quot; &gt;&gt; .gitignore
+echo &quot;.classpath&quot; &gt;&gt; .gitignore
+
+-----------------------------------------------------------------------------
+### getting started with git
+
+-----------------------------------------------------------------------------
+## create repository content
+
+#Switch to home
+cd ~/
+
+# Create a directory
+mkdir ~/repo01
+
+# Switch into it
+cd repo01
+
+# Create a new directory
+mkdir datafiles
+
+# Create a few files
+touch test01
+touch test02
+touch test03
+touch datafiles/data.txt
+# Put a little text into the first file
+ls &gt;test01
+
+-----------------------------------------------------------------------------
+## create repository, add files and commit them
+				
+# Initialize the local Git repository
+git init
+
+# Add all (files and directories) to the Git repository
+git add .
+
+# Make a commit of your file to the local repository
+git commit -m &quot;Initial commit&quot;
+
+# Show the log file
+git log
+
+-----------------------------------------------------------------------------
+### status, git and commit log
+
+# See the current status of your repository 
+# (which files are changed / new / deleted)
+git status
+
+# Show the differences between the uncommitted files 
+# and the last commit in the current branch
+git diff
+
+# Add the changes to the index and commit
+git add . &amp;&amp; git commit -m &quot;More chaanges - typo in the commit message&quot;
+
+# Show the history of commits in the current branch
+
+git log
+
+# This starts a nice graphical view of the changes
+
+gitk --all
+
+-----------------------------------------------------------------------------
+### Correction of commit messages - git amend
+
+# The git amend command makes it possible to change the last commit message. 
+
+git commit --amend -m &quot;More changes - now correct&quot;
+
+-----------------------------------------------------------------------------
+### delete files 
+
+# Create a file and put it under version control
+
+touch nonsense.txt
+git add . &amp;&amp; git commit -m &quot;a new file has been created&quot;
+
+# Remove the file
+
+rm nonsense.txt
+
+# Try standard way of committing -&gt; will not work 
+
+git add . &amp;&amp; git commit -m &quot;a new file has been created&quot;
+
+# Now commit with the -a flag
+
+git commit -a -m &quot;File nonsense.txt is now removed&quot;
+
+# Alternatively you could add deleted files to the staging index via
+
+git add -A . 
+git commit -m &quot;File nonsense.txt is now removed&quot;
+
+-----------------------------------------------------------------------------
+### remote repositories
+
+-----------------------------------------------------------------------------
+## set up remote (bare) git repository
+
+# git allow to store remote repositories either on the network or locally
+
+# Switch to the first repository
+cd ~/repo01
+# 
+git clone --bare . ../remote-repository.git
+
+# Check the content, it is identical to the .git directory in repo01
+ls ~/remote-repository.git
+ 
+-----------------------------------------------------------------------------
+## push changes to another repository
+
+# Make some changes in the first repository
+cd ~/repo01
+
+# Make some changes in the file
+echo &quot;Hello, hello. Turn your radio on&quot; &gt; test01
+echo &quot;Bye, bye. Turn your radio off&quot; &gt; test02
+
+# Commit the changes, -a will commit changes for modified files
+# but will not add automatically new files
+git commit -a -m &quot;Some changes&quot;
+
+# Push the changes
+git push ../remote-repository.git
+
+-----------------------------------------------------------------------------
+## add remote
+
+# Add ../remote-repository.git with the name origin
+git remote add origin ../remote-repository.git 
+
+# Again some changes
+echo &quot;I added a remote repo&quot; &gt; test02
+# Commit
+git commit -a -m &quot;This is a test for the new remote origin&quot;
+# If you do not label a repository it will push to origin
+git push origin
+
+-----------------------------------------------------------------------------
+##  show the existing remote repositories
+
+# Show the existing defined remote repositories
+git remote
+			
+-----------------------------------------------------------------------------
+## clone repository
+
+# Create a new repository in a new directory via the following commands.
+				
+# Switch to home
+cd ~
+# Make new directory
+mkdir repo02
+
+# Switch to new directory
+cd ~/repo02
+# Clone
+git clone ../remote-repository.git .
+
+-----------------------------------------------------------------------------
+## pull changes
+
+# Pull allows you to get the latest changes from another repository. 
+# In your second repository, make some changes, push them to your remote
+# repository and pull these changes to your first repository.
+				
+# Switch to home
+cd ~
+
+# Switch to second directory
+cd ~/repo02
+
+# Make changes
+echo &quot;A change&quot; &gt; test01
+
+# Commit
+git commit -a -m &quot;A change&quot;
+
+# Push changes to remote repository
+# Origin is automatically maintained as we cloned from this repository
+git push origin
+
+# Switch to the first repository and pull in the changes
+cd ~/repo01
+git pull ../remote-repository.git/
+
+# Check the changes
+less test01
+
+-----------------------------------------------------------------------------
+### 6. Revert Changes
+
+# If you create files in your working copy which you do not want to commit, 
+# you can discard them.
+
+# Create a new file with content
+touch test04
+echo &quot;this is trash&quot; &gt; test04
+
+# Make a dry-run to see what would happen
+# -n is the same as --dry-run 
+git clean -n
+
+# Now delete
+git clean -f
+
+-----------------------------------------------------------------------------
+# You can check out older revisions of your source code via the commit ID. 
+# The commit ID is shown if you enter the git log command. It is displayed 
+# behind the commit word.
+
+# Switch to home
+cd ~/repo01
+# Get the log
+git log
+
+# Copy one of the older commits and checkout the older revision via 
+git checkout commit_name
+
+
+#If you have not added the changes to the staging index, you can also 
+revert the changes directly.
+			
+#Some nonsense change
+echo &quot;nonsense change&quot; &gt; test01
+
+# Not added to the staging index. Therefore we can 
+# just checkout the old version
+git checkout test01
+
+# Check the result
+cat test01
+
+# Another nonsense change
+echo &quot;another nonsense change&quot; &gt; test01
+
+# We add the file to the staging index
+git add test01
+
+# Restore the file in the staging index
+git reset HEAD test01
+
+# Get the old version from the staging index
+git checkout test01
+
+-----------------------------------------------------------------------------
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git-tutorial/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ternary Operator in Java</title>
+		<link>http://blog.siwinski.info/dev/java-dev/ternary-operator-in-java</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/ternary-operator-in-java#comments</comments>
+		<pubDate>Sat, 14 Jan 2006 21:08:54 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[basis]]></category>
+		<category><![CDATA[example]]></category>
+		<category><![CDATA[java]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1964</guid>
+		<description><![CDATA[class TernaryTest &#123; &#160; &#160; public static void main&#40;String&#91;&#93; args&#41;&#123; &#160; &#160; &#160; &#160; String sTrue = &#34;true&#34;; &#160; &#160; &#160; &#160; String sFalse= &#34;false&#34;; &#160; &#160; &#160; &#160; boolean condition = true; &#160; &#160; &#160; &#160; // will print &#8230; <a href="http://blog.siwinski.info/dev/java-dev/ternary-operator-in-java">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #000000; font-weight: bold;">class</span> TernaryTest <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #000066; font-weight: bold;">void</span> main<span style="color: #009900;">&#40;</span><span style="color: #003399;">String</span><span style="color: #009900;">&#91;</span><span style="color: #009900;">&#93;</span> args<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #003399;">String</span> sTrue <span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;true&quot;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #003399;">String</span> sFalse<span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;false&quot;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #000066; font-weight: bold;">boolean</span> condition <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">true</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #666666; font-style: italic;">// will print &quot;true&quot;</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #003399;">System</span>.<span style="color: #006633;">out</span>.<span style="color: #006633;">println</span><span style="color: #009900;">&#40;</span>condition <span style="color: #339933;">?</span> sTrue <span style="color: #339933;">:</span> sFalse<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #666666; font-style: italic;">// will print &quot;false&quot;</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #003399;">System</span>.<span style="color: #006633;">out</span>.<span style="color: #006633;">println</span><span style="color: #009900;">&#40;</span><span style="color: #339933;">!</span>condition <span style="color: #339933;">?</span> sTrue <span style="color: #339933;">:</span> sFalse<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; <span style="color: #009900;">&#125;</span><br />
+<span style="color: #009900;">&#125;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/ternary-operator-in-java/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

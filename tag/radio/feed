@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; radio</title>
+	<atom:link href="http://blog.siwinski.info/tag/radio/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Stacje radiowe (Warszawa)</title>
+		<link>http://blog.siwinski.info/other/stacje-radiowe-warszawa</link>
+		<comments>http://blog.siwinski.info/other/stacje-radiowe-warszawa#comments</comments>
+		<pubDate>Sun, 05 May 2013 19:10:24 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[radio]]></category>
+		<category><![CDATA[reference]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1688</guid>
+		<description><![CDATA[- 87.8 Radio Bajka - 88.4 Radio Nostalgia - 89.0 Radio Maryja - 89.4 Radio Hobby - 89.8 Radio Wawa 89,8 - 90.6 RMF FM - 91.0 RMF FM - 92.0 Polskie Radio Czwórka - 92.4 Polskie Radio Program 1 &#8230; <a href="http://blog.siwinski.info/other/stacje-radiowe-warszawa">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>- 87.8 Radio Bajka<br />
+- 88.4 Radio Nostalgia<br />
+- 89.0 Radio Maryja<br />
+- 89.4 Radio Hobby<br />
+- 89.8 Radio Wawa 89,8<br />
+- 90.6 RMF FM<br />
+- 91.0 RMF FM<br />
+- 92.0 Polskie Radio Czwórka<br />
+- 92.4 Polskie Radio Program 1<br />
+- 93.3 Radio Vox FM Warszawa<br />
+- 94.0 Antyradio 94 FM<br />
+- 95.8 RMF MAXXX Mazowsze<br />
+- 96.5 Radio Plus Warszawa<br />
+- 97.1 Akademickie Radio Kampus<br />
+- 97.7 Radio TOK FM<br />
+- 98.3 RMF Classic<br />
+- 98.8 Polskie Radio Program 3<br />
+- 99.1 Polskie Radio Program 3<br />
+- 99.5 Radio Nostalgia<br />
+- 99.5 Radio AK Jutrzenka<br />
+- 100.1 Radio Złote Przeboje Pogoda 100,1 FM<br />
+- 101.0 Radio dla Ciebie<br />
+- 101.5 Radio Planeta FM<br />
+- 102.0 Radio PiN<br />
+- 102.4 Polskie Radio Program 1<br />
+- 102.7 Radio Niepokalanów<br />
+- 103.0 Radio Kolor<br />
+- 103.7 Radio 103,7 Roxy FM<br />
+- 104.4 Radio Eska Rock<br />
+- 104.9 Polskie Radio Program 2<br />
+- 105.6 Radio Eska Warszawa<br />
+- 106.2 Radio Warszawa<br />
+- 106.8 Chilli ZET<br />
+- 107.5 Radio ZET</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/other/stacje-radiowe-warszawa/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

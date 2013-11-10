@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; progressive awake</title>
+	<atom:link href="http://blog.siwinski.info/tag/progressive-awake-2/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Discovering myself with You (March 2009)</title>
+		<link>http://blog.siwinski.info/sets/progressive-awake/discovering-myself-with-you-march-2009</link>
+		<comments>http://blog.siwinski.info/sets/progressive-awake/discovering-myself-with-you-march-2009#comments</comments>
+		<pubDate>Tue, 03 Mar 2009 21:58:16 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Progressive Awake]]></category>
+		<category><![CDATA[progressive awake]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=271</guid>
+		<description><![CDATA[DOWNLOAD (47MB, 52min) Tracklist: * johnson, haske &#8211; breeze (original mix) * a.s.h.a. &#8211; ball and chain (jj tribute glenn morrison bruce aisher remix) * musetta &#8211; nicotine (glenn morrison mix) * jhonny &#38; peps, squid &#8211; all in all &#8230; <a href="http://blog.siwinski.info/sets/progressive-awake/discovering-myself-with-you-march-2009">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_discovering_myself_with_you__march_2009.mp3"><img class="alignnone size-medium wp-image-273" title="Progressive Awake - Discovering myself with You (March 2009)" src="http://blog.siwinski.info/wp-content/uploads/2012/11/progressive_awake_-_discovering_myself_with_you__march_2009-300x300.jpg" alt="" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Discovering myself with You (March 2009)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_discovering_myself_with_you__march_2009.mp3"><strong>DOWNLOAD (47MB, 52min)</strong></a></p>
+<p>Tracklist:<br />
+* johnson, haske &#8211; breeze (original mix)<br />
+* a.s.h.a. &#8211; ball and chain (jj tribute glenn morrison bruce aisher remix)<br />
+* musetta &#8211; nicotine (glenn morrison mix)<br />
+* jhonny &amp; peps, squid &#8211; all in all out (original mix)<br />
+* rick costa &#8211; broken box (original mix)<br />
+* joanna &#8211; sometimes (matt cerf dub mix)<br />
+* second left &#8211; dusk (original mix)<br />
+* thomas schwartz &#8211; neptune rising (original mix)<br />
+* thomas schwartz, fausto fanizza &#8211; jambe myth (original mix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/sets/progressive-awake/discovering-myself-with-you-march-2009/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://siwinski.info/download/progressive-awake/progressive_awake_-_discovering_myself_with_you__march_2009.mp3" length="49211435" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>

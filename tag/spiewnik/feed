@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; spiewnik</title>
+	<atom:link href="http://blog.siwinski.info/tag/spiewnik/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Edyta Bartosiewicz &#8222;Ostatni&#8221;</title>
+		<link>http://blog.siwinski.info/guitar-cat/song-book/edyta-bartosiewicz-ostatni</link>
+		<comments>http://blog.siwinski.info/guitar-cat/song-book/edyta-bartosiewicz-ostatni#comments</comments>
+		<pubDate>Tue, 26 Mar 2013 21:23:30 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Song Book]]></category>
+		<category><![CDATA[guitar]]></category>
+		<category><![CDATA[spiewnik]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1192</guid>
+		<description><![CDATA[Zatańcz ze mną jeszcze raz Otul twarzą moją twarz Co z nami będzie? &#8211; za oknem świt Tak nam dobrze mogło być Gdy ciebie zabraknie i ziemia rozstąpi się W nicości trwam Gdy kiedyś odejdziesz Nas już nie będzie i &#8230; <a href="http://blog.siwinski.info/guitar-cat/song-book/edyta-bartosiewicz-ostatni">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Zatańcz ze mną jeszcze raz<br />
+Otul twarzą moją twarz<br />
+Co z nami będzie? &#8211; za oknem świt<br />
+Tak nam dobrze mogło być</p>
+<p>Gdy ciebie zabraknie i ziemia rozstąpi się<br />
+W nicości trwam<br />
+Gdy kiedyś odejdziesz<br />
+Nas już nie będzie i siebie nie znajdziesz też</p>
+<p>Zatańcz ze mną jeszcze raz<br />
+Chcę chłonąć każdy oddech twój<br />
+Co z nami będzie? &#8211; uwierz mi<br />
+Tak jak ja nie kochał nikt</p>
+<p>Gdy ciebie zabraknie i ziemia rozstąpi się<br />
+W nicości trwam<br />
+Gdy kiedyś odejdziesz<br />
+Nas już nie będzie i siebie nie znajdziesz też 2x</p>
+<p>W salonie wśród ciepłych świec<br />
+Już nigdy nie zbudzisz mnie<br />
+Już nigdy nie powiesz mi i<br />
+Jak bardzo kochałeś mnie<br />
+Kochałeś mnie, kochałeś mnie&#8230;</p>
+<p>Czy słyszysz jak tam daleko muzyka gra?</p>
+<p>Zatańcz ze mną, jeszcze raz</p>
+<p>Gdy ciebie zabraknie i ziemia rozstąpi się<br />
+W nicości trwam<br />
+Gdy kiedyś odejdziesz<br />
+Nas już nie będzie i siebie nie znajdziesz też</p>
+<p>Zatańcz ze mną, ostatni raz</p>
+<p>Nas już nie będzie i siebie nie znajdziesz też</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/guitar-cat/song-book/edyta-bartosiewicz-ostatni/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

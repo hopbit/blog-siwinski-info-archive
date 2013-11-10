@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; drums</title>
+	<atom:link href="http://blog.siwinski.info/tag/drums/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Jam Session: Start</title>
+		<link>http://blog.siwinski.info/guitar-cat/jam-sessions/jam-session-start</link>
+		<comments>http://blog.siwinski.info/guitar-cat/jam-sessions/jam-session-start#comments</comments>
+		<pubDate>Sun, 17 Feb 2013 21:54:34 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Jam Sessions]]></category>
+		<category><![CDATA[drums]]></category>
+		<category><![CDATA[guitar]]></category>
+		<category><![CDATA[jam session]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=918</guid>
+		<description><![CDATA[Record 1: Record 2: Session date: 2013-02-16 By: Łukasz Siwiński &#038; Jakub Ryć]]></description>
+				<content:encoded><![CDATA[<p>Record 1:</p>
+<p><iframe width="420" height="315" src="http://www.youtube.com/embed/JXT9mFY6vGQ?list=PLUY58bai67rZVEpvGGrADKcF4LDPq4UvY" frameborder="0" allowfullscreen></iframe></p>
+<p>Record 2:</p>
+<p><iframe width="420" height="315" src="http://www.youtube.com/embed/DYXkHBS5-88?list=PLUY58bai67rZVEpvGGrADKcF4LDPq4UvY" frameborder="0" allowfullscreen></iframe></p>
+<p>Session date: 2013-02-16<br />
+By: Łukasz Siwiński &#038; Jakub Ryć</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/guitar-cat/jam-sessions/jam-session-start/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; html</title>
+	<atom:link href="http://blog.siwinski.info/tag/html/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to add (import) CSS into HTML file?</title>
+		<link>http://blog.siwinski.info/dev/how-to-add-css-file-in-html-file</link>
+		<comments>http://blog.siwinski.info/dev/how-to-add-css-file-in-html-file#comments</comments>
+		<pubDate>Wed, 12 Sep 2012 21:02:59 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[cheatsheet]]></category>
+		<category><![CDATA[css]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[html]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=647</guid>
+		<description><![CDATA[&#60;link href=&#34;something.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34; /&#62;]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">&lt;link href=&quot;something.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-add-css-file-in-html-file/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

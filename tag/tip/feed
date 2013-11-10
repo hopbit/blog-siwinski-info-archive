@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; tip</title>
+	<atom:link href="http://blog.siwinski.info/tag/tip/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to easily remove many files in Git?</title>
+		<link>http://blog.siwinski.info/dev/szybkie-kasowanie-wielu-plikow-w-git</link>
+		<comments>http://blog.siwinski.info/dev/szybkie-kasowanie-wielu-plikow-w-git#comments</comments>
+		<pubDate>Fri, 28 Dec 2012 22:35:27 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[tip]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=540</guid>
+		<description><![CDATA[git add -A # or git add --all # it will add both new &#38; removed files stage]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git add</span> <span style="color: #660033;">-A</span><br />
+<span style="color: #666666; font-style: italic;"># or </span><br />
+<span style="color: #c20cb9; font-weight: bold;">git add</span> <span style="color: #660033;">--all</span><br />
+<span style="color: #666666; font-style: italic;"># it will add both new &amp; removed files stage</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/szybkie-kasowanie-wielu-plikow-w-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

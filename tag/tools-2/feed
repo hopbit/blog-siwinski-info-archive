@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; tools</title>
+	<atom:link href="http://blog.siwinski.info/tag/tools-2/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Print unique words with their counts.</title>
+		<link>http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts</link>
+		<comments>http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts#comments</comments>
+		<pubDate>Sat, 20 Jul 2013 20:17:18 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Bash]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[gist]]></category>
+		<category><![CDATA[scripts]]></category>
+		<category><![CDATA[snippet]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1953</guid>
+		<description><![CDATA[cat file.txt &#124; awk -F'[,]' '{ print $2 }' &#124; sort &#124; uniq -c &#124; sort -nr &#62; result.txt Explained # print file.txt cat file.txt # show only 2nd column using ',' as delimiter awk -F'[,]' '{ print $2 }' &#8230; <a href="http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">cat</span> file.txt <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">awk</span> <span style="color: #660033;">-F</span><span style="color: #ff0000;">'[,]'</span> <span style="color: #ff0000;">'{ print $2 }'</span> <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">sort</span> <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">uniq</span> <span style="color: #660033;">-c</span> <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">sort</span> <span style="color: #660033;">-nr</span> <span style="color: #000000; font-weight: bold;">&gt;</span> result.txt</div></div>
+<p>Explained</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># print file.txt</span><br />
+<span style="color: #c20cb9; font-weight: bold;">cat</span> file.txt<br />
+<span style="color: #666666; font-style: italic;"># show only 2nd column using ',' as delimiter</span><br />
+<span style="color: #c20cb9; font-weight: bold;">awk</span> <span style="color: #660033;">-F</span><span style="color: #ff0000;">'[,]'</span> <span style="color: #ff0000;">'{ print $2 }'</span> <br />
+<span style="color: #666666; font-style: italic;"># sort result</span><br />
+<span style="color: #c20cb9; font-weight: bold;">sort</span> <br />
+<span style="color: #666666; font-style: italic;"># &nbsp;number of times each line occurred along with the line</span><br />
+<span style="color: #c20cb9; font-weight: bold;">uniq</span> <span style="color: #660033;">-c</span> <br />
+<span style="color: #666666; font-style: italic;"># sort numerically (by number) and show in reverse (max showed on top)</span><br />
+<span style="color: #c20cb9; font-weight: bold;">sort</span> <span style="color: #660033;">-nr</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/bash-dev/print-unique-words-with-their-counts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to add end line after each given string in Sublime Text 2?</title>
+		<link>http://blog.siwinski.info/dev/how-to-add-end-line-after-each-given-string-in-sublime-text-2</link>
+		<comments>http://blog.siwinski.info/dev/how-to-add-end-line-after-each-given-string-in-sublime-text-2#comments</comments>
+		<pubDate>Sun, 14 Jul 2013 20:17:03 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Sublime Text]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1819</guid>
+		<description><![CDATA[@ Win: - find your string with [ctrl + f] - hit [alt + f3] to select all occurences - hit esc - hit right arrow - type &#34;enter&#34;]]></description>
+				<content:encoded><![CDATA[<p>@ Win:</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">- find your string with [ctrl + f]<br />
+- hit [alt + f3] to select all occurences <br />
+- hit esc<br />
+- hit right arrow <br />
+- type &quot;enter&quot;</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-add-end-line-after-each-given-string-in-sublime-text-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sorting Lines in Sublime Text 2</title>
+		<link>http://blog.siwinski.info/dev/sublime-text/sorting-lines-in-sublime-text-2</link>
+		<comments>http://blog.siwinski.info/dev/sublime-text/sorting-lines-in-sublime-text-2#comments</comments>
+		<pubDate>Thu, 11 Jul 2013 20:34:54 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Sublime Text]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1818</guid>
+		<description><![CDATA[@ Windows: - select lines to sort with [ctrl + a] or [shift + arrows] - hit [F9]]]></description>
+				<content:encoded><![CDATA[<p>@ Windows:</p>
+<p>- select lines to sort with [ctrl + a] or [shift + arrows]<br />
+- hit [F9]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/sublime-text/sorting-lines-in-sublime-text-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Show (hide) line numbers in Vim</title>
+		<link>http://blog.siwinski.info/dev/vim-pokaz-ukryj-numery-linii</link>
+		<comments>http://blog.siwinski.info/dev/vim-pokaz-ukryj-numery-linii#comments</comments>
+		<pubDate>Fri, 28 Dec 2012 23:48:38 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[vim]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=605</guid>
+		<description><![CDATA[:set number :set nonumber # ewentualnie, jeśli chcesz miec to na stałe to: echo &#34;:set number&#34; &#62;&#62; ~/.vimrc]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">:set number<br />
+:set nonumber<br />
+<br />
+<span style="color: #666666; font-style: italic;"># ewentualnie, jeśli chcesz miec to na stałe to:</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;:set number&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> ~<span style="color: #000000; font-weight: bold;">/</span>.vimrc</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/vim-pokaz-ukryj-numery-linii/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Skróty w Eclipse IDE @ OSX</title>
+		<link>http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx</link>
+		<comments>http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:03:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=549</guid>
+		<description><![CDATA[Command + F8 Zmień perspektywę (Java, Debug, Git, etc.) Command + ALT + Down/Up Arrow Skopiuj bieżącą linię powyżej/poniżej. ALT + Down/Up Arrow Przesuń bieżącą linię wyżej/niżej. &#160; [CMD]+[SHIFT]+O organize imports (add necessary &#38; remove unused) [CMD]+[ALT]+UP/DOWN copy/duplicate current line &#8230; <a href="http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<table>
+<tbody>
+<tr>
+<td>Command + F8</td>
+<td>Zmień perspektywę (Java, Debug, Git, etc.)</td>
+</tr>
+<tr>
+<td>Command + ALT + Down/Up Arrow</td>
+<td>Skopiuj bieżącą linię powyżej/poniżej.</td>
+</tr>
+<tr>
+<td>ALT + Down/Up Arrow</td>
+<td>Przesuń bieżącą linię wyżej/niżej.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>[CMD]+[SHIFT]+O organize imports (add necessary &amp; remove unused)<br />
+[CMD]+[ALT]+UP/DOWN copy/duplicate current line to line above/below</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Zamiana znaków nazwy pliku na małe litery</title>
+		<link>http://blog.siwinski.info/dev/zamiana-znakow-nazwy-pliku-na-male-litery</link>
+		<comments>http://blog.siwinski.info/dev/zamiana-znakow-nazwy-pliku-na-male-litery#comments</comments>
+		<pubDate>Mon, 28 Nov 2011 20:11:33 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[script]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=133</guid>
+		<description><![CDATA[Porządkując swoją kolekcję muzyki często zdarza mi się, że muszę hurtowo zmieniać nazwy wielu plików audio. Mam taką konwencję nazewnictwa plików: artysta lub zespol &#8211; nazwa utworu (jakis remix).rozszerzenie Oto prosty skrypt w języku Python, który umożliwia zamianę dużych liter &#8230; <a href="http://blog.siwinski.info/dev/zamiana-znakow-nazwy-pliku-na-male-litery">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Porządkując swoją kolekcję muzyki często zdarza mi się, że muszę hurtowo zmieniać nazwy wielu plików audio. Mam taką konwencję nazewnictwa plików:</p>
+<p>artysta lub zespol &#8211; nazwa utworu (jakis remix).rozszerzenie</p>
+<p>Oto prosty skrypt w języku Python, który umożliwia zamianę dużych liter na małe w nazwach plików znajdujących się w bieżącym katalogu:</p>
+<p><a title="filenames_to_lowercase_txt" href="http://siwinski.info/script/python/_filenames_to_lowercase.txt" target="_blank">_filenames_to_lowercase.txt</a></p>
+<p>W napisaniu skryptu pomógł <a href="http://mail.python.org/pipermail/tutor/2007-February/052607.html" target="_blank">wujek google</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/zamiana-znakow-nazwy-pliku-na-male-litery/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to change default language in RAD/eclipse on Windows</title>
+		<link>http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows</link>
+		<comments>http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows#comments</comments>
+		<pubDate>Tue, 19 Apr 2011 21:44:25 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[rad]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=574</guid>
+		<description><![CDATA[Run RAD/Eclipse with the -nl argument followed by the language en_US, e.g.: eclipse.exe -nl en_US or add the variable -Duser.language=en at eclipse.ini file. Both eclipse.exe and eclipse.ini are located in default IDE installation directory, .e.g.: c:\Program Files\Eclipse c:\Program Files\IBM\SDP Solution &#8230; <a href="http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Run RAD/Eclipse with the -nl argument followed by the language en_US, e.g.:</p>
+<blockquote><p>eclipse.exe -nl en_US</p></blockquote>
+<p>or add the variable</p>
+<blockquote><p>-Duser.language=en</p></blockquote>
+<p>at eclipse.ini file.</p>
+<p>Both eclipse.exe and eclipse.ini are located in default IDE installation directory, .e.g.:</p>
+<blockquote><p>c:\Program Files\Eclipse<br />
+c:\Program Files\IBM\SDP</p></blockquote>
+<p>Solution founded <a href="https://www-304.ibm.com/support/docview.wss?uid=swg21195484" target="_blank">here</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Offline English Dictionary Application for Android</title>
+		<link>http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android</link>
+		<comments>http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android#comments</comments>
+		<pubDate>Thu, 07 Apr 2011 21:40:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=571</guid>
+		<description><![CDATA[Today I had no electricity. Laptop is powered by embeded battery too, but router &#38; modem no… :/ From time to time I need an english dictionary. Generally I use online dicts (such as google translate or dict.pl), but if &#8230; <a href="http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Today I had no electricity. Laptop is powered by embeded battery too,<br />
+but router &amp; modem no… :/ From time to time I need an english dictionary.<br />
+Generally I use online dicts (such as google translate or dict.pl), but if<br />
+I didn’t have internet connection they’re useless… In order to avoid this<br />
+problem in future I founded offline dictionary for my Android Device.<br />
+Off course it doesn’t have translations to my native polish language, but it’s<br />
+better than none <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p><a href="https://market.android.com/details?id=com.mobisystems.msdict.embedded.wireless.wordnet" target="_blank">The Advanced English Dictionary &amp; Thesaurus</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>dbVisualiser keyboard shortcuts</title>
+		<link>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts#comments</comments>
+		<pubDate>Fri, 14 Jan 2011 22:29:24 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[dbvisualiser]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=564</guid>
+		<description><![CDATA[SQL Editor [CTRL]+[SHIFT]+R comment whole line [CTRL]+[SHIFT]+F format sql [CTRL]+T open new sql editor CTRL + SHIFT + B :: make (un)comment matched sql/text using /* */]]></description>
+				<content:encoded><![CDATA[<p><strong>SQL Editor</strong></p>
+<table>
+<tbody>
+<tr>
+<td>[CTRL]+[SHIFT]+R</td>
+<td>comment whole line</td>
+</tr>
+<tr>
+<td>[CTRL]+[SHIFT]+F</td>
+<td>format sql</td>
+</tr>
+<tr>
+<td>[CTRL]+T</td>
+<td>open new sql editor</td>
+</tr>
+</tbody>
+</table>
+<pre class="wp-code-highlight prettyprint">
+CTRL + SHIFT + B :: make (un)comment matched sql/text using /* */
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Problems with project compilation under RAD 7.0 boundled with WAS 6.1</title>
+		<link>http://blog.siwinski.info/dev/java-dev/problems-with-project-compilation-under-rad-7-0-boundled-with-was-6-1</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/problems-with-project-compilation-under-rad-7-0-boundled-with-was-6-1#comments</comments>
+		<pubDate>Thu, 25 Nov 2010 22:25:40 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[compilation problem]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[ide]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[problem]]></category>
+		<category><![CDATA[rad]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[websphere]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=562</guid>
+		<description><![CDATA[If You have error log with below codes: SRVE0203E  SRVE0206E  SRVE0187E  SRVE0210I  SRVE0234I Then just read carefully given error log (each path, line by line) and find the path which You&#8217;ve set incorrectly. &#8211; Links: * IBM developerWorks]]></description>
+				<content:encoded><![CDATA[<p><strong>If</strong> You have error log with below codes:</p>
+<blockquote><p>SRVE0203E  SRVE0206E  SRVE0187E  SRVE0210I  SRVE0234I</p></blockquote>
+<p><strong>Then</strong> just read carefully given error log (each path, line by line) and find the path which You&#8217;ve set incorrectly.</p>
+<p>&#8211;<br />
+Links:<br />
+* <a title="IBM developerWorks" href="http://www.ibm.com/developerworks/forums/thread.jspa?threadID=140825">IBM developerWorks</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/problems-with-project-compilation-under-rad-7-0-boundled-with-was-6-1/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

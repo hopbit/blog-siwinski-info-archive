@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; eclipse</title>
+	<atom:link href="http://blog.siwinski.info/tag/eclipse/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to create patch in Eclipse</title>
+		<link>http://blog.siwinski.info/dev/how-to-create-patch-in-eclipse</link>
+		<comments>http://blog.siwinski.info/dev/how-to-create-patch-in-eclipse#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:19:02 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ide]]></category>
+		<category><![CDATA[patch]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=705</guid>
+		<description><![CDATA[1. right click on the resource/file 2. choose team 3. clik create patch]]></description>
+				<content:encoded><![CDATA[<p>1. right click on the resource/file<br />
+2. choose team<br />
+3. clik create patch</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-create-patch-in-eclipse/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Eclipse Keyboard Shortcuts @ Windows</title>
+		<link>http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows</link>
+		<comments>http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:17:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=701</guid>
+		<description><![CDATA[ALT + DOWN/UP Move line(s) down/up ALT + LEFT/RIGHT Move to the last location you edited. Imagine you just created a class Foo, and now you are working on a class Boo. Now, if you need to look at the &#8230; <a href="http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">ALT + DOWN/UP
+
+	Move line(s) down/up
+
+ALT + LEFT/RIGHT
+
+	Move to the last location you edited. Imagine you just created a class Foo, 
+	and now you are working on a class Boo. Now, if you need to look at the 
+	Foo class, just press Alt+Left Arrow. Alt+Right Arrow brings you back 
+	to Boo.
+
+CTRL + ALT + DOWN/UP	
+
+	Copy line(s) down/up
+
+CTRL + D
+
+	Delete a line
+
+CTRL + F6
+
+	Use to move between open editors. This is an slower alternative 
+	to Ctrl + E. Comes handy in a situation when you want to periodically 
+	switch between two editors, something, what is nearly impossible 
+	with Ctrl+E as it sorts entries quite randomly. Or you might just 
+	use Alt+Arrows..
+
+[CTRL] + [F7]
+
+	Move between views. When in editor, press Ctrl+F7 to switch 
+	to the Package Explorer, or hold Ctrl and press F7 multiple times to 
+	switch to other views.
+
+[CTRL] + [F8]
+
+	Move between perspectives. The same as previous.
+
+[CTRL] + [F11]
+
+	Runs the application. What gets launched depends on your settings. It will 
+	either launch the last launched class (my preffered way) or it will 
+	launch currently selected resource (the default way). If you want to change 
+	its behavior read the previous post.
+
+[CTRL] + [1]
+
+	Probably the most useful one. It activates the quick fix. Imagine you 
+	create a class, which implements some interface. You will get an error, 
+	because the inherited methods are not yet implemented. While you are 
+	on line where the error occurs, press this combination to activate 
+	the quick fix. Now, select the &quot;Add unimplemented methods&quot; option. You can 
+	use the quick fix at every error you ever receive.
+
+	Quick fix comes handy in other situations too. My favorite is the &quot;Split 
+	variable declaration&quot;. Sometimes I need to broaden the scope of a variable. 
+	I activate the quick fix, split declaration, and use alt + arrow to put it 
+	where it belongs. You can find even more usages: Convert local variable 
+	to field, rename in file, Inline local variable..
+
+[CTRL] + [I]
+
+	Corrects indentation.
+
+[CTRL] + [J]
+
+	Incremental search. Similar to the search in firefox. It shows you 
+	results as you type. Don&#039;t be surprised, if you hit this combination, 
+	nothing happens - at the first glance. Just start typing and eclipse will 
+	move your cursor to the first ocurence.
+
+[CTRL] + [N]
+
+	Open new type wizard. This is not very quick because you have to select 
+	the wizard type (weather you want to create new class, jsp, xml 
+	or something else) in the next step. Much faster way would be if you 
+	could just hit the shortcut and invoke the particular wizard. It is 
+	possible, just keep reading..
+
+[CTRL] + [M]
+
+Maximize or umaximize current tab.
+
+[CTRL] + [SHIFT] + [L]
+
+	Shows you a list of your currently defined shortcut keys. 
+
+[CTRL] + [SHIFT] + [T]
+
+	Open Type. Imagine, that you need to have a look at the Foo class. 
+	But, where is the Foo class? Is it in the Boo project and in the foo.bar 
+	package? Or somewhere else? With this shortcut, you don&#039;t need to know. 
+	Just press it, type Foo and you are in.
+
+[Ctrl] + [Shft] + [Y]
+
+	To Lower Case
+
+[Ctrl] + [Shft] + [X]
+
+	To Upper Case</pre>
+<pre class="wp-code-highlight prettyprint">
+    CTRL+SHIFT+L: lists all available shortcuts (useful for learning)
+    CTRL+SHIFT+R: lookup up a resource (e.g. html, xml, rb, erb, properties, etc...)
+    CTRL+SHIFT+T: lookup a class name (e.g. String or Customer)
+    CTRL+F6: quickly jump between open files
+    CTRL+E: jump between open files using a filename filter or navigation keys
+    ALT+LEFT and ALT+RIGHT: navigate back and forth in the history of the files I opened. I rely on this one a lot to avoid using the mouse when navigating back and forth between different classes that collaborate to get a user interaction handled.
+    CTRL+O: lookup a method (thanks Kristian for reminding me)
+    F3: jump to method, class, or variable declaration.
+    CTRL+J keyword: instant search of a keyword within a file
+    CTRL+F keyword then ENTER: regular search.
+    CTRL+K and CTRL+SHIFT+K: find next and find previous repeating search for the last keyword
+    Highlight text to find other occurrances of a keyword and then CTRL+K: lets you find a keyword without even typing it if you see one occurrence already in the file (for example, you see a use of the slow performing method &quot;reindex&quot; and you wonder where else it&#039;s used in the file)
+    CTRL+H: project-wide search for a keyword. You can also specify file patterns. Make sure to tab into fields or use mnemonics and hit ENTER instead of using the mouse. Once the search completes, pick the result you want using the up/down arrows and then hit enter to open the file.
+    HOME/END/PGUP/PGDN: for navigation of course. I&#039;ve been surprised many times by how very few developers rely on these buttons to navigate a file efficiently without using the mouse.
+    CTRL+LEFT and CTRL+RIGHT: jump between words for quicker navigation in a line without taking hand off keyboard to use the mouse.
+    CTRL+SHIFT+LEFT and CTRL+SHIFT+RIGHT: quick highlighting of words without taking hand off keyboard to use the mouse.
+    CTRL+L: jump to a particular line number. I keep line numbers visible to quickly locate stack trace errors. This one is invaluable in saving me from paging through a file or using the mouse.
+    CTRL+ALT+DOWN (or UP): clones a line downwards. It&#039;s like copy/paste without using the clipboard, which I use often to avoid emptying the clipboard from something I&#039;ve copied that I&#039;d like to paste somewhere. This is most useful with the CTRL+UP/DOWN shortcuts.
+    CTRL+UP and CTRL+DOWN: moves a line up or down quickly. I often start by cloning a line, and then I move the cloned line down or up to the place I want it to be at.
+    CTRL+SHIFT+F: format content (makes sure everything is indented nicely)
+    ALT+SHIFT+UP: highlights an entire variable name even if it had underscores and multiple words
+    ALT+W P: access preferences via ALT+character mnemonics
+    ALT+character mnemonics in general: useful to do all upper menu navigation instantly without a mouse if you&#039;re on Linux or Windows (sorry Mac people). Over time, your nervous system ends up memorizing a lot of the character sequences, saving you from having to even read the menu items, let alone pointing at them with a mouse and clicking them.
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Skróty w Eclipse IDE @ OSX</title>
+		<link>http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx</link>
+		<comments>http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:03:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=549</guid>
+		<description><![CDATA[Command + F8 Zmień perspektywę (Java, Debug, Git, etc.) Command + ALT + Down/Up Arrow Skopiuj bieżącą linię powyżej/poniżej. ALT + Down/Up Arrow Przesuń bieżącą linię wyżej/niżej. &#160; [CMD]+[SHIFT]+O organize imports (add necessary &#38; remove unused) [CMD]+[ALT]+UP/DOWN copy/duplicate current line &#8230; <a href="http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<table>
+<tbody>
+<tr>
+<td>Command + F8</td>
+<td>Zmień perspektywę (Java, Debug, Git, etc.)</td>
+</tr>
+<tr>
+<td>Command + ALT + Down/Up Arrow</td>
+<td>Skopiuj bieżącą linię powyżej/poniżej.</td>
+</tr>
+<tr>
+<td>ALT + Down/Up Arrow</td>
+<td>Przesuń bieżącą linię wyżej/niżej.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>[CMD]+[SHIFT]+O organize imports (add necessary &amp; remove unused)<br />
+[CMD]+[ALT]+UP/DOWN copy/duplicate current line to line above/below</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to change default language in RAD/eclipse on Windows</title>
+		<link>http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows</link>
+		<comments>http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows#comments</comments>
+		<pubDate>Tue, 19 Apr 2011 21:44:25 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[rad]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=574</guid>
+		<description><![CDATA[Run RAD/Eclipse with the -nl argument followed by the language en_US, e.g.: eclipse.exe -nl en_US or add the variable -Duser.language=en at eclipse.ini file. Both eclipse.exe and eclipse.ini are located in default IDE installation directory, .e.g.: c:\Program Files\Eclipse c:\Program Files\IBM\SDP Solution &#8230; <a href="http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Run RAD/Eclipse with the -nl argument followed by the language en_US, e.g.:</p>
+<blockquote><p>eclipse.exe -nl en_US</p></blockquote>
+<p>or add the variable</p>
+<blockquote><p>-Duser.language=en</p></blockquote>
+<p>at eclipse.ini file.</p>
+<p>Both eclipse.exe and eclipse.ini are located in default IDE installation directory, .e.g.:</p>
+<blockquote><p>c:\Program Files\Eclipse<br />
+c:\Program Files\IBM\SDP</p></blockquote>
+<p>Solution founded <a href="https://www-304.ibm.com/support/docview.wss?uid=swg21195484" target="_blank">here</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Problems with project compilation under RAD 7.0 boundled with WAS 6.1</title>
+		<link>http://blog.siwinski.info/dev/java-dev/problems-with-project-compilation-under-rad-7-0-boundled-with-was-6-1</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/problems-with-project-compilation-under-rad-7-0-boundled-with-was-6-1#comments</comments>
+		<pubDate>Thu, 25 Nov 2010 22:25:40 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[compilation problem]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[ide]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[problem]]></category>
+		<category><![CDATA[rad]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[websphere]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=562</guid>
+		<description><![CDATA[If You have error log with below codes: SRVE0203E  SRVE0206E  SRVE0187E  SRVE0210I  SRVE0234I Then just read carefully given error log (each path, line by line) and find the path which You&#8217;ve set incorrectly. &#8211; Links: * IBM developerWorks]]></description>
+				<content:encoded><![CDATA[<p><strong>If</strong> You have error log with below codes:</p>
+<blockquote><p>SRVE0203E  SRVE0206E  SRVE0187E  SRVE0210I  SRVE0234I</p></blockquote>
+<p><strong>Then</strong> just read carefully given error log (each path, line by line) and find the path which You&#8217;ve set incorrectly.</p>
+<p>&#8211;<br />
+Links:<br />
+* <a title="IBM developerWorks" href="http://www.ibm.com/developerworks/forums/thread.jspa?threadID=140825">IBM developerWorks</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/problems-with-project-compilation-under-rad-7-0-boundled-with-was-6-1/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Type Conversion to Dalvik format failed with error 1</title>
+		<link>http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1</link>
+		<comments>http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1#comments</comments>
+		<pubDate>Sat, 16 Oct 2010 21:48:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[adt]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[compilation problem]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ide]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=541</guid>
+		<description><![CDATA[Hi, Currently it&#8217;s weekend. Instead of griping on headake after yesterday&#8217;s friday evening, I&#8217;m working on my engeering thesis&#8230; Yes, still&#8230; I&#8217;ve been moving my projects directories around my eclipse workspace and find a compilation error mentioned at the topic &#8230; <a href="http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hi,</p>
+<p>Currently it&#8217;s weekend. Instead of griping on headake after yesterday&#8217;s friday evening, I&#8217;m working on my engeering thesis&#8230; Yes, still&#8230;</p>
+<p>I&#8217;ve been moving my projects directories around my eclipse workspace and find a compilation error mentioned at the topic of this post, while trying to run my app..</p>
+<p>I&#8217;ve googled a little, and find a hint on <a title="this page" href="http://www.filsa.net/2009/06/13/re-conversion-to-dalvik-format-failed-with-error-1/" target="_blank">this page</a>. In my case the adequate solution was just setting again the android.jar library build path and just cleaning my project.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

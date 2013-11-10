@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; scriptint</title>
+	<atom:link href="http://blog.siwinski.info/tag/scriptint/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>passing args to batch script</title>
+		<link>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script</link>
+		<comments>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script#comments</comments>
+		<pubDate>Tue, 04 Nov 2008 21:32:42 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Batch]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[scriptint]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2016</guid>
+		<description><![CDATA[echo OFF REM # %0 - path to this script echo 0th arg (this script): [%0] REM # %1 - first argument passed to the script echo 1st arg passed to the script: [%1] REM # %2 - second argument &#8230; <a href="http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container dos vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="dos codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #b1b100; font-weight: bold;">echo</span> OFF<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %0 - path to this script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 0th arg <span style="color: #33cc33;">(</span>this script<span style="color: #33cc33;">)</span>: [<span style="color: #33cc33;">%</span><span style="color: #448888;">0</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %1 - first argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 1st arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">1</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %2 - second argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 2nd arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">2</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %3 - second argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 3rd arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">3</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %n - nth argument passed to the script</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

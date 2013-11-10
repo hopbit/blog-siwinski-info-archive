@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; tiles</title>
+	<atom:link href="http://blog.siwinski.info/tag/tiles/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>html:img vs html:image</title>
+		<link>http://blog.siwinski.info/dev/htmlimg-vs-htmlimage</link>
+		<comments>http://blog.siwinski.info/dev/htmlimg-vs-htmlimage#comments</comments>
+		<pubDate>Thu, 11 Mar 2010 20:14:28 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[struts]]></category>
+		<category><![CDATA[tiles]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=136</guid>
+		<description><![CDATA[Ku pamięci &#60;html:image/&#62; tworzy &#60;input type=&#8221;image&#8221; /&#62; &#60;html:img /&#62; tworzy zwykły &#60;img /&#62;]]></description>
+				<content:encoded><![CDATA[<p>Ku pamięci <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<blockquote><p>&lt;html:image/&gt; tworzy &lt;input type=&#8221;image&#8221; /&gt;<br />
+<!-- jego kliknięcie powoduje submit formularza --></p></blockquote>
+<blockquote><p>&lt;html:img /&gt; tworzy zwykły &lt;img /&gt;</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/htmlimg-vs-htmlimage/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

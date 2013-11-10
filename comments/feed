@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Komentarze do Continous Integration</title>
+	<atom:link href="http://blog.siwinski.info/comments/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Thu, 11 Jul 2013 08:06:33 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Skomentuj Splitting one commit into many in Git, którego autorem jest Git How To &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git#comment-330</link>
+		<dc:creator><![CDATA[Git How To &#124; Continous Integration]]></dc:creator>
+		<pubDate>Thu, 11 Jul 2013 08:06:33 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1831#comment-330</guid>
+		<description><![CDATA[[...] Undoing - How to unmodify a modified file in Git? - How to remove file that was accidentally added to index? - How to revetrive a branch state from reflog? - How to remove all commits from git history on specific file? - How to drop/delete last commit in Git? - Splitting one commit into many in Git [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Undoing &#8211; How to unmodify a modified file in Git? &#8211; How to remove file that was accidentally added to index? &#8211; How to revetrive a branch state from reflog? &#8211; How to remove all commits from git history on specific file? &#8211; How to drop/delete last commit in Git? &#8211; Splitting one commit into many in Git [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Skomentuj Sting &#8222;Shape of my heart&#8221;, którego autorem jest Song Book &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/guitar-cat/song-book/sting-shape-of-my-heart#comment-327</link>
+		<dc:creator><![CDATA[Song Book &#124; Continous Integration]]></dc:creator>
+		<pubDate>Fri, 10 May 2013 00:24:24 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=748#comment-327</guid>
+		<description><![CDATA[[...] Sting &#8211; Shape Of My Heart [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Sting &#8211; Shape Of My Heart [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Skomentuj Perfect &#8222;Kołysanka dla nieznajomej&#8221;, którego autorem jest Song Book &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/guitar-cat/song-book/perfect-kolysanka-dla-nieznajomej#comment-326</link>
+		<dc:creator><![CDATA[Song Book &#124; Continous Integration]]></dc:creator>
+		<pubDate>Fri, 10 May 2013 00:24:09 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=245#comment-326</guid>
+		<description><![CDATA[[...] Perfect &#8211; Kołysanka dla nieznajomej [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Perfect &#8211; Kołysanka dla nieznajomej [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Skomentuj Ozzy Osbourne &#8211; Mama, I&#8217;m Comming Home, którego autorem jest Song Book &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/guitar-cat/song-book/ozzy-osbourne-mama-im-comming-home#comment-325</link>
+		<dc:creator><![CDATA[Song Book &#124; Continous Integration]]></dc:creator>
+		<pubDate>Thu, 09 May 2013 23:53:43 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=108#comment-325</guid>
+		<description><![CDATA[[...] Ozzy Osbourne &#8211; Mama I’m comming home [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Ozzy Osbourne &#8211; Mama I’m comming home [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Skomentuj Mr. Big &#8222;Wild World&#8221;, którego autorem jest Song Book &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/guitar-cat/song-book/mr-big-wild-world#comment-320</link>
+		<dc:creator><![CDATA[Song Book &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sat, 04 May 2013 10:52:50 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=306#comment-320</guid>
+		<description><![CDATA[[...] Mr Big &#8211; Wild world [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Mr Big &#8211; Wild world [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Skomentuj G, którego autorem jest Guitar Chords &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/guitar-cat/chords/g#comment-318</link>
+		<dc:creator><![CDATA[Guitar Chords &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sun, 28 Apr 2013 00:33:26 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1653#comment-318</guid>
+		<description><![CDATA[[...] &#8592; Previous Next &#8594; [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] &larr; Previous Next &rarr; [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Skomentuj D, którego autorem jest Guitar Chords &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/guitar-cat/chords/d#comment-317</link>
+		<dc:creator><![CDATA[Guitar Chords &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sun, 28 Apr 2013 00:09:30 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1649#comment-317</guid>
+		<description><![CDATA[[...] - A - D &#8211; G &#8211; H E7 &#8211; A7 &#8211; D7 D7+ A9 &#8211; D9 A7sus4 em em7 &#8211; [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] - A - D &#8211; G &#8211; H E7 &#8211; A7 &#8211; D7 D7+ A9 &#8211; D9 A7sus4 em em7 &#8211; [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Skomentuj E7, którego autorem jest Guitar Chords &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/guitar-cat/chords/e7#comment-316</link>
+		<dc:creator><![CDATA[Guitar Chords &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sun, 28 Apr 2013 00:03:23 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1643#comment-316</guid>
+		<description><![CDATA[[...] - A - D &#8211; G &#8211; H E7 &#8211; A7 &#8211; D7 D7+ A9 &#8211; D9 A7sus4 em em7 &#8211; [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] - A - D &#8211; G &#8211; H E7 &#8211; A7 &#8211; D7 D7+ A9 &#8211; D9 A7sus4 em em7 &#8211; [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Skomentuj E (E dur), którego autorem jest Guitar Chords &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/guitar-cat/e-e-dur#comment-315</link>
+		<dc:creator><![CDATA[Guitar Chords &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sat, 27 Apr 2013 23:58:41 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1638#comment-315</guid>
+		<description><![CDATA[[...] E - A - D &#8211; G &#8211; H E7 &#8211; A7 &#8211; D7 D7+ A9 &#8211; D9 A7sus4 em em7 &#8211; hm7 [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] E - A - D &#8211; G &#8211; H E7 &#8211; A7 &#8211; D7 D7+ A9 &#8211; D9 A7sus4 em em7 &#8211; hm7 [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Skomentuj Lady Pank &#8222;Zawsze tam gdzie Ty&#8221;, którego autorem jest Song Book &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/guitar-cat/song-book/lady-pank-zawsze-tam-gdzie-ty#comment-314</link>
+		<dc:creator><![CDATA[Song Book &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sat, 27 Apr 2013 23:50:17 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=251#comment-314</guid>
+		<description><![CDATA[[...] Lady Pank &#8211; Zawsze tam gdzie ty [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Lady Pank &#8211; Zawsze tam gdzie ty [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

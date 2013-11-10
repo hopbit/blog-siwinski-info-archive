@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; zebra</title>
+	<atom:link href="http://blog.siwinski.info/author/zebra/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Sernik na zimno</title>
+		<link>http://blog.siwinski.info/food/sernik-na-zimno</link>
+		<comments>http://blog.siwinski.info/food/sernik-na-zimno#comments</comments>
+		<pubDate>Sun, 02 Dec 2012 12:37:22 +0000</pubDate>
+		<dc:creator><![CDATA[zebra]]></dc:creator>
+				<category><![CDATA[Food]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=349</guid>
+		<description><![CDATA[Składniki: 1 całe jajko 1 żółtko 1/3 szklanki cukru cukier waniliowy 4 łyżki żelatyny 1 szklanka mleka 3 serki waniliowe (homogenizowane) 2 galaretki (3 galaretki jeśli sernik ma być przeplatany, wtedy 1 do przełożenia połową masy a 2 na wierzch), &#8230; <a href="http://blog.siwinski.info/food/sernik-na-zimno">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong>Skł</strong><strong>adniki:</strong></p>
+<ul>
+<li>1 całe jajko</li>
+<li>1 żółtko</li>
+<li>1/3 szklanki cukru</li>
+<li>cukier waniliowy</li>
+<li>4 łyżki żelatyny</li>
+<li>1 szklanka mleka</li>
+<li>3 serki waniliowe (homogenizowane)</li>
+<li>2 galaretki (3 galaretki jeśli sernik ma być przeplatany, wtedy 1 do przełożenia połową masy a 2 na wierzch), rozpuścić jedną galaretkę w szklance wody</li>
+<li>najlepiej świeże owoce (truskawki/maliny/jagody/porzeczki)</li>
+</ul>
+<p>Zagotować szklankę mleka. W szklance zimnej wody rozpuścić 4 łyżki żelatyny, dodać do gorącego mleka, przestudzić, ale uważać żeby się nie ścięło.</p>
+<p>W międzyczasie można rozpuścić galaretki.</p>
+<p>Jajka utrzeć z cukrem i z cukrem waniliowym, dodać serki homogenizowane i zmiksować. Następnie dodać wystudzone mleko z żelatyną i zmiksować. Wylać do formy (jeżeli chcemy zrobić przeplatany wtedy wylewamy ok połowy masy, następnie przekładamy 1 galaretką rozp. w szklance wody).</p>
+<p>Na masę wykładamy świeże owoce i zalewamy gęstniejącymi galaretkami.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/food/sernik-na-zimno/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Marchewkowe</title>
+		<link>http://blog.siwinski.info/food/marchewkowe</link>
+		<comments>http://blog.siwinski.info/food/marchewkowe#comments</comments>
+		<pubDate>Sun, 02 Dec 2012 12:26:51 +0000</pubDate>
+		<dc:creator><![CDATA[zebra]]></dc:creator>
+				<category><![CDATA[Food]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=347</guid>
+		<description><![CDATA[Składniki na blachę 25 x 30 cm 1.5 szklanki cukru 2 szklanki maki 3/4 kostki margaryny 2 szklanki (ubite) drobno startek marchwi (drobne pazurki) 4 łyżeczki cynamonu 4 jaja 2 łyżeczki proszku do pieczenia Wszystkie składniki wymieszać mikserem, dodać orzechy &#8230; <a href="http://blog.siwinski.info/food/marchewkowe">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Składniki na blachę 25 x 30 cm</p>
+<ul>
+<li>1.5 szklanki cukru</li>
+<li>2 szklanki maki</li>
+<li>3/4 kostki margaryny</li>
+<li>2 szklanki (ubite) drobno startek marchwi (drobne pazurki)</li>
+<li>4 łyżeczki cynamonu</li>
+<li>4 jaja</li>
+<li>2 łyżeczki proszku do pieczenia</li>
+</ul>
+<p>Wszystkie składniki wymieszać mikserem, dodać orzechy włosie i/lub rodzynki. Piec w temperaturze 200 stopni C ok. 1 godziny. Polać czekoladą.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/food/marchewkowe/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Muffiny</title>
+		<link>http://blog.siwinski.info/food/muffiny</link>
+		<comments>http://blog.siwinski.info/food/muffiny#comments</comments>
+		<pubDate>Sun, 02 Dec 2012 12:19:43 +0000</pubDate>
+		<dc:creator><![CDATA[zebra]]></dc:creator>
+				<category><![CDATA[Food]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=341</guid>
+		<description><![CDATA[Muffinki cytrynowe 170 ml oleju słonecznikowego 225 g mąki pszennej 1 łyżeczka proszku do pieczenia 1/2 łyżeczki soli 190 g cukru pudru 1 duże jajko 1 białko 150 ml mleka sok i skórka  z jednej cytryny W naczyniu wymieszać suche &#8230; <a href="http://blog.siwinski.info/food/muffiny">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div><strong>Muffinki cytrynowe</strong></div>
+<div></div>
+<div>
+<ul>
+<li>170 ml oleju słonecznikowego</li>
+<li>225 g mąki pszennej</li>
+<li>1 łyżeczka proszku do pieczenia</li>
+<li>1/2 łyżeczki soli</li>
+<li>190 g cukru pudru</li>
+<li>1 duże jajko</li>
+<li>1 białko</li>
+<li>150 ml mleka</li>
+<li>sok i skórka  z jednej cytryny</li>
+</ul>
+</div>
+<div></div>
+<div>W naczyniu wymieszać suche składniki: mąkę, cukier puder, sól, proszek do pieczenia. W drugim naczyniu składniki mokre: olej, jajko, białko, mleko, sok i skórkę z cytryny. Połączyć zawartość obu naczyń, wymieszać szybko i niezbyt starannie &#8211; mogą pozostać grudki.</div>
+<div>Formę na muffinki wyłożyć papilotkami. Rozdzielić ciasto (nałożyłam prawie do pełna). Posypać makiem lub płatkami migdałów dla dekoracji. Piec około 20 &#8211; 25 minut w temperaturze 190 stopni.</div>
+<div><em><br />
+</em></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/food/muffiny/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Szarlotka</title>
+		<link>http://blog.siwinski.info/food/szarlotka</link>
+		<comments>http://blog.siwinski.info/food/szarlotka#comments</comments>
+		<pubDate>Sun, 02 Dec 2012 11:09:11 +0000</pubDate>
+		<dc:creator><![CDATA[zebra]]></dc:creator>
+				<category><![CDATA[Food]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=334</guid>
+		<description><![CDATA[Składniki: 70 dag mąki 1/2 szklanki cuku 30 dag Kasi (wicej niż kostka) 4 żółtka (z białek trzeba będzie ubić pianę) 1 &#8211; 1 1/2 łyżeczki proszku do piczenia 1 cukier waniliowy Ze wszystkich składników zagnieść ciasto. Podzielić je na &#8230; <a href="http://blog.siwinski.info/food/szarlotka">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong>Składniki:</strong></p>
+<ul>
+<li>70 dag mąki</li>
+<li>1/2 szklanki cuku</li>
+<li>30 dag Kasi (wicej niż kostka)</li>
+<li>4 żółtka (z białek trzeba będzie ubić pianę)</li>
+<li>1 &#8211; 1 1/2 łyżeczki proszku do piczenia</li>
+<li>1 cukier waniliowy</li>
+</ul>
+<p>Ze wszystkich składników zagnieść ciasto. Podzielić je na dwie części (spód i góra) &#8211; 2/3 ciasta na spód a 1/3 na górę. Wrzucić ciasto na ok 4 godz do zamrażalnika (lodówki?).</p>
+<p>Ciasto na spód zetrzeć.</p>
+<p>Do jabłek dodać 3 -4 łyżki mąki ziemniaczanej (ok. 1,5 litrowy słoik jabłek).</p>
+<p>Zapiec ciasto na spód. Wyłożyć jabłka, następnie pianę ubitą z pozostałych białek (do piany dodać trochę cukru), na wierzch zetrzeć resztę ciasta.</p>
+<p>Piec w temperaturze 180 stopni C do zarumienienia (termoobieg).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/food/szarlotka/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

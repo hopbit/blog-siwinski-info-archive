@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; adt</title>
+	<atom:link href="http://blog.siwinski.info/tag/adt/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Type Conversion to Dalvik format failed with error 1</title>
+		<link>http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1</link>
+		<comments>http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1#comments</comments>
+		<pubDate>Sat, 16 Oct 2010 21:48:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[adt]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[compilation problem]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ide]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=541</guid>
+		<description><![CDATA[Hi, Currently it&#8217;s weekend. Instead of griping on headake after yesterday&#8217;s friday evening, I&#8217;m working on my engeering thesis&#8230; Yes, still&#8230; I&#8217;ve been moving my projects directories around my eclipse workspace and find a compilation error mentioned at the topic &#8230; <a href="http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hi,</p>
+<p>Currently it&#8217;s weekend. Instead of griping on headake after yesterday&#8217;s friday evening, I&#8217;m working on my engeering thesis&#8230; Yes, still&#8230;</p>
+<p>I&#8217;ve been moving my projects directories around my eclipse workspace and find a compilation error mentioned at the topic of this post, while trying to run my app..</p>
+<p>I&#8217;ve googled a little, and find a hint on <a title="this page" href="http://www.filsa.net/2009/06/13/re-conversion-to-dalvik-format-failed-with-error-1/" target="_blank">this page</a>. In my case the adequate solution was just setting again the android.jar library build path and just cleaning my project.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

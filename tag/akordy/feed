@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; akordy</title>
+	<atom:link href="http://blog.siwinski.info/tag/akordy/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Guitar Chords</title>
+		<link>http://blog.siwinski.info/guitar-cat/guitar-chords</link>
+		<comments>http://blog.siwinski.info/guitar-cat/guitar-chords#comments</comments>
+		<pubDate>Tue, 26 Jun 2012 20:20:34 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Chords]]></category>
+		<category><![CDATA[Guitar]]></category>
+		<category><![CDATA[akordy]]></category>
+		<category><![CDATA[guitar]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1592</guid>
+		<description><![CDATA[E - A - D &#8211; G &#8211; H E7 &#8211; A7 &#8211; D7 D7+ A9 &#8211; D9 A7sus4 em em7 &#8211; hm7]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.siwinski.info/guitar-cat/e-e-dur">E</a> - <a href="http://blog.siwinski.info/guitar-cat/chords/a-a-dur">A</a> - <a href="http://blog.siwinski.info/guitar-cat/chords/d">D</a> &#8211; <a href="http://blog.siwinski.info/guitar-cat/chords/g">G</a> &#8211; H<br />
+<a href="http://blog.siwinski.info/guitar-cat/chords/e7">E7</a> &#8211; A7 &#8211; D7<br />
+D7+<br />
+A9 &#8211; <a href="http://blog.siwinski.info/guitar-cat/d9">D9</a><br />
+A7sus4<br />
+<a href="http://blog.siwinski.info/guitar-cat/chords/em">em</a><br />
+<a href="http://blog.siwinski.info/guitar-cat/chords/em7">em7</a> &#8211; hm7</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/guitar-cat/guitar-chords/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

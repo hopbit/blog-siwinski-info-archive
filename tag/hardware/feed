@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; hardware</title>
+	<atom:link href="http://blog.siwinski.info/tag/hardware/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Asus Laptop &#8211; Memo</title>
+		<link>http://blog.siwinski.info/dev/hardware-dev/asus-laptop-memo</link>
+		<comments>http://blog.siwinski.info/dev/hardware-dev/asus-laptop-memo#comments</comments>
+		<pubDate>Wed, 08 May 2013 20:42:19 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[asus]]></category>
+		<category><![CDATA[hardware]]></category>
+		<category><![CDATA[laptop]]></category>
+		<category><![CDATA[tips]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1714</guid>
+		<description><![CDATA[Couple useful keys on laptop boot: F2 : bios tab : show info on startup Esc : show boot menu]]></description>
+				<content:encoded><![CDATA[<p>Couple useful keys on laptop boot:</p>
+<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">F2 : bios<br />
+tab : show info on startup<br />
+Esc : show boot menu</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/hardware-dev/asus-laptop-memo/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

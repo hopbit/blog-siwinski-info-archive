@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; windows</title>
+	<atom:link href="http://blog.siwinski.info/tag/windows/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>notepad plus plus keyboard shortcuts</title>
+		<link>http://blog.siwinski.info/dev/notepad-plus-plus-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/notepad-plus-plus-shortcuts#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 11:03:31 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[shortcuts]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1152</guid>
+		<description><![CDATA[ctrl + d   &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; : duplicate current line ctrl + l   &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; : delete current line ctrl + s   &#160; &#160; &#8230; <a href="http://blog.siwinski.info/dev/notepad-plus-plus-shortcuts">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">ctrl + d   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : duplicate current line<br />
+ctrl + l   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : delete current line<br />
+ctrl + s   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : save current file<br />
+ctrl + tab &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : next tab<br />
+ctrl + shift + tab &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : previous tab<br />
+ctrl + shiff + arrow up/down : move current line up/down</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/notepad-plus-plus-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Windows Apps</title>
+		<link>http://blog.siwinski.info/dev/windows-dev/windows-apps</link>
+		<comments>http://blog.siwinski.info/dev/windows-dev/windows-apps#comments</comments>
+		<pubDate>Fri, 08 Mar 2013 23:11:03 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Win]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[fav]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1127</guid>
+		<description><![CDATA[cli: wget, winscp, dev: msysgit, Notepad++, eclipse langs:  java, python, groovy, scala, clojure internet: chrome settings/preferences: NetSetMan photos / graphic: picasa, gimp]]></description>
+				<content:encoded><![CDATA[<p><strong>cli:</strong> <a href="http://users.ugent.be/~bpuype/wget/">wget</a>, <a href="http://winscp.net">winscp</a>,</p>
+<p><strong>dev:</strong> <a href="https://code.google.com/p/msysgit/downloads/list?can=3&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">msysgit</a>, <a title="Notepad++" href="http://notepad-plus-plus.org">Notepad++</a>, <a title="eclipse downloads page" href="http://www.eclipse.org/downloads/">eclipse</a></p>
+<p><strong>langs: </strong> <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">java</a>, <a href="http://www.python.org/getit/">python</a>, <a href="http://groovy.codehaus.org/Download">groovy</a>, <a href="http://http://www.scala-lang.org/downloads">scala</a>, <a href="http://clojure.org/downloads">clojure</a></p>
+<p><strong>internet:</strong> <a href="http://www.google.com/intl/pl/chrome/browser/">chrome</a></p>
+<p><strong>settings/preferences:</strong> <a href="http://www.netsetman.com/#nsm-download">NetSetMan</a></p>
+<p><strong>photos / graphic:</strong> <a href="http://picasa.google.com/">picasa</a>, <a href="http://www.gimp.org/downloads/">gimp</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/windows-dev/windows-apps/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to install Git on Windows?</title>
+		<link>http://blog.siwinski.info/dev/how-to-install-git-on-windows</link>
+		<comments>http://blog.siwinski.info/dev/how-to-install-git-on-windows#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 21:49:06 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[Win]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[installation]]></category>
+		<category><![CDATA[wiki]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=913</guid>
+		<description><![CDATA[Download Git for Windows. I recomend downloading most recent version of file:Git-[version]-preview[YYYYMMDD].exe Install downloaded file Start git with shortcut created on your desktop.]]></description>
+				<content:encoded><![CDATA[<ol>
+<li><span style="line-height: 22px;"><a href="http://code.google.com/p/msysgit/downloads/list?can=3&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">Download</a> Git for Windows.</span>
+<ul>
+<li>I recomend downloading most recent version of file:<em>Git-[version]-preview[YYYYMMDD].exe</em></li>
+</ul>
+</li>
+<li>Install downloaded file</li>
+<li>Start git with shortcut created on your desktop.</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-install-git-on-windows/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Skrypt uruchamiający przy starcie wybrane aplikacje tuż po zalogowaniu do systemu</title>
+		<link>http://blog.siwinski.info/dev/skrypt-uruchamiajacy-przy-starcie-wybrane-aplikacje</link>
+		<comments>http://blog.siwinski.info/dev/skrypt-uruchamiajacy-przy-starcie-wybrane-aplikacje#comments</comments>
+		<pubDate>Wed, 12 Sep 2012 21:39:20 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[script]]></category>
+		<category><![CDATA[win]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=638</guid>
+		<description><![CDATA[:REM ### start apps script ### @ECHO OFF echo --- PROGRAM NAME --- start /d &#34;c:\path\to\my\application\&#34; application.exe PAUSE]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">
+:REM ### start apps script ###
+
+@ECHO OFF
+
+echo --- PROGRAM NAME ---
+start /d &quot;c:\path\to\my\application\&quot; application.exe
+
+PAUSE
+
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/skrypt-uruchamiajacy-przy-starcie-wybrane-aplikacje/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Batch Commands Cheatsheet</title>
+		<link>http://blog.siwinski.info/dev/batch-dev/batch-commands-cheatsheet</link>
+		<comments>http://blog.siwinski.info/dev/batch-dev/batch-commands-cheatsheet#comments</comments>
+		<pubDate>Wed, 12 Sep 2012 21:31:55 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Batch]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[cheatsheet]]></category>
+		<category><![CDATA[reference]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=633</guid>
+		<description><![CDATA[# zmiana nazw plików rename *.txt *.bak ren *.txt *.bak # zamknięcie/restart systemu shutdown [/a&#124;/s&#124;/r&#124;/t xx][/f][/c &#34;comment] &#160; /a abort shutdown &#160; /s shutdown &#160; /r shutdown and restart &#160; /f force close running apps &#160; /c &#34;comment&#34; shutdown comment]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container dos vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="dos codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"># zmiana nazw plików<br />
+<span style="color: #b1b100; font-weight: bold;">rename</span> *.txt *.bak<br />
+<span style="color: #b1b100; font-weight: bold;">ren</span> *.txt *.bak<br />
+<br />
+# zamknięcie/restart systemu<br />
+shutdown [/a<span style="color: #33cc33;">|</span>/s<span style="color: #33cc33;">|</span>/r<span style="color: #33cc33;">|</span>/t xx][/f][/c &quot;comment]<br />
+&nbsp; /a abort shutdown<br />
+&nbsp; /s shutdown<br />
+&nbsp; /r shutdown and restart<br />
+&nbsp; /f force close running apps<br />
+&nbsp; /c &quot;comment&quot; shutdown comment</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/batch-dev/batch-commands-cheatsheet/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Eclipse Keyboard Shortcuts @ Windows</title>
+		<link>http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows</link>
+		<comments>http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:17:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=701</guid>
+		<description><![CDATA[ALT + DOWN/UP Move line(s) down/up ALT + LEFT/RIGHT Move to the last location you edited. Imagine you just created a class Foo, and now you are working on a class Boo. Now, if you need to look at the &#8230; <a href="http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">ALT + DOWN/UP
+
+	Move line(s) down/up
+
+ALT + LEFT/RIGHT
+
+	Move to the last location you edited. Imagine you just created a class Foo, 
+	and now you are working on a class Boo. Now, if you need to look at the 
+	Foo class, just press Alt+Left Arrow. Alt+Right Arrow brings you back 
+	to Boo.
+
+CTRL + ALT + DOWN/UP	
+
+	Copy line(s) down/up
+
+CTRL + D
+
+	Delete a line
+
+CTRL + F6
+
+	Use to move between open editors. This is an slower alternative 
+	to Ctrl + E. Comes handy in a situation when you want to periodically 
+	switch between two editors, something, what is nearly impossible 
+	with Ctrl+E as it sorts entries quite randomly. Or you might just 
+	use Alt+Arrows..
+
+[CTRL] + [F7]
+
+	Move between views. When in editor, press Ctrl+F7 to switch 
+	to the Package Explorer, or hold Ctrl and press F7 multiple times to 
+	switch to other views.
+
+[CTRL] + [F8]
+
+	Move between perspectives. The same as previous.
+
+[CTRL] + [F11]
+
+	Runs the application. What gets launched depends on your settings. It will 
+	either launch the last launched class (my preffered way) or it will 
+	launch currently selected resource (the default way). If you want to change 
+	its behavior read the previous post.
+
+[CTRL] + [1]
+
+	Probably the most useful one. It activates the quick fix. Imagine you 
+	create a class, which implements some interface. You will get an error, 
+	because the inherited methods are not yet implemented. While you are 
+	on line where the error occurs, press this combination to activate 
+	the quick fix. Now, select the &quot;Add unimplemented methods&quot; option. You can 
+	use the quick fix at every error you ever receive.
+
+	Quick fix comes handy in other situations too. My favorite is the &quot;Split 
+	variable declaration&quot;. Sometimes I need to broaden the scope of a variable. 
+	I activate the quick fix, split declaration, and use alt + arrow to put it 
+	where it belongs. You can find even more usages: Convert local variable 
+	to field, rename in file, Inline local variable..
+
+[CTRL] + [I]
+
+	Corrects indentation.
+
+[CTRL] + [J]
+
+	Incremental search. Similar to the search in firefox. It shows you 
+	results as you type. Don&#039;t be surprised, if you hit this combination, 
+	nothing happens - at the first glance. Just start typing and eclipse will 
+	move your cursor to the first ocurence.
+
+[CTRL] + [N]
+
+	Open new type wizard. This is not very quick because you have to select 
+	the wizard type (weather you want to create new class, jsp, xml 
+	or something else) in the next step. Much faster way would be if you 
+	could just hit the shortcut and invoke the particular wizard. It is 
+	possible, just keep reading..
+
+[CTRL] + [M]
+
+Maximize or umaximize current tab.
+
+[CTRL] + [SHIFT] + [L]
+
+	Shows you a list of your currently defined shortcut keys. 
+
+[CTRL] + [SHIFT] + [T]
+
+	Open Type. Imagine, that you need to have a look at the Foo class. 
+	But, where is the Foo class? Is it in the Boo project and in the foo.bar 
+	package? Or somewhere else? With this shortcut, you don&#039;t need to know. 
+	Just press it, type Foo and you are in.
+
+[Ctrl] + [Shft] + [Y]
+
+	To Lower Case
+
+[Ctrl] + [Shft] + [X]
+
+	To Upper Case</pre>
+<pre class="wp-code-highlight prettyprint">
+    CTRL+SHIFT+L: lists all available shortcuts (useful for learning)
+    CTRL+SHIFT+R: lookup up a resource (e.g. html, xml, rb, erb, properties, etc...)
+    CTRL+SHIFT+T: lookup a class name (e.g. String or Customer)
+    CTRL+F6: quickly jump between open files
+    CTRL+E: jump between open files using a filename filter or navigation keys
+    ALT+LEFT and ALT+RIGHT: navigate back and forth in the history of the files I opened. I rely on this one a lot to avoid using the mouse when navigating back and forth between different classes that collaborate to get a user interaction handled.
+    CTRL+O: lookup a method (thanks Kristian for reminding me)
+    F3: jump to method, class, or variable declaration.
+    CTRL+J keyword: instant search of a keyword within a file
+    CTRL+F keyword then ENTER: regular search.
+    CTRL+K and CTRL+SHIFT+K: find next and find previous repeating search for the last keyword
+    Highlight text to find other occurrances of a keyword and then CTRL+K: lets you find a keyword without even typing it if you see one occurrence already in the file (for example, you see a use of the slow performing method &quot;reindex&quot; and you wonder where else it&#039;s used in the file)
+    CTRL+H: project-wide search for a keyword. You can also specify file patterns. Make sure to tab into fields or use mnemonics and hit ENTER instead of using the mouse. Once the search completes, pick the result you want using the up/down arrows and then hit enter to open the file.
+    HOME/END/PGUP/PGDN: for navigation of course. I&#039;ve been surprised many times by how very few developers rely on these buttons to navigate a file efficiently without using the mouse.
+    CTRL+LEFT and CTRL+RIGHT: jump between words for quicker navigation in a line without taking hand off keyboard to use the mouse.
+    CTRL+SHIFT+LEFT and CTRL+SHIFT+RIGHT: quick highlighting of words without taking hand off keyboard to use the mouse.
+    CTRL+L: jump to a particular line number. I keep line numbers visible to quickly locate stack trace errors. This one is invaluable in saving me from paging through a file or using the mouse.
+    CTRL+ALT+DOWN (or UP): clones a line downwards. It&#039;s like copy/paste without using the clipboard, which I use often to avoid emptying the clipboard from something I&#039;ve copied that I&#039;d like to paste somewhere. This is most useful with the CTRL+UP/DOWN shortcuts.
+    CTRL+UP and CTRL+DOWN: moves a line up or down quickly. I often start by cloning a line, and then I move the cloned line down or up to the place I want it to be at.
+    CTRL+SHIFT+F: format content (makes sure everything is indented nicely)
+    ALT+SHIFT+UP: highlights an entire variable name even if it had underscores and multiple words
+    ALT+W P: access preferences via ALT+character mnemonics
+    ALT+character mnemonics in general: useful to do all upper menu navigation instantly without a mouse if you&#039;re on Linux or Windows (sorry Mac people). Over time, your nervous system ends up memorizing a lot of the character sequences, saving you from having to even read the menu items, let alone pointing at them with a mouse and clicking them.
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to change default language in RAD/eclipse on Windows</title>
+		<link>http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows</link>
+		<comments>http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows#comments</comments>
+		<pubDate>Tue, 19 Apr 2011 21:44:25 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[rad]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=574</guid>
+		<description><![CDATA[Run RAD/Eclipse with the -nl argument followed by the language en_US, e.g.: eclipse.exe -nl en_US or add the variable -Duser.language=en at eclipse.ini file. Both eclipse.exe and eclipse.ini are located in default IDE installation directory, .e.g.: c:\Program Files\Eclipse c:\Program Files\IBM\SDP Solution &#8230; <a href="http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Run RAD/Eclipse with the -nl argument followed by the language en_US, e.g.:</p>
+<blockquote><p>eclipse.exe -nl en_US</p></blockquote>
+<p>or add the variable</p>
+<blockquote><p>-Duser.language=en</p></blockquote>
+<p>at eclipse.ini file.</p>
+<p>Both eclipse.exe and eclipse.ini are located in default IDE installation directory, .e.g.:</p>
+<blockquote><p>c:\Program Files\Eclipse<br />
+c:\Program Files\IBM\SDP</p></blockquote>
+<p>Solution founded <a href="https://www-304.ibm.com/support/docview.wss?uid=swg21195484" target="_blank">here</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-change-default-language-in-radeclipse-on-windows/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Dealing with file paths in batch</title>
+		<link>http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch</link>
+		<comments>http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch#comments</comments>
+		<pubDate>Wed, 05 Nov 2008 21:56:08 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Batch]]></category>
+		<category><![CDATA[bat]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[scripting]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2025</guid>
+		<description><![CDATA[echo OFF REM # %0 - path to the bat-file itself set thisScriptNameWithExtension=%0 echo this script file name with extension: %thisScriptNameWithExtension% REM # You can extract parts of paths with: REM # ~d - drive set thisScriptDrive=%~d0 echo this script &#8230; <a href="http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container dos vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="dos codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #b1b100; font-weight: bold;">echo</span> OFF<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %0 - path to the bat-file itself</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptNameWithExtension=<span style="color: #33cc33;">%</span><span style="color: #448888;">0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script file name with extension: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptNameWithExtension</span><span style="color: #33cc33;">%</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # You can extract parts of paths with:</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # ~d - drive</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptDrive=<span style="color: #33cc33;">%</span><span style="color: #448888;">~d0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script drive: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptDrive</span><span style="color: #33cc33;">%</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # ~p - path without drive</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptPath=<span style="color: #33cc33;">%</span><span style="color: #448888;">~p0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script path: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptPath</span><span style="color: #33cc33;">%</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # ~n - file name</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptFileNameWithoutExtension=<span style="color: #33cc33;">%</span><span style="color: #448888;">~n0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script file name without extension: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptFileNameWithoutExtension</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptDirectory=<span style="color: #33cc33;">%</span><span style="color: #448888;">~dp0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script directory: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptDirectory</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptFileExtension=<span style="color: #33cc33;">%</span><span style="color: #448888;">~x0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script file extension: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptFileExtension</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> fileTimestamp=<span style="color: #33cc33;">%</span><span style="color: #448888;">~t0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> file timestamp: <span style="color: #33cc33;">%</span><span style="color: #448888;">fileTimeStamp</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> fileSize=<span style="color: #33cc33;">%</span><span style="color: #448888;">~z0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> file size: <span style="color: #33cc33;">%</span><span style="color: #448888;">fileSize</span><span style="color: #33cc33;">%</span> bytes<br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> fileAttributes=<span style="color: #33cc33;">%</span><span style="color: #448888;">~a0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> file attributes: <span style="color: #33cc33;">%</span><span style="color: #448888;">fileAttributes</span><span style="color: #33cc33;">%</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>passing args to batch script</title>
+		<link>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script</link>
+		<comments>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script#comments</comments>
+		<pubDate>Tue, 04 Nov 2008 21:32:42 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Batch]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[scriptint]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2016</guid>
+		<description><![CDATA[echo OFF REM # %0 - path to this script echo 0th arg (this script): [%0] REM # %1 - first argument passed to the script echo 1st arg passed to the script: [%1] REM # %2 - second argument &#8230; <a href="http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container dos vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="dos codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #b1b100; font-weight: bold;">echo</span> OFF<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %0 - path to this script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 0th arg <span style="color: #33cc33;">(</span>this script<span style="color: #33cc33;">)</span>: [<span style="color: #33cc33;">%</span><span style="color: #448888;">0</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %1 - first argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 1st arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">1</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %2 - second argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 2nd arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">2</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %3 - second argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 3rd arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">3</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %n - nth argument passed to the script</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

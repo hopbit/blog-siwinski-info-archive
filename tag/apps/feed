@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; apps</title>
+	<atom:link href="http://blog.siwinski.info/tag/apps/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>notepad plus plus keyboard shortcuts</title>
+		<link>http://blog.siwinski.info/dev/notepad-plus-plus-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/notepad-plus-plus-shortcuts#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 11:03:31 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[shortcuts]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1152</guid>
+		<description><![CDATA[ctrl + d   &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; : duplicate current line ctrl + l   &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; : delete current line ctrl + s   &#160; &#160; &#8230; <a href="http://blog.siwinski.info/dev/notepad-plus-plus-shortcuts">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">ctrl + d   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : duplicate current line<br />
+ctrl + l   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : delete current line<br />
+ctrl + s   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : save current file<br />
+ctrl + tab &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : next tab<br />
+ctrl + shift + tab &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : previous tab<br />
+ctrl + shiff + arrow up/down : move current line up/down</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/notepad-plus-plus-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Windows Apps</title>
+		<link>http://blog.siwinski.info/dev/windows-dev/windows-apps</link>
+		<comments>http://blog.siwinski.info/dev/windows-dev/windows-apps#comments</comments>
+		<pubDate>Fri, 08 Mar 2013 23:11:03 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Win]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[fav]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1127</guid>
+		<description><![CDATA[cli: wget, winscp, dev: msysgit, Notepad++, eclipse langs:  java, python, groovy, scala, clojure internet: chrome settings/preferences: NetSetMan photos / graphic: picasa, gimp]]></description>
+				<content:encoded><![CDATA[<p><strong>cli:</strong> <a href="http://users.ugent.be/~bpuype/wget/">wget</a>, <a href="http://winscp.net">winscp</a>,</p>
+<p><strong>dev:</strong> <a href="https://code.google.com/p/msysgit/downloads/list?can=3&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">msysgit</a>, <a title="Notepad++" href="http://notepad-plus-plus.org">Notepad++</a>, <a title="eclipse downloads page" href="http://www.eclipse.org/downloads/">eclipse</a></p>
+<p><strong>langs: </strong> <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">java</a>, <a href="http://www.python.org/getit/">python</a>, <a href="http://groovy.codehaus.org/Download">groovy</a>, <a href="http://http://www.scala-lang.org/downloads">scala</a>, <a href="http://clojure.org/downloads">clojure</a></p>
+<p><strong>internet:</strong> <a href="http://www.google.com/intl/pl/chrome/browser/">chrome</a></p>
+<p><strong>settings/preferences:</strong> <a href="http://www.netsetman.com/#nsm-download">NetSetMan</a></p>
+<p><strong>photos / graphic:</strong> <a href="http://picasa.google.com/">picasa</a>, <a href="http://www.gimp.org/downloads/">gimp</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/windows-dev/windows-apps/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Show (hide) line numbers in Vim</title>
+		<link>http://blog.siwinski.info/dev/vim-pokaz-ukryj-numery-linii</link>
+		<comments>http://blog.siwinski.info/dev/vim-pokaz-ukryj-numery-linii#comments</comments>
+		<pubDate>Fri, 28 Dec 2012 23:48:38 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[vim]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=605</guid>
+		<description><![CDATA[:set number :set nonumber # ewentualnie, jeśli chcesz miec to na stałe to: echo &#34;:set number&#34; &#62;&#62; ~/.vimrc]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">:set number<br />
+:set nonumber<br />
+<br />
+<span style="color: #666666; font-style: italic;"># ewentualnie, jeśli chcesz miec to na stałe to:</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;:set number&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> ~<span style="color: #000000; font-weight: bold;">/</span>.vimrc</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/vim-pokaz-ukryj-numery-linii/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Mac OS Apps</title>
+		<link>http://blog.siwinski.info/dev/zestaw-moich-ulubionych-aplikacji-do-pracy-na-mac-os</link>
+		<comments>http://blog.siwinski.info/dev/zestaw-moich-ulubionych-aplikacji-do-pracy-na-mac-os#comments</comments>
+		<pubDate>Thu, 13 Dec 2012 22:09:19 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[mac]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=370</guid>
+		<description><![CDATA[Basic: - disk order - avast - chrome - disk order - dropbox - firefox - open office - safari - thunderbird - yemuZip - cyberduck // checkme Dev Tools: - ant - android sdk - eclipse - java (jre &#8230; <a href="http://blog.siwinski.info/dev/zestaw-moich-ulubionych-aplikacji-do-pracy-na-mac-os">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong>Basic:</strong><br />
+- <a href="http://likemac.ru/english/">disk order</a><br />
+- avast<br />
+- chrome<br />
+- disk order<br />
+- dropbox<br />
+- firefox<br />
+- open office<br />
+- safari<br />
+- thunderbird<br />
+- yemuZip<br />
+- <a href="http://cyberduck.ch/">cyberduck</a> // checkme</p>
+<p><strong>Dev Tools:</strong><br />
+- ant<br />
+- android sdk<br />
+- eclipse<br />
+- java (jre + jdk)<br />
+- macports<br />
+- mysql<br />
+- netbeans<br />
+- maven 3<br />
+- postgresql<br />
+- python<br />
+- terminal (bash)<br />
+- vim<br />
+- virtualbox<br />
+- yEd (diagramy)</p>
+<p><strong>Muzyka i dźwięk:</strong><br />
+- audacity<br />
+- beatport downloader<br />
+- itunes<br />
+- jaksta<br />
+- last.fm scrobbler<br />
+- serato scratch live</p>
+<p><strong>Grafika, zdjęcia i wideo:</strong><br />
+- gimp<br />
+- paintbrush<br />
+- picasa<br />
+- quick time player</p>
+<p><strong>OS Utils</strong><br />
+- activity monitor<br />
+- disk utility</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/zestaw-moich-ulubionych-aplikacji-do-pracy-na-mac-os/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Offline English Dictionary Application for Android</title>
+		<link>http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android</link>
+		<comments>http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android#comments</comments>
+		<pubDate>Thu, 07 Apr 2011 21:40:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=571</guid>
+		<description><![CDATA[Today I had no electricity. Laptop is powered by embeded battery too, but router &#38; modem no… :/ From time to time I need an english dictionary. Generally I use online dicts (such as google translate or dict.pl), but if &#8230; <a href="http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Today I had no electricity. Laptop is powered by embeded battery too,<br />
+but router &amp; modem no… :/ From time to time I need an english dictionary.<br />
+Generally I use online dicts (such as google translate or dict.pl), but if<br />
+I didn’t have internet connection they’re useless… In order to avoid this<br />
+problem in future I founded offline dictionary for my Android Device.<br />
+Off course it doesn’t have translations to my native polish language, but it’s<br />
+better than none <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p><a href="https://market.android.com/details?id=com.mobisystems.msdict.embedded.wireless.wordnet" target="_blank">The Advanced English Dictionary &amp; Thesaurus</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>dbVisualiser keyboard shortcuts</title>
+		<link>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts#comments</comments>
+		<pubDate>Fri, 14 Jan 2011 22:29:24 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[dbvisualiser]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=564</guid>
+		<description><![CDATA[SQL Editor [CTRL]+[SHIFT]+R comment whole line [CTRL]+[SHIFT]+F format sql [CTRL]+T open new sql editor CTRL + SHIFT + B :: make (un)comment matched sql/text using /* */]]></description>
+				<content:encoded><![CDATA[<p><strong>SQL Editor</strong></p>
+<table>
+<tbody>
+<tr>
+<td>[CTRL]+[SHIFT]+R</td>
+<td>comment whole line</td>
+</tr>
+<tr>
+<td>[CTRL]+[SHIFT]+F</td>
+<td>format sql</td>
+</tr>
+<tr>
+<td>[CTRL]+T</td>
+<td>open new sql editor</td>
+</tr>
+</tbody>
+</table>
+<pre class="wp-code-highlight prettyprint">
+CTRL + SHIFT + B :: make (un)comment matched sql/text using /* */
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

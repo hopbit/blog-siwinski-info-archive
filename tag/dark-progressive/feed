@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; dark progressive</title>
+	<atom:link href="http://blog.siwinski.info/tag/dark-progressive/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Hard days at work (April 2009)</title>
+		<link>http://blog.siwinski.info/sets/progressive-awake/hard-days-at-work-april-2009</link>
+		<comments>http://blog.siwinski.info/sets/progressive-awake/hard-days-at-work-april-2009#comments</comments>
+		<pubDate>Thu, 23 Apr 2009 21:28:58 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Progressive Awake]]></category>
+		<category><![CDATA[dark progressive]]></category>
+		<category><![CDATA[progressive house]]></category>
+		<category><![CDATA[tech house]]></category>
+		<category><![CDATA[techno]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=293</guid>
+		<description><![CDATA[DOWNLOAD (57MB, 1h 2min) Tracklist: * inkfish, dawid west &#8211; hello piano (sebastien leger remix) * thomas schwartz, fausto fanizza &#8211; jambe myth (original mix) * mark knight, adam k, soha &#8211; from the speaker (original mix) * manibeat &#8211; &#8230; <a href="http://blog.siwinski.info/sets/progressive-awake/hard-days-at-work-april-2009">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_hard_days_at_work__april_2009.mp3"><img class="alignnone size-medium wp-image-295" title="Progressive Awake - Hard days at work (April 2009)" src="http://blog.siwinski.info/wp-content/uploads/2009/04/progressive_awake_-_hard_days_at_work__april_2009-300x300.jpg" alt="" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Hard days at work (April 2009)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_hard_days_at_work__april_2009.mp3"><strong>DOWNLOAD (57MB, 1h 2min)</strong></a></p>
+<p>Tracklist:<br />
+* inkfish, dawid west &#8211; hello piano (sebastien leger remix)<br />
+* thomas schwartz, fausto fanizza &#8211; jambe myth (original mix)<br />
+* mark knight, adam k, soha &#8211; from the speaker (original mix)<br />
+* manibeat &#8211; muzikita (the kzr remix)<br />
+* ogi gee cash, dimiz &#8211; 4things (original mix)<br />
+* marco petralia &#8211; just believe (original mix)<br />
+* alex tepper &#8211; grains (original mix)<br />
+* ryan davis &#8211; clouds passing by (eelke kleijn rmx)<br />
+* 16 bit lolitas &#8211; murder weapon (original mix)<br />
+* jhonny &amp; peps, squid &#8211; all in all out (original mix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/sets/progressive-awake/hard-days-at-work-april-2009/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://siwinski.info/download/progressive-awake/progressive_awake_-_hard_days_at_work__april_2009.mp3" length="60426116" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>

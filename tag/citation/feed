@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; citation</title>
+	<atom:link href="http://blog.siwinski.info/tag/citation/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Three simple truths about software development</title>
+		<link>http://blog.siwinski.info/dev/three-simple-truths-about-software-development</link>
+		<comments>http://blog.siwinski.info/dev/three-simple-truths-about-software-development#comments</comments>
+		<pubDate>Tue, 14 Aug 2012 21:37:22 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[agile]]></category>
+		<category><![CDATA[citation]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=600</guid>
+		<description><![CDATA[1. You can&#8217;t gather all the requirements up front. 2. The requirements you do gather will change. 3. There is always more to do than time and money will allow. &#8211; source]]></description>
+				<content:encoded><![CDATA[<p>1. You can&#8217;t gather all the requirements up front.<br />
+2. The requirements you do gather will change.<br />
+3. There is always more to do than time and money will allow.</p>
+<p>&#8211;<br />
+<a href="http://pragprog.com/book/jtrap/the-agile-samurai">source</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/three-simple-truths-about-software-development/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; jazzy</title>
+	<atom:link href="http://blog.siwinski.info/tag/jazzy/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Winter solstice (December 2012)</title>
+		<link>http://blog.siwinski.info/sets/quantum-energy/winter-solstice-december-2012</link>
+		<comments>http://blog.siwinski.info/sets/quantum-energy/winter-solstice-december-2012#comments</comments>
+		<pubDate>Sun, 23 Dec 2012 00:20:52 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Quantum Energy]]></category>
+		<category><![CDATA[dnb]]></category>
+		<category><![CDATA[jazzy]]></category>
+		<category><![CDATA[jazzy dnb]]></category>
+		<category><![CDATA[liquid dnb]]></category>
+		<category><![CDATA[tech step]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=473</guid>
+		<description><![CDATA[DOWNLOAD (186MB, 1h 22min) Tracklist: 1. Garden (Calibre Remix) / Totally Enormous Extinct Dinosaurs 5:59 2. Raised By Wolves (Original Mix) / Tokyo Prose 5:00 3. Reach (Original Mix) / Tokyo Prose 5:30 4. You (Original Mix) / S.P.Y 7:31 &#8230; <a href="http://blog.siwinski.info/sets/quantum-energy/winter-solstice-december-2012">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="https://dl.dropbox.com/u/67075704/quantum-energy/quantum_energy_-_winter_solstice__december_2012.mp3"><img class="alignnone size-medium wp-image-496" alt="Quantum Energy - Winter solstice (December 2012)" src="http://blog.siwinski.info/wp-content/uploads/2012/12/quantum_energy_-_winter_solstice__december_2012-300x300.jpg" width="300" height="300" /></a></p>
+<p><strong><a title="Quantum Energy - Winter solstice (December 2012)" href="https://dl.dropbox.com/u/67075704/quantum-energy/quantum_energy_-_winter_solstice__december_2012.mp3">DOWNLOAD (186MB, 1h 22min)</a></strong></p>
+<p>Tracklist:<br />
+1. Garden (Calibre Remix) / Totally Enormous Extinct Dinosaurs 5:59<br />
+2. Raised By Wolves (Original Mix) / Tokyo Prose 5:00<br />
+3. Reach (Original Mix) / Tokyo Prose 5:30<br />
+4. You (Original Mix) / S.P.Y 7:31<br />
+5. No Beginning (Original Mix) / Netsky 5:19<br />
+6. Houston We Have No Problem (Original Mix) / London Elektricity 7:19<br />
+7. Elevate This Sound (Original Mix) / Calyx, TeeBee 5:16<br />
+8. Stark (Original Mix) / Marcus Intalex 6:38<br />
+9. Constant &amp; Clear (Original Mix) / Bungle 5:35<br />
+10. Sunrise (Original) / Paradigm 6:24<br />
+11. Consumed (Logistics Remix) / Bcee 5:13<br />
+12. Captured In Time VIP (VIP) / Bcee, Messy MC 5:10<br />
+13. Elektricity Will Keep Me Warm feat. Elsa Esmeralda (Original Mix) / London Elektricity 3:30<br />
+14. Let&#8217;s Leave Tomorrow feat. Bev Lee Harling (Original Mix) / Netsky 4:35<br />
+15. Moving With You feat. Jenna G (Original Mix) / Netsky 4:30<br />
+16. Love Hurts (Original Mix) / S.P.Y 4:47<br />
+17. Victoria (Original Mix) / Receptor 6:18<br />
+18. Looking Glass (Metrik Remix) / Bcee 4:37</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/pages/Quantum-Energy/444676035598937" target="_TOP" title="Quantum Energy"><img src="https://badge.facebook.com/badge/444676035598937.2387.127718077.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/sets/quantum-energy/winter-solstice-december-2012/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

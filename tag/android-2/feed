@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; android</title>
+	<atom:link href="http://blog.siwinski.info/tag/android-2/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Jak wrzucić pliki/muzykę/filmy na Galaxy S2 (GT-i9100) w Mac OS?</title>
+		<link>http://blog.siwinski.info/user/jak-wrzucic-plikimuzyke-z-osx-na-galaxy-s2-gt-i9100</link>
+		<comments>http://blog.siwinski.info/user/jak-wrzucic-plikimuzyke-z-osx-na-galaxy-s2-gt-i9100#comments</comments>
+		<pubDate>Wed, 12 Oct 2011 21:47:44 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[User]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[galaxy s2]]></category>
+		<category><![CDATA[gt-i9000]]></category>
+		<category><![CDATA[samsung]]></category>
+		<category><![CDATA[sgs2]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=576</guid>
+		<description><![CDATA[Googlając nie znalazłem na pierwszej stronie odpowiednika tej instrukcji w języku polskim, więc może się komuś przyda. 1. Na telefonie wejdź kolejno w: Aplikacje : Ustawienia : Aplikacje :  Ustaw. developerskie 2. Zaznacz checkbox &#8222;Debugowanie USB&#8221;. 3. Podłącz kabel do &#8230; <a href="http://blog.siwinski.info/user/jak-wrzucic-plikimuzyke-z-osx-na-galaxy-s2-gt-i9100">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Googlając nie znalazłem na pierwszej stronie odpowiednika tej instrukcji w języku polskim, więc może się komuś przyda.</p>
+<p>1. Na telefonie wejdź kolejno w: Aplikacje : Ustawienia : Aplikacje :  Ustaw. developerskie<br />
+2. Zaznacz checkbox &#8222;Debugowanie USB&#8221;.<br />
+3. Podłącz kabel do komputera.<br />
+4. Podłącz kabel do telefonu.<br />
+5. W telefonie zauważysz na pasku powiadomień komunikat &#8222;Podłączono USB&#8221;.<br />
+6. Ściągnij belkę i wybierz &#8222;Podłączono USB&#8221;.<br />
+7. Zobaczysz ekran ze znajomym zielonym ludkiem, kliknij przycisk &#8222;Podłącz pamięc USB&#8221;.<br />
+8. Przerzuć pliki w wybrane miejsce w telefonie.<br />
+9. Po skończeniu wymontuj pamięć z komputera a na telefonie kliknij &#8222;Odłącz pamięć USB&#8221;.</p>
+<p>PS: po wszystkim możecie z powrotem wyłączyć &#8222;Debugowanie USB&#8221;, ale nie wiem, czy ma to jakiś wpływ na wydajność pracy telefonu <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p><a href="http://androidforums.com/samsung-galaxy-s2-international/339013-usb-connectivity-mac-linux.html">link1</a></p>
+<p><!--<br />
+#tags:<br />
+jak wrzucic film na sgs2<br />
+jak zrzucić muzykę plik na kompa<br />
+jakim programem wrzucac pliki do telefonu samsung galaxy s 2<br />
+--></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/user/jak-wrzucic-plikimuzyke-z-osx-na-galaxy-s2-gt-i9100/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Offline English Dictionary Application for Android</title>
+		<link>http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android</link>
+		<comments>http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android#comments</comments>
+		<pubDate>Thu, 07 Apr 2011 21:40:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=571</guid>
+		<description><![CDATA[Today I had no electricity. Laptop is powered by embeded battery too, but router &#38; modem no… :/ From time to time I need an english dictionary. Generally I use online dicts (such as google translate or dict.pl), but if &#8230; <a href="http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Today I had no electricity. Laptop is powered by embeded battery too,<br />
+but router &amp; modem no… :/ From time to time I need an english dictionary.<br />
+Generally I use online dicts (such as google translate or dict.pl), but if<br />
+I didn’t have internet connection they’re useless… In order to avoid this<br />
+problem in future I founded offline dictionary for my Android Device.<br />
+Off course it doesn’t have translations to my native polish language, but it’s<br />
+better than none <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p><a href="https://market.android.com/details?id=com.mobisystems.msdict.embedded.wireless.wordnet" target="_blank">The Advanced English Dictionary &amp; Thesaurus</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/offline-english-dictionary-application-for-android/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Alert dialog problem</title>
+		<link>http://blog.siwinski.info/dev/android-dev/alert-dialog-problem</link>
+		<comments>http://blog.siwinski.info/dev/android-dev/alert-dialog-problem#comments</comments>
+		<pubDate>Sat, 26 Feb 2011 22:35:50 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[compilation problem]]></category>
+		<category><![CDATA[problem]]></category>
+		<category><![CDATA[runtime]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=568</guid>
+		<description><![CDATA[I can’t compile/run code below: this.showAlert&#40; &#160; &#34;Alert Title&#34;, 0, &#34;Alert Content&#34;, &#160; &#34;Confirm Text&#34;, false &#41;; SOLUTION: The solution is to use the following code in order to create alert dialog: AlertDialog.Builder builder = new AlertDialog.Builder&#40;this&#41;; builder.setTitle&#40;&#34;Alert Title&#34;&#41; &#160; &#8230; <a href="http://blog.siwinski.info/dev/android-dev/alert-dialog-problem">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>I can’t compile/run code below:</p>
+<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #000000; font-weight: bold;">this</span>.<span style="color: #006633;">showAlert</span><span style="color: #009900;">&#40;</span><br />
+&nbsp; <span style="color: #0000ff;">&quot;Alert Title&quot;</span>, <span style="color: #cc66cc;">0</span>, <span style="color: #0000ff;">&quot;Alert Content&quot;</span>, <br />
+&nbsp; <span style="color: #0000ff;">&quot;Confirm Text&quot;</span>, <span style="color: #000066; font-weight: bold;">false</span><br />
+<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></div></div>
+<p>SOLUTION:</p>
+<p>The solution is to use the following code in order to create alert dialog:</p>
+<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">AlertDialog.<span style="color: #006633;">Builder</span> builder <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> AlertDialog.<span style="color: #006633;">Builder</span><span style="color: #009900;">&#40;</span><span style="color: #000000; font-weight: bold;">this</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+builder.<span style="color: #006633;">setTitle</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;Alert Title&quot;</span><span style="color: #009900;">&#41;</span><br />
+&nbsp; .<span style="color: #006633;">setMessage</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;Alert Content&quot;</span><span style="color: #009900;">&#41;</span><br />
+&nbsp; .<span style="color: #006633;">setCancelable</span><span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">false</span><span style="color: #009900;">&#41;</span><br />
+&nbsp; .<span style="color: #006633;">setPositiveButton</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;Confirm Text&quot;</span>, <br />
+&nbsp; &nbsp; <span style="color: #000000; font-weight: bold;">new</span> DialogInterface.<span style="color: #006633;">OnClickListener</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000066; font-weight: bold;">void</span> onClick<span style="color: #009900;">&#40;</span>DialogInterface dialog, <span style="color: #000066; font-weight: bold;">int</span> id<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; <span style="color: #666666; font-style: italic;">// Action handling confirmation, </span><br />
+&nbsp; &nbsp; <span style="color: #666666; font-style: italic;">// in this case I simply  dismiss alert</span><br />
+&nbsp; &nbsp; dialog.<span style="color: #006633;">dismiss</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; <span style="color: #009900;">&#125;</span><br />
+&nbsp; <span style="color: #009900;">&#125;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+builder.<span style="color: #006633;">create</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">show</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/android-dev/alert-dialog-problem/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>android:textAlign layout attribute problem</title>
+		<link>http://blog.siwinski.info/dev/androidtextalign-layout-attribute-problem</link>
+		<comments>http://blog.siwinski.info/dev/androidtextalign-layout-attribute-problem#comments</comments>
+		<pubDate>Fri, 25 Feb 2011 22:32:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Dev]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[layout]]></category>
+		<category><![CDATA[problem]]></category>
+		<category><![CDATA[xml]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=566</guid>
+		<description><![CDATA[SOLUTION: Use android:layout_gravity attribute instead of android:textAlign]]></description>
+				<content:encoded><![CDATA[<p>SOLUTION:</p>
+<p>Use</p>
+<div class="codecolorer-container xml vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="xml codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">android:layout_gravity</div></div>
+<p>attribute instead of</p>
+<div class="codecolorer-container xml vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="xml codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">android:textAlign</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/androidtextalign-layout-attribute-problem/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>unparsed aapt error s check the console for output</title>
+		<link>http://blog.siwinski.info/dev/unparsed-aapt-error-s-check-the-console-for-output</link>
+		<comments>http://blog.siwinski.info/dev/unparsed-aapt-error-s-check-the-console-for-output#comments</comments>
+		<pubDate>Sat, 20 Nov 2010 22:22:28 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Dev]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[build]]></category>
+		<category><![CDATA[error]]></category>
+		<category><![CDATA[problem]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=560</guid>
+		<description><![CDATA[Błąd pojawił się u mnie się po utworzeniu, a następnie usunięciu pliku .xml w projekcie. Rozwiązanie, które mi pomogło to: 1. Otwieram perspektywę Problems. 2. Zaznaczam błąd o treści &#8222;unparsed aapt error s check the console for output&#8221; 3. Kasuję &#8230; <a href="http://blog.siwinski.info/dev/unparsed-aapt-error-s-check-the-console-for-output">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Błąd pojawił się u mnie się po utworzeniu, a następnie usunięciu pliku .xml w projekcie.</p>
+<p>Rozwiązanie, które mi pomogło to:</p>
+<p>1. Otwieram perspektywę Problems.</p>
+<p>2. Zaznaczam błąd o treści &#8222;unparsed aapt error s check the console for output&#8221;</p>
+<p>3. Kasuję go.</p>
+<p>4. Przebudowuję cały projekt.</p>
+<p>źródło rozwiązania: <a href="http://osdir.com/ml/Android-Developers/2010-03/msg03060.html" target="_blank">http://osdir.com/ml/Android-Developers/2010-03/msg03060.html</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/unparsed-aapt-error-s-check-the-console-for-output/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to connect to database on Android emulator (Mac OS)?</title>
+		<link>http://blog.siwinski.info/dev/android-dev/how-to-connect-to-database-on-android-emulator-mac-os</link>
+		<comments>http://blog.siwinski.info/dev/android-dev/how-to-connect-to-database-on-android-emulator-mac-os#comments</comments>
+		<pubDate>Sat, 20 Nov 2010 22:14:16 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[connection]]></category>
+		<category><![CDATA[database]]></category>
+		<category><![CDATA[emulator]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[sql]]></category>
+		<category><![CDATA[sqlite]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=554</guid>
+		<description><![CDATA[1. Run your emulator and check the port on which he&#8217;s running. 2. Connect to the emulator via shell (terminal) Use command: $ adb -s &#60;emulatorId&#62; shell My example: $ adb -s emulator-5554 shell Hint: to list all active emulators &#8230; <a href="http://blog.siwinski.info/dev/android-dev/how-to-connect-to-database-on-android-emulator-mac-os">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong>1. Run your emulator and check the port on which he&#8217;s running.</strong></p>
+<p><a href="http://siwinski.info/dev/wp-content/uploads/2010/11/connect_to_sqlite__scree01.jpg"><img class="size-medium wp-image-80 alignnone" title="connect_to_sqlite__scree01" alt="" src="http://siwinski.info/dev/wp-content/uploads/2010/11/connect_to_sqlite__scree01.jpg?w=300" width="300" height="210" /></a></p>
+<p><strong>2. Connect to the emulator via shell (terminal)</strong></p>
+<p>Use command:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span>adb <span style="color: #660033;">-s</span> <span style="color: #000000; font-weight: bold;">&lt;</span>emulatorId<span style="color: #000000; font-weight: bold;">&gt;</span> shell</div></div>
+<p>My example:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span>adb <span style="color: #660033;">-s</span> emulator-<span style="color: #000000;">5554</span> shell</div></div>
+<p>Hint: to list all active emulators use command:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span>adb devices</div></div>
+<p><strong>3. Each Android database is hold in a file </strong>.</p>
+<p>The path pattern to your db file is (while you connected to emulator):</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;"># </span><span style="color: #000000; font-weight: bold;">/</span>data<span style="color: #000000; font-weight: bold;">/</span>data<span style="color: #000000; font-weight: bold;">/&lt;</span>your_app_package<span style="color: #000000; font-weight: bold;">&gt;/</span>databases</div></div>
+<p>So just go there to see your databases, in my example it looks like this:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># cd /data/data/com.example.application/databases</span><br />
+<span style="color: #666666; font-style: italic;"># ls EXAMPLE_DATABASE</span></div></div>
+<p><strong>4. Open your database.</strong></p>
+<p>So now, while I know which db I want to open I do this:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># sqlite3 /data/data/net.hopbit.dev.myapplication/databases/MY_EXAMPLE_DATABASE</span><br />
+SQLite version 3.6.22<br />
+Enter <span style="color: #ff0000;">&quot;.help&quot;</span> <span style="color: #000000; font-weight: bold;">for</span> instructions<br />
+Enter SQL statements terminated with a <span style="color: #ff0000;">&quot;;&quot;</span></div></div>
+<p><strong>5. Manage your DB and execute queries</strong></p>
+<p>Now, when I&#8217;m connected to my database I can manage my db and execute some queries, here&#8217;s example:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">sqlite<span style="color: #000000; font-weight: bold;">&gt;</span> .tables<br />
+NOTES_TAB    USERS_TAB<br />
+sqlite<span style="color: #000000; font-weight: bold;">&gt;</span> <span style="color: #000000; font-weight: bold;">select</span> <span style="color: #000000; font-weight: bold;">*</span> from users_tab;<br />
+LOGIN<span style="color: #000000; font-weight: bold;">|</span>NAME<span style="color: #000000; font-weight: bold;">|</span>SURNAME<br />
+test1<span style="color: #000000; font-weight: bold;">|</span>Test<span style="color: #000000; font-weight: bold;">|</span>One<br />
+test2<span style="color: #000000; font-weight: bold;">|</span>Test<span style="color: #000000; font-weight: bold;">|</span>Two</div></div>
+<p>&nbsp;</p>
+<hr />
+<p>Resources:<br />
+* <a href="http://developer.android.com/guide/developing/tools/adb.html#sqlite" target="_blank">Android Debug Bridge | Android Developers</a><br />
+* <a href="http://www.sqlite.org/sqlite.html" target="_blank">Command Line Shell For SQLite</a></p>
+<p><!--<br />
+#tags:<br />
+sqlite3 command line tutorial<br />
+android sqlite library<br />
+--></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/android-dev/how-to-connect-to-database-on-android-emulator-mac-os/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cannot refer to a non-final variable an inner class defined in a different method</title>
+		<link>http://blog.siwinski.info/dev/android-dev/cannot-refer-to-a-non-final-variable-an-inner-class-defined-in-a-different-method</link>
+		<comments>http://blog.siwinski.info/dev/android-dev/cannot-refer-to-a-non-final-variable-an-inner-class-defined-in-a-different-method#comments</comments>
+		<pubDate>Sat, 20 Nov 2010 00:19:03 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[compilation problem]]></category>
+		<category><![CDATA[problem]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=558</guid>
+		<description><![CDATA[PROBLEM: I had a problem with compiling my Android project. While trying to compile, the error SOLUTION: Founded @ anddev.org]]></description>
+				<content:encoded><![CDATA[<p><span style="text-decoration: underline;">PROBLEM:</span></p>
+<p>I had a problem with compiling my Android project. While trying to compile, the error</p>
+<p>SOLUTION:</p>
+<p>Founded @ <a title="anddev.org" href="http://www.anddev.org/database-t560.html" target="_blank">anddev.org</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/android-dev/cannot-refer-to-a-non-final-variable-an-inner-class-defined-in-a-different-method/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Problem with importing IntentReceiver</title>
+		<link>http://blog.siwinski.info/dev/problem-with-importing-intentreceiver</link>
+		<comments>http://blog.siwinski.info/dev/problem-with-importing-intentreceiver#comments</comments>
+		<pubDate>Mon, 18 Oct 2010 21:01:09 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Dev]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[compilation problem]]></category>
+		<category><![CDATA[problem]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=547</guid>
+		<description><![CDATA[Hi. Problem: I had problem with importing IntentReceiver class during dig some Android tutorial. Solution: Import android.content.BroadcastReceiver class instead of IntentReceiver. IntentReceiver was replaced by BroadcastRecever. I&#8217;ve found above solution at: Android Developers Google Group]]></description>
+				<content:encoded><![CDATA[<p>Hi.</p>
+<p><span style="text-decoration: underline;">Problem:</span></p>
+<p>I had problem with importing IntentReceiver class during dig some Android tutorial.</p>
+<p><span style="text-decoration: underline;">Solution:</span></p>
+<p>Import android.content.BroadcastReceiver class instead of IntentReceiver. IntentReceiver was replaced by BroadcastRecever.</p>
+<p>I&#8217;ve found above solution at: <a href="http://groups.google.com/group/android-developers/browse_thread/thread/deb0171a847fb933/f340d4f1b06805a2?show_docid=f340d4f1b06805a2" target="_blank">Android Developers Google Group</a></p>
+<h4></h4>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/problem-with-importing-intentreceiver/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Type Conversion to Dalvik format failed with error 1</title>
+		<link>http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1</link>
+		<comments>http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1#comments</comments>
+		<pubDate>Sat, 16 Oct 2010 21:48:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[adt]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[compilation problem]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[ide]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=541</guid>
+		<description><![CDATA[Hi, Currently it&#8217;s weekend. Instead of griping on headake after yesterday&#8217;s friday evening, I&#8217;m working on my engeering thesis&#8230; Yes, still&#8230; I&#8217;ve been moving my projects directories around my eclipse workspace and find a compilation error mentioned at the topic &#8230; <a href="http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Hi,</p>
+<p>Currently it&#8217;s weekend. Instead of griping on headake after yesterday&#8217;s friday evening, I&#8217;m working on my engeering thesis&#8230; Yes, still&#8230;</p>
+<p>I&#8217;ve been moving my projects directories around my eclipse workspace and find a compilation error mentioned at the topic of this post, while trying to run my app..</p>
+<p>I&#8217;ve googled a little, and find a hint on <a title="this page" href="http://www.filsa.net/2009/06/13/re-conversion-to-dalvik-format-failed-with-error-1/" target="_blank">this page</a>. In my case the adequate solution was just setting again the android.jar library build path and just cleaning my project.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/android-dev/type-conversion-to-dalvik-format-failed-with-error-1/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

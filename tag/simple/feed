@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; simple</title>
+	<atom:link href="http://blog.siwinski.info/tag/simple/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Bardzo prosty skrypt do robienia inkrementalnych kopii zapasowych</title>
+		<link>http://blog.siwinski.info/dev/bardzo-prosty-skrypt-do-robienia-inkrementalnych-kopii-zapasowych</link>
+		<comments>http://blog.siwinski.info/dev/bardzo-prosty-skrypt-do-robienia-inkrementalnych-kopii-zapasowych#comments</comments>
+		<pubDate>Tue, 22 Nov 2011 22:52:17 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Bash]]></category>
+		<category><![CDATA[Dev]]></category>
+		<category><![CDATA[backup]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[script]]></category>
+		<category><![CDATA[simple]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=580</guid>
+		<description><![CDATA[&#8222;Ludzie dzielą się na tych, którzy robią backupy i na tych, którzy będą je robić&#8230;&#8221; Zdecydowanie wolę należeć do tej pierwszej grupy. W związku z tym przygotowałem bardzo prosty skrypt, który jednokierunkowo kopiuje pliki z jednego dysku/katalogu do drugiego (z &#8230; <a href="http://blog.siwinski.info/dev/bardzo-prosty-skrypt-do-robienia-inkrementalnych-kopii-zapasowych">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<blockquote><p><em>&#8222;Ludzie dzielą się na tych, którzy robią backupy i na tych, którzy będą je robić&#8230;&#8221;</em></p></blockquote>
+<p>Zdecydowanie wolę należeć do tej pierwszej grupy. W związku z tym przygotowałem bardzo prosty skrypt, który jednokierunkowo kopiuje pliki z jednego dysku/katalogu do drugiego (z lewej na prawą). Skrypt sprawdziłem i przetestowałem na własnej maszynie w systemie OSX, ale powinien z powodzeniem działać również na Linuksie.</p>
+<p>Oto co robi skrypt:</p>
+<ol>
+<li>wyczyść konsolę</li>
+<li>wyświetl ścieżki</li>
+<li>wyświetl komunikat (tu można jeszcze przerwać skrypt)</li>
+<li>wyświetl godzinę rozpoczęcia</li>
+<li>skopiuj dane # polecenie: rsync -avp $left $right</li>
+<li>wyświetl godzinę zakończenia</li>
+<li>wyświetl komunikat pożegnalny</li>
+</ol>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;">#!/bin/bash</span><br />
+<span style="color: #c20cb9; font-weight: bold;">clear</span><br />
+<br />
+<span style="color: #666666; font-style: italic;">####### configuration start #############</span><br />
+<br />
+<span style="color: #007800;">left</span>=<span style="color: #ff0000;">&quot;/Volumes/LAPTOP/Foto/.&quot;</span><br />
+<span style="color: #007800;">right</span>=<span style="color: #ff0000;">&quot;/Volumes/BACKUP-DRIVE/Foto&quot;</span><br />
+<br />
+<span style="color: #666666; font-style: italic;">####### configuration end ###############</span><br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">'left dir: '</span> <span style="color: #007800;">$left</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">'right dir: '</span><span style="color: #007800;">$right</span><br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span><br />
+<span style="color: #c20cb9; font-weight: bold;">read</span> <span style="color: #660033;">-p</span> <span style="color: #ff0000;">&quot;Press ENTER to start backup or COMMAND+C to abort...&quot;</span><br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;--------------- START: <span style="color: #780078;">`date`</span> ---------------&quot;</span><br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span><br />
+rsync <span style="color: #660033;">-avP</span> <span style="color: #007800;">$left</span> <span style="color: #007800;">$right</span><br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;--------------- KONIEC: <span style="color: #780078;">`date`</span> ---------------&quot;</span><br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span><br />
+<span style="color: #c20cb9; font-weight: bold;">read</span> <span style="color: #660033;">-p</span> <span style="color: #ff0000;">&quot;Press ENTER to finish...&quot;</span><br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;Good Bye!&quot;</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span></div></div>
+<p><a title="simpleBackup.sh" href="http://siwinski.info/script/bash/simpleBackup.txt" target="_blank">simpleBackup.sh</a></p>
+<p><!-- #tags:<br />
+kopiowanie inkrementalne<br />
+--></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/bardzo-prosty-skrypt-do-robienia-inkrementalnych-kopii-zapasowych/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; progressive dance</title>
+	<atom:link href="http://blog.siwinski.info/tag/progressive-dance/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Holidays Wanted (June 2009)</title>
+		<link>http://blog.siwinski.info/sets/progressive-awake/holidays-wanted-june-2009</link>
+		<comments>http://blog.siwinski.info/sets/progressive-awake/holidays-wanted-june-2009#comments</comments>
+		<pubDate>Sun, 14 Jun 2009 21:19:17 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Progressive Awake]]></category>
+		<category><![CDATA[progressive dance]]></category>
+		<category><![CDATA[progressive house]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=324</guid>
+		<description><![CDATA[DOWNLOAD (49MB, 53min) Tracklist: * radio k ft. randy roberts &#8211; coming (chris reece remix) * max linen &#8211; neon lights (thomas schwartz rmx) * kaskade &#8211; 4 am (adam k &#38; soha dub) * adam k, soha &#8211; long &#8230; <a href="http://blog.siwinski.info/sets/progressive-awake/holidays-wanted-june-2009">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_holidays_wanted__june_2009.mp3"><img class="alignnone size-medium wp-image-327" title="Progressive Awake - Holidays Wanted  (June 2009)" src="http://blog.siwinski.info/wp-content/uploads/2009/06/progressive_awake_-_holidays_wanted__june_2009-300x300.jpg" alt="" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Holidays Wanted (June 2009)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_holidays_wanted__june_2009.mp3"><strong>DOWNLOAD (49MB, 53min)</strong></a></p>
+<p>Tracklist:<br />
+* radio k ft. randy roberts &#8211; coming (chris reece remix)<br />
+* max linen &#8211; neon lights (thomas schwartz rmx)<br />
+* kaskade &#8211; 4 am (adam k &amp; soha dub)<br />
+* adam k, soha &#8211; long distance (original mix)<br />
+* luciano di nardo &#8211; anymore (chris reece remix)<br />
+* daniel portman &#8211; open your mind (dinka deep remix)<br />
+* dj tatana &#8211; somebody (leventina remix)<br />
+* dj tatana ft. florian &#8211; soulmate  (dinka vocal mix)<br />
+* dj tatana &#8211; spring breeze (martin roth summer style remix)<br />
+* inkfish, dawid west &#8211; hello piano (sebastien leger remix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/sets/progressive-awake/holidays-wanted-june-2009/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://siwinski.info/download/progressive-awake/progressive_awake_-_holidays_wanted__june_2009.mp3" length="50310668" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="pl-PL">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="pl-PL">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="pl-PL">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="pl-PL">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>tech house | Continous Integration</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="../wp-content/themes/twentyeleven/style.css" />
+<link rel="pingback" href="../xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://blog.siwinski.info/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z wpisami" href="../feed" />
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z komentarzami" href="../comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Continous Integration &raquo; Kanał z wpisami otagowanymi jako tech house" href="tech-house/feed" />
+<link rel='stylesheet' id='dark-css'  href='../wp-content/themes/twentyeleven/colors/dark.css' type='text/css' media='all' />
+<link rel='stylesheet' id='codecolorer-css'  href='../wp-content/plugins/codecolorer/codecolorer.css@ver=0.9.9' type='text/css' media='screen' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php@rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.siwinski.info/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.7.1" />
+<link rel="stylesheet" type="text/css" href="../wp-content/plugins/wp-code-highlight/css/sunburst.css" media="screen" />
+	<style>
+		/* Link color */
+		a,
+		#site-title a:focus,
+		#site-title a:hover,
+		#site-title a:active,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-title a:active,
+		.widget_twentyeleven_ephemera .comments-link a:hover,
+		section.recent-posts .other-recent-posts a[rel="bookmark"]:hover,
+		section.recent-posts .other-recent-posts .comments-link a:hover,
+		.format-image footer.entry-meta a:hover,
+		#site-generator a:hover {
+			color: #e4741f;
+		}
+		section.recent-posts .other-recent-posts .comments-link a:hover {
+			border-color: #e4741f;
+		}
+		article.feature-image.small .entry-summary p a:hover,
+		.entry-header .comments-link a:hover,
+		.entry-header .comments-link a:focus,
+		.entry-header .comments-link a:active,
+		.feature-slider a.active {
+			background-color: #e4741f;
+		}
+	</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #e2e2e2; }
+</style>
+</head>
+
+<body class="archive tag tag-tech-house tag-47 custom-background two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="../index.html" title="Continous Integration" rel="home">Continous Integration</a></span></h1>
+				<h2 id="site-description">playing with code &amp; music</h2>
+			</hgroup>
+
+			
+								<form method="get" id="searchform" action="../index.html">
+		<label for="s" class="assistive-text">Szukaj</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Szukaj" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Szukaj" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Menu główne</h3>
+								<div class="skip-link"><a class="assistive-text" href="tech-house.1#content" title="Przeskocz do tekstu">Przeskocz do tekstu</a></div>
+				<div class="skip-link"><a class="assistive-text" href="tech-house.1#secondary" title="Przeskocz do widgetów">Przeskocz do widgetów</a></div>
+								<div class="menu-start-container"><ul id="menu-start" class="menu"><li id="menu-item-1409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1409"><a href="../food/cook-book.1">Cook Book</a></li>
+<li id="menu-item-1339" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1339"><a title="Git How To" href="../dev/git-how-to">Git How To</a></li>
+<li id="menu-item-1423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1423"><a href="../dj/events-dj/events">Events</a></li>
+<li id="menu-item-1617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1617"><a href="tech-house.1#">Guitar</a>
+<ul class="sub-menu">
+	<li id="menu-item-1620" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1620"><a href="../guitar-cat/guitar-chords">Chords</a></li>
+	<li id="menu-item-1618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1618"><a href="../guitar-cat/theory/notes-on-guitar-fretboard">Notes on guitar fretboard</a></li>
+	<li id="menu-item-1428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1428"><a href="../guitar-cat/piosenki">Song Book</a></li>
+</ul>
+</li>
+<li id="menu-item-1363" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1363"><a href="tech-house.1#">Sets</a>
+<ul class="sub-menu">
+	<li id="menu-item-1431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1431"><a href="../sets/fresh-dance-music">Fresh Dance Music</a></li>
+	<li id="menu-item-1435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1435"><a href="../sets/progressive-awake">Progressive Awake</a></li>
+	<li id="menu-item-1439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1439"><a href="../sets/quantum-energy.1">Quantum Energy</a></li>
+	<li id="menu-item-1443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1443"><a href="../sets/unreleased-emotions.1">Unreleased Emotions</a></li>
+</ul>
+</li>
+</ul></div>			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<section id="primary">
+			<div id="content" role="main">
+
+			
+				<header class="page-header">
+					<h1 class="page-title">Archiwa tagu: <span>tech house</span></h1>
+
+									</header>
+
+						<nav id="nav-above">
+			<h3 class="assistive-text">Nawigacja po wpisach</h3>
+			<div class="nav-previous"><a href="tech-house/page/2" ><span class="meta-nav">&larr;</span> Starsze wpisy</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+								
+					
+	<article id="post-463" class="post-463 post type-post status-publish format-standard hentry category-progressive-awake tag-dance tag-deep-house tag-progressive-house tag-tech-house tag-techno">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/reminiscence-august-2011" rel="bookmark">Reminiscence (August 2011)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/reminiscence-august-2011" title="23:14" rel="bookmark"><time class="entry-date" datetime="2011-08-12T23:14:12+00:00">2011-08-12 23:23</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="https://dl.dropbox.com/u/67075704/progressive-awake/progressive_awake_-_reminiscence__august_2011.mp3"><br />
+<img class="alignnone size-medium wp-image-740" alt="Progressive Awake - Reminiscence (August 2011)" src="../wp-content/uploads/2011/08/progressive_awake_-_reminiscence__august_2011-300x300.jpg" width="300" height="300" /></a></p>
+<p><strong><a title="Progressive Awake - Reminiscence (August 2011)" href="https://dl.dropbox.com/u/67075704/progressive-awake/progressive_awake_-_reminiscence__august_2011.mp3">DOWNLOAD (206MB, 1h 28min)</a></strong></p>
+<p>TRACKLIST:<br />
+* paul kalkbrenner &#8211; aaron (original mix)<br />
+* paul kalkbrenner &#8211; azure (original mix)<br />
+* stan kolev, shana kolev &#8211; the message (original mix)<br />
+* vincenzo, elon &#8211; yarra valley (original mix)<br />
+* the waves &#8211; sakura (luigi lusini &amp; thomas schwartz mix)<br />
+* sample minds &#8211; the highlander (original mix)<br />
+* cramp &#8211; ru116 (proff remix)<br />
+* george f. zimmer &#8211; back to solaris (original mix)<br />
+* ban coda &#8211; bloom (matan caspi remix)<br />
+* matan caspi &#8211; turn the beat back (leventina re animation)<br />
+* t pe3, thomas montevideo &#8211; sublime nightmare (original mix)<br />
+* stan kolev ft. tatiana blades &#8211; here comes the rain again (summer of love mix)<br />
+* chris reece ft. jennifer needles &#8211; never let me go (extended mix)<br />
+* allure ft. jes &#8211; show me the way (twisted disko remix)<br />
+* mark knight, tiesto ft. dino &#8211; beatiful world (original club mix)<br />
+* paul kalkbrenner &#8211; gutes nitzwerk (original mix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START </p>
+<p><a title="Progressive Awake" href="https://www.facebook.com/ProgressiveAwake" target="_TOP"><img style="border: 0px;" alt="" src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="dance" rel="tag">dance</a>, <a href="deep-house" rel="tag">deep house</a>, <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="tech-house.1" rel="tag">tech house</a>, <a href="techno" rel="tag">techno</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-463 -->
+
+				
+					
+	<article id="post-460" class="post-460 post type-post status-publish format-standard hentry category-progressive-awake tag-break-beat tag-progressive-house tag-tech-house tag-trance">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/snowdrop-march-2011" rel="bookmark">Snowdrop (March 2011)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/snowdrop-march-2011" title="22:50" rel="bookmark"><time class="entry-date" datetime="2011-03-05T22:50:20+00:00">2011-03-05 22:22</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_snowdrop__march_2011.mp3"><img class="alignnone size-medium wp-image-461" alt="Progressive Awake - Snowdrop (March 2011)" src="../wp-content/uploads/2012/12/progressive_awake_-_snowdrop__march_2011-300x300.jpg" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Snowdrop (March 2011)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_snowdrop__march_2011.mp3"><strong>DOWNLOAD (97MB, 1h 7min)</strong></a></p>
+<p>Tracklist:<br />
+* cinnamon chasers &#8211; two hours time (remix)<br />
+* flight facilities ft. giselle &#8211; crave you (version 2)<br />
+* cinnamon chasers &#8211; tattoo (original mix)<br />
+* fusion f, come t &#8211; begin now (original mix)<br />
+* adam k ft. naan &#8211; wake up (club mix)<br />
+* matt cerf, jaren, eric meza &#8211; with me (passive progressive remix)<br />
+* fatblock &#8211; take a picture (original vocal mix)<br />
+* edx &#8211; embrace (original club mix)<br />
+* dinka, george f. zimmer &#8211; soma is language (original mix)<br />
+* dinka &#8211; never cheat on strangers (original mix)<br />
+* matteo marini &#8211; connected (original mix)<br />
+* proff &#8211; we show it (chris reece prog remix)<br />
+* edx &#8211; hoover (adam k remix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="break-beat" rel="tag">break beat</a>, <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="tech-house.1" rel="tag">tech house</a>, <a href="trance" rel="tag">trance</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-460 -->
+
+				
+					
+	<article id="post-444" class="post-444 post type-post status-publish format-standard hentry category-progressive-awake tag-dance tag-progressive-house tag-tech-house tag-techno">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/music-is-my-oxygen-january-2010" rel="bookmark">Music Is My Oxygen (January 2010)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/music-is-my-oxygen-january-2010" title="21:12" rel="bookmark"><time class="entry-date" datetime="2010-01-05T21:12:22+00:00">2010-01-05 21:21</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_ music_is_my_oxygen__january_2010.mp3"><img class="alignnone size-medium wp-image-446" alt="Progressive Awake - Music Is My Oxygen (January 2010)" src="../wp-content/uploads/2012/12/progressive_awake_-_-music_is_my_oxygen__january_2010-300x300.jpg" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Music Is My Oxygen (January 2010)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_ music_is_my_oxygen__january_2010.mp3"><strong>DOWNLOAD (100MB, 1h 12min)</strong></a></p>
+<p>Tracklist:<br />
+* intro<br />
+* kaskade &#8211; 4 am (extended intro)<br />
+* olivier giacomotto, dj tonio &#8211; rex the club (original mix)<br />
+* khomha &#8211; keep my feelings (sunrise mix)<br />
+* wippenberg &#8211; pong (extended mix)<br />
+* alex kenji, manuel de la mare &#8211; here comes the sun (original mix)<br />
+* luigi lusini &#8211; depth (original mix)<br />
+* dinka &#8211; elements (original mix)<br />
+* luigi lusini &#8211; imago (original mix)<br />
+* te pe3 &#8211; chanting in the sunset (matteo marini remix)<br />
+* fatboy slim, fedde le grand &#8211; praise you (fatboy slim vs fedde le grand remix)<br />
+* marini, noferini ft. sylvia tosun &#8211; push ‚n’ pull (club mix)<br />
+* save the robot &#8211; symphony of fish (matan caspi remix)<br />
+* alex kenji, manuel de la mare &#8211; here comes the sun (original mix)<br />
+* joanna &#8211; sometimes (matt cerf remix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="dance" rel="tag">dance</a>, <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="tech-house.1" rel="tag">tech house</a>, <a href="techno" rel="tag">techno</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-444 -->
+
+				
+					
+	<article id="post-438" class="post-438 post type-post status-publish format-standard hentry category-progressive-awake tag-progressive-house tag-tech-house">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/4-seasons-of-love-november-2009" rel="bookmark">4 Seasons Of Love (November 2009)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/4-seasons-of-love-november-2009" title="20:44" rel="bookmark"><time class="entry-date" datetime="2009-11-15T20:44:29+00:00">2009-11-15 20:20</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_4_seasons_of_love__november_2009.mp3"><img class="alignnone size-medium wp-image-440" alt="Progressive Awake - 4 Seasons Of Love (November 2009)" src="../wp-content/uploads/2012/12/progressive_awake_-_4_seasons_of_love__november_2009-300x300.jpg" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - 4 Seasons Of Love (November 2009)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_4_seasons_of_love__november_2009.mp3"><strong>DOWNLOAD (79MB, 58min)</strong></a></p>
+<p>Tracklist:<br />
+* matteo marini &#8211; seasons (primavera mix)<br />
+* matteo marini &#8211; seasons (autunno mix)<br />
+* criminal vibes &#8211; caribe (matteo marini remix)<br />
+* te pe3 &#8211; chanting in the sunset (matteo marini remix)<br />
+* matan caspi &#8211; highway stories (original mix)<br />
+* tiff lacey, michael badal &#8211; don&#8217;t be afraid (dj zya remix)<br />
+* marini, noferini ft. sylvia tosun &#8211; push ‚n’ pull (original mix)<br />
+* manuel de la mare &#8211; rich (original mix)<br />
+* sebastien leger &#8211; majestic (original mix)<br />
+* matteo marini &#8211; terra sarda (electro mix)<br />
+* 2xlc &#8211; pulse (manuel de la mare remix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="tech-house.1" rel="tag">tech house</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-438 -->
+
+				
+					
+	<article id="post-388" class="post-388 post type-post status-publish format-standard hentry category-progressive-awake tag-progressive-house tag-tech-house">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/lost-in-you-lost-myself-october-2009" rel="bookmark">Lost in You, lost myself&#8230; (October 2009)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/lost-in-you-lost-myself-october-2009" title="20:26" rel="bookmark"><time class="entry-date" datetime="2009-10-15T20:26:13+00:00">2009-10-15 20:20</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="https://dl.dropbox.com/u/67075704/progressive-awake/progressive_awake_-_lost_in_you_lost_myself__october_2009.mp3"><img class="alignnone size-medium wp-image-433" alt="Progressive Awake - Lost in You, lost myself (October 2009)" src="../wp-content/uploads/2012/12/progressive_awake_-_lost_in_you_lost_myself__october_2009-300x300.jpg" width="300" height="300" /></a></p>
+<p><strong><a title="Progressive Awake - Lost in You, lost myself... (October 2009)" href="https://dl.dropbox.com/u/67075704/progressive-awake/progressive_awake_-_lost_in_you_lost_myself__october_2009.mp3">DOWNLOAD (89MB , 1h 5min)</a></strong></p>
+<p>Tracklist:<br />
+* matteo marini &#8211; i never find (original mix)<br />
+* johnny &amp; peps &#8211; aqua (original mix)<br />
+* mat zo &#8211; synapse dynamics (original mix)<br />
+* ryan davis &#8211; clouds passing by (eelke kleijn rmx)<br />
+* dj tatana &#8211; saltwater (original mix)<br />
+* luciano di nardo &#8211; anymore (chris reece remix)<br />
+* chris reece &#8211; the fall (daniel portman main hour dub)<br />
+* luigi lusini &#8211; flare (cold summer mix)<br />
+* chris reece, dinka &#8211; atumn leaves (michael cassette remix)<br />
+* daniel portman &#8211; dark is the night for all (original mix)<br />
+* daniel portman, rino cabrera &#8211; sumatra (matan caspi &amp; eddy good remix)<br />
+* manuel de la mare &#8211; rich (original mix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="tech-house.1" rel="tag">tech house</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-388 -->
+
+				
+					
+	<article id="post-359" class="post-359 post type-post status-publish format-standard hentry category-progressive-awake tag-progressive-house tag-tech-house tag-techno">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/ungovernable-appetence-semptember-2009" rel="bookmark">Ungovernable Appetence (Semptember 2009)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/ungovernable-appetence-semptember-2009" title="22:06" rel="bookmark"><time class="entry-date" datetime="2009-09-04T22:06:08+00:00">2009-09-04 22:22</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_ungovernable_appetence__september_2009.mp3"><img class="alignnone size-medium wp-image-366" title="Progressive Awake - Ungovernable Appetence (September 2009)" src="../wp-content/uploads/2009/09/progressive-awake-ungovernable-appetence-september-2009-cover-300x225.jpg" alt="" width="300" height="225" /></a></p>
+<p><a title="Progressive Awake - Ungovernable Appetence (September 2009)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_ungovernable_appetence__september_2009.mp3"><strong>DOWNLOAD (92MB, 1h 6min)</strong></a></p>
+<p>Tracklist:<br />
+* manuel de la mare &#8211; sunrise (original mix)<br />
+* johnson, haske &#8211; breeze (original mix)<br />
+* daniel portman &#8211; dark is the night for all (original mix)<br />
+* daniel portman &#8211; open your mind (dinka deep remix)<br />
+* double d ft. brainstorm &#8211; musica electronika (melt&#8217;s edit)<br />
+* ogi gee cash, dimiz &#8211; 4things (original mix)<br />
+* dinka &#8211; canonball (original mix)<br />
+* alex del amo &#8211; the awakening (original mix)<br />
+* feel, tiff lacey, alexander popov &#8211; time after time (chris reece main mix)<br />
+* christian weber &#8211; electronic love (club mix)<br />
+* starchaser &#8211; a new society (thomas schwartz &amp; fausto fanizza vocal mix)<br />
+* khomha &#8211; better of alone 2009 (sunrise mix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="tech-house.1" rel="tag">tech house</a>, <a href="techno" rel="tag">techno</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-359 -->
+
+				
+					
+	<article id="post-332" class="post-332 post type-post status-publish format-standard hentry category-progressive-awake tag-progressive-house tag-progressive-trance tag-tech-house">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/7-months-of-dream-dont-want-to-wake-up-july-2009" rel="bookmark">7 months of dream (Don&#8217;t want to wake up) (July 2009)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/7-months-of-dream-dont-want-to-wake-up-july-2009" title="23:24" rel="bookmark"><time class="entry-date" datetime="2009-07-15T23:24:21+00:00">2009-07-15 23:23</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_7_months_of_dream__july_2009.mp3"><img class="alignnone size-medium wp-image-360" title="Progressive Awake - 7 months of dream (Don't want to wake up) (July 2009)" src="../wp-content/uploads/2012/12/progressive_awake_-_7_months_of_dream__july_2009-300x300.jpg" alt="" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - 7 month of dream (Don't want to wake up) (July 2009)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_7_months_of_dream__july_2009.mp3"><strong>DOWNLOAD (83MB, 1h)</strong></a></p>
+<p>Tracklist:<br />
+* <em>intro:</em> marcin nowakowski &#8211; smooth night<br />
+* luciano di nardo &#8211; anymore (chris reece remix)<br />
+* fuzzy hair &#8211; be free (thomas schwartz mix)<br />
+* rick costa &#8211; broken box (original mix)<br />
+* starchaser &#8211; a new society (thomas schwartz mix)<br />
+* dj tatana &#8211; somebody (leventina remix)<br />
+* max linen &#8211; neon lights (thomas schwartz rmx)<br />
+* radio k ft. randy roberts &#8211; coming (chris reece remix)<br />
+* dinka &#8211; chemistry (original mix)<br />
+* joanna &#8211; sometimes (matt cerf dub mix)<br />
+* mossy &#8211; it works (original mix)<br />
+* dj tatana &#8211; spring breeze (martin roth summer style remix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="progressive-trance" rel="tag">progressive trance</a>, <a href="tech-house.1" rel="tag">tech house</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-332 -->
+
+				
+					
+	<article id="post-302" class="post-302 post type-post status-publish format-standard hentry category-progressive-awake tag-progressive-house tag-tech-house">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/midgard-may-2009" rel="bookmark">Midgard (May 2009)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/midgard-may-2009" title="23:18" rel="bookmark"><time class="entry-date" datetime="2009-05-16T23:18:50+00:00">2009-05-16 23:23</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a title="Progressive Awake - Midgard (May 2009)" href="https://dl.dropbox.com/u/67075704/progressive-awake/progressive_awake_-_midgard__may_2009.mp3"><img class="alignnone size-medium wp-image-304" title="Progressive Awake - Midgard (May 2009)" alt="" src="../wp-content/uploads/2009/05/progressive_awake_-_midgard__may_2009-300x300.jpg" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Midgard (May 2009)" href="https://dl.dropbox.com/u/67075704/progressive-awake/progressive_awake_-_midgard__may_2009.mp3"><strong>DOWNLOAD (60MB, 1h 4min)</strong></a></p>
+<p>Tracklist:<br />
+* niklas gustavsson &#8211; ripple (original mix)<br />
+* dinka &#8211; chemistry (original mix)<br />
+* inkfish, dawid west &#8211; hello piano (sebastien leger remix)<br />
+* sebastien leger &#8211; majuro (original mix)<br />
+* mark knight, adam k, soha &#8211; from the speaker<br />
+* glenn morrison &#8211; no sudden moves (original mix)<br />
+* daniel portman &#8211; open your mind (dinka deep remix)<br />
+* hybrid &#8211; finished symphony (deadmau5 remix)<br />
+* deadmau5 &#8211; not exactly<br />
+* mossy &#8211; it works (original mix)<br />
+* coco fay &#8211; hold you back (muzzaik remix)<br />
+* joanna &#8211; sometimes (matt cerf dub mix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="tech-house.1" rel="tag">tech house</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-302 -->
+
+				
+					
+	<article id="post-293" class="post-293 post type-post status-publish format-standard hentry category-progressive-awake tag-dark-progressive tag-progressive-house tag-tech-house tag-techno">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/hard-days-at-work-april-2009" rel="bookmark">Hard days at work (April 2009)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/hard-days-at-work-april-2009" title="23:28" rel="bookmark"><time class="entry-date" datetime="2009-04-23T23:28:58+00:00">2009-04-23 23:23</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_hard_days_at_work__april_2009.mp3"><img class="alignnone size-medium wp-image-295" title="Progressive Awake - Hard days at work (April 2009)" src="../wp-content/uploads/2009/04/progressive_awake_-_hard_days_at_work__april_2009-300x300.jpg" alt="" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Hard days at work (April 2009)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_hard_days_at_work__april_2009.mp3"><strong>DOWNLOAD (57MB, 1h 2min)</strong></a></p>
+<p>Tracklist:<br />
+* inkfish, dawid west &#8211; hello piano (sebastien leger remix)<br />
+* thomas schwartz, fausto fanizza &#8211; jambe myth (original mix)<br />
+* mark knight, adam k, soha &#8211; from the speaker (original mix)<br />
+* manibeat &#8211; muzikita (the kzr remix)<br />
+* ogi gee cash, dimiz &#8211; 4things (original mix)<br />
+* marco petralia &#8211; just believe (original mix)<br />
+* alex tepper &#8211; grains (original mix)<br />
+* ryan davis &#8211; clouds passing by (eelke kleijn rmx)<br />
+* 16 bit lolitas &#8211; murder weapon (original mix)<br />
+* jhonny &amp; peps, squid &#8211; all in all out (original mix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="dark-progressive" rel="tag">dark progressive</a>, <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="tech-house.1" rel="tag">tech house</a>, <a href="techno" rel="tag">techno</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-293 -->
+
+				
+					
+	<article id="post-218" class="post-218 post type-post status-publish format-standard hentry category-progressive-awake tag-progressive-house tag-tech-house tag-techno">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="../sets/progressive-awake/sweet-candies-march-2009" rel="bookmark">Sweet candies (March 2009)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Opublikowany </span><a href="../sets/progressive-awake/sweet-candies-march-2009" title="23:20" rel="bookmark"><time class="entry-date" datetime="2009-03-29T23:20:09+00:00">2009-03-29 23:23</time></a><span class="by-author"> <span class="sep"> przez </span> <span class="author vcard"><a class="url fn n" href="../author/hopbit.1" title="Zobacz wszystkie wpisy, których autorem jest Łukasz Siwiński" rel="author">Łukasz Siwiński</a></span></span>			</div><!-- .entry-meta -->
+			
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="http://siwinski.info/download/progressive-awake/progressive_awake_-_sweet_candies__march_2009.mp3"><img class="alignnone size-medium wp-image-282" title="Progressive Awake - Sweet candies (March 2009)" src="../wp-content/uploads/2012/11/progressive_awake_-_sweet_candies__march_2009-300x300.jpg" alt="" width="300" height="300" /></a></p>
+<p><a title="Progressive Awake - Sweet candies (March 2009)" href="http://siwinski.info/download/progressive-awake/progressive_awake_-_sweet_candies__march_2009.mp3"><strong>DOWNLOAD (86MB, 1h 3min)</strong></a></p>
+<p>Tracklist:<br />
+* sebastien leger &#8211; majuro (original mix)<br />
+* glenn morrison &#8211; no sudden moves (original mix)<br />
+* a.s.h.a. &#8211; ball and chain (jj tribute glenn morrison bruce aisher remix)<br />
+* ryan davis &#8211; clouds passing by (eelke kleijn rmx)<br />
+* kidro &#8211; anybody out there (thomas schwartz mix)<br />
+* johnson, haske &#8211; breeze (original mix)<br />
+* bruxxas &#8211; poltergeist (original mix)<br />
+* joanna &#8211; sometimes (matt cerf dub mix)<br />
+* max linen &#8211; neon lights (thomas schwartz rmx)<br />
+* rick costa &#8211; broken box (original mix)<br />
+* mark knight, adam k, soha &#8211; from the speaker (original mix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START<br />
+<a href="https://www.facebook.com/ProgressiveAwake" target="_TOP" title="Progressive Awake"><img src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" style="border: 0px;" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Zaszufladkowano do kategorii</span> <a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;" rel="category tag">Progressive Awake</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Tagi:</span> <a href="progressive-house.1" rel="tag">progressive house</a>, <a href="tech-house.1" rel="tag">tech house</a>, <a href="techno" rel="tag">techno</a>			</span>
+						
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-218 -->
+
+				
+						<nav id="nav-below">
+			<h3 class="assistive-text">Nawigacja po wpisach</h3>
+			<div class="nav-previous"><a href="tech-house/page/2" ><span class="meta-nav">&larr;</span> Starsze wpisy</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+			
+			</div><!-- #content -->
+		</section><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<aside id="categories-3" class="widget widget_categories"><h3 class="widget-title">Kategorie</h3>		<ul>
+	<li class="cat-item cat-item-3"><a href="../category/dev.2" title="Zobacz wszystkie wpisy z kategorii &#8222;Dev&#8221;">Dev</a> (113)
+<ul class='children'>
+	<li class="cat-item cat-item-276"><a href="../category/dev/android-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Android&#8221;">Android</a> (7)
+</li>
+	<li class="cat-item cat-item-259"><a href="../category/dev/bash-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Bash&#8221;">Bash</a> (8)
+</li>
+	<li class="cat-item cat-item-290"><a href="../category/dev/batch-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Batch&#8221;">Batch</a> (3)
+</li>
+	<li class="cat-item cat-item-280"><a href="../category/dev/events-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Events&#8221;">Events</a> (1)
+</li>
+	<li class="cat-item cat-item-215"><a href="../category/dev/git.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Git&#8221;">Git</a> (44)
+</li>
+	<li class="cat-item cat-item-299"><a href="../category/dev/gradle" title="Zobacz wszystkie wpisy z kategorii &#8222;Gradle&#8221;">Gradle</a> (1)
+</li>
+	<li class="cat-item cat-item-258"><a href="../category/dev/hardware-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Hardware&#8221;">Hardware</a> (1)
+</li>
+	<li class="cat-item cat-item-252"><a href="../category/dev/java-dev.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Java&#8221;">Java</a> (12)
+</li>
+	<li class="cat-item cat-item-264"><a href="../category/dev/mac-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Mac&#8221;">Mac</a> (3)
+</li>
+	<li class="cat-item cat-item-275"><a href="../category/dev/python-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Python&#8221;">Python</a> (3)
+</li>
+	<li class="cat-item cat-item-266"><a href="../category/dev/sublime-text" title="Zobacz wszystkie wpisy z kategorii &#8222;Sublime Text&#8221;">Sublime Text</a> (3)
+</li>
+	<li class="cat-item cat-item-257"><a href="../category/dev/windows-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Win&#8221;">Win</a> (3)
+</li>
+	<li class="cat-item cat-item-300"><a href="../category/dev/workshops-dev" title="Zobacz wszystkie wpisy z kategorii &#8222;Workshops&#8221;">Workshops</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-241"><a href="../category/dj" title="Zobacz wszystkie wpisy z kategorii &#8222;DJ&#8221;">DJ</a> (10)
+<ul class='children'>
+	<li class="cat-item cat-item-279"><a href="../category/dj/events-dj" title="Zobacz wszystkie wpisy z kategorii &#8222;Events&#8221;">Events</a> (8)
+</li>
+	<li class="cat-item cat-item-278"><a href="../category/dj/serato-dj" title="Zobacz wszystkie wpisy z kategorii &#8222;Serato&#8221;">Serato</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-62"><a href="../category/food" title="Zobacz wszystkie wpisy z kategorii &#8222;Food&#8221;">Food</a> (9)
+<ul class='children'>
+	<li class="cat-item cat-item-234"><a href="../category/food/cook-book" title="Zobacz wszystkie wpisy z kategorii &#8222;Cook Book&#8221;">Cook Book</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-237"><a href="../category/guitar-cat.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Guitar&#8221;">Guitar</a> (41)
+<ul class='children'>
+	<li class="cat-item cat-item-247"><a href="../category/guitar-cat/chords" title="Zobacz wszystkie wpisy z kategorii &#8222;Chords&#8221;">Chords</a> (9)
+</li>
+	<li class="cat-item cat-item-239"><a href="../category/guitar-cat/jam-sessions" title="Zobacz wszystkie wpisy z kategorii &#8222;Jam Sessions&#8221;">Jam Sessions</a> (1)
+</li>
+	<li class="cat-item cat-item-217"><a href="../category/guitar-cat/song-book.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Song Book&#8221;">Song Book</a> (27)
+</li>
+	<li class="cat-item cat-item-246"><a href="../category/guitar-cat/theory" title="Zobacz wszystkie wpisy z kategorii &#8222;Theory&#8221;">Theory</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-240"><a href="../category/other" title="Zobacz wszystkie wpisy z kategorii &#8222;Other&#8221;">Other</a> (3)
+<ul class='children'>
+	<li class="cat-item cat-item-242"><a href="../category/other/auto-other" title="Zobacz wszystkie wpisy z kategorii &#8222;Auto&#8221;">Auto</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-4"><a href="../category/sets.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Sets&#8221;">Sets</a> (34)
+<ul class='children'>
+	<li class="cat-item cat-item-7"><a href="../category/sets/fresh-dance-music" title="Zobacz wszystkie wpisy z kategorii &#8222;Fresh Dance Music&#8221;">Fresh Dance Music</a> (3)
+</li>
+	<li class="cat-item cat-item-5"><a href="../category/sets/progressive-awake.1" title="Zobacz wszystkie wpisy z kategorii &#8222;Progressive Awake&#8221;">Progressive Awake</a> (23)
+</li>
+	<li class="cat-item cat-item-6"><a href="../category/sets/quantum-energy" title="Zobacz wszystkie wpisy z kategorii &#8222;Quantum Energy&#8221;">Quantum Energy</a> (4)
+</li>
+	<li class="cat-item cat-item-66"><a href="../category/sets/unreleased-emotions" title="Zobacz wszystkie wpisy z kategorii &#8222;Unreleased Emotions&#8221;">Unreleased Emotions</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-1"><a href="../category/uncategorized" title="Zobacz wszystkie wpisy z kategorii &#8222;Uncategorized&#8221;">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-297"><a href="../category/user" title="Zobacz wszystkie wpisy z kategorii &#8222;User&#8221;">User</a> (2)
+<ul class='children'>
+	<li class="cat-item cat-item-301"><a href="../category/user/android-user" title="Zobacz wszystkie wpisy z kategorii &#8222;Android&#8221;">Android</a> (1)
+</li>
+	<li class="cat-item cat-item-298"><a href="../category/user/windows-phone-8" title="Zobacz wszystkie wpisy z kategorii &#8222;Windows Phone 8&#8221;">Windows Phone 8</a> (1)
+</li>
+</ul>
+</li>
+		</ul>
+</aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h3 class="widget-title">Tagi</h3><div class="tagcloud"><a href='10-5-8' class='tag-link-29' title='2 tematy' style='font-size: 8pt;'>10.5.8</a>
+<a href='android-2' class='tag-link-158' title='9 tematów' style='font-size: 14.275862068966pt;'>android</a>
+<a href='apps' class='tag-link-65' title='6 tematów' style='font-size: 12.465517241379pt;'>apps</a>
+<a href='automation' class='tag-link-56' title='3 tematy' style='font-size: 9.448275862069pt;'>automation</a>
+<a href='bash-2' class='tag-link-153' title='7 tematów' style='font-size: 13.068965517241pt;'>bash</a>
+<a href='basics' class='tag-link-212' title='9 tematów' style='font-size: 14.275862068966pt;'>basics</a>
+<a href='basis' class='tag-link-283' title='3 tematy' style='font-size: 9.448275862069pt;'>basis</a>
+<a href='batch-2' class='tag-link-164' title='4 tematy' style='font-size: 10.655172413793pt;'>batch</a>
+<a href='cheatsheet' class='tag-link-133' title='7 tematów' style='font-size: 13.068965517241pt;'>cheatsheet</a>
+<a href='compilation-problem' class='tag-link-97' title='5 tematów' style='font-size: 11.620689655172pt;'>compilation problem</a>
+<a href='config' class='tag-link-171' title='7 tematów' style='font-size: 13.068965517241pt;'>config</a>
+<a href='dance' class='tag-link-44' title='5 tematów' style='font-size: 11.620689655172pt;'>dance</a>
+<a href='dj-2' class='tag-link-189' title='9 tematów' style='font-size: 14.275862068966pt;'>dj</a>
+<a href='dnb' class='tag-link-11' title='4 tematy' style='font-size: 10.655172413793pt;'>dnb</a>
+<a href='eclipse' class='tag-link-92' title='6 tematów' style='font-size: 12.465517241379pt;'>eclipse</a>
+<a href='editor' class='tag-link-267' title='3 tematy' style='font-size: 9.448275862069pt;'>editor</a>
+<a href='electro-house' class='tag-link-46' title='2 tematy' style='font-size: 8pt;'>electro house</a>
+<a href='git-2.1' class='tag-link-169' title='43 tematy' style='font-size: 22pt;'>git</a>
+<a href='guitar.1' class='tag-link-193' title='22 tematy' style='font-size: 18.620689655172pt;'>guitar</a>
+<a href='how-to.1' class='tag-link-123' title='41 tematów' style='font-size: 21.758620689655pt;'>how-to</a>
+<a href='ibm' class='tag-link-110' title='2 tematy' style='font-size: 8pt;'>ibm</a>
+<a href='ide' class='tag-link-88' title='4 tematy' style='font-size: 10.655172413793pt;'>ide</a>
+<a href='itunes' class='tag-link-37' title='2 tematy' style='font-size: 8pt;'>itunes</a>
+<a href='java-2.1' class='tag-link-58' title='13 tematów' style='font-size: 16.086206896552pt;'>java</a>
+<a href='keyboard-shortcuts' class='tag-link-160' title='6 tematów' style='font-size: 12.465517241379pt;'>keyboard shortcuts</a>
+<a href='lyrics.1' class='tag-link-194' title='19 tematów' style='font-size: 17.896551724138pt;'>lyrics</a>
+<a href='mac' class='tag-link-180' title='8 tematów' style='font-size: 13.672413793103pt;'>mac</a>
+<a href='mp3' class='tag-link-38' title='2 tematy' style='font-size: 8pt;'>mp3</a>
+<a href='party' class='tag-link-218' title='7 tematów' style='font-size: 13.068965517241pt;'>party</a>
+<a href='pop' class='tag-link-33' title='2 tematy' style='font-size: 8pt;'>pop</a>
+<a href='problem' class='tag-link-109' title='6 tematów' style='font-size: 12.465517241379pt;'>problem</a>
+<a href='progressive-house.1' class='tag-link-45' title='22 tematy' style='font-size: 18.620689655172pt;'>progressive house</a>
+<a href='python-2' class='tag-link-185' title='3 tematy' style='font-size: 9.448275862069pt;'>python</a>
+<a href='reference-2' class='tag-link-132' title='9 tematów' style='font-size: 14.275862068966pt;'>reference</a>
+<a href='script' class='tag-link-39' title='5 tematów' style='font-size: 11.620689655172pt;'>script</a>
+<a href='shortcuts' class='tag-link-223' title='2 tematy' style='font-size: 8pt;'>shortcuts</a>
+<a href='song.1' class='tag-link-195' title='16 tematów' style='font-size: 17.051724137931pt;'>song</a>
+<a href='sql' class='tag-link-106' title='3 tematy' style='font-size: 9.448275862069pt;'>sql</a>
+<a href='tech-house.1' class='tag-link-47' title='14 tematów' style='font-size: 16.448275862069pt;'>tech house</a>
+<a href='techno' class='tag-link-53' title='5 tematów' style='font-size: 11.620689655172pt;'>techno</a>
+<a href='tips' class='tag-link-199' title='3 tematy' style='font-size: 9.448275862069pt;'>tips</a>
+<a href='tools-2' class='tag-link-159' title='10 tematów' style='font-size: 14.758620689655pt;'>tools</a>
+<a href='vim' class='tag-link-94' title='3 tematy' style='font-size: 9.448275862069pt;'>vim</a>
+<a href='wiki.1' class='tag-link-213' title='27 tematów' style='font-size: 19.706896551724pt;'>wiki</a>
+<a href='windows' class='tag-link-117' title='9 tematów' style='font-size: 14.275862068966pt;'>windows</a></div>
+</aside><aside id="archives-4" class="widget widget_archive"><h3 class="widget-title">Archiwum</h3>		<ul>
+			<li><a href='../2013/11'>Listopad 2013</a>&nbsp;(2)</li>
+	<li><a href='../2013/10'>Październik 2013</a>&nbsp;(1)</li>
+	<li><a href='../2013/09'>Wrzesień 2013</a>&nbsp;(1)</li>
+	<li><a href='../2013/08'>Sierpień 2013</a>&nbsp;(1)</li>
+	<li><a href='../2013/07'>Lipiec 2013</a>&nbsp;(6)</li>
+	<li><a href='../2013/06'>Czerwiec 2013</a>&nbsp;(1)</li>
+	<li><a href='../2013/05'>Maj 2013</a>&nbsp;(4)</li>
+	<li><a href='../2013/04'>Kwiecień 2013</a>&nbsp;(18)</li>
+	<li><a href='../2013/03'>Marzec 2013</a>&nbsp;(11)</li>
+	<li><a href='../2013/02'>Luty 2013</a>&nbsp;(27)</li>
+	<li><a href='../2013/01'>Styczeń 2013</a>&nbsp;(2)</li>
+	<li><a href='../2012/12'>Grudzień 2012</a>&nbsp;(12)</li>
+	<li><a href='../2012/11'>Listopad 2012</a>&nbsp;(6)</li>
+	<li><a href='../2012/10'>Październik 2012</a>&nbsp;(4)</li>
+	<li><a href='../2012/09'>Wrzesień 2012</a>&nbsp;(15)</li>
+	<li><a href='../2012/08'>Sierpień 2012</a>&nbsp;(12)</li>
+	<li><a href='../2012/07'>Lipiec 2012</a>&nbsp;(8)</li>
+	<li><a href='../2012/06'>Czerwiec 2012</a>&nbsp;(8)</li>
+	<li><a href='../2012/04'>Kwiecień 2012</a>&nbsp;(1)</li>
+	<li><a href='../2012/03'>Marzec 2012</a>&nbsp;(1)</li>
+	<li><a href='../2011/12'>Grudzień 2011</a>&nbsp;(1)</li>
+	<li><a href='../2011/11'>Listopad 2011</a>&nbsp;(3)</li>
+	<li><a href='../2011/10'>Październik 2011</a>&nbsp;(1)</li>
+	<li><a href='../2011/08'>Sierpień 2011</a>&nbsp;(1)</li>
+	<li><a href='../2011/06'>Czerwiec 2011</a>&nbsp;(1)</li>
+	<li><a href='../2011/04'>Kwiecień 2011</a>&nbsp;(2)</li>
+	<li><a href='../2011/03'>Marzec 2011</a>&nbsp;(3)</li>
+	<li><a href='../2011/02'>Luty 2011</a>&nbsp;(3)</li>
+	<li><a href='../2011/01'>Styczeń 2011</a>&nbsp;(1)</li>
+	<li><a href='../2010/12'>Grudzień 2010</a>&nbsp;(2)</li>
+	<li><a href='../2010/11'>Listopad 2010</a>&nbsp;(6)</li>
+	<li><a href='../2010/10'>Październik 2010</a>&nbsp;(3)</li>
+	<li><a href='../2010/03'>Marzec 2010</a>&nbsp;(1)</li>
+	<li><a href='../2010/01'>Styczeń 2010</a>&nbsp;(2)</li>
+	<li><a href='../2009/12'>Grudzień 2009</a>&nbsp;(1)</li>
+	<li><a href='../2009/11'>Listopad 2009</a>&nbsp;(2)</li>
+	<li><a href='../2009/10'>Październik 2009</a>&nbsp;(1)</li>
+	<li><a href='../2009/09'>Wrzesień 2009</a>&nbsp;(2)</li>
+	<li><a href='../2009/07'>Lipiec 2009</a>&nbsp;(1)</li>
+	<li><a href='../2009/06'>Czerwiec 2009</a>&nbsp;(3)</li>
+	<li><a href='../2009/05'>Maj 2009</a>&nbsp;(1)</li>
+	<li><a href='../2009/04'>Kwiecień 2009</a>&nbsp;(3)</li>
+	<li><a href='../2009/03'>Marzec 2009</a>&nbsp;(2)</li>
+	<li><a href='../2009/01'>Styczeń 2009</a>&nbsp;(2)</li>
+	<li><a href='../2008/12'>Grudzień 2008</a>&nbsp;(1)</li>
+	<li><a href='../2008/11'>Listopad 2008</a>&nbsp;(3)</li>
+	<li><a href='../2008/09'>Wrzesień 2008</a>&nbsp;(1)</li>
+	<li><a href='../2008/08'>Sierpień 2008</a>&nbsp;(1)</li>
+	<li><a href='../2008/07'>Lipiec 2008</a>&nbsp;(1)</li>
+	<li><a href='../2008/06'>Czerwiec 2008</a>&nbsp;(3)</li>
+	<li><a href='../2008/04'>Kwiecień 2008</a>&nbsp;(2)</li>
+	<li><a href='../2007/09'>Wrzesień 2007</a>&nbsp;(2)</li>
+	<li><a href='../2007/08'>Sierpień 2007</a>&nbsp;(1)</li>
+	<li><a href='../2007/05'>Maj 2007</a>&nbsp;(1)</li>
+	<li><a href='../2007/04'>Kwiecień 2007</a>&nbsp;(2)</li>
+	<li><a href='../2007/03'>Marzec 2007</a>&nbsp;(1)</li>
+	<li><a href='../2007/02'>Luty 2007</a>&nbsp;(2)</li>
+	<li><a href='../2006/03'>Marzec 2006</a>&nbsp;(1)</li>
+	<li><a href='../2006/01'>Styczeń 2006</a>&nbsp;(1)</li>
+		</ul>
+</aside><aside id="linkcat-8" class="widget widget_links"><h3 class="widget-title">Polecane</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://einarmixes.blogspot.com/" title="einar / deep &#8230; progressive house mixes &#8230;" target="_blank">Einar Mixes</a></li>
+<li><a href="http://geecon.org">GeeCON</a></li>
+<li><a href="http://www.jakubryc.info/blog/" rel="friend met" title="my friend homepage">Jakub Ryć</a></li>
+<li><a href="http://www.lifeformusic.pl/">Life For Music</a></li>
+<li><a href="http://mobile-warsaw.pl">Mobile Warsaw</a></li>
+<li><a href="http://rdj.pl" title="DJ na wesele, DJ na imprezy, DJ na eventy, DJ na studniówki&#8230;  RDJ.pl" target="_blank">RDJ.PL</a></li>
+<li><a href="http://blog.vigeogam.es/">Vigeo Games</a></li>
+<li><a href="http://warsjawa.pl" target="_blank">warsjawa</a></li>
+<li><a href="http://www.warszawa.jug.pl/" title="Warszawa-JUG" target="_blank">WJUG</a></li>
+
+	</ul>
+</aside>
+		</div><!-- #secondary .widget-area -->
+	<!--WP Code Highlight_start-->
+	<script type="text/javascript">
+		window.onload = function(){prettyPrint();};
+	</script>
+	<script type="text/javascript" src="../wp-content/plugins/wp-code-highlight/js/wp-code-highlight.js"></script>
+	<!--WP Code Highlight_end-->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantyczna, osobista platforma publikacyjna">Dumnie wspierane przez WordPressa</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+</body>
+</html><script type="text/javascript"><!--
+document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://home.hit.stat24.com/_'+(new Date()).getTime()+'/script.js?id=d2OQbUb0WzOaSmvsssUXrKR..GLG7JfNlmLdsW2gIFP.E7"></'+'scr'+'ipt>');
+//--></script>

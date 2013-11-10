@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; basics</title>
+	<atom:link href="http://blog.siwinski.info/tag/basics/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Exit codes in python</title>
+		<link>http://blog.siwinski.info/dev/python-dev/exit-codes-in-python</link>
+		<comments>http://blog.siwinski.info/dev/python-dev/exit-codes-in-python#comments</comments>
+		<pubDate>Tue, 30 Jul 2013 20:16:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[python]]></category>
+		<category><![CDATA[scripting]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2002</guid>
+		<description><![CDATA[0 - success 1 - error occured 2 - syntax error Simple example: if&#40;len&#40;people&#41; &#62; 5&#41;: &#160; print &#34;Too many people. Script execution is interrupted.&#34; &#160; exit&#40;1&#41; Reference: http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container text vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">0 - success<br />
+1 - error occured<br />
+2 - syntax error</div></div>
+<p>Simple example:</p>
+<div class="codecolorer-container python vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="python codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #ff7700;font-weight:bold;">if</span><span style="color: black;">&#40;</span><span style="color: #008000;">len</span><span style="color: black;">&#40;</span>people<span style="color: black;">&#41;</span> <span style="color: #66cc66;">&gt;</span> <span style="color: #ff4500;">5</span><span style="color: black;">&#41;</span>:<br />
+&nbsp; <span style="color: #ff7700;font-weight:bold;">print</span> <span style="color: #483d8b;">&quot;Too many people. Script execution is interrupted.&quot;</span><br />
+&nbsp; exit<span style="color: black;">&#40;</span><span style="color: #ff4500;">1</span><span style="color: black;">&#41;</span></div></div>
+<p>Reference: <a href="http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit">http://www.wingware.com/psupport/python-manual/2.6/library/sys.html#sys.exit</a></p>
+<hr/>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/python-dev/exit-codes-in-python/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to get help under git?</title>
+		<link>http://blog.siwinski.info/dev/how-to-get-help-under-git</link>
+		<comments>http://blog.siwinski.info/dev/how-to-get-help-under-git#comments</comments>
+		<pubDate>Wed, 03 Apr 2013 22:38:04 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1216</guid>
+		<description><![CDATA[There are 3 ways of doing it: $ git help &#91;command&#93; $ git &#91;command&#93; --help $ man git-&#91;command&#93; Beside of above you can ask at IRC (I didn&#8217;t try this out) irc: channels #git &#38; #github server: irc.freenode.net]]></description>
+				<content:encoded><![CDATA[<p>There are 3 ways of doing it:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">git <span style="color: #7a0874; font-weight: bold;">help</span></span> <span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #7a0874; font-weight: bold;">command</span><span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #7a0874; font-weight: bold;">command</span><span style="color: #7a0874; font-weight: bold;">&#93;</span> <span style="color: #660033;">--help</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">man</span> git-<span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #7a0874; font-weight: bold;">command</span><span style="color: #7a0874; font-weight: bold;">&#93;</span></div></div>
+<p>Beside of above you can ask at IRC (I didn&#8217;t try this out)</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">irc: channels <span style="color: #666666; font-style: italic;">#git &amp; #github</span><br />
+server: irc.freenode.net</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-get-help-under-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to set up basic git config?</title>
+		<link>http://blog.siwinski.info/dev/how-to-set-up-basic-git-config</link>
+		<comments>http://blog.siwinski.info/dev/how-to-set-up-basic-git-config#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 21:26:51 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=927</guid>
+		<description><![CDATA[## obligatory ## ------------------------------------------------ # set user/commiter name git config --global user.name &#34;Kapitan Bomba&#34; # set user/commiter email git config --global user.email &#34;kapitan.bomba@youtu.be&#34; ## hint: type git config without &#34;--global&#34; option if you want ## to have settings specific only &#8230; <a href="http://blog.siwinski.info/dev/how-to-set-up-basic-git-config">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;">## obligatory ## ------------------------------------------------</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># set user/commiter name</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> user.name <span style="color: #ff0000;">&quot;Kapitan Bomba&quot;</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># set user/commiter email</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> user.email <span style="color: #ff0000;">&quot;kapitan.bomba@youtu.be&quot;</span><br />
+<br />
+<span style="color: #666666; font-style: italic;">## hint: type git config without &quot;--global&quot; option if you want</span><br />
+<span style="color: #666666; font-style: italic;">## to have settings specific only for current repository</span><br />
+<span style="color: #666666; font-style: italic;">## (it'll write to project/.git/config file).</span><br />
+<br />
+<span style="color: #666666; font-style: italic;">## optional ## --------------------------------------------------</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># setting up nice colors</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> color.diff auto<br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> color.status auto<br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> color.branch auto<br />
+<br />
+<span style="color: #666666; font-style: italic;"># setting up default merge tool</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> merge.tool vimdiff<br />
+<br />
+<span style="color: #666666; font-style: italic;"># or: kdiff3, tkdiff, meld, xxdiff, emerge, vimdiff,</span><br />
+<span style="color: #666666; font-style: italic;"># gvimdiff, ecmerge, opendiff</span><br />
+<span style="color: #666666; font-style: italic;"># you can also setup a custom tool (fixme - how to do this???)</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-set-up-basic-git-config/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>passing args to batch script</title>
+		<link>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script</link>
+		<comments>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script#comments</comments>
+		<pubDate>Tue, 04 Nov 2008 21:32:42 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Batch]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[scriptint]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2016</guid>
+		<description><![CDATA[echo OFF REM # %0 - path to this script echo 0th arg (this script): [%0] REM # %1 - first argument passed to the script echo 1st arg passed to the script: [%1] REM # %2 - second argument &#8230; <a href="http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container dos vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="dos codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #b1b100; font-weight: bold;">echo</span> OFF<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %0 - path to this script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 0th arg <span style="color: #33cc33;">(</span>this script<span style="color: #33cc33;">)</span>: [<span style="color: #33cc33;">%</span><span style="color: #448888;">0</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %1 - first argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 1st arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">1</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %2 - second argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 2nd arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">2</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %3 - second argument passed to the script</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> 3rd arg passed to the script: [<span style="color: #33cc33;">%</span><span style="color: #448888;">3</span>]<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %n - nth argument passed to the script</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/batch-dev/passing-args-to-batch-script/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to create runnable jar?</title>
+		<link>http://blog.siwinski.info/dev/how-to-create-runnable-jar</link>
+		<comments>http://blog.siwinski.info/dev/how-to-create-runnable-jar#comments</comments>
+		<pubDate>Tue, 01 May 2007 20:30:46 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[jar]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[packaging]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1852</guid>
+		<description><![CDATA[cd ~/test vim MyStarterClass.java public class MyStarterClass &#123; &#160; public static void main&#40;String&#91;&#93; args&#41; &#123; &#160; &#160; System.out.println&#40;&#34;Hello Jar&#34;&#41;; &#160; &#125; &#125; $ javac MyStarterClass.java $ java MyStarterClass &#160;Hello Jar $ echo &#34;Main-Class: MyStarterClass&#34; &#62; manifest.mf $ jar cvfm HelloJar.jar &#8230; <a href="http://blog.siwinski.info/dev/how-to-create-runnable-jar">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #7a0874; font-weight: bold;">cd</span> ~<span style="color: #000000; font-weight: bold;">/</span><span style="color: #7a0874; font-weight: bold;">test</span><br />
+<span style="color: #c20cb9; font-weight: bold;">vim</span> MyStarterClass.java</div></div>
+<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">class</span> MyStarterClass <span style="color: #009900;">&#123;</span><br />
+&nbsp; <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #000066; font-weight: bold;">void</span> main<span style="color: #009900;">&#40;</span><span style="color: #003399;">String</span><span style="color: #009900;">&#91;</span><span style="color: #009900;">&#93;</span> args<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; <span style="color: #003399;">System</span>.<span style="color: #006633;">out</span>.<span style="color: #006633;">println</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;Hello Jar&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; <span style="color: #009900;">&#125;</span><br />
+<span style="color: #009900;">&#125;</span></div></div>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ javac MyStarterClass.java<br />
+$ java MyStarterClass<br />
+&nbsp;Hello Jar<br />
+$ <span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;Main-Class: MyStarterClass&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;</span> manifest.mf<br />
+$ jar cvfm HelloJar.jar manifest.mf MyStarterClass.class<br />
+<span style="color: #666666; font-style: italic;"># or if you have more than one class: </span><br />
+<span style="color: #666666; font-style: italic;"># &nbsp; $ jar cvfm HelloJar.jar manifest.mf *.class</span><br />
+$ HelloJar.jar<br />
+&nbsp;Hello Jar</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-create-runnable-jar/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Understanding Generics in Java</title>
+		<link>http://blog.siwinski.info/dev/java-dev/understanding-generics-in-java</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/understanding-generics-in-java#comments</comments>
+		<pubDate>Thu, 05 Apr 2007 20:40:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[generics]]></category>
+		<category><![CDATA[java]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2028</guid>
+		<description><![CDATA[What does &#8222;E&#8221; stand for? Let&#8217;s take ArrayList for an example. E is a stand-in for &#8222;the type of element you want this collection to hold and return&#8221; (E is abbreviation of the word element). &#8222;E&#8221; can be treated like &#8230; <a href="http://blog.siwinski.info/dev/java-dev/understanding-generics-in-java">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong>What does &#8222;E&#8221; stand for?</strong></p>
+<p>Let&#8217;s take <a href="http://docs.oracle.com/javase/1.5.0/docs/api/java/util/ArrayList.html" target="_blank">ArrayList</a> for an example.</p>
+<p>E is a stand-in for &#8222;the type of element you want this collection to hold and return&#8221; (E is abbreviation of the word element). &#8222;E&#8221; can be treated like a placeholder for the REAL type you use when you declare and create ArrayList. &#8222;E&#8221; determines what kind of objects you&#8217;re allowed to add to the ArrayList. So You can thing that E stand for &#8222;whatever type&#8221;? It&#8217;s something like wildcard/joker.</p>
+<p><strong>What does &#8222;T&#8221; stand for?</strong></p>
+<p>You can use anything that&#8217;s legal Java identifier as a wildcard/joker. Using single letters &#8222;T&#8221; and &#8222;E&#8221; is a convention/standard (but You can use in your code &#8222;Whatever&#8221; if You want <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  ). Usually You should use &#8222;T&#8221; which is abbreviation of word &#8222;type&#8221;. &#8222;E&#8221; should be used when your writing some sort of collection class, where &#8222;E&#8221; means &#8222;type of element that specific colletion holds&#8221;.</p>
+<p><strong>Hint on &#8222;extends&#8221; keyword</strong></p>
+<p>Remeber that keyword &#8222;extends&#8221; in generics works both for classes and interfaces &#038; it means &#8222;is-a&#8221; relation.</p>
+<p><strong>How to read JavaDocs?</strong></p>
+<p>Example 1</p>
+<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;">// T must be a whatever type that implements Comparable interface</span><br />
+<span style="color: #666666; font-style: italic;">// &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^-------------------</span><br />
+<span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #339933;">&lt;</span>T <span style="color: #000000; font-weight: bold;">extends</span> Comparable<span style="color: #339933;">&gt;</span> <span style="color: #000066; font-weight: bold;">void</span> sort<span style="color: #009900;">&#40;</span>List<span style="color: #339933;">&lt;</span>T<span style="color: #339933;">&gt;</span> list<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+<span style="color: #666666; font-style: italic;">// &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; v-----------</span><br />
+<span style="color: #666666; font-style: italic;">// you can pass in only a List(or subtype of List) that uses a parametrized </span><br />
+<span style="color: #666666; font-style: italic;">// type that implements (or extends) Comparable</span><br />
+<br />
+&nbsp; <span style="color: #666666; font-style: italic;">// some sorting code...</span><br />
+<span style="color: #009900;">&#125;</span></div></div>
+<p>Example 2</p>
+<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;">// Type of parameter for Comparable must be of type T or one of </span><br />
+<span style="color: #666666; font-style: italic;">// T's supertypes. Example - java.lang.Integer is subtype of java.lang.Number.</span><br />
+<span style="color: #666666; font-style: italic;">// &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;^--------</span><br />
+<span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #339933;">&lt;</span>T <span style="color: #000000; font-weight: bold;">extends</span> Comparable<span style="color: #339933;">&lt;?</span> <span style="color: #000000; font-weight: bold;">super</span> T<span style="color: #339933;">&gt;&gt;</span> <span style="color: #000066; font-weight: bold;">void</span> sort<span style="color: #009900;">&#40;</span>List<span style="color: #339933;">&lt;</span>T<span style="color: #339933;">&gt;</span> list<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; <span style="color: #666666; font-style: italic;">// some sorting code...</span><br />
+<span style="color: #009900;">&#125;</span></div></div>
+<hr/>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/understanding-generics-in-java/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to settle &amp; show current thread name?</title>
+		<link>http://blog.siwinski.info/dev/how-to-settle-show-current-thread-name</link>
+		<comments>http://blog.siwinski.info/dev/how-to-settle-show-current-thread-name#comments</comments>
+		<pubDate>Fri, 02 Mar 2007 21:45:07 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[java]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1842</guid>
+		<description><![CDATA[Code: class ShowThreadNameJob implements Runnable &#123; &#160; public static void main&#40;String&#91;&#93; args&#41; &#123; &#160; &#160; ShowThreadNameJob job = new ShowThreadNameJob&#40;&#41;; &#160; &#160; Thread one = new Thread&#40;job&#41;; &#160; &#160; Thread two = new Thread&#40;job&#41;; &#160; &#160; one.setName&#40;&#34;Thread 1&#34;&#41;; &#160; &#160; &#8230; <a href="http://blog.siwinski.info/dev/how-to-settle-show-current-thread-name">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Code:</p>
+<div class="codecolorer-container java vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="java codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #000000; font-weight: bold;">class</span> ShowThreadNameJob <span style="color: #000000; font-weight: bold;">implements</span> <span style="color: #003399;">Runnable</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #000066; font-weight: bold;">void</span> main<span style="color: #009900;">&#40;</span><span style="color: #003399;">String</span><span style="color: #009900;">&#91;</span><span style="color: #009900;">&#93;</span> args<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; ShowThreadNameJob job <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> ShowThreadNameJob<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <br />
+&nbsp; &nbsp; <span style="color: #003399;">Thread</span> one <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> <span style="color: #003399;">Thread</span><span style="color: #009900;">&#40;</span>job<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; <span style="color: #003399;">Thread</span> two <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> <span style="color: #003399;">Thread</span><span style="color: #009900;">&#40;</span>job<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; one.<span style="color: #006633;">setName</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;Thread 1&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; two.<span style="color: #006633;">setName</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;Thread 2&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; one.<span style="color: #006633;">start</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; two.<span style="color: #006633;">start</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; <span style="color: #009900;">&#125;</span><br />
+&nbsp; <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000066; font-weight: bold;">void</span> run<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <br />
+&nbsp; &nbsp; <span style="color: #000000; font-weight: bold;">for</span><span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">int</span> x <span style="color: #339933;">=</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">;</span> x <span style="color: #339933;">&lt;</span> <span style="color: #cc66cc;">10</span><span style="color: #339933;">;</span> x<span style="color: #339933;">++</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br />
+&nbsp; &nbsp; &nbsp; <span style="color: #003399;">System</span>.<span style="color: #006633;">out</span>.<span style="color: #006633;">println</span><span style="color: #009900;">&#40;</span><span style="color: #003399;">Thread</span>.<span style="color: #006633;">currentThread</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">getName</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">+</span> <span style="color: #0000ff;">&quot; is runnig.&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br />
+&nbsp; &nbsp; <span style="color: #009900;">&#125;</span><br />
+&nbsp; <span style="color: #009900;">&#125;</span><br />
+<span style="color: #009900;">&#125;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-settle-show-current-thread-name/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>object serialization/deserialization vs class changes during development</title>
+		<link>http://blog.siwinski.info/dev/java-dev/object-serializationdeserialization-vs-class-changes-during-development</link>
+		<comments>http://blog.siwinski.info/dev/java-dev/object-serializationdeserialization-vs-class-changes-during-development#comments</comments>
+		<pubDate>Sat, 17 Feb 2007 21:29:32 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[io]]></category>
+		<category><![CDATA[java]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1753</guid>
+		<description><![CDATA[Changes that are NOT OK: - removing instance variables - changing types of instance variables - non-transient to transient instance variable change - moving class up or down in the inheritance tree - making Serializable class again non Serializable - &#8230; <a href="http://blog.siwinski.info/dev/java-dev/object-serializationdeserialization-vs-class-changes-during-development">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Changes that are NOT OK:<br />
+- removing instance variables<br />
+- changing types of instance variables<br />
+- non-transient to transient instance variable change<br />
+- moving class up or down in the inheritance tree<br />
+- making Serializable class again non Serializable<br />
+- change instane variable to static (class variable)</p>
+<p>Changes that should be OK*:<br />
+- add new fields (instance variables) in class<br />
+- adding or removing classes in the inheritance tree<br />
+- changing the access level of an instance variables<br />
+- changing transient instance variable to non-transient</p>
+<p>* Only if serialVersionUID did&#8217;t change!!!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/java-dev/object-serializationdeserialization-vs-class-changes-during-development/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Primitive data types in Java &#8211; Reference</title>
+		<link>http://blog.siwinski.info/dev/primitive-data-types-reference</link>
+		<comments>http://blog.siwinski.info/dev/primitive-data-types-reference#comments</comments>
+		<pubDate>Wed, 01 Mar 2006 21:15:27 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[links]]></category>
+		<category><![CDATA[reference]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1815</guid>
+		<description><![CDATA[http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html]]></description>
+				<content:encoded><![CDATA[<p><a href="http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html">http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/primitive-data-types-reference/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

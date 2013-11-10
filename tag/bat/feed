@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; bat</title>
+	<atom:link href="http://blog.siwinski.info/tag/bat/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Dealing with file paths in batch</title>
+		<link>http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch</link>
+		<comments>http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch#comments</comments>
+		<pubDate>Wed, 05 Nov 2008 21:56:08 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Batch]]></category>
+		<category><![CDATA[bat]]></category>
+		<category><![CDATA[batch]]></category>
+		<category><![CDATA[scripting]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2025</guid>
+		<description><![CDATA[echo OFF REM # %0 - path to the bat-file itself set thisScriptNameWithExtension=%0 echo this script file name with extension: %thisScriptNameWithExtension% REM # You can extract parts of paths with: REM # ~d - drive set thisScriptDrive=%~d0 echo this script &#8230; <a href="http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container dos vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="dos codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #b1b100; font-weight: bold;">echo</span> OFF<br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # %0 - path to the bat-file itself</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptNameWithExtension=<span style="color: #33cc33;">%</span><span style="color: #448888;">0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script file name with extension: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptNameWithExtension</span><span style="color: #33cc33;">%</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # You can extract parts of paths with:</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # ~d - drive</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptDrive=<span style="color: #33cc33;">%</span><span style="color: #448888;">~d0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script drive: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptDrive</span><span style="color: #33cc33;">%</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # ~p - path without drive</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptPath=<span style="color: #33cc33;">%</span><span style="color: #448888;">~p0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script path: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptPath</span><span style="color: #33cc33;">%</span><br />
+<span style="color: #808080; font-style: italic;"><br />
+REM # ~n - file name</span><br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptFileNameWithoutExtension=<span style="color: #33cc33;">%</span><span style="color: #448888;">~n0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script file name without extension: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptFileNameWithoutExtension</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptDirectory=<span style="color: #33cc33;">%</span><span style="color: #448888;">~dp0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script directory: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptDirectory</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> thisScriptFileExtension=<span style="color: #33cc33;">%</span><span style="color: #448888;">~x0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> this script file extension: <span style="color: #33cc33;">%</span><span style="color: #448888;">thisScriptFileExtension</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> fileTimestamp=<span style="color: #33cc33;">%</span><span style="color: #448888;">~t0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> file timestamp: <span style="color: #33cc33;">%</span><span style="color: #448888;">fileTimeStamp</span><span style="color: #33cc33;">%</span><br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> fileSize=<span style="color: #33cc33;">%</span><span style="color: #448888;">~z0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> file size: <span style="color: #33cc33;">%</span><span style="color: #448888;">fileSize</span><span style="color: #33cc33;">%</span> bytes<br />
+<br />
+<span style="color: #b1b100; font-weight: bold;">set</span> fileAttributes=<span style="color: #33cc33;">%</span><span style="color: #448888;">~a0</span><br />
+<span style="color: #b1b100; font-weight: bold;">echo</span> file attributes: <span style="color: #33cc33;">%</span><span style="color: #448888;">fileAttributes</span><span style="color: #33cc33;">%</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/batch-dev/dealing-with-file-paths-in-batch/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

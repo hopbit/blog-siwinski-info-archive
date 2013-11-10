@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; keyboard shortcuts</title>
+	<atom:link href="http://blog.siwinski.info/tag/keyboard-shortcuts/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Changing multiple items with multiple selection.</title>
+		<link>http://blog.siwinski.info/dev/sublime-text/changing-multiple-items-with-multiple-selection</link>
+		<comments>http://blog.siwinski.info/dev/sublime-text/changing-multiple-items-with-multiple-selection#comments</comments>
+		<pubDate>Sun, 21 Jul 2013 20:51:54 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Sublime Text]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[ide]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[sublime text]]></category>
+		<category><![CDATA[tips]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1942</guid>
+		<description><![CDATA[- select word/string you want to change with [shift + arrows] (or with mouse) - hit [alt + f3] - change your string/word - hit [esc]]]></description>
+				<content:encoded><![CDATA[<p>- select word/string you want to change with [shift + arrows] (or with mouse)<br />
+- hit [alt + f3]<br />
+- change your string/word<br />
+- hit [esc]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/sublime-text/changing-multiple-items-with-multiple-selection/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Eclipse Keyboard Shortcuts @ Windows</title>
+		<link>http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows</link>
+		<comments>http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:17:45 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=701</guid>
+		<description><![CDATA[ALT + DOWN/UP Move line(s) down/up ALT + LEFT/RIGHT Move to the last location you edited. Imagine you just created a class Foo, and now you are working on a class Boo. Now, if you need to look at the &#8230; <a href="http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">ALT + DOWN/UP
+
+	Move line(s) down/up
+
+ALT + LEFT/RIGHT
+
+	Move to the last location you edited. Imagine you just created a class Foo, 
+	and now you are working on a class Boo. Now, if you need to look at the 
+	Foo class, just press Alt+Left Arrow. Alt+Right Arrow brings you back 
+	to Boo.
+
+CTRL + ALT + DOWN/UP	
+
+	Copy line(s) down/up
+
+CTRL + D
+
+	Delete a line
+
+CTRL + F6
+
+	Use to move between open editors. This is an slower alternative 
+	to Ctrl + E. Comes handy in a situation when you want to periodically 
+	switch between two editors, something, what is nearly impossible 
+	with Ctrl+E as it sorts entries quite randomly. Or you might just 
+	use Alt+Arrows..
+
+[CTRL] + [F7]
+
+	Move between views. When in editor, press Ctrl+F7 to switch 
+	to the Package Explorer, or hold Ctrl and press F7 multiple times to 
+	switch to other views.
+
+[CTRL] + [F8]
+
+	Move between perspectives. The same as previous.
+
+[CTRL] + [F11]
+
+	Runs the application. What gets launched depends on your settings. It will 
+	either launch the last launched class (my preffered way) or it will 
+	launch currently selected resource (the default way). If you want to change 
+	its behavior read the previous post.
+
+[CTRL] + [1]
+
+	Probably the most useful one. It activates the quick fix. Imagine you 
+	create a class, which implements some interface. You will get an error, 
+	because the inherited methods are not yet implemented. While you are 
+	on line where the error occurs, press this combination to activate 
+	the quick fix. Now, select the &quot;Add unimplemented methods&quot; option. You can 
+	use the quick fix at every error you ever receive.
+
+	Quick fix comes handy in other situations too. My favorite is the &quot;Split 
+	variable declaration&quot;. Sometimes I need to broaden the scope of a variable. 
+	I activate the quick fix, split declaration, and use alt + arrow to put it 
+	where it belongs. You can find even more usages: Convert local variable 
+	to field, rename in file, Inline local variable..
+
+[CTRL] + [I]
+
+	Corrects indentation.
+
+[CTRL] + [J]
+
+	Incremental search. Similar to the search in firefox. It shows you 
+	results as you type. Don&#039;t be surprised, if you hit this combination, 
+	nothing happens - at the first glance. Just start typing and eclipse will 
+	move your cursor to the first ocurence.
+
+[CTRL] + [N]
+
+	Open new type wizard. This is not very quick because you have to select 
+	the wizard type (weather you want to create new class, jsp, xml 
+	or something else) in the next step. Much faster way would be if you 
+	could just hit the shortcut and invoke the particular wizard. It is 
+	possible, just keep reading..
+
+[CTRL] + [M]
+
+Maximize or umaximize current tab.
+
+[CTRL] + [SHIFT] + [L]
+
+	Shows you a list of your currently defined shortcut keys. 
+
+[CTRL] + [SHIFT] + [T]
+
+	Open Type. Imagine, that you need to have a look at the Foo class. 
+	But, where is the Foo class? Is it in the Boo project and in the foo.bar 
+	package? Or somewhere else? With this shortcut, you don&#039;t need to know. 
+	Just press it, type Foo and you are in.
+
+[Ctrl] + [Shft] + [Y]
+
+	To Lower Case
+
+[Ctrl] + [Shft] + [X]
+
+	To Upper Case</pre>
+<pre class="wp-code-highlight prettyprint">
+    CTRL+SHIFT+L: lists all available shortcuts (useful for learning)
+    CTRL+SHIFT+R: lookup up a resource (e.g. html, xml, rb, erb, properties, etc...)
+    CTRL+SHIFT+T: lookup a class name (e.g. String or Customer)
+    CTRL+F6: quickly jump between open files
+    CTRL+E: jump between open files using a filename filter or navigation keys
+    ALT+LEFT and ALT+RIGHT: navigate back and forth in the history of the files I opened. I rely on this one a lot to avoid using the mouse when navigating back and forth between different classes that collaborate to get a user interaction handled.
+    CTRL+O: lookup a method (thanks Kristian for reminding me)
+    F3: jump to method, class, or variable declaration.
+    CTRL+J keyword: instant search of a keyword within a file
+    CTRL+F keyword then ENTER: regular search.
+    CTRL+K and CTRL+SHIFT+K: find next and find previous repeating search for the last keyword
+    Highlight text to find other occurrances of a keyword and then CTRL+K: lets you find a keyword without even typing it if you see one occurrence already in the file (for example, you see a use of the slow performing method &quot;reindex&quot; and you wonder where else it&#039;s used in the file)
+    CTRL+H: project-wide search for a keyword. You can also specify file patterns. Make sure to tab into fields or use mnemonics and hit ENTER instead of using the mouse. Once the search completes, pick the result you want using the up/down arrows and then hit enter to open the file.
+    HOME/END/PGUP/PGDN: for navigation of course. I&#039;ve been surprised many times by how very few developers rely on these buttons to navigate a file efficiently without using the mouse.
+    CTRL+LEFT and CTRL+RIGHT: jump between words for quicker navigation in a line without taking hand off keyboard to use the mouse.
+    CTRL+SHIFT+LEFT and CTRL+SHIFT+RIGHT: quick highlighting of words without taking hand off keyboard to use the mouse.
+    CTRL+L: jump to a particular line number. I keep line numbers visible to quickly locate stack trace errors. This one is invaluable in saving me from paging through a file or using the mouse.
+    CTRL+ALT+DOWN (or UP): clones a line downwards. It&#039;s like copy/paste without using the clipboard, which I use often to avoid emptying the clipboard from something I&#039;ve copied that I&#039;d like to paste somewhere. This is most useful with the CTRL+UP/DOWN shortcuts.
+    CTRL+UP and CTRL+DOWN: moves a line up or down quickly. I often start by cloning a line, and then I move the cloned line down or up to the place I want it to be at.
+    CTRL+SHIFT+F: format content (makes sure everything is indented nicely)
+    ALT+SHIFT+UP: highlights an entire variable name even if it had underscores and multiple words
+    ALT+W P: access preferences via ALT+character mnemonics
+    ALT+character mnemonics in general: useful to do all upper menu navigation instantly without a mouse if you&#039;re on Linux or Windows (sorry Mac people). Over time, your nervous system ends up memorizing a lot of the character sequences, saving you from having to even read the menu items, let alone pointing at them with a mouse and clicking them.
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/eclipse-keyboard-shortcuts-windows/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Skróty w Eclipse IDE @ OSX</title>
+		<link>http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx</link>
+		<comments>http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:03:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[eclipse]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=549</guid>
+		<description><![CDATA[Command + F8 Zmień perspektywę (Java, Debug, Git, etc.) Command + ALT + Down/Up Arrow Skopiuj bieżącą linię powyżej/poniżej. ALT + Down/Up Arrow Przesuń bieżącą linię wyżej/niżej. &#160; [CMD]+[SHIFT]+O organize imports (add necessary &#38; remove unused) [CMD]+[ALT]+UP/DOWN copy/duplicate current line &#8230; <a href="http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<table>
+<tbody>
+<tr>
+<td>Command + F8</td>
+<td>Zmień perspektywę (Java, Debug, Git, etc.)</td>
+</tr>
+<tr>
+<td>Command + ALT + Down/Up Arrow</td>
+<td>Skopiuj bieżącą linię powyżej/poniżej.</td>
+</tr>
+<tr>
+<td>ALT + Down/Up Arrow</td>
+<td>Przesuń bieżącą linię wyżej/niżej.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>[CMD]+[SHIFT]+O organize imports (add necessary &amp; remove unused)<br />
+[CMD]+[ALT]+UP/DOWN copy/duplicate current line to line above/below</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/skroty-w-eclipse-ide-osx/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Bash Keyboard Shortcuts</title>
+		<link>http://blog.siwinski.info/dev/bash-keyboard-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/bash-keyboard-shortcuts#comments</comments>
+		<pubDate>Tue, 14 Aug 2012 21:02:49 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Bash]]></category>
+		<category><![CDATA[Dev]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=617</guid>
+		<description><![CDATA[# moving around Tab &#160; &#160; &#160; &#160; Auto-complete files and folder names Ctrl + A &#160; &#160;Go to the beginning of the line you are currently typing on Ctrl + E &#160; &#160;Go to the end of the line &#8230; <a href="http://blog.siwinski.info/dev/bash-keyboard-shortcuts">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># moving around</span><br />
+Tab &nbsp; &nbsp; &nbsp; &nbsp; Auto-complete files and folder names<br />
+Ctrl + A &nbsp; &nbsp;Go to the beginning of the line you are currently typing on<br />
+Ctrl + E &nbsp; &nbsp;Go to the end of the line you are currently typing on<br />
+Alt + F &nbsp; &nbsp; Move cursor forward one word on the current line<br />
+Alt + B &nbsp; &nbsp; Move cursor backward one word on the current line<br />
+<br />
+<span style="color: #666666; font-style: italic;"># messing around</span><br />
+Ctrl + L &nbsp; &nbsp;Clears the Screen, similar to the <span style="color: #c20cb9; font-weight: bold;">clear</span> <span style="color: #7a0874; font-weight: bold;">command</span><br />
+Ctrl + U &nbsp; &nbsp;Clears the line before the cursor position. <br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If you are at the end of the line, clears the entire line.<br />
+Ctrl + K &nbsp; &nbsp;Clear the line after the cursor<br />
+Ctrl + W &nbsp; &nbsp;Delete the word before the cursor<br />
+Ctrl + H &nbsp; &nbsp;Same <span style="color: #c20cb9; font-weight: bold;">as</span> backspace<br />
+Ctrl + T &nbsp; &nbsp;Swap the <span style="color: #c20cb9; font-weight: bold;">last</span> two characters before the cursor<br />
+Esc + T &nbsp; &nbsp; Swap the <span style="color: #c20cb9; font-weight: bold;">last</span> two words before the cursor<br />
+<br />
+Ctrl + R &nbsp; &nbsp;Let’s you search through previously used commands<br />
+Ctrl + C &nbsp; &nbsp;Kill whatever you are running<br />
+Ctrl + D &nbsp; &nbsp;Exit the current shell<br />
+Ctrl + Z &nbsp; &nbsp;Puts whatever you are running into a suspended <br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background process. <span style="color: #7a0874; font-weight: bold;">fg</span> restores it.</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/bash-keyboard-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>dbVisualiser keyboard shortcuts</title>
+		<link>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts#comments</comments>
+		<pubDate>Fri, 14 Jan 2011 22:29:24 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[dbvisualiser]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[tools]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=564</guid>
+		<description><![CDATA[SQL Editor [CTRL]+[SHIFT]+R comment whole line [CTRL]+[SHIFT]+F format sql [CTRL]+T open new sql editor CTRL + SHIFT + B :: make (un)comment matched sql/text using /* */]]></description>
+				<content:encoded><![CDATA[<p><strong>SQL Editor</strong></p>
+<table>
+<tbody>
+<tr>
+<td>[CTRL]+[SHIFT]+R</td>
+<td>comment whole line</td>
+</tr>
+<tr>
+<td>[CTRL]+[SHIFT]+F</td>
+<td>format sql</td>
+</tr>
+<tr>
+<td>[CTRL]+T</td>
+<td>open new sql editor</td>
+</tr>
+</tbody>
+</table>
+<pre class="wp-code-highlight prettyprint">
+CTRL + SHIFT + B :: make (un)comment matched sql/text using /* */
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/dbvisualiser-keyboard-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>VIM Keyboard Shortcuts</title>
+		<link>http://blog.siwinski.info/dev/vim-keyboard-shortcuts</link>
+		<comments>http://blog.siwinski.info/dev/vim-keyboard-shortcuts#comments</comments>
+		<pubDate>Sat, 16 Oct 2010 21:53:48 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[keyboard shortcuts]]></category>
+		<category><![CDATA[vim]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=544</guid>
+		<description><![CDATA[General i start insert mode Esc back to to command mode :w [filename] save current file as specified [filename] :q quit vim Moving around the text j up k down h left l right e move to the end of &#8230; <a href="http://blog.siwinski.info/dev/vim-keyboard-shortcuts">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>General</p>
+<table>
+<tbody>
+<tr>
+<td>i</td>
+<td>start insert mode</td>
+</tr>
+<tr>
+<td>Esc</td>
+<td>back to to command mode</td>
+</tr>
+<tr>
+<td>:w [filename]</td>
+<td>save current file as specified [filename]</td>
+</tr>
+<tr>
+<td>:q</td>
+<td>quit vim</td>
+</tr>
+</tbody>
+</table>
+<p>Moving around the text</p>
+<table>
+<tbody>
+<tr>
+<td>j</td>
+<td>up</td>
+</tr>
+<tr>
+<td>k</td>
+<td>down</td>
+</tr>
+<tr>
+<td>h</td>
+<td>left</td>
+</tr>
+<tr>
+<td>l</td>
+<td>right</td>
+</tr>
+<tr>
+<td>e</td>
+<td>move to the end of current or next word</td>
+</tr>
+<tr>
+<td>b</td>
+<td>move to the beginning of current or next word</td>
+</tr>
+</tbody>
+</table>
+<p>sources:<br />
+1) <a title="keyxl.com" href="http://www.keyxl.com/aaa8263/290/VIM-keyboard-shortcuts.htm" target="_blank">keyxl.com</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/vim-keyboard-shortcuts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

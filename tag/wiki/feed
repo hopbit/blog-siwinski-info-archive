@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; wiki</title>
+	<atom:link href="http://blog.siwinski.info/tag/wiki/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>How to clear stash?</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-clear-stash</link>
+		<comments>http://blog.siwinski.info/dev/git/how-to-clear-stash#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 10:39:12 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[reference]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1554</guid>
+		<description><![CDATA[remove all stashes git stash clear remove specific stash git stash drop stash@&#123;0&#125;]]></description>
+				<content:encoded><![CDATA[<p>remove all stashes</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> <span style="color: #c20cb9; font-weight: bold;">clear</span></div></div>
+<p>remove specific stash</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> drop stash<span style="color: #000000; font-weight: bold;">@</span><span style="color: #7a0874; font-weight: bold;">&#123;</span><span style="color: #000000;">0</span><span style="color: #7a0874; font-weight: bold;">&#125;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/how-to-clear-stash/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to view changes stored in stash?</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash</link>
+		<comments>http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 09:09:31 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1540</guid>
+		<description><![CDATA[In order to list whole stash: git stash list In order to view diff on specific position in stash. git stash show -p stash@&#123;0&#125;]]></description>
+				<content:encoded><![CDATA[<p>In order to list whole stash:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> list</div></div>
+<p>In order to view diff on specific position in stash.</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> show <span style="color: #660033;">-p</span> stash<span style="color: #000000; font-weight: bold;">@</span><span style="color: #7a0874; font-weight: bold;">&#123;</span><span style="color: #000000;">0</span><span style="color: #7a0874; font-weight: bold;">&#125;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to get help under git?</title>
+		<link>http://blog.siwinski.info/dev/how-to-get-help-under-git</link>
+		<comments>http://blog.siwinski.info/dev/how-to-get-help-under-git#comments</comments>
+		<pubDate>Wed, 03 Apr 2013 22:38:04 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[basics]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1216</guid>
+		<description><![CDATA[There are 3 ways of doing it: $ git help &#91;command&#93; $ git &#91;command&#93; --help $ man git-&#91;command&#93; Beside of above you can ask at IRC (I didn&#8217;t try this out) irc: channels #git &#38; #github server: irc.freenode.net]]></description>
+				<content:encoded><![CDATA[<p>There are 3 ways of doing it:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">git <span style="color: #7a0874; font-weight: bold;">help</span></span> <span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #7a0874; font-weight: bold;">command</span><span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #7a0874; font-weight: bold;">command</span><span style="color: #7a0874; font-weight: bold;">&#93;</span> <span style="color: #660033;">--help</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">man</span> git-<span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #7a0874; font-weight: bold;">command</span><span style="color: #7a0874; font-weight: bold;">&#93;</span></div></div>
+<p>Beside of above you can ask at IRC (I didn&#8217;t try this out)</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">irc: channels <span style="color: #666666; font-style: italic;">#git &amp; #github</span><br />
+server: irc.freenode.net</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-get-help-under-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to selectively add changes on stage (to index)?</title>
+		<link>http://blog.siwinski.info/dev/how-to-selectively-add-changes-on-stage-to-index</link>
+		<comments>http://blog.siwinski.info/dev/how-to-selectively-add-changes-on-stage-to-index#comments</comments>
+		<pubDate>Fri, 01 Mar 2013 23:29:46 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1122</guid>
+		<description><![CDATA[Use command: git add -p # quick reference on available action after pressing '?' y - stage this hunk n - do not stage this hunk q - quit; do not stage this hunk nor any of the remaining ones &#8230; <a href="http://blog.siwinski.info/dev/how-to-selectively-add-changes-on-stage-to-index">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Use command:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git add</span> <span style="color: #660033;">-p</span><br />
+<span style="color: #666666; font-style: italic;"># quick reference on available action after pressing '?'</span><br />
+y - stage this hunk<br />
+n - <span style="color: #000000; font-weight: bold;">do</span> not stage this hunk<br />
+q - quit; <span style="color: #000000; font-weight: bold;">do</span> not stage this hunk nor any of the remaining ones<br />
+a - stage this hunk and all later hunks <span style="color: #000000; font-weight: bold;">in</span> the <span style="color: #c20cb9; font-weight: bold;">file</span><br />
+d - <span style="color: #000000; font-weight: bold;">do</span> not stage this hunk nor any of the later hunks <span style="color: #000000; font-weight: bold;">in</span> the <span style="color: #c20cb9; font-weight: bold;">file</span><br />
+g - <span style="color: #000000; font-weight: bold;">select</span> a hunk to go to<br />
+<span style="color: #000000; font-weight: bold;">/</span> - search <span style="color: #000000; font-weight: bold;">for</span> a hunk matching the given regex<br />
+j - leave this hunk undecided, see next undecided hunk<br />
+J - leave this hunk undecided, see next hunk<br />
+k - leave this hunk undecided, see previous undecided hunk<br />
+K - leave this hunk undecided, see previous hunk<br />
+s - <span style="color: #c20cb9; font-weight: bold;">split</span> the current hunk into smaller hunks<br />
+e - manually edit the current hunk<br />
+? - print <span style="color: #7a0874; font-weight: bold;">help</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-selectively-add-changes-on-stage-to-index/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Git How To</title>
+		<link>http://blog.siwinski.info/dev/git-how-to</link>
+		<comments>http://blog.siwinski.info/dev/git-how-to#comments</comments>
+		<pubDate>Fri, 01 Mar 2013 21:15:44 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=934</guid>
+		<description><![CDATA[Installation - Windows Config - How to settle your favourite editor for git to use it? - Configuration levels - How to show current configuration? - How to set up basic configuration - How to make/force git to ignore file mode changes &#8230; <a href="http://blog.siwinski.info/dev/git-how-to">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><strong>Installation</strong><br />
+- <a href="http://blog.siwinski.info/dev/how-to-install-git-on-windows">Windows</a></p>
+<p><strong>Config</strong><br />
+- <a href="http://blog.siwinski.info/dev/how-to-settle-you-favourite-editor-for-git">How to settle your favourite editor for git to use it?</a><br />
+- <a href="http://blog.siwinski.info/dev/git-config-levels">Configuration levels</a><br />
+- <a href="http://blog.siwinski.info/uncategorized/how-to-checklist-git-settings">How to show current configuration?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-set-up-basic-git-config">How to set up basic configuration</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-makeforce-git-to-ignore-mode-changes-chmod">How to make/force git to ignore file mode changes (chmod)?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-add-a-git-branch-name-to-the-command-line-prompt-maclinux">How to add a git branch name to the command line prompt (mac/linux)?</a></p>
+<p><strong>Basis</strong><br />
+- <a href="http://blog.siwinski.info/dev/how-to-get-help-under-git">How to get help under git?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-selectively-add-changes-on-stage-to-index">How to selectively add changes on stage (to index)?</a><br />
+- <a href="http://blog.siwinski.info/dev/szybkie-kasowanie-wielu-plikow-w-git">How to easily remove many files in Git?</a></p>
+<p><strong>Commits</strong><br />
+- <a href="http://blog.siwinski.info/dev/how-to-add-some-changes-to-the-last-commit">How to add some changes to the last commit?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-change-edit-last-commit-message">How to change (edit) last commit message?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-dropdelete-last-commit-in-git">How to drop/delete last commit in git?</a><br />
+- <a href="http://blog.siwinski.info/uncategorized/how-to-create-and-apply-patch-with-git-diff">How to create and apply patch with git diff?</a></p>
+<p><strong>Removing</strong><br />
+- <a style="line-height: 22px;" href="http://blog.siwinski.info/dev/how-to-remove-a-files-from-git-index-but-not-from-the-source">How to remove a file(s) from git index but not from the source?</a></p>
+<p><strong>Undoing</strong><br />
+- <a href="http://blog.siwinski.info/dev/how-to-unmodify-a-modified-file-in-git">How to unmodify a modified file in Git?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-remove-file-that-was-accidentally-added-to-index">How to remove file that was accidentally added to index?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-revetrive-a-branch-state-from-reflog">How to revetrive a branch state from reflog?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-remove-all-commits-from-git-history-on-specific-file">How to remove all commits from git history on specific file?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-dropdelete-last-commit">How to drop/delete last commit in Git?</a><br />
+- <a href="http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git">Splitting one commit into many in Git</a></p>
+<p><strong>Branches</strong><br />
+- <a href=" http://blog.siwinski.info/dev/how-to-rename-a-branch-in-git">How to rename a branch in Git?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-move-lastrecent-commits-to-separate-branch">How to move last (or recent) commits to separate branch?</a></p>
+<p><strong>Tags</strong><br />
+- <a href="http://blog.siwinski.info/dev/git/how-to-create-tag">How to create tag?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-rename-a-tag-in-git">How to rename a tag in Git?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-create-tag-for-specific-commit">How to create tag for specific commit?</a></p>
+<p><strong>Stash</strong><br />
+- <a href="http://blog.siwinski.info/dev/git/how-to-stash-changes-from-just-one-untracked-file">How to stash changes from just one (untracked) file?</a><br />
+- <a href="http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash">How to view changes stored in stash?</a><br />
+- <a href="http://blog.siwinski.info/dev/git/how-to-clear-stash">How to clear stash?</a></p>
+<p><strong>Rebasing &lt;3</strong><br />
+- <a href="http://blog.siwinski.info/dev/how-to-git-rebase">How to make simple rebase?</a></p>
+<p><strong>History</strong><br />
+- <a href="http://blog.siwinski.info/dev/how-to-achieve-preety-oneline-format-in-git-log-with-date">How to achieve preety oneline format in git log (with date)?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-achieve-nice-branch-graph-in-cli">How to create nice graph of git branches in CLI?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-show-short-summary-with-count-of-added-removed-lines">How to show short summary with count of added &amp; removed lines?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-show-all-of-todays-commits">How to show all of today’s commits?</a></p>
+<p><strong>Remote</strong><br />
+- <a href="http://blog.siwinski.info/dev/how-to-show-remotes-with-short-names">How to show remotes (with short names)?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-show-remotes-with-repos-urls">How to show remotes with repository URLs?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-explicitly-add-remote-repositories">How to add remote repository?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-fetch-changes-from-remote-repository">How to fetch changes from remote repository?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-push-current-branch-to-remote-repository-or-github">How to push current branch to remote repository (or github)?</a><br />
+- <a href="http://blog.siwinski.info/dev/how-to-push-all-branches-to-github">How to push all branches to github/remote repository?</a><br />
+- <a href="http://blog.siwinski.info/dev/git-workflow-for-working-with-usb-pendrive">Git workflow for working with USB pendrive</a></p>
+<p><strong>Working with SVN</strong><br />
+- <a href="http://blog.siwinski.info/dev/how-to-clone-svn-repository-with-git">How to clone SVN repository with Git?</a></p>
+<p><strong>Other</strong><br />
+- <a href="http://blog.siwinski.info/dev/git-cheatsheetreference">Git cheatsheet/reference</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git-how-to/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to achieve nice git branches graph in CLI?</title>
+		<link>http://blog.siwinski.info/dev/how-to-achieve-nice-branch-graph-in-cli</link>
+		<comments>http://blog.siwinski.info/dev/how-to-achieve-nice-branch-graph-in-cli#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 23:20:17 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1023</guid>
+		<description><![CDATA[git config --global color.ui &#34;auto&#34; alias glg='git log --decorate --graph --oneline' alias glga='git log --decorate --graph --oneline --all']]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git config</span> <span style="color: #660033;">--global</span> color.ui <span style="color: #ff0000;">&quot;auto&quot;</span><br />
+<span style="color: #7a0874; font-weight: bold;">alias</span> <span style="color: #007800;">glg</span>=<span style="color: #ff0000;">'git log --decorate --graph --oneline'</span><br />
+<span style="color: #7a0874; font-weight: bold;">alias</span> <span style="color: #007800;">glga</span>=<span style="color: #ff0000;">'git log --decorate --graph --oneline --all'</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-achieve-nice-branch-graph-in-cli/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to move last/recent commits to separate branch?</title>
+		<link>http://blog.siwinski.info/dev/how-to-move-lastrecent-commits-to-separate-branch</link>
+		<comments>http://blog.siwinski.info/dev/how-to-move-lastrecent-commits-to-separate-branch#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 23:16:52 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1018</guid>
+		<description><![CDATA[# How can I go from this: &#160; master A - B - C - D - E # to this? &#160; newbranch &#160; &#160; C - D - E &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;/ &#160; master &#8230; <a href="http://blog.siwinski.info/dev/how-to-move-lastrecent-commits-to-separate-branch">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># How can I go from this:</span><br />
+<br />
+&nbsp; master A - B - C - D - E<br />
+<br />
+<span style="color: #666666; font-style: italic;"># to this?</span><br />
+<br />
+&nbsp; newbranch &nbsp; &nbsp; C - D - E<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: #000000; font-weight: bold;">/</span><br />
+&nbsp; master A - B <br />
+<br />
+<span style="color: #666666; font-style: italic;"># Solution</span><br />
+<br />
+<span style="color: #c20cb9; font-weight: bold;">git branch</span> newbranch<br />
+<span style="color: #c20cb9; font-weight: bold;">git reset</span> <span style="color: #660033;">--hard</span> HEAD~<span style="color: #000000;">3</span> <span style="color: #666666; font-style: italic;"># Go back 3 commits. You *will* lose uncommitted work.</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git checkout</span> newbranch</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-move-lastrecent-commits-to-separate-branch/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to change (edit) last commit message?</title>
+		<link>http://blog.siwinski.info/dev/how-to-change-edit-last-commit-message</link>
+		<comments>http://blog.siwinski.info/dev/how-to-change-edit-last-commit-message#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 23:12:10 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1014</guid>
+		<description><![CDATA[git commit --amend # and edit message or... git commit --amend -m &#34;New commit message&#34;]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">--amend</span> <span style="color: #666666; font-style: italic;"># and edit message or...</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">--amend</span> <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;New commit message&quot;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-change-edit-last-commit-message/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to rename a tag in Git?</title>
+		<link>http://blog.siwinski.info/dev/how-to-rename-a-tag-in-git</link>
+		<comments>http://blog.siwinski.info/dev/how-to-rename-a-tag-in-git#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 23:09:13 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1011</guid>
+		<description><![CDATA[# renaming tags in git is versy easy: git tag new old # add new tag that's the same as old git tag -d old # drop old tag]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># renaming tags in git is versy easy:</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git tag</span> new old <span style="color: #666666; font-style: italic;"># add new tag that's the same as old</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git tag</span> <span style="color: #660033;">-d</span> old <span style="color: #666666; font-style: italic;"># drop old tag</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-rename-a-tag-in-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to make/force git to ignore mode changes (chmod)?</title>
+		<link>http://blog.siwinski.info/dev/how-to-makeforce-git-to-ignore-mode-changes-chmod</link>
+		<comments>http://blog.siwinski.info/dev/how-to-makeforce-git-to-ignore-mode-changes-chmod#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 23:05:30 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1007</guid>
+		<description><![CDATA[# this is useful if you're working on # couple different operating systems with # your repository git config core.filemode false # From git-config(1): # # core.fileMode # If false, the executable bit differences between the index and the # &#8230; <a href="http://blog.siwinski.info/dev/how-to-makeforce-git-to-ignore-mode-changes-chmod">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># this is useful if you're working on</span><br />
+<span style="color: #666666; font-style: italic;"># couple different operating systems with</span><br />
+<span style="color: #666666; font-style: italic;"># your repository</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git config</span> core.filemode <span style="color: #c20cb9; font-weight: bold;">false</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># From git-config(1):</span><br />
+<span style="color: #666666; font-style: italic;">#</span><br />
+<span style="color: #666666; font-style: italic;"># core.fileMode</span><br />
+<span style="color: #666666; font-style: italic;"># If false, the executable bit differences between the index and the</span><br />
+<span style="color: #666666; font-style: italic;"># working copy are ignored; useful on broken filesystems like FAT.</span><br />
+<span style="color: #666666; font-style: italic;"># See git-update-index(1). True by default.</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-makeforce-git-to-ignore-mode-changes-chmod/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

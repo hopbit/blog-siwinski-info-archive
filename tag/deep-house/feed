@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; deep house</title>
+	<atom:link href="http://blog.siwinski.info/tag/deep-house/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Reminiscence (August 2011)</title>
+		<link>http://blog.siwinski.info/sets/progressive-awake/reminiscence-august-2011</link>
+		<comments>http://blog.siwinski.info/sets/progressive-awake/reminiscence-august-2011#comments</comments>
+		<pubDate>Fri, 12 Aug 2011 21:14:12 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Progressive Awake]]></category>
+		<category><![CDATA[dance]]></category>
+		<category><![CDATA[deep house]]></category>
+		<category><![CDATA[progressive house]]></category>
+		<category><![CDATA[tech house]]></category>
+		<category><![CDATA[techno]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=463</guid>
+		<description><![CDATA[DOWNLOAD (206MB, 1h 28min) TRACKLIST: * paul kalkbrenner &#8211; aaron (original mix) * paul kalkbrenner &#8211; azure (original mix) * stan kolev, shana kolev &#8211; the message (original mix) * vincenzo, elon &#8211; yarra valley (original mix) * the waves &#8230; <a href="http://blog.siwinski.info/sets/progressive-awake/reminiscence-august-2011">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="https://dl.dropbox.com/u/67075704/progressive-awake/progressive_awake_-_reminiscence__august_2011.mp3"><br />
+<img class="alignnone size-medium wp-image-740" alt="Progressive Awake - Reminiscence (August 2011)" src="http://blog.siwinski.info/wp-content/uploads/2011/08/progressive_awake_-_reminiscence__august_2011-300x300.jpg" width="300" height="300" /></a></p>
+<p><strong><a title="Progressive Awake - Reminiscence (August 2011)" href="https://dl.dropbox.com/u/67075704/progressive-awake/progressive_awake_-_reminiscence__august_2011.mp3">DOWNLOAD (206MB, 1h 28min)</a></strong></p>
+<p>TRACKLIST:<br />
+* paul kalkbrenner &#8211; aaron (original mix)<br />
+* paul kalkbrenner &#8211; azure (original mix)<br />
+* stan kolev, shana kolev &#8211; the message (original mix)<br />
+* vincenzo, elon &#8211; yarra valley (original mix)<br />
+* the waves &#8211; sakura (luigi lusini &amp; thomas schwartz mix)<br />
+* sample minds &#8211; the highlander (original mix)<br />
+* cramp &#8211; ru116 (proff remix)<br />
+* george f. zimmer &#8211; back to solaris (original mix)<br />
+* ban coda &#8211; bloom (matan caspi remix)<br />
+* matan caspi &#8211; turn the beat back (leventina re animation)<br />
+* t pe3, thomas montevideo &#8211; sublime nightmare (original mix)<br />
+* stan kolev ft. tatiana blades &#8211; here comes the rain again (summer of love mix)<br />
+* chris reece ft. jennifer needles &#8211; never let me go (extended mix)<br />
+* allure ft. jes &#8211; show me the way (twisted disko remix)<br />
+* mark knight, tiesto ft. dino &#8211; beatiful world (original club mix)<br />
+* paul kalkbrenner &#8211; gutes nitzwerk (original mix)</p>
+<p>All tracks are available to buy on <a href="http://beatport.com/">Beatport</a>.<br />
+Enjoy.</p>
+<p><!-- Facebook Badge START </p>
+<p><a title="Progressive Awake" href="https://www.facebook.com/ProgressiveAwake" target="_TOP"><img style="border: 0px;" alt="" src="https://badge.facebook.com/badge/547386301958034.3638.1341573129.png" /></a><br />
+&#8211;><br />
+<!-- Facebook Badge END --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/sets/progressive-awake/reminiscence-august-2011/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

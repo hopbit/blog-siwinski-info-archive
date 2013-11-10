@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Komentarze do: How to change (edit) last commit message?</title>
+	<atom:link href="http://blog.siwinski.info/dev/how-to-change-edit-last-commit-message/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info/dev/how-to-change-edit-last-commit-message</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Thu, 11 Jul 2013 08:06:33 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Autor: Git How To &#124; Continous Integration</title>
+		<link>http://blog.siwinski.info/dev/how-to-change-edit-last-commit-message#comment-185</link>
+		<dc:creator><![CDATA[Git How To &#124; Continous Integration]]></dc:creator>
+		<pubDate>Sun, 07 Apr 2013 22:15:47 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1014#comment-185</guid>
+		<description><![CDATA[[...] - How to add some changes to the last commit? - How to change (edit) last commit message? - How to drop/delete last commit in git? - How to create and apply patch with git [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] &#8211; How to add some changes to the last commit? &#8211; How to change (edit) last commit message? &#8211; How to drop/delete last commit in git? &#8211; How to create and apply patch with git [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

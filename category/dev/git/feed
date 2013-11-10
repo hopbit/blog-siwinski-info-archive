@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; Git</title>
+	<atom:link href="http://blog.siwinski.info/category/dev/git/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>git revert :P</title>
+		<link>http://blog.siwinski.info/dev/git/git-revert-p</link>
+		<comments>http://blog.siwinski.info/dev/git/git-revert-p#comments</comments>
+		<pubDate>Mon, 04 Nov 2013 20:06:37 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2083</guid>
+		<description><![CDATA[# find your 'wrong commit' with git log # or gitk --all # revert, which will create 'undo' commit git revert &#60;hash&#62; # push @ remote stream git push origin master]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># find your 'wrong commit' with</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git log</span> <span style="color: #666666; font-style: italic;"># or</span><br />
+gitk <span style="color: #660033;">--all</span><br />
+<span style="color: #666666; font-style: italic;"># revert, which will create 'undo' commit</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git revert</span> <span style="color: #000000; font-weight: bold;">&lt;</span><span style="color: #7a0874; font-weight: bold;">hash</span><span style="color: #000000; font-weight: bold;">&gt;</span><br />
+<span style="color: #666666; font-style: italic;"># push @ remote stream</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git push</span> origin master</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/git-revert-p/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to create tag?</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-create-tag</link>
+		<comments>http://blog.siwinski.info/dev/git/how-to-create-tag#comments</comments>
+		<pubDate>Tue, 06 Aug 2013 20:26:15 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=2041</guid>
+		<description><![CDATA[git tag -a my-tag-name # or git tag -a my.tag.name -m &#34;tag message - info about my tag&#34; http://git-scm.com/book/en/Git-Basics-Tagging#Creating-Tags]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git tag</span> <span style="color: #660033;">-a</span> my-tag-name<br />
+<span style="color: #666666; font-style: italic;"># or</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git tag</span> <span style="color: #660033;">-a</span> my.tag.name <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;tag message - info about my tag&quot;</span></div></div>
+<p><a href="http://git-scm.com/book/en/Git-Basics-Tagging#Creating-Tags">http://git-scm.com/book/en/Git-Basics-Tagging#Creating-Tags</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/how-to-create-tag/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Splitting one commit into many in Git</title>
+		<link>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git</link>
+		<comments>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git#comments</comments>
+		<pubDate>Wed, 10 Jul 2013 21:03:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1831</guid>
+		<description><![CDATA[git rebase -i HEAD~5 # mark commit you wan't to split wit e (edit), save &#38; quit git reset HEAD~ # now you &#160;can add some modifications echo &#34;// this is missing comment in java file&#34; &#62;&#62; SuperPrinter.java # &#38; &#8230; <a href="http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git rebase</span> <span style="color: #660033;">-i</span> HEAD~<span style="color: #000000;">5</span><br />
+<span style="color: #666666; font-style: italic;"># mark commit you wan't to split wit e (edit), save &amp; quit</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git reset</span> HEAD~<br />
+<span style="color: #666666; font-style: italic;"># now you &nbsp;can add some modifications</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;// this is missing comment in java file&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> SuperPrinter.java<br />
+<span style="color: #666666; font-style: italic;"># &amp; after above you can selectively add changes on stage </span><br />
+<span style="color: #666666; font-style: italic;"># and commit them as separate chunks</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git add</span> . <span style="color: #660033;">-p</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;commit a&quot;</span><br />
+agit add <span style="color: #660033;">-p</span> <br />
+<span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;commit b&quot;</span><br />
+<span style="color: #666666; font-style: italic;"># etc...</span><br />
+<span style="color: #666666; font-style: italic;"># after spliting is done You can continue rebase with</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git rebase</span> <span style="color: #660033;">--continue</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/splitting-one-commit-into-many-in-git/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to stash changes from just one (untracked) file?</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-stash-changes-from-just-one-untracked-file</link>
+		<comments>http://blog.siwinski.info/dev/git/how-to-stash-changes-from-just-one-untracked-file#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 10:51:21 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1536</guid>
+		<description><![CDATA[# do some changes on many many files echo &#34;a&#34; &#62;&#62; a.txt echo &#34;b&#34; &#62;&#62; b.txt echo &#34;i want to push/move this change on other feature branch&#34; &#62;&#62; c.txt echo &#34;d&#34; &#62;&#62; d.txt echo &#34;e&#34; &#62;&#62; e.txt # now let's &#8230; <a href="http://blog.siwinski.info/dev/git/how-to-stash-changes-from-just-one-untracked-file">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666; font-style: italic;"># do some changes on many many files</span><br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;a&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> a.txt<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;b&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> b.txt<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;i want to push/move this change on other feature branch&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> c.txt<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;d&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> d.txt<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;e&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> e.txt<br />
+<br />
+<span style="color: #666666; font-style: italic;"># now let's do it</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git add</span> .<br />
+<span style="color: #c20cb9; font-weight: bold;">git reset</span> c.txt<br />
+<span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;commit many files on current branch&quot;</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git add</span> c.txt<br />
+<span style="color: #c20cb9; font-weight: bold;">git stash</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git checkout</span> <span style="color: #660033;">-b</span> feature-c<br />
+<span style="color: #c20cb9; font-weight: bold;">git stash</span> pop<br />
+<span style="color: #c20cb9; font-weight: bold;">git add</span> c.txt<br />
+<span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span> <span style="color: #ff0000;">&quot;my super duper C feature/fix/refactoring&quot;</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># and let's get back to master</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git checkout</span> master</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/how-to-stash-changes-from-just-one-untracked-file/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to clear stash?</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-clear-stash</link>
+		<comments>http://blog.siwinski.info/dev/git/how-to-clear-stash#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 10:39:12 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[reference]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1554</guid>
+		<description><![CDATA[remove all stashes git stash clear remove specific stash git stash drop stash@&#123;0&#125;]]></description>
+				<content:encoded><![CDATA[<p>remove all stashes</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> <span style="color: #c20cb9; font-weight: bold;">clear</span></div></div>
+<p>remove specific stash</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> drop stash<span style="color: #000000; font-weight: bold;">@</span><span style="color: #7a0874; font-weight: bold;">&#123;</span><span style="color: #000000;">0</span><span style="color: #7a0874; font-weight: bold;">&#125;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/how-to-clear-stash/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to view changes stored in stash?</title>
+		<link>http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash</link>
+		<comments>http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 09:09:31 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+		<category><![CDATA[wiki]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1540</guid>
+		<description><![CDATA[In order to list whole stash: git stash list In order to view diff on specific position in stash. git stash show -p stash@&#123;0&#125;]]></description>
+				<content:encoded><![CDATA[<p>In order to list whole stash:</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> list</div></div>
+<p>In order to view diff on specific position in stash.</p>
+<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git stash</span> show <span style="color: #660033;">-p</span> stash<span style="color: #000000; font-weight: bold;">@</span><span style="color: #7a0874; font-weight: bold;">&#123;</span><span style="color: #000000;">0</span><span style="color: #7a0874; font-weight: bold;">&#125;</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git/how-to-view-changes-stored-in-stash/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to fetch changes from remote repository?</title>
+		<link>http://blog.siwinski.info/dev/how-to-fetch-changes-from-remote-repository</link>
+		<comments>http://blog.siwinski.info/dev/how-to-fetch-changes-from-remote-repository#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 22:49:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1292</guid>
+		<description><![CDATA[git fetch &#91;remote-name-or-alias&#93; # example git fetch hopbit git fetch git@github.com:hopbit/java-sandbox.git]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git fetch</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span>remote-name-or-alias<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># example</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git fetch</span> hopbit<br />
+<span style="color: #c20cb9; font-weight: bold;">git fetch</span> <span style="color: #c20cb9; font-weight: bold;">git</span><span style="color: #000000; font-weight: bold;">@</span>github.com:hopbit<span style="color: #000000; font-weight: bold;">/</span>java-sandbox.git</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-fetch-changes-from-remote-repository/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to (explicitly) add remote repositories?</title>
+		<link>http://blog.siwinski.info/dev/how-to-explicitly-add-remote-repositories</link>
+		<comments>http://blog.siwinski.info/dev/how-to-explicitly-add-remote-repositories#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 22:38:16 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1287</guid>
+		<description><![CDATA[git remote add &#91;shortname&#93; &#91;url&#93; # example git remote add hopbit git@github.com:hopbit/java-sandbox.git]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git remote</span> add <span style="color: #7a0874; font-weight: bold;">&#91;</span>shortname<span style="color: #7a0874; font-weight: bold;">&#93;</span> <span style="color: #7a0874; font-weight: bold;">&#91;</span>url<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+<span style="color: #666666; font-style: italic;"># example</span><br />
+<span style="color: #c20cb9; font-weight: bold;">git remote</span> add hopbit <span style="color: #c20cb9; font-weight: bold;">git</span><span style="color: #000000; font-weight: bold;">@</span>github.com:hopbit<span style="color: #000000; font-weight: bold;">/</span>java-sandbox.git</div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-explicitly-add-remote-repositories/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to show remotes with repos URLs?</title>
+		<link>http://blog.siwinski.info/dev/how-to-show-remotes-with-repos-urls</link>
+		<comments>http://blog.siwinski.info/dev/how-to-show-remotes-with-repos-urls#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 22:25:49 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1282</guid>
+		<description><![CDATA[git remote -v]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git remote</span> <span style="color: #660033;">-v</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-show-remotes-with-repos-urls/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>How to show remotes (with short names)?</title>
+		<link>http://blog.siwinski.info/dev/how-to-show-remotes-with-short-names</link>
+		<comments>http://blog.siwinski.info/dev/how-to-show-remotes-with-short-names#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 22:24:17 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[how-to]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=1280</guid>
+		<description><![CDATA[git remote]]></description>
+				<content:encoded><![CDATA[<div class="codecolorer-container bash vibrant" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:10%;"><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #c20cb9; font-weight: bold;">git remote</span></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/how-to-show-remotes-with-short-names/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

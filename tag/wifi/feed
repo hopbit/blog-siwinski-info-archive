@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; wifi</title>
+	<atom:link href="http://blog.siwinski.info/tag/wifi/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>Problems with internet connection over WiFi</title>
+		<link>http://blog.siwinski.info/dev/problems-with-internet-connection-over-wifi</link>
+		<comments>http://blog.siwinski.info/dev/problems-with-internet-connection-over-wifi#comments</comments>
+		<pubDate>Thu, 11 Nov 2010 22:08:27 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[internet connection]]></category>
+		<category><![CDATA[ips]]></category>
+		<category><![CDATA[network]]></category>
+		<category><![CDATA[router]]></category>
+		<category><![CDATA[wifi]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=552</guid>
+		<description><![CDATA[Latlety me and my roommates have had a problems with internet connection. Firtstly the connection start to beeing slower. Next while I thought that somebody has broken into our network, so I&#8217;ve connected via LAN and turn off WiFii connection. &#8230; <a href="http://blog.siwinski.info/dev/problems-with-internet-connection-over-wifi">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Latlety me and my roommates have had a problems with internet connection. Firtstly the connection start to beeing slower. Next while I thought that somebody has broken into our network, so I&#8217;ve connected via LAN and turn off WiFii connection. After this, when I was connected only via LAN, everything works fine. But if I try to connect any other device via LAN or WiFi, the conection started to fail and I can&#8217;t load any site on any device. Everything started about 1 month ago. Ealier I didn&#8217;t have any problems with creation and work on this network. After many attempts I&#8217;ve found on internet article that give me an idea that the problem wasn&#8217;t bad configuration but router or modem. So in about couple of days I&#8217;ve bought new router, install and configure it on my network, and gues what&#8230; It works <img src='http://blog.siwinski.info/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Here are pieces of my local network:<br />
+1) ISP &#8211; UPC Poland<br />
+2) MODEM &#8211; Scientific Atlanta Webstart EPC 2203<br />
+3) ROUTER: Linksys Wireless-G Broadband Router WRT54GL on default software (ealier: Pentagram Cerberus WiFi 802.11g Lite)<br />
+4) DEVICES: 4 laptops that have built in wifi cards that runs on OSX, Windows XP, Windows 7, Windows Vista. 3 mobile devices with internal WiFi cards: Samsung Galaxy GT-i7500, Nokia, Samsung Monte</p>
+<p>HINT: When I was runnning on ealier router (Pentagram) I had problems with internet connection on Samsung Galaxy i7500. After router change everything works fine. But I&#8217;m not sure that the source of those problems was router.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/problems-with-internet-connection-over-wifi/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

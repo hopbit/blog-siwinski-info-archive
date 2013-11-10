@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Continous Integration &#187; dotfile</title>
+	<atom:link href="http://blog.siwinski.info/tag/dotfile/feed" rel="self" type="application/rss+xml" />
+	<link>http://blog.siwinski.info</link>
+	<description>playing with code &#38; music</description>
+	<lastBuildDate>Sun, 10 Nov 2013 02:18:37 +0000</lastBuildDate>
+	<language>pl-PL</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
+	<item>
+		<title>git config</title>
+		<link>http://blog.siwinski.info/dev/git-config</link>
+		<comments>http://blog.siwinski.info/dev/git-config#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 21:26:56 +0000</pubDate>
+		<dc:creator><![CDATA[Łukasz Siwiński]]></dc:creator>
+				<category><![CDATA[Dev]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[dotfile]]></category>
+		<category><![CDATA[git]]></category>
+
+		<guid isPermaLink="false">http://blog.siwinski.info/?p=664</guid>
+		<description><![CDATA[Setup ----- git clone &#60;repo&#62; clone the repository specified by &#60;repo&#62;; this is similar to &#34;checkout&#34; in some other version control systems such as Subversion and CVS Add colors to your ~/.gitconfig file: [color] ui = auto [color &#34;branch&#34;] current &#8230; <a href="http://blog.siwinski.info/dev/git-config">Czytaj dalej <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<pre class="wp-code-highlight prettyprint">
+Setup
+-----
+
+git clone &lt;repo&gt;
+  clone the repository specified by &lt;repo&gt;; this is similar to &quot;checkout&quot; in
+  some other version control systems such as Subversion and CVS
+
+Add colors to your ~/.gitconfig file:
+
+  [color]
+    ui = auto
+  [color &quot;branch&quot;]
+    current = yellow reverse
+    local = yellow
+    remote = green
+  [color &quot;diff&quot;]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+  [color &quot;status&quot;]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+Highlight whitespace in diffs
+
+  [color]
+    ui = true
+  [color &quot;diff&quot;]
+    whitespace = red reverse
+  [core]
+    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+Add aliases to your ~/.gitconfig file:
+
+  [alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    dc = diff --cached
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    ls = ls-files
+
+    # Show files ignored by git:
+    ign = ls-files -o -i --exclude-standard
+
+
+Configuration
+-------------
+
+git config -e [--global]
+  edit the .git/config [or ~/.gitconfig] file in your $EDITOR
+
+git config --global user.name &#039;John Doe&#039;
+git config --global user.email johndoe@example.com
+  sets your name and email for commit messages
+
+git config branch.autosetupmerge true
+  tells git-branch and git-checkout to setup new branches so that git-pull(1)
+  will appropriately merge from that remote branch.  Recommended.  Without this,
+  you will have to add --track to your branch command or manually merge remote
+  tracking branches with &quot;fetch&quot; and then &quot;merge&quot;.
+
+git config core.autocrlf true
+  This setting tells git to convert the newlines to the system&#039;s standard
+  when checking out files, and to LF newlines when committing in
+
+git config --list
+  To view all options
+
+git config apply.whitespace nowarn
+  To ignore whitespace
+
+You can add &quot;--global&quot; after &quot;git config&quot; to any of these commands to make it
+apply to all git repos (writes to ~/.gitconfig).
+
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.siwinski.info/dev/git-config/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
